@@ -1099,6 +1099,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.06.24-09.30.27:245][265]LogPlayLevel: Display: Destroying online subsystem :Context_9
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [2021.06.24-09.32.00:881][657]LogRenderer: Reallocating scene render targets to support 1212x712 Format 10 NumSamples 1 (Frame:24884).
 [2021.06.24-09.32.01:009][658]LogRenderer: Reallocating scene render targets to support 1248x712 Format 10 NumSamples 1 (Frame:24886).
 [2021.06.24-09.32.01:181][659]LogRenderer: Reallocating scene render targets to support 1272x712 Format 10 NumSamples 1 (Frame:24888).
@@ -1530,6 +1531,8 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.06.24-11.00.36:244][279]AssetCheck: New page: Asset Save: multiple assets
 [2021.06.24-11.00.36:245][279]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
 [2021.06.24-11.00.36:245][279]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+=======
+>>>>>>> parent of eb01fd1 (aaa)
 =======
 >>>>>>> parent of eb01fd1 (aaa)
 =======

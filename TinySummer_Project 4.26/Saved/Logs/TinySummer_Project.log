@@ -3949,3 +3949,884 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.06.25-09.28.42:808][779]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
 [2021.06.25-09.28.42:808][779]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
 [2021.06.25-09.28.42:808][779]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.25-09.35.24:380][721]LogActorFactory: Actor Factory created 1M_Cube_Chamfer
+[2021.06.25-09.35.26:173][886]LogActorFactory: Actor Factory created 1M_Cube
+[2021.06.25-10.14.14:482][821]LogActorFactory: Actor Factory created 1M_Cube_Chamfer
+[2021.06.25-10.14.14:978][876]LogActorFactory: Actor Factory created 1M_Cube_Chamfer
+[2021.06.25-10.14.17:651][114]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.06.25-10.14.21:440][460]Cmd: DELETE
+[2021.06.25-10.14.21:440][460]Cmd: ACTOR DELETE
+[2021.06.25-10.14.21:446][460]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.25-10.14.21:495][460]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2021.06.25-10.14.21:528][460]LogEditorActor: Deleted 1 Actors (0.085 secs)
+[2021.06.25-10.15.21:340][681]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2021.06.25-10.15.21:395][681]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/FirstPersonExampleMap_Auto3D161C913447D63C2B0196793A7978ECF.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap'
+[2021.06.25-10.15.21:397][681]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.092
+[2021.06.25-10.15.21:397][681]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.092
+[2021.06.25-10.29.55:285][647]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2021.06.25-10.29.55:344][647]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/FirstPersonExampleMap06B209C7459F3B759E7126940D5BC73B.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2021.06.25-10.29.55:379][647]AssetCheck: New page: Asset Save: FirstPersonExampleMap
+[2021.06.25-10.29.55:379][647]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.06.25-10.31.03:612][908]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/FirstPersonBP/Blueprints/Abstract_WBP_Menu/WBP_Menu.WBP_Menu
+[2021.06.25-10.31.06:773][ 49]LogSlate: Window 'WBP_Menu' being destroyed
+[2021.06.25-10.31.06:788][ 49]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2021.06.25-10.31.06:788][ 49]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.25-10.31.06:796][ 49]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2021.06.25-10.31.06:796][ 49]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.25-10.32.12:873][  3]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2021.06.25-10.32.12:903][  3]LogContentBrowser: Creating deferred item: NewFolder
+[2021.06.25-10.32.14:275][165]LogContentBrowser: Attempting asset rename: NewFolder -> Widgets
+[2021.06.25-10.32.14:278][165]LogContentBrowser: End creating deferred item NewFolder
+[2021.06.25-10.32.31:802][454]LogMetaData: Removing '/Game/Assets/Blueprints/BP_Menu3D.BP_Menu3D:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/FirstPersonBP/Blueprints/BP_Menu3D.PackageMetaData'
+[2021.06.25-10.32.31:803][454]LogMetaData: Removing '/Game/Assets/Blueprints/BP_Menu3D.BP_Menu3D_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/BP_Menu3D.PackageMetaData'
+[2021.06.25-10.32.31:803][454]LogMetaData: Removing '/Game/Assets/Blueprints/BP_Menu3D.BP_Menu3D:EventGraph.K2Node_Event_0' ref from Metadata '/Game/FirstPersonBP/Blueprints/BP_Menu3D.PackageMetaData'
+[2021.06.25-10.32.31:803][454]LogMetaData: Removing '/Game/Assets/Blueprints/BP_Menu3D.BP_Menu3D:EventGraph.K2Node_Event_1' ref from Metadata '/Game/FirstPersonBP/Blueprints/BP_Menu3D.PackageMetaData'
+[2021.06.25-10.32.31:803][454]LogMetaData: Removing '/Game/Assets/Blueprints/BP_Menu3D.BP_Menu3D:EventGraph.K2Node_Event_2' ref from Metadata '/Game/FirstPersonBP/Blueprints/BP_Menu3D.PackageMetaData'
+[2021.06.25-10.32.31:803][454]LogMetaData: Removing '/Game/Assets/Blueprints/BP_Menu3D.SKEL_BP_Menu3D_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/BP_Menu3D.PackageMetaData'
+[2021.06.25-10.32.31:803][454]LogMetaData: Removing '/Game/Assets/Blueprints/BP_Menu3D.BP_Menu3D_C:ReceiveTick' ref from Metadata '/Game/FirstPersonBP/Blueprints/BP_Menu3D.PackageMetaData'
+[2021.06.25-10.32.31:803][454]LogMetaData: Removing '/Game/Assets/Blueprints/BP_Menu3D.SKEL_BP_Menu3D_C:UserConstructionScript' ref from Metadata '/Game/FirstPersonBP/Blueprints/BP_Menu3D.PackageMetaData'
+[2021.06.25-10.32.31:803][454]LogMetaData: Removing '/Game/Assets/Blueprints/BP_Menu3D.SKEL_BP_Menu3D_C:ReceiveTick' ref from Metadata '/Game/FirstPersonBP/Blueprints/BP_Menu3D.PackageMetaData'
+[2021.06.25-10.32.31:803][454]LogMetaData: Removing '/Game/Assets/Blueprints/BP_Menu3D.SKEL_BP_Menu3D_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/FirstPersonBP/Blueprints/BP_Menu3D.PackageMetaData'
+[2021.06.25-10.32.31:803][454]LogMetaData: Removing '/Game/Assets/Blueprints/BP_Menu3D.SKEL_BP_Menu3D_C:ReceiveBeginPlay' ref from Metadata '/Game/FirstPersonBP/Blueprints/BP_Menu3D.PackageMetaData'
+[2021.06.25-10.32.31:808][454]LogMetaData: Removing '/Game/Assets/Blueprints/Cardboard_new.Cardboard_new:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/FirstPersonBP/Blueprints/Cardboard_new.PackageMetaData'
+[2021.06.25-10.32.31:808][454]LogMetaData: Removing '/Game/Assets/Blueprints/Cardboard_new.Cardboard_new_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/Cardboard_new.PackageMetaData'
+[2021.06.25-10.32.31:808][454]LogMetaData: Removing '/Game/Assets/Blueprints/Cardboard_new.Cardboard_new:EventGraph.K2Node_Event_0' ref from Metadata '/Game/FirstPersonBP/Blueprints/Cardboard_new.PackageMetaData'
+[2021.06.25-10.32.31:808][454]LogMetaData: Removing '/Game/Assets/Blueprints/Cardboard_new.Cardboard_new:EventGraph.K2Node_Event_1' ref from Metadata '/Game/FirstPersonBP/Blueprints/Cardboard_new.PackageMetaData'
+[2021.06.25-10.32.31:808][454]LogMetaData: Removing '/Game/Assets/Blueprints/Cardboard_new.Cardboard_new:EventGraph.K2Node_Event_2' ref from Metadata '/Game/FirstPersonBP/Blueprints/Cardboard_new.PackageMetaData'
+[2021.06.25-10.32.31:808][454]LogMetaData: Removing '/Game/Assets/Blueprints/Cardboard_new.SKEL_Cardboard_new_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/Cardboard_new.PackageMetaData'
+[2021.06.25-10.32.31:810][454]LogMetaData: Removing '/Game/Assets/Blueprints/Cardboard_new.SKEL_Cardboard_new_C:UserConstructionScript' ref from Metadata '/Game/FirstPersonBP/Blueprints/Cardboard_new.PackageMetaData'
+[2021.06.25-10.32.31:810][454]LogMetaData: Removing '/Game/Assets/Blueprints/Cardboard_new.SKEL_Cardboard_new_C:SetSpawnPoint' ref from Metadata '/Game/FirstPersonBP/Blueprints/Cardboard_new.PackageMetaData'
+[2021.06.25-10.32.31:810][454]LogMetaData: Removing '/Game/Assets/Blueprints/Cardboard_new.SKEL_Cardboard_new_C:SetEnemySpawner' ref from Metadata '/Game/FirstPersonBP/Blueprints/Cardboard_new.PackageMetaData'
+[2021.06.25-10.32.31:810][454]LogMetaData: Removing '/Game/Assets/Blueprints/Cardboard_new.SKEL_Cardboard_new_C:Hit' ref from Metadata '/Game/FirstPersonBP/Blueprints/Cardboard_new.PackageMetaData'
+[2021.06.25-10.32.31:810][454]LogMetaData: Removing '/Game/Assets/Blueprints/Cardboard_new.SKEL_Cardboard_new_C:ReceiveTick' ref from Metadata '/Game/FirstPersonBP/Blueprints/Cardboard_new.PackageMetaData'
+[2021.06.25-10.32.31:810][454]LogMetaData: Removing '/Game/Assets/Blueprints/Cardboard_new.SKEL_Cardboard_new_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/FirstPersonBP/Blueprints/Cardboard_new.PackageMetaData'
+[2021.06.25-10.32.31:810][454]LogMetaData: Removing '/Game/Assets/Blueprints/Cardboard_new.SKEL_Cardboard_new_C:ReceiveBeginPlay' ref from Metadata '/Game/FirstPersonBP/Blueprints/Cardboard_new.PackageMetaData'
+[2021.06.25-10.32.31:813][454]LogMetaData: Removing '/Game/Assets/Blueprints/Cardboard_new.Cardboard_new_C:ReceiveBeginPlay' ref from Metadata '/Game/FirstPersonBP/Blueprints/Cardboard_new.PackageMetaData'
+[2021.06.25-10.32.31:813][454]LogMetaData: Removing '/Game/Assets/Blueprints/Cardboard_new.Cardboard_new_C:Hit' ref from Metadata '/Game/FirstPersonBP/Blueprints/Cardboard_new.PackageMetaData'
+[2021.06.25-10.32.31:816][454]LogMetaData: Removing '/Game/Assets/Blueprints/EnemySpawner.EnemySpawner:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemySpawner.PackageMetaData'
+[2021.06.25-10.32.31:816][454]LogMetaData: Removing '/Game/Assets/Blueprints/EnemySpawner.EnemySpawner_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemySpawner.PackageMetaData'
+[2021.06.25-10.32.31:816][454]LogMetaData: Removing '/Game/Assets/Blueprints/EnemySpawner.EnemySpawner:EventGraph.K2Node_Event_0' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemySpawner.PackageMetaData'
+[2021.06.25-10.32.31:816][454]LogMetaData: Removing '/Game/Assets/Blueprints/EnemySpawner.EnemySpawner:EventGraph.K2Node_Event_1' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemySpawner.PackageMetaData'
+[2021.06.25-10.32.31:816][454]LogMetaData: Removing '/Game/Assets/Blueprints/EnemySpawner.EnemySpawner:EventGraph.K2Node_Event_2' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemySpawner.PackageMetaData'
+[2021.06.25-10.32.31:816][454]LogMetaData: Removing '/Game/Assets/Blueprints/EnemySpawner.SKEL_EnemySpawner_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemySpawner.PackageMetaData'
+[2021.06.25-10.32.31:816][454]LogMetaData: Removing '/Game/Assets/Blueprints/EnemySpawner.EnemySpawner_C:SetShouldPlay' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemySpawner.PackageMetaData'
+[2021.06.25-10.32.31:816][454]LogMetaData: Removing '/Game/Assets/Blueprints/EnemySpawner.EnemySpawner_C:ReceiveBeginPlay' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemySpawner.PackageMetaData'
+[2021.06.25-10.32.31:817][454]LogMetaData: Removing '/Game/Assets/Blueprints/EnemySpawner.SKEL_EnemySpawner_C:UserConstructionScript' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemySpawner.PackageMetaData'
+[2021.06.25-10.32.31:817][454]LogMetaData: Removing '/Game/Assets/Blueprints/EnemySpawner.SKEL_EnemySpawner_C:SetShouldPlay' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemySpawner.PackageMetaData'
+[2021.06.25-10.32.31:817][454]LogMetaData: Removing '/Game/Assets/Blueprints/EnemySpawner.SKEL_EnemySpawner_C:AddPoint' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemySpawner.PackageMetaData'
+[2021.06.25-10.32.31:817][454]LogMetaData: Removing '/Game/Assets/Blueprints/EnemySpawner.SKEL_EnemySpawner_C:Spawner' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemySpawner.PackageMetaData'
+[2021.06.25-10.32.31:817][454]LogMetaData: Removing '/Game/Assets/Blueprints/EnemySpawner.SKEL_EnemySpawner_C:ReceiveTick' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemySpawner.PackageMetaData'
+[2021.06.25-10.32.31:817][454]LogMetaData: Removing '/Game/Assets/Blueprints/EnemySpawner.SKEL_EnemySpawner_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemySpawner.PackageMetaData'
+[2021.06.25-10.32.31:817][454]LogMetaData: Removing '/Game/Assets/Blueprints/EnemySpawner.SKEL_EnemySpawner_C:ReceiveBeginPlay' ref from Metadata '/Game/FirstPersonBP/Blueprints/EnemySpawner.PackageMetaData'
+[2021.06.25-10.32.31:821][454]LogMetaData: Removing '/Game/Assets/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2021.06.25-10.32.31:821][454]LogMetaData: Removing '/Game/Assets/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2021.06.25-10.32.31:821][454]LogMetaData: Removing '/Game/Assets/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2021.06.25-10.32.31:821][454]LogMetaData: Removing '/Game/Assets/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveBeginPlay' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2021.06.25-10.32.31:821][454]LogMetaData: Removing '/Game/Assets/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:UserConstructionScript' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2021.06.25-10.32.31:821][454]LogMetaData: Removing '/Game/Assets/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:ReceiveBeginPlay' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2021.06.25-10.32.31:821][454]LogMetaData: Removing '/Game/Assets/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:InpAxisEvt_MoveRight_K2Node_InputAxisEvent_1' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2021.06.25-10.32.31:821][454]LogMetaData: Removing '/Game/Assets/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:InpAxisEvt_MoveForward_K2Node_InputAxisEvent_0' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2021.06.25-10.32.31:821][454]LogMetaData: Removing '/Game/Assets/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:InpAxisEvt_LookUp_K2Node_InputAxisEvent_172' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2021.06.25-10.32.31:821][454]LogMetaData: Removing '/Game/Assets/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:InpAxisEvt_Turn_K2Node_InputAxisEvent_157' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2021.06.25-10.32.31:826][454]LogMetaData: Removing '/Game/Assets/Blueprints/GameTimer.GameTimer:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/FirstPersonBP/Blueprints/GameTimer.PackageMetaData'
+[2021.06.25-10.32.31:826][454]LogMetaData: Removing '/Game/Assets/Blueprints/GameTimer.GameTimer_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/GameTimer.PackageMetaData'
+[2021.06.25-10.32.31:826][454]LogMetaData: Removing '/Game/Assets/Blueprints/GameTimer.GameTimer:EventGraph.K2Node_Event_0' ref from Metadata '/Game/FirstPersonBP/Blueprints/GameTimer.PackageMetaData'
+[2021.06.25-10.32.31:826][454]LogMetaData: Removing '/Game/Assets/Blueprints/GameTimer.GameTimer:EventGraph.K2Node_Event_1' ref from Metadata '/Game/FirstPersonBP/Blueprints/GameTimer.PackageMetaData'
+[2021.06.25-10.32.31:826][454]LogMetaData: Removing '/Game/Assets/Blueprints/GameTimer.GameTimer:EventGraph.K2Node_Event_2' ref from Metadata '/Game/FirstPersonBP/Blueprints/GameTimer.PackageMetaData'
+[2021.06.25-10.32.31:826][454]LogMetaData: Removing '/Game/Assets/Blueprints/GameTimer.SKEL_GameTimer_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/GameTimer.PackageMetaData'
+[2021.06.25-10.32.31:826][454]LogMetaData: Removing '/Game/Assets/Blueprints/GameTimer.GameTimer_C:AddScore' ref from Metadata '/Game/FirstPersonBP/Blueprints/GameTimer.PackageMetaData'
+[2021.06.25-10.32.31:826][454]LogMetaData: Removing '/Game/Assets/Blueprints/GameTimer.GameTimer_C:AddTime' ref from Metadata '/Game/FirstPersonBP/Blueprints/GameTimer.PackageMetaData'
+[2021.06.25-10.32.31:826][454]LogMetaData: Removing '/Game/Assets/Blueprints/GameTimer.GameTimer_C:SetPlayTimer' ref from Metadata '/Game/FirstPersonBP/Blueprints/GameTimer.PackageMetaData'
+[2021.06.25-10.32.31:826][454]LogMetaData: Removing '/Game/Assets/Blueprints/GameTimer.GameTimer_C:ReceiveBeginPlay' ref from Metadata '/Game/FirstPersonBP/Blueprints/GameTimer.PackageMetaData'
+[2021.06.25-10.32.31:826][454]LogMetaData: Removing '/Game/Assets/Blueprints/GameTimer.GameTimer_C:ReceiveTick' ref from Metadata '/Game/FirstPersonBP/Blueprints/GameTimer.PackageMetaData'
+[2021.06.25-10.32.31:826][454]LogMetaData: Removing '/Game/Assets/Blueprints/GameTimer.SKEL_GameTimer_C:UserConstructionScript' ref from Metadata '/Game/FirstPersonBP/Blueprints/GameTimer.PackageMetaData'
+[2021.06.25-10.32.31:826][454]LogMetaData: Removing '/Game/Assets/Blueprints/GameTimer.SKEL_GameTimer_C:AddTime' ref from Metadata '/Game/FirstPersonBP/Blueprints/GameTimer.PackageMetaData'
+[2021.06.25-10.32.31:826][454]LogMetaData: Removing '/Game/Assets/Blueprints/GameTimer.SKEL_GameTimer_C:AddScore' ref from Metadata '/Game/FirstPersonBP/Blueprints/GameTimer.PackageMetaData'
+[2021.06.25-10.32.31:826][454]LogMetaData: Removing '/Game/Assets/Blueprints/GameTimer.SKEL_GameTimer_C:SetPlayTimer' ref from Metadata '/Game/FirstPersonBP/Blueprints/GameTimer.PackageMetaData'
+[2021.06.25-10.32.31:826][454]LogMetaData: Removing '/Game/Assets/Blueprints/GameTimer.SKEL_GameTimer_C:ReceiveTick' ref from Metadata '/Game/FirstPersonBP/Blueprints/GameTimer.PackageMetaData'
+[2021.06.25-10.32.31:826][454]LogMetaData: Removing '/Game/Assets/Blueprints/GameTimer.SKEL_GameTimer_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/FirstPersonBP/Blueprints/GameTimer.PackageMetaData'
+[2021.06.25-10.32.31:826][454]LogMetaData: Removing '/Game/Assets/Blueprints/GameTimer.SKEL_GameTimer_C:ReceiveBeginPlay' ref from Metadata '/Game/FirstPersonBP/Blueprints/GameTimer.PackageMetaData'
+[2021.06.25-10.32.31:830][454]LogMetaData: Removing '/Game/Assets/Blueprints/LevelManager.LevelManager:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/FirstPersonBP/Blueprints/LevelManager.PackageMetaData'
+[2021.06.25-10.32.31:830][454]LogMetaData: Removing '/Game/Assets/Blueprints/LevelManager.LevelManager_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/LevelManager.PackageMetaData'
+[2021.06.25-10.32.31:830][454]LogMetaData: Removing '/Game/Assets/Blueprints/LevelManager.LevelManager:EventGraph.K2Node_Event_0' ref from Metadata '/Game/FirstPersonBP/Blueprints/LevelManager.PackageMetaData'
+[2021.06.25-10.32.31:830][454]LogMetaData: Removing '/Game/Assets/Blueprints/LevelManager.LevelManager:EventGraph.K2Node_Event_1' ref from Metadata '/Game/FirstPersonBP/Blueprints/LevelManager.PackageMetaData'
+[2021.06.25-10.32.31:830][454]LogMetaData: Removing '/Game/Assets/Blueprints/LevelManager.LevelManager:EventGraph.K2Node_Event_2' ref from Metadata '/Game/FirstPersonBP/Blueprints/LevelManager.PackageMetaData'
+[2021.06.25-10.32.31:830][454]LogMetaData: Removing '/Game/Assets/Blueprints/LevelManager.SKEL_LevelManager_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/LevelManager.PackageMetaData'
+[2021.06.25-10.32.31:830][454]LogMetaData: Removing '/Game/Assets/Blueprints/LevelManager.LevelManager_C:ReceiveBeginPlay' ref from Metadata '/Game/FirstPersonBP/Blueprints/LevelManager.PackageMetaData'
+[2021.06.25-10.32.31:830][454]LogMetaData: Removing '/Game/Assets/Blueprints/LevelManager.SKEL_LevelManager_C:UserConstructionScript' ref from Metadata '/Game/FirstPersonBP/Blueprints/LevelManager.PackageMetaData'
+[2021.06.25-10.32.31:830][454]LogMetaData: Removing '/Game/Assets/Blueprints/LevelManager.SKEL_LevelManager_C:SwitchToPlayer' ref from Metadata '/Game/FirstPersonBP/Blueprints/LevelManager.PackageMetaData'
+[2021.06.25-10.32.31:830][454]LogMetaData: Removing '/Game/Assets/Blueprints/LevelManager.SKEL_LevelManager_C:SwitchToMenu' ref from Metadata '/Game/FirstPersonBP/Blueprints/LevelManager.PackageMetaData'
+[2021.06.25-10.32.31:830][454]LogMetaData: Removing '/Game/Assets/Blueprints/LevelManager.SKEL_LevelManager_C:ReceiveTick' ref from Metadata '/Game/FirstPersonBP/Blueprints/LevelManager.PackageMetaData'
+[2021.06.25-10.32.31:830][454]LogMetaData: Removing '/Game/Assets/Blueprints/LevelManager.SKEL_LevelManager_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/FirstPersonBP/Blueprints/LevelManager.PackageMetaData'
+[2021.06.25-10.32.31:830][454]LogMetaData: Removing '/Game/Assets/Blueprints/LevelManager.SKEL_LevelManager_C:ReceiveBeginPlay' ref from Metadata '/Game/FirstPersonBP/Blueprints/LevelManager.PackageMetaData'
+[2021.06.25-10.32.31:860][454]LogMetaData: Removing '/Game/Assets/Blueprints/SpawnPoint.SpawnPoint:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/FirstPersonBP/Blueprints/SpawnPoint.PackageMetaData'
+[2021.06.25-10.32.31:860][454]LogMetaData: Removing '/Game/Assets/Blueprints/SpawnPoint.SpawnPoint_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/SpawnPoint.PackageMetaData'
+[2021.06.25-10.32.31:860][454]LogMetaData: Removing '/Game/Assets/Blueprints/SpawnPoint.SpawnPoint:EventGraph.K2Node_Event_0' ref from Metadata '/Game/FirstPersonBP/Blueprints/SpawnPoint.PackageMetaData'
+[2021.06.25-10.32.31:860][454]LogMetaData: Removing '/Game/Assets/Blueprints/SpawnPoint.SpawnPoint:EventGraph.K2Node_Event_1' ref from Metadata '/Game/FirstPersonBP/Blueprints/SpawnPoint.PackageMetaData'
+[2021.06.25-10.32.31:860][454]LogMetaData: Removing '/Game/Assets/Blueprints/SpawnPoint.SpawnPoint:EventGraph.K2Node_Event_2' ref from Metadata '/Game/FirstPersonBP/Blueprints/SpawnPoint.PackageMetaData'
+[2021.06.25-10.32.31:860][454]LogMetaData: Removing '/Game/Assets/Blueprints/SpawnPoint.SKEL_SpawnPoint_C:ReceiveBeginPlay' ref from Metadata '/Game/FirstPersonBP/Blueprints/SpawnPoint.PackageMetaData'
+[2021.06.25-10.32.31:860][454]LogMetaData: Removing '/Game/Assets/Blueprints/SpawnPoint.SKEL_SpawnPoint_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/FirstPersonBP/Blueprints/SpawnPoint.PackageMetaData'
+[2021.06.25-10.32.31:861][454]LogMetaData: Removing '/Game/Assets/Blueprints/SpawnPoint.SKEL_SpawnPoint_C:ReceiveTick' ref from Metadata '/Game/FirstPersonBP/Blueprints/SpawnPoint.PackageMetaData'
+[2021.06.25-10.32.31:861][454]LogMetaData: Removing '/Game/Assets/Blueprints/SpawnPoint.SKEL_SpawnPoint_C:UserConstructionScript' ref from Metadata '/Game/FirstPersonBP/Blueprints/SpawnPoint.PackageMetaData'
+[2021.06.25-10.32.31:861][454]LogMetaData: Removing '/Game/Assets/Blueprints/SpawnPoint.SKEL_SpawnPoint_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/SpawnPoint.PackageMetaData'
+[2021.06.25-10.32.31:953][454]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/BP_Menu3D27BAF9BB4263DEBBC00AE6834DA96070.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/Assets/Blueprints/BP_Menu3D.uasset'
+[2021.06.25-10.32.32:240][454]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/BP_Menu3DBD0C26F142C6800DB2C0C3B1E161ECAE.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/FirstPersonBP/Blueprints/BP_Menu3D.uasset'
+[2021.06.25-10.32.32:292][454]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/Cardboard_newD0D71BFD4A6B62D02ADAEB85DAB3E4F2.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/Assets/Blueprints/Cardboard_new.uasset'
+[2021.06.25-10.32.32:575][454]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/Cardboard_newBDC28C684A5F79D18FF05993F7989464.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/FirstPersonBP/Blueprints/Cardboard_new.uasset'
+[2021.06.25-10.32.32:624][454]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/EnemySpawner47BD3D1A469873133D291E889727492B.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/Assets/Blueprints/EnemySpawner.uasset'
+[2021.06.25-10.32.32:916][454]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/EnemySpawner4D661B26488812DA345F59AD8651A9F7.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/FirstPersonBP/Blueprints/EnemySpawner.uasset'
+[2021.06.25-10.32.32:995][454]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/FirstPersonCharacter2F443FFD44E3FEFC75BC019A080B02C3.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/Assets/Blueprints/FirstPersonCharacter.uasset'
+[2021.06.25-10.32.33:260][454]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/FirstPersonCharacterF7D6DF104C23F6A2C148A3BF1B2FC3C0.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.06.25-10.32.33:310][454]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/GameTimer68E3314B4741B73570FBF097BEF9D5F1.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/Assets/Blueprints/GameTimer.uasset'
+[2021.06.25-10.32.33:556][454]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/GameTimer451C76684238D138007746B7C04C7495.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/FirstPersonBP/Blueprints/GameTimer.uasset'
+[2021.06.25-10.32.33:596][454]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/LevelManager4C99519D4061D431900A9DA3F19846BE.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/Assets/Blueprints/LevelManager.uasset'
+[2021.06.25-10.32.33:859][454]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/LevelManagerD2D51BCC4487DD648046979D3F17A901.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/FirstPersonBP/Blueprints/LevelManager.uasset'
+[2021.06.25-10.32.33:868][454]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/SpawnPoint510EA7EE42A90117178B918FE496B9C5.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/Assets/Blueprints/SpawnPoint.uasset'
+[2021.06.25-10.32.34:103][454]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/SpawnPoint5677951047E697DB012424BFD641912A.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/FirstPersonBP/Blueprints/SpawnPoint.uasset'
+[2021.06.25-10.32.37:230][454]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.25-10.32.37:230][454]LogContentValidation: Display: Validating Blueprint /Game/Assets/Blueprints/Cardboard_new.Cardboard_new
+[2021.06.25-10.32.37:230][454]LogContentValidation: Display: Validating Blueprint /Game/Assets/Blueprints/EnemySpawner.EnemySpawner
+[2021.06.25-10.32.37:230][454]LogContentValidation: Display: Validating Blueprint /Game/Assets/Blueprints/SpawnPoint.SpawnPoint
+[2021.06.25-10.32.37:230][454]LogContentValidation: Display: Validating Blueprint /Game/Assets/Blueprints/GameTimer.GameTimer
+[2021.06.25-10.32.37:230][454]LogContentValidation: Display: Validating Blueprint /Game/Assets/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.06.25-10.32.37:231][454]LogContentValidation: Display: Validating Blueprint /Game/Assets/Blueprints/BP_Menu3D.BP_Menu3D
+[2021.06.25-10.32.37:231][454]LogContentValidation: Display: Validating Blueprint /Game/Assets/Blueprints/LevelManager.LevelManager
+[2021.06.25-10.32.37:231][454]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/SpawnPoint.SpawnPoint
+[2021.06.25-10.32.37:231][454]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/SpawnPoint.Default__SpawnPoint_C
+[2021.06.25-10.32.37:231][454]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/SpawnPoint.SpawnPoint_C
+[2021.06.25-10.32.37:231][454]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/LevelManager.LevelManager
+[2021.06.25-10.32.37:231][454]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/LevelManager.Default__LevelManager_C
+[2021.06.25-10.32.37:231][454]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/LevelManager.LevelManager_C
+[2021.06.25-10.32.37:231][454]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/GameTimer.GameTimer
+[2021.06.25-10.32.37:231][454]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/GameTimer.Default__GameTimer_C
+[2021.06.25-10.32.37:231][454]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/GameTimer.GameTimer_C
+[2021.06.25-10.32.37:231][454]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.06.25-10.32.37:231][454]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.Default__FirstPersonCharacter_C
+[2021.06.25-10.32.37:231][454]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C
+[2021.06.25-10.32.37:231][454]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/EnemySpawner.EnemySpawner
+[2021.06.25-10.32.37:231][454]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/EnemySpawner.Default__EnemySpawner_C
+[2021.06.25-10.32.37:231][454]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/EnemySpawner.EnemySpawner_C
+[2021.06.25-10.32.37:231][454]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/Cardboard_new.Cardboard_new
+[2021.06.25-10.32.37:231][454]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/Cardboard_new.Default__Cardboard_new_C
+[2021.06.25-10.32.37:231][454]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/Cardboard_new.Cardboard_new_C
+[2021.06.25-10.32.37:231][454]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/BP_Menu3D.BP_Menu3D
+[2021.06.25-10.32.37:232][454]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/BP_Menu3D.Default__BP_Menu3D_C
+[2021.06.25-10.32.37:232][454]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/BP_Menu3D.BP_Menu3D_C
+[2021.06.25-10.32.51:454][906]LogMetaData: Removing '/Game/Assets/Widgets/WBP_Button.WBP_Button_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/Abstract_WBP_Menu/WBP_Button.PackageMetaData'
+[2021.06.25-10.32.51:454][906]LogMetaData: Removing '/Game/Assets/Widgets/WBP_Button.WBP_Button:EventGraph.K2Node_Event_0' ref from Metadata '/Game/FirstPersonBP/Blueprints/Abstract_WBP_Menu/WBP_Button.PackageMetaData'
+[2021.06.25-10.32.51:454][906]LogMetaData: Removing '/Game/Assets/Widgets/WBP_Button.SKEL_WBP_Button_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/Abstract_WBP_Menu/WBP_Button.PackageMetaData'
+[2021.06.25-10.32.51:454][906]LogMetaData: Removing '/Game/Assets/Widgets/WBP_Button.WBP_Button_C:PreConstruct' ref from Metadata '/Game/FirstPersonBP/Blueprints/Abstract_WBP_Menu/WBP_Button.PackageMetaData'
+[2021.06.25-10.32.51:454][906]LogMetaData: Removing '/Game/Assets/Widgets/WBP_Button.SKEL_WBP_Button_C:BndEvt__WBP_Button_Button_47_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/FirstPersonBP/Blueprints/Abstract_WBP_Menu/WBP_Button.PackageMetaData'
+[2021.06.25-10.32.51:454][906]LogMetaData: Removing '/Game/Assets/Widgets/WBP_Button.SKEL_WBP_Button_C:PreConstruct' ref from Metadata '/Game/FirstPersonBP/Blueprints/Abstract_WBP_Menu/WBP_Button.PackageMetaData'
+[2021.06.25-10.32.51:454][906]LogMetaData: Removing '/Game/Assets/Widgets/WBP_Button.WBP_Button:OnClicked.K2Node_FunctionEntry_0' ref from Metadata '/Game/FirstPersonBP/Blueprints/Abstract_WBP_Menu/WBP_Button.PackageMetaData'
+[2021.06.25-10.32.51:461][906]LogMetaData: Removing '/Game/Assets/Widgets/WBP_MainMenu.WBP_MainMenu_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/Abstract_WBP_Menu/WBP_MainMenu.PackageMetaData'
+[2021.06.25-10.32.51:462][906]LogMetaData: Removing '/Game/Assets/Widgets/WBP_MainMenu.WBP_MainMenu:EventGraph.K2Node_Event_0' ref from Metadata '/Game/FirstPersonBP/Blueprints/Abstract_WBP_Menu/WBP_MainMenu.PackageMetaData'
+[2021.06.25-10.32.51:462][906]LogMetaData: Removing '/Game/Assets/Widgets/WBP_MainMenu.WBP_MainMenu:EventGraph.K2Node_Event_1' ref from Metadata '/Game/FirstPersonBP/Blueprints/Abstract_WBP_Menu/WBP_MainMenu.PackageMetaData'
+[2021.06.25-10.32.51:462][906]LogMetaData: Removing '/Game/Assets/Widgets/WBP_MainMenu.WBP_MainMenu:EventGraph.K2Node_Event_2' ref from Metadata '/Game/FirstPersonBP/Blueprints/Abstract_WBP_Menu/WBP_MainMenu.PackageMetaData'
+[2021.06.25-10.32.51:462][906]LogMetaData: Removing '/Game/Assets/Widgets/WBP_MainMenu.SKEL_WBP_MainMenu_C:Tick' ref from Metadata '/Game/FirstPersonBP/Blueprints/Abstract_WBP_Menu/WBP_MainMenu.PackageMetaData'
+[2021.06.25-10.32.51:462][906]LogMetaData: Removing '/Game/Assets/Widgets/WBP_MainMenu.SKEL_WBP_MainMenu_C:Construct' ref from Metadata '/Game/FirstPersonBP/Blueprints/Abstract_WBP_Menu/WBP_MainMenu.PackageMetaData'
+[2021.06.25-10.32.51:462][906]LogMetaData: Removing '/Game/Assets/Widgets/WBP_MainMenu.SKEL_WBP_MainMenu_C:PreConstruct' ref from Metadata '/Game/FirstPersonBP/Blueprints/Abstract_WBP_Menu/WBP_MainMenu.PackageMetaData'
+[2021.06.25-10.32.51:462][906]LogMetaData: Removing '/Game/Assets/Widgets/WBP_MainMenu.SKEL_WBP_MainMenu_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/Abstract_WBP_Menu/WBP_MainMenu.PackageMetaData'
+[2021.06.25-10.32.51:520][906]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/WBP_ButtonEB7812CA4C8A11D650E4D695402B2598.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/Assets/Widgets/WBP_Button.uasset'
+[2021.06.25-10.32.51:778][906]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/WBP_ButtonFF66B3CE43DAD7DDC6A13B8BF505F686.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/FirstPersonBP/Blueprints/Abstract_WBP_Menu/WBP_Button.uasset'
+[2021.06.25-10.32.51:790][906]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/WBP_MainMenu07992F2649CB60A3E1A43E85F491AA7B.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/Assets/Widgets/WBP_MainMenu.uasset'
+[2021.06.25-10.32.52:061][906]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/WBP_MainMenuACE28EF34C465FEAA1BC4085E44CCBDB.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/FirstPersonBP/Blueprints/Abstract_WBP_Menu/WBP_MainMenu.uasset'
+[2021.06.25-10.32.53:009][906]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.25-10.32.53:009][906]LogContentValidation: Display: Validating WidgetBlueprint /Game/Assets/Widgets/WBP_MainMenu.WBP_MainMenu
+[2021.06.25-10.32.53:010][906]LogContentValidation: Display: Validating WidgetBlueprint /Game/Assets/Widgets/WBP_Button.WBP_Button
+[2021.06.25-10.32.53:010][906]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/Abstract_WBP_Menu/WBP_MainMenu.WBP_MainMenu
+[2021.06.25-10.32.53:010][906]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/Abstract_WBP_Menu/WBP_MainMenu.Default__WBP_MainMenu_C
+[2021.06.25-10.32.53:010][906]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/Abstract_WBP_Menu/WBP_MainMenu.WBP_MainMenu_C
+[2021.06.25-10.32.53:010][906]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/Abstract_WBP_Menu/WBP_Button.WBP_Button
+[2021.06.25-10.32.53:010][906]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/Abstract_WBP_Menu/WBP_Button.Default__WBP_Button_C
+[2021.06.25-10.32.53:010][906]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/Abstract_WBP_Menu/WBP_Button.WBP_Button_C
+[2021.06.25-10.32.58:187][339]LogMetaData: Removing '/Game/Assets/Widgets/WBP_HUD.WBP_HUD_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/WBP_HUD.PackageMetaData'
+[2021.06.25-10.32.58:187][339]LogMetaData: Removing '/Game/Assets/Widgets/WBP_HUD.WBP_HUD:EventGraph.K2Node_Event_0' ref from Metadata '/Game/FirstPersonBP/Blueprints/WBP_HUD.PackageMetaData'
+[2021.06.25-10.32.58:187][339]LogMetaData: Removing '/Game/Assets/Widgets/WBP_HUD.WBP_HUD:EventGraph.K2Node_Event_1' ref from Metadata '/Game/FirstPersonBP/Blueprints/WBP_HUD.PackageMetaData'
+[2021.06.25-10.32.58:187][339]LogMetaData: Removing '/Game/Assets/Widgets/WBP_HUD.WBP_HUD:EventGraph.K2Node_Event_2' ref from Metadata '/Game/FirstPersonBP/Blueprints/WBP_HUD.PackageMetaData'
+[2021.06.25-10.32.58:188][339]LogMetaData: Removing '/Game/Assets/Widgets/WBP_HUD.SKEL_WBP_HUD_C:PreConstruct' ref from Metadata '/Game/FirstPersonBP/Blueprints/WBP_HUD.PackageMetaData'
+[2021.06.25-10.32.58:188][339]LogMetaData: Removing '/Game/Assets/Widgets/WBP_HUD.SKEL_WBP_HUD_C:Construct' ref from Metadata '/Game/FirstPersonBP/Blueprints/WBP_HUD.PackageMetaData'
+[2021.06.25-10.32.58:188][339]LogMetaData: Removing '/Game/Assets/Widgets/WBP_HUD.SKEL_WBP_HUD_C:Tick' ref from Metadata '/Game/FirstPersonBP/Blueprints/WBP_HUD.PackageMetaData'
+[2021.06.25-10.32.58:188][339]LogMetaData: Removing '/Game/Assets/Widgets/WBP_HUD.SKEL_WBP_HUD_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/WBP_HUD.PackageMetaData'
+[2021.06.25-10.32.58:234][339]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/WBP_HUD8EEFF99F46DA33734BC14A817764FE12.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/Assets/Widgets/WBP_HUD.uasset'
+[2021.06.25-10.32.58:499][339]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/WBP_HUDF34CD14C4A9D1DF0F75692BE55DFA73B.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/FirstPersonBP/Blueprints/WBP_HUD.uasset'
+[2021.06.25-10.32.58:988][339]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.25-10.32.58:988][339]LogContentValidation: Display: Validating WidgetBlueprint /Game/Assets/Widgets/WBP_HUD.WBP_HUD
+[2021.06.25-10.32.58:989][339]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/WBP_HUD.WBP_HUD
+[2021.06.25-10.32.58:989][339]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/WBP_HUD.Default__WBP_HUD_C
+[2021.06.25-10.32.58:989][339]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/WBP_HUD.WBP_HUD_C
+[2021.06.25-10.33.05:451][914]LogMetaData: Removing '/Game/Assets/Widgets/FirstPersonHUD.FirstPersonHUD_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonHUD.PackageMetaData'
+[2021.06.25-10.33.05:451][914]LogMetaData: Removing '/Game/Assets/Widgets/FirstPersonHUD.SKEL_FirstPersonHUD_C:ReceiveDrawHUD' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonHUD.PackageMetaData'
+[2021.06.25-10.33.05:451][914]LogMetaData: Removing '/Game/Assets/Widgets/FirstPersonHUD.SKEL_FirstPersonHUD_C:UserConstructionScript' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonHUD.PackageMetaData'
+[2021.06.25-10.33.05:451][914]LogMetaData: Removing '/Game/Assets/Widgets/FirstPersonHUD.SKEL_FirstPersonHUD_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonHUD.PackageMetaData'
+[2021.06.25-10.33.05:451][914]LogMetaData: Removing '/Game/Assets/Widgets/FirstPersonHUD.FirstPersonHUD_C:ReceiveDrawHUD' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonHUD.PackageMetaData'
+[2021.06.25-10.33.05:506][914]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/FirstPersonHUD9D43D6E04830ACEF286E68B34F9CEE02.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/Assets/Widgets/FirstPersonHUD.uasset'
+[2021.06.25-10.33.05:822][914]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/FirstPersonHUD009460244D9E1F81152FCB8527CEB0C6.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset'
+[2021.06.25-10.33.06:349][914]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.25-10.33.06:349][914]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD
+[2021.06.25-10.33.06:349][914]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/FirstPersonHUD.Default__FirstPersonHUD_C
+[2021.06.25-10.33.06:349][914]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD_C
+[2021.06.25-10.33.06:349][914]LogContentValidation: Display: Validating Blueprint /Game/Assets/Widgets/FirstPersonHUD.FirstPersonHUD
+[2021.06.25-10.33.08:947][168]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2021.06.25-10.33.08:968][168]LogContentBrowser: Creating deferred item: NewFolder
+[2021.06.25-10.33.10:654][369]LogContentBrowser: Attempting asset rename: NewFolder -> GameModes
+[2021.06.25-10.33.10:655][369]LogContentBrowser: End creating deferred item NewFolder
+[2021.06.25-10.33.17:316][989]LogMetaData: Removing '/Game/Assets/GameModes/FirstPersonGameMode.FirstPersonGameMode_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.PackageMetaData'
+[2021.06.25-10.33.17:316][989]LogMetaData: Removing '/Game/Assets/GameModes/FirstPersonGameMode.SKEL_FirstPersonGameMode_C:UserConstructionScript' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.PackageMetaData'
+[2021.06.25-10.33.17:316][989]LogMetaData: Removing '/Game/Assets/GameModes/FirstPersonGameMode.SKEL_FirstPersonGameMode_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.PackageMetaData'
+[2021.06.25-10.33.17:357][989]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/FirstPersonGameModeDE62E4094C039974F24FD38A07140455.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/Assets/GameModes/FirstPersonGameMode.uasset'
+[2021.06.25-10.33.17:620][989]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/FirstPersonGameModeC188F07843B3F52EA04D7E9AA1E08904.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset'
+[2021.06.25-10.33.18:115][989]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.25-10.33.18:115][989]LogContentValidation: Display: Validating Blueprint /Game/Assets/GameModes/FirstPersonGameMode.FirstPersonGameMode
+[2021.06.25-10.33.18:115][989]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode
+[2021.06.25-10.33.18:115][989]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.Default__FirstPersonGameMode_C
+[2021.06.25-10.33.18:115][989]LogContentValidation: Display: Validating ObjectRedirector /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2021.06.25-10.33.26:929][819]LogWorld: UWorld::CleanupWorld for World_57, bSessionEnded=true, bCleanupResources=true
+[2021.06.25-10.33.26:929][819]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.25-10.33.27:609][871]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.06.25-10.33.27:609][871]LogWorld: UWorld::CleanupWorld for World_56, bSessionEnded=true, bCleanupResources=true
+[2021.06.25-10.33.27:610][871]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.25-10.33.30:409][ 67]LogUObjectHash: Compacting FUObjectHashTables data took  13.47ms
+[2021.06.25-10.33.31:429][ 67]LogSlate: Window 'Delete Assets' being destroyed
+[2021.06.25-10.33.31:597][ 67]LogUObjectGlobals: Force Deleting 2 Package(s):
+	Asset Name: /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile
+	Asset Name: /Game/FirstPersonBP/Blueprints/Sphere.Sphere
+[2021.06.25-10.33.33:147][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2021.06.25-10.33.33:358][ 67]LogObjectTools: Warning: Detected inconsistencies between reference gathering algorithms. Switching 'Editor.UseLegacyGetReferencersForDeletion' on for the remainder of this editor session.
+[2021.06.25-10.33.33:930][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
+[2021.06.25-10.33.33:962][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2021.06.25-10.33.33:992][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2021.06.25-10.33.34:015][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2021.06.25-10.33.34:431][ 67]SourceControl: Error: Updated 0 paths from the index
+[2021.06.25-10.33.34:674][ 67]SourceControl: rm 'TinySummer_Project 4.26/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset'
+[2021.06.25-10.33.34:674][ 67]SourceControl: rm 'TinySummer_Project 4.26/Content/FirstPersonBP/Blueprints/Sphere.uasset'
+[2021.06.25-10.34.05:612][236]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2021.06.25-10.34.05:652][236]LogContentBrowser: Creating deferred item: NewFolder
+[2021.06.25-10.34.06:789][368]LogContentBrowser: Attempting asset rename: NewFolder -> Player
+[2021.06.25-10.34.06:789][368]LogContentBrowser: End creating deferred item NewFolder
+[2021.06.25-10.34.10:598][623]LogMetaData: Removing '/Game/Assets/Blueprints/Player/FirstPersonCharacter.FirstPersonCharacter_C' ref from Metadata '/Game/Assets/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2021.06.25-10.34.10:598][623]LogMetaData: Removing '/Game/Assets/Blueprints/Player/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveBeginPlay' ref from Metadata '/Game/Assets/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2021.06.25-10.34.10:598][623]LogMetaData: Removing '/Game/Assets/Blueprints/Player/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript' ref from Metadata '/Game/Assets/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2021.06.25-10.34.10:598][623]LogMetaData: Removing '/Game/Assets/Blueprints/Player/FirstPersonCharacter.SKEL_FirstPersonCharacter_C' ref from Metadata '/Game/Assets/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2021.06.25-10.34.10:598][623]LogMetaData: Removing '/Game/Assets/Blueprints/Player/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:InpAxisEvt_Turn_K2Node_InputAxisEvent_157' ref from Metadata '/Game/Assets/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2021.06.25-10.34.10:598][623]LogMetaData: Removing '/Game/Assets/Blueprints/Player/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:InpAxisEvt_LookUp_K2Node_InputAxisEvent_172' ref from Metadata '/Game/Assets/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2021.06.25-10.34.10:598][623]LogMetaData: Removing '/Game/Assets/Blueprints/Player/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:InpAxisEvt_MoveForward_K2Node_InputAxisEvent_0' ref from Metadata '/Game/Assets/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2021.06.25-10.34.10:598][623]LogMetaData: Removing '/Game/Assets/Blueprints/Player/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:InpAxisEvt_MoveRight_K2Node_InputAxisEvent_1' ref from Metadata '/Game/Assets/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2021.06.25-10.34.10:598][623]LogMetaData: Removing '/Game/Assets/Blueprints/Player/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:ReceiveBeginPlay' ref from Metadata '/Game/Assets/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2021.06.25-10.34.10:598][623]LogMetaData: Removing '/Game/Assets/Blueprints/Player/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:UserConstructionScript' ref from Metadata '/Game/Assets/Blueprints/FirstPersonCharacter.PackageMetaData'
+[2021.06.25-10.34.10:705][623]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/FirstPersonCharacter73AA66A94B8EA81E5AC86887927596A0.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/Assets/Blueprints/Player/FirstPersonCharacter.uasset'
+[2021.06.25-10.34.10:983][623]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/FirstPersonCharacterCE01CF694498547EECD3DB9BFCDCD0FF.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/Assets/Blueprints/FirstPersonCharacter.uasset'
+[2021.06.25-10.34.11:509][623]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.25-10.34.11:509][623]LogContentValidation: Display: Validating Blueprint /Game/Assets/Blueprints/Player/FirstPersonCharacter.FirstPersonCharacter
+[2021.06.25-10.34.11:509][623]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.06.25-10.34.11:509][623]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/Blueprints/FirstPersonCharacter.Default__FirstPersonCharacter_C
+[2021.06.25-10.34.11:509][623]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C
+[2021.06.25-10.34.13:655][772]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2021.06.25-10.34.13:685][772]LogContentBrowser: Creating deferred item: NewFolder
+[2021.06.25-10.34.16:422][974]LogContentBrowser: Attempting asset rename: NewFolder -> Eney
+[2021.06.25-10.34.16:422][974]LogContentBrowser: End creating deferred item NewFolder
+[2021.06.25-10.34.19:731][190]LogContentBrowser: Attempting asset rename: Eney -> Enemy
+[2021.06.25-10.34.23:831][424]LogMetaData: Removing '/Game/Assets/Blueprints/Enemy/Cardboard_new.Cardboard_new_C' ref from Metadata '/Game/Assets/Blueprints/Cardboard_new.PackageMetaData'
+[2021.06.25-10.34.23:831][424]LogMetaData: Removing '/Game/Assets/Blueprints/Enemy/Cardboard_new.Cardboard_new_C:Hit' ref from Metadata '/Game/Assets/Blueprints/Cardboard_new.PackageMetaData'
+[2021.06.25-10.34.23:831][424]LogMetaData: Removing '/Game/Assets/Blueprints/Enemy/Cardboard_new.Cardboard_new_C:ReceiveBeginPlay' ref from Metadata '/Game/Assets/Blueprints/Cardboard_new.PackageMetaData'
+[2021.06.25-10.34.23:831][424]LogMetaData: Removing '/Game/Assets/Blueprints/Enemy/Cardboard_new.SKEL_Cardboard_new_C' ref from Metadata '/Game/Assets/Blueprints/Cardboard_new.PackageMetaData'
+[2021.06.25-10.34.23:831][424]LogMetaData: Removing '/Game/Assets/Blueprints/Enemy/Cardboard_new.SKEL_Cardboard_new_C:ReceiveBeginPlay' ref from Metadata '/Game/Assets/Blueprints/Cardboard_new.PackageMetaData'
+[2021.06.25-10.34.23:831][424]LogMetaData: Removing '/Game/Assets/Blueprints/Enemy/Cardboard_new.SKEL_Cardboard_new_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Assets/Blueprints/Cardboard_new.PackageMetaData'
+[2021.06.25-10.34.23:831][424]LogMetaData: Removing '/Game/Assets/Blueprints/Enemy/Cardboard_new.SKEL_Cardboard_new_C:ReceiveTick' ref from Metadata '/Game/Assets/Blueprints/Cardboard_new.PackageMetaData'
+[2021.06.25-10.34.23:831][424]LogMetaData: Removing '/Game/Assets/Blueprints/Enemy/Cardboard_new.SKEL_Cardboard_new_C:Hit' ref from Metadata '/Game/Assets/Blueprints/Cardboard_new.PackageMetaData'
+[2021.06.25-10.34.23:831][424]LogMetaData: Removing '/Game/Assets/Blueprints/Enemy/Cardboard_new.SKEL_Cardboard_new_C:SetEnemySpawner' ref from Metadata '/Game/Assets/Blueprints/Cardboard_new.PackageMetaData'
+[2021.06.25-10.34.23:831][424]LogMetaData: Removing '/Game/Assets/Blueprints/Enemy/Cardboard_new.SKEL_Cardboard_new_C:SetSpawnPoint' ref from Metadata '/Game/Assets/Blueprints/Cardboard_new.PackageMetaData'
+[2021.06.25-10.34.23:831][424]LogMetaData: Removing '/Game/Assets/Blueprints/Enemy/Cardboard_new.SKEL_Cardboard_new_C:UserConstructionScript' ref from Metadata '/Game/Assets/Blueprints/Cardboard_new.PackageMetaData'
+[2021.06.25-10.34.23:831][424]LogMetaData: Removing '/Game/Assets/Blueprints/Enemy/Cardboard_new.Cardboard_new:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Assets/Blueprints/Cardboard_new.PackageMetaData'
+[2021.06.25-10.34.23:831][424]LogMetaData: Removing '/Game/Assets/Blueprints/Enemy/Cardboard_new.Cardboard_new:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Assets/Blueprints/Cardboard_new.PackageMetaData'
+[2021.06.25-10.34.23:831][424]LogMetaData: Removing '/Game/Assets/Blueprints/Enemy/Cardboard_new.Cardboard_new:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Assets/Blueprints/Cardboard_new.PackageMetaData'
+[2021.06.25-10.34.23:831][424]LogMetaData: Removing '/Game/Assets/Blueprints/Enemy/Cardboard_new.Cardboard_new:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Assets/Blueprints/Cardboard_new.PackageMetaData'
+[2021.06.25-10.34.23:909][424]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/Cardboard_newC81E02CA4A4EF2A5F03134A24668307E.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/Assets/Blueprints/Enemy/Cardboard_new.uasset'
+[2021.06.25-10.34.24:163][424]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/Cardboard_newC928311946BBAF0648A52493A22D68A1.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/Assets/Blueprints/Cardboard_new.uasset'
+[2021.06.25-10.34.24:631][424]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.25-10.34.24:631][424]LogContentValidation: Display: Validating Blueprint /Game/Assets/Blueprints/Enemy/Cardboard_new.Cardboard_new
+[2021.06.25-10.34.24:632][424]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/Blueprints/Cardboard_new.Cardboard_new
+[2021.06.25-10.34.24:632][424]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/Blueprints/Cardboard_new.Default__Cardboard_new_C
+[2021.06.25-10.34.24:632][424]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/Blueprints/Cardboard_new.Cardboard_new_C
+[2021.06.25-10.34.26:728][591]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2021.06.25-10.34.26:751][591]LogContentBrowser: Creating deferred item: NewFolder
+[2021.06.25-10.34.29:932][967]LogContentBrowser: Attempting asset rename: NewFolder -> Managers
+[2021.06.25-10.34.29:933][967]LogContentBrowser: End creating deferred item NewFolder
+[2021.06.25-10.34.34:180][301]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/LevelManager.LevelManager_C' ref from Metadata '/Game/Assets/Blueprints/LevelManager.PackageMetaData'
+[2021.06.25-10.34.34:180][301]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/LevelManager.LevelManager_C:ReceiveBeginPlay' ref from Metadata '/Game/Assets/Blueprints/LevelManager.PackageMetaData'
+[2021.06.25-10.34.34:180][301]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/LevelManager.SKEL_LevelManager_C' ref from Metadata '/Game/Assets/Blueprints/LevelManager.PackageMetaData'
+[2021.06.25-10.34.34:180][301]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/LevelManager.SKEL_LevelManager_C:ReceiveBeginPlay' ref from Metadata '/Game/Assets/Blueprints/LevelManager.PackageMetaData'
+[2021.06.25-10.34.34:180][301]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/LevelManager.SKEL_LevelManager_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Assets/Blueprints/LevelManager.PackageMetaData'
+[2021.06.25-10.34.34:180][301]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/LevelManager.SKEL_LevelManager_C:ReceiveTick' ref from Metadata '/Game/Assets/Blueprints/LevelManager.PackageMetaData'
+[2021.06.25-10.34.34:180][301]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/LevelManager.SKEL_LevelManager_C:SwitchToMenu' ref from Metadata '/Game/Assets/Blueprints/LevelManager.PackageMetaData'
+[2021.06.25-10.34.34:180][301]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/LevelManager.SKEL_LevelManager_C:SwitchToPlayer' ref from Metadata '/Game/Assets/Blueprints/LevelManager.PackageMetaData'
+[2021.06.25-10.34.34:180][301]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/LevelManager.SKEL_LevelManager_C:UserConstructionScript' ref from Metadata '/Game/Assets/Blueprints/LevelManager.PackageMetaData'
+[2021.06.25-10.34.34:180][301]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/LevelManager.LevelManager:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Assets/Blueprints/LevelManager.PackageMetaData'
+[2021.06.25-10.34.34:180][301]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/LevelManager.LevelManager:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Assets/Blueprints/LevelManager.PackageMetaData'
+[2021.06.25-10.34.34:180][301]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/LevelManager.LevelManager:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Assets/Blueprints/LevelManager.PackageMetaData'
+[2021.06.25-10.34.34:180][301]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/LevelManager.LevelManager:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Assets/Blueprints/LevelManager.PackageMetaData'
+[2021.06.25-10.34.34:251][301]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/LevelManagerADBC66DE4F544D882D4235AFAD526406.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/Assets/Blueprints/Managers/LevelManager.uasset'
+[2021.06.25-10.34.34:517][301]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/LevelManagerB7AD8194490016C45DA573A68D42E53A.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/Assets/Blueprints/LevelManager.uasset'
+[2021.06.25-10.34.35:034][301]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.25-10.34.35:034][301]LogContentValidation: Display: Validating Blueprint /Game/Assets/Blueprints/Managers/LevelManager.LevelManager
+[2021.06.25-10.34.35:034][301]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/Blueprints/LevelManager.LevelManager
+[2021.06.25-10.34.35:034][301]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/Blueprints/LevelManager.Default__LevelManager_C
+[2021.06.25-10.34.35:034][301]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/Blueprints/LevelManager.LevelManager_C
+[2021.06.25-10.34.38:549][523]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/EnemySpawner.EnemySpawner_C' ref from Metadata '/Game/Assets/Blueprints/EnemySpawner.PackageMetaData'
+[2021.06.25-10.34.38:549][523]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/EnemySpawner.EnemySpawner_C:SetShouldPlay' ref from Metadata '/Game/Assets/Blueprints/EnemySpawner.PackageMetaData'
+[2021.06.25-10.34.38:549][523]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/EnemySpawner.EnemySpawner_C:ReceiveBeginPlay' ref from Metadata '/Game/Assets/Blueprints/EnemySpawner.PackageMetaData'
+[2021.06.25-10.34.38:549][523]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/EnemySpawner.SKEL_EnemySpawner_C' ref from Metadata '/Game/Assets/Blueprints/EnemySpawner.PackageMetaData'
+[2021.06.25-10.34.38:549][523]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/EnemySpawner.SKEL_EnemySpawner_C:ReceiveBeginPlay' ref from Metadata '/Game/Assets/Blueprints/EnemySpawner.PackageMetaData'
+[2021.06.25-10.34.38:550][523]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/EnemySpawner.SKEL_EnemySpawner_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Assets/Blueprints/EnemySpawner.PackageMetaData'
+[2021.06.25-10.34.38:550][523]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/EnemySpawner.SKEL_EnemySpawner_C:ReceiveTick' ref from Metadata '/Game/Assets/Blueprints/EnemySpawner.PackageMetaData'
+[2021.06.25-10.34.38:550][523]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/EnemySpawner.SKEL_EnemySpawner_C:Spawner' ref from Metadata '/Game/Assets/Blueprints/EnemySpawner.PackageMetaData'
+[2021.06.25-10.34.38:550][523]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/EnemySpawner.SKEL_EnemySpawner_C:AddPoint' ref from Metadata '/Game/Assets/Blueprints/EnemySpawner.PackageMetaData'
+[2021.06.25-10.34.38:550][523]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/EnemySpawner.SKEL_EnemySpawner_C:SetShouldPlay' ref from Metadata '/Game/Assets/Blueprints/EnemySpawner.PackageMetaData'
+[2021.06.25-10.34.38:550][523]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/EnemySpawner.SKEL_EnemySpawner_C:UserConstructionScript' ref from Metadata '/Game/Assets/Blueprints/EnemySpawner.PackageMetaData'
+[2021.06.25-10.34.38:550][523]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/EnemySpawner.EnemySpawner:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Assets/Blueprints/EnemySpawner.PackageMetaData'
+[2021.06.25-10.34.38:550][523]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/EnemySpawner.EnemySpawner:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Assets/Blueprints/EnemySpawner.PackageMetaData'
+[2021.06.25-10.34.38:550][523]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/EnemySpawner.EnemySpawner:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Assets/Blueprints/EnemySpawner.PackageMetaData'
+[2021.06.25-10.34.38:551][523]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/EnemySpawner.EnemySpawner:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Assets/Blueprints/EnemySpawner.PackageMetaData'
+[2021.06.25-10.34.38:643][523]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/EnemySpawnerC52EE4BE4E55A7B45E9A039ADD3FC903.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/Assets/Blueprints/Managers/EnemySpawner.uasset'
+[2021.06.25-10.34.38:898][523]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/EnemySpawnerCA97C2074CCDF306F573C8B7B86CACAE.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/Assets/Blueprints/EnemySpawner.uasset'
+[2021.06.25-10.34.39:408][523]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.25-10.34.39:408][523]LogContentValidation: Display: Validating Blueprint /Game/Assets/Blueprints/Managers/EnemySpawner.EnemySpawner
+[2021.06.25-10.34.39:408][523]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/Blueprints/EnemySpawner.EnemySpawner
+[2021.06.25-10.34.39:408][523]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/Blueprints/EnemySpawner.Default__EnemySpawner_C
+[2021.06.25-10.34.39:408][523]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/Blueprints/EnemySpawner.EnemySpawner_C
+[2021.06.25-10.34.45:347][986]LogMetaData: Removing '/Game/Assets/Blueprints/Enemy/SpawnPoint.SpawnPoint_C' ref from Metadata '/Game/Assets/Blueprints/SpawnPoint.PackageMetaData'
+[2021.06.25-10.34.45:347][986]LogMetaData: Removing '/Game/Assets/Blueprints/Enemy/SpawnPoint.SKEL_SpawnPoint_C' ref from Metadata '/Game/Assets/Blueprints/SpawnPoint.PackageMetaData'
+[2021.06.25-10.34.45:347][986]LogMetaData: Removing '/Game/Assets/Blueprints/Enemy/SpawnPoint.SKEL_SpawnPoint_C:ReceiveBeginPlay' ref from Metadata '/Game/Assets/Blueprints/SpawnPoint.PackageMetaData'
+[2021.06.25-10.34.45:347][986]LogMetaData: Removing '/Game/Assets/Blueprints/Enemy/SpawnPoint.SKEL_SpawnPoint_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Assets/Blueprints/SpawnPoint.PackageMetaData'
+[2021.06.25-10.34.45:347][986]LogMetaData: Removing '/Game/Assets/Blueprints/Enemy/SpawnPoint.SKEL_SpawnPoint_C:ReceiveTick' ref from Metadata '/Game/Assets/Blueprints/SpawnPoint.PackageMetaData'
+[2021.06.25-10.34.45:347][986]LogMetaData: Removing '/Game/Assets/Blueprints/Enemy/SpawnPoint.SKEL_SpawnPoint_C:UserConstructionScript' ref from Metadata '/Game/Assets/Blueprints/SpawnPoint.PackageMetaData'
+[2021.06.25-10.34.45:347][986]LogMetaData: Removing '/Game/Assets/Blueprints/Enemy/SpawnPoint.SpawnPoint:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Assets/Blueprints/SpawnPoint.PackageMetaData'
+[2021.06.25-10.34.45:347][986]LogMetaData: Removing '/Game/Assets/Blueprints/Enemy/SpawnPoint.SpawnPoint:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Assets/Blueprints/SpawnPoint.PackageMetaData'
+[2021.06.25-10.34.45:347][986]LogMetaData: Removing '/Game/Assets/Blueprints/Enemy/SpawnPoint.SpawnPoint:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Assets/Blueprints/SpawnPoint.PackageMetaData'
+[2021.06.25-10.34.45:347][986]LogMetaData: Removing '/Game/Assets/Blueprints/Enemy/SpawnPoint.SpawnPoint:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Assets/Blueprints/SpawnPoint.PackageMetaData'
+[2021.06.25-10.34.45:388][986]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/SpawnPoint674E58F740C4E9093CA6A4AB7A958F9B.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/Assets/Blueprints/Enemy/SpawnPoint.uasset'
+[2021.06.25-10.34.45:643][986]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/SpawnPoint13DE0DD04DA70BDD0F76B18367D19884.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/Assets/Blueprints/SpawnPoint.uasset'
+[2021.06.25-10.34.46:135][986]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.25-10.34.46:135][986]LogContentValidation: Display: Validating Blueprint /Game/Assets/Blueprints/Enemy/SpawnPoint.SpawnPoint
+[2021.06.25-10.34.46:135][986]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/Blueprints/SpawnPoint.SpawnPoint
+[2021.06.25-10.34.46:135][986]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/Blueprints/SpawnPoint.Default__SpawnPoint_C
+[2021.06.25-10.34.46:135][986]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/Blueprints/SpawnPoint.SpawnPoint_C
+[2021.06.25-10.34.49:647][220]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/GameTimer.GameTimer_C' ref from Metadata '/Game/Assets/Blueprints/GameTimer.PackageMetaData'
+[2021.06.25-10.34.49:647][220]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/GameTimer.GameTimer_C:ReceiveTick' ref from Metadata '/Game/Assets/Blueprints/GameTimer.PackageMetaData'
+[2021.06.25-10.34.49:647][220]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/GameTimer.GameTimer_C:SetPlayTimer' ref from Metadata '/Game/Assets/Blueprints/GameTimer.PackageMetaData'
+[2021.06.25-10.34.49:647][220]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/GameTimer.GameTimer_C:AddTime' ref from Metadata '/Game/Assets/Blueprints/GameTimer.PackageMetaData'
+[2021.06.25-10.34.49:647][220]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/GameTimer.GameTimer_C:AddScore' ref from Metadata '/Game/Assets/Blueprints/GameTimer.PackageMetaData'
+[2021.06.25-10.34.49:647][220]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/GameTimer.GameTimer_C:ReceiveBeginPlay' ref from Metadata '/Game/Assets/Blueprints/GameTimer.PackageMetaData'
+[2021.06.25-10.34.49:647][220]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/GameTimer.SKEL_GameTimer_C' ref from Metadata '/Game/Assets/Blueprints/GameTimer.PackageMetaData'
+[2021.06.25-10.34.49:647][220]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/GameTimer.SKEL_GameTimer_C:ReceiveBeginPlay' ref from Metadata '/Game/Assets/Blueprints/GameTimer.PackageMetaData'
+[2021.06.25-10.34.49:647][220]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/GameTimer.SKEL_GameTimer_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Assets/Blueprints/GameTimer.PackageMetaData'
+[2021.06.25-10.34.49:647][220]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/GameTimer.SKEL_GameTimer_C:ReceiveTick' ref from Metadata '/Game/Assets/Blueprints/GameTimer.PackageMetaData'
+[2021.06.25-10.34.49:648][220]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/GameTimer.SKEL_GameTimer_C:SetPlayTimer' ref from Metadata '/Game/Assets/Blueprints/GameTimer.PackageMetaData'
+[2021.06.25-10.34.49:648][220]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/GameTimer.SKEL_GameTimer_C:AddScore' ref from Metadata '/Game/Assets/Blueprints/GameTimer.PackageMetaData'
+[2021.06.25-10.34.49:648][220]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/GameTimer.SKEL_GameTimer_C:AddTime' ref from Metadata '/Game/Assets/Blueprints/GameTimer.PackageMetaData'
+[2021.06.25-10.34.49:648][220]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/GameTimer.SKEL_GameTimer_C:UserConstructionScript' ref from Metadata '/Game/Assets/Blueprints/GameTimer.PackageMetaData'
+[2021.06.25-10.34.49:648][220]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/GameTimer.GameTimer:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Assets/Blueprints/GameTimer.PackageMetaData'
+[2021.06.25-10.34.49:648][220]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/GameTimer.GameTimer:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Assets/Blueprints/GameTimer.PackageMetaData'
+[2021.06.25-10.34.49:648][220]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/GameTimer.GameTimer:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Assets/Blueprints/GameTimer.PackageMetaData'
+[2021.06.25-10.34.49:648][220]LogMetaData: Removing '/Game/Assets/Blueprints/Managers/GameTimer.GameTimer:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Assets/Blueprints/GameTimer.PackageMetaData'
+[2021.06.25-10.34.49:740][220]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/GameTimer1CDA22F944C3A56337923C828E86E259.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/Assets/Blueprints/Managers/GameTimer.uasset'
+[2021.06.25-10.34.50:033][220]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/GameTimerC3C9B78C41C3BC08079DBB94A85FDB18.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/Assets/Blueprints/GameTimer.uasset'
+[2021.06.25-10.34.50:567][220]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.25-10.34.50:567][220]LogContentValidation: Display: Validating Blueprint /Game/Assets/Blueprints/Managers/GameTimer.GameTimer
+[2021.06.25-10.34.50:567][220]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/Blueprints/GameTimer.GameTimer
+[2021.06.25-10.34.50:567][220]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/Blueprints/GameTimer.Default__GameTimer_C
+[2021.06.25-10.34.50:567][220]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/Blueprints/GameTimer.GameTimer_C
+[2021.06.25-10.34.53:398][492]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2021.06.25-10.34.53:435][492]LogContentBrowser: Creating deferred item: NewFolder
+[2021.06.25-10.34.58:952][135]LogContentBrowser: Attempting asset rename: NewFolder -> Menus
+[2021.06.25-10.34.58:952][135]LogContentBrowser: End creating deferred item NewFolder
+[2021.06.25-10.35.02:497][390]LogMetaData: Removing '/Game/Assets/Blueprints/Menus/BP_Menu3D.BP_Menu3D_C' ref from Metadata '/Game/Assets/Blueprints/BP_Menu3D.PackageMetaData'
+[2021.06.25-10.35.02:497][390]LogMetaData: Removing '/Game/Assets/Blueprints/Menus/BP_Menu3D.BP_Menu3D_C:ReceiveTick' ref from Metadata '/Game/Assets/Blueprints/BP_Menu3D.PackageMetaData'
+[2021.06.25-10.35.02:497][390]LogMetaData: Removing '/Game/Assets/Blueprints/Menus/BP_Menu3D.SKEL_BP_Menu3D_C' ref from Metadata '/Game/Assets/Blueprints/BP_Menu3D.PackageMetaData'
+[2021.06.25-10.35.02:497][390]LogMetaData: Removing '/Game/Assets/Blueprints/Menus/BP_Menu3D.SKEL_BP_Menu3D_C:ReceiveBeginPlay' ref from Metadata '/Game/Assets/Blueprints/BP_Menu3D.PackageMetaData'
+[2021.06.25-10.35.02:497][390]LogMetaData: Removing '/Game/Assets/Blueprints/Menus/BP_Menu3D.SKEL_BP_Menu3D_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Assets/Blueprints/BP_Menu3D.PackageMetaData'
+[2021.06.25-10.35.02:497][390]LogMetaData: Removing '/Game/Assets/Blueprints/Menus/BP_Menu3D.SKEL_BP_Menu3D_C:ReceiveTick' ref from Metadata '/Game/Assets/Blueprints/BP_Menu3D.PackageMetaData'
+[2021.06.25-10.35.02:497][390]LogMetaData: Removing '/Game/Assets/Blueprints/Menus/BP_Menu3D.SKEL_BP_Menu3D_C:UserConstructionScript' ref from Metadata '/Game/Assets/Blueprints/BP_Menu3D.PackageMetaData'
+[2021.06.25-10.35.02:497][390]LogMetaData: Removing '/Game/Assets/Blueprints/Menus/BP_Menu3D.BP_Menu3D:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Assets/Blueprints/BP_Menu3D.PackageMetaData'
+[2021.06.25-10.35.02:497][390]LogMetaData: Removing '/Game/Assets/Blueprints/Menus/BP_Menu3D.BP_Menu3D:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Assets/Blueprints/BP_Menu3D.PackageMetaData'
+[2021.06.25-10.35.02:497][390]LogMetaData: Removing '/Game/Assets/Blueprints/Menus/BP_Menu3D.BP_Menu3D:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Assets/Blueprints/BP_Menu3D.PackageMetaData'
+[2021.06.25-10.35.02:498][390]LogMetaData: Removing '/Game/Assets/Blueprints/Menus/BP_Menu3D.BP_Menu3D:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Assets/Blueprints/BP_Menu3D.PackageMetaData'
+[2021.06.25-10.35.02:574][390]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/BP_Menu3D02FFFB5A411396CCC63F9E836973C219.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/Assets/Blueprints/Menus/BP_Menu3D.uasset'
+[2021.06.25-10.35.02:816][390]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/BP_Menu3DEB5394A649989FA4FF49108D2931C3D9.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/Assets/Blueprints/BP_Menu3D.uasset'
+[2021.06.25-10.35.03:340][390]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.25-10.35.03:340][390]LogContentValidation: Display: Validating Blueprint /Game/Assets/Blueprints/Menus/BP_Menu3D.BP_Menu3D
+[2021.06.25-10.35.03:340][390]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/Blueprints/BP_Menu3D.BP_Menu3D
+[2021.06.25-10.35.03:341][390]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/Blueprints/BP_Menu3D.Default__BP_Menu3D_C
+[2021.06.25-10.35.03:341][390]LogContentValidation: Display: Validating ObjectRedirector /Game/Assets/Blueprints/BP_Menu3D.BP_Menu3D_C
+[2021.06.25-10.36.59:528][767]LogUObjectHash: Compacting FUObjectHashTables data took   4.24ms
+[2021.06.25-10.36.59:578][767]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/FirstPersonExampleMapCA94D5EC434EB17C0294F6BE8D7409CF.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2021.06.25-10.36.59:603][767]AssetCheck: New page: Asset Save: FirstPersonExampleMap
+[2021.06.25-10.36.59:603][767]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.06.25-10.37.01:798][980]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.25-10.37.01:807][980]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.06.25-10.37.01:814][980]LogPlayLevel: [PlayLevel] Compiling Cardboard_new before play...
+[2021.06.25-10.37.01:851][980]LogPlayLevel: [PlayLevel] Compiling EnemySpawner before play...
+[2021.06.25-10.37.01:903][980]LogPlayLevel: [PlayLevel] Compiling GameTimer before play...
+[2021.06.25-10.37.01:947][980]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2021.06.25-10.37.02:011][980]LogPlayLevel: [PlayLevel] Compiling BP_Menu3D before play...
+[2021.06.25-10.37.02:045][980]LogPlayLevel: [PlayLevel] Compiling LevelManager before play...
+[2021.06.25-10.37.02:078][980]LogPlayLevel: [PlayLevel] Compiling FirstPersonExampleMap before play...
+[2021.06.25-10.37.02:099][980]LogPlayLevel: [PlayLevel] Compiling WBP_MainMenu before play...
+[2021.06.25-10.37.02:161][980]LogUObjectHash: Compacting FUObjectHashTables data took   6.15ms
+[2021.06.25-10.37.02:170][980]LogPlayLevel: PlayLevel: Blueprint regeneration took 363 ms (8 blueprints)
+[2021.06.25-10.37.02:170][980]PIE: New page: PIE session: FirstPersonExampleMap (25 Jun 2021, 14:37:02)
+[2021.06.25-10.37.02:197][980]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.06.25-10.37.02:215][980]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018042s)
+[2021.06.25-10.37.02:217][980]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.06.25-10.37.02:217][980]LogPlayLevel: PIE: World Init took: (0.002007s)
+[2021.06.25-10.37.02:217][980]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.020298s)
+[2021.06.25-10.37.02:249][980]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2021.06.25-10.37.02:250][980]LogAudio: Display: Creating Audio Device:                 Id: 43, Scope: Unique, Realtime: True
+[2021.06.25-10.37.02:251][980]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.25-10.37.02:251][980]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.25-10.37.02:251][980]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.25-10.37.02:251][980]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.25-10.37.02:251][980]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.25-10.37.02:251][980]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.25-10.37.02:251][980]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.25-10.37.02:251][980]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.25-10.37.02:251][980]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.25-10.37.02:251][980]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.25-10.37.02:268][980]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.25-10.37.02:268][980]LogAudioMixer: Display: 1: FrontRight
+[2021.06.25-10.37.02:292][980]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2021.06.25-10.37.02:295][980]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.25-10.37.02:295][980]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.25-10.37.02:295][980]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.25-10.37.02:296][980]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.25-10.37.02:296][980]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.25-10.37.02:296][980]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.25-10.37.02:313][980]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.25-10.37.02:314][980]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.25-10.37.02:314][980]LogInit: FAudioDevice initialized.
+[2021.06.25-10.37.02:314][980]LogAudio: Display: Audio Device (ID: 43) registered with world 'FirstPersonExampleMap'.
+[2021.06.25-10.37.02:331][980]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.06.25-10.37.02:334][980]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.06.25-12.37.02
+[2021.06.25-10.37.02:335][980]LogWorld: Bringing up level for play took: 0.003460
+[2021.06.25-10.37.02:335][980]LogOnline: OSS: Creating online subsystem instance for: :Context_88
+[2021.06.25-10.37.02:340][980]PIE: Server logged in
+[2021.06.25-10.37.02:341][980]PIE: Play in editor total start time 0,537 seconds.
+[2021.06.25-10.37.16:102][427]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_2.Middle Cube
+[2021.06.25-10.37.16:102][427]LogBlueprintUserMessages: [Cardboard_new_C_2] Cardboard_new_C_2.Middle Cube
+[2021.06.25-10.37.16:858][507]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_0.Middle Cube
+[2021.06.25-10.37.16:859][507]LogBlueprintUserMessages: [Cardboard_new_C_0] Cardboard_new_C_0.Middle Cube
+[2021.06.25-10.37.17:708][588]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_3.Middle Cube
+[2021.06.25-10.37.17:708][588]LogBlueprintUserMessages: [Cardboard_new_C_3] Cardboard_new_C_3.Middle Cube
+[2021.06.25-10.37.18:907][709]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall3_19.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.37.19:236][743]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall3_19.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.37.19:590][780]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_1.Top Cube
+[2021.06.25-10.37.19:590][780]LogBlueprintUserMessages: [Cardboard_new_C_1] Cardboard_new_C_1.Top Cube
+[2021.06.25-10.37.22:251][ 52]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_4.Middle Cube
+[2021.06.25-10.37.22:251][ 52]LogBlueprintUserMessages: [Cardboard_new_C_4] Cardboard_new_C_4.Middle Cube
+[2021.06.25-10.37.23:988][229]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall1_17.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.37.24:360][268]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_5.Middle Cube
+[2021.06.25-10.37.24:360][268]LogBlueprintUserMessages: [Cardboard_new_C_5] Cardboard_new_C_5.Middle Cube
+[2021.06.25-10.37.26:475][486]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] EditorCube12_6.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.37.27:934][640]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_6.Top Cube
+[2021.06.25-10.37.27:934][640]LogBlueprintUserMessages: [Cardboard_new_C_6] Cardboard_new_C_6.Top Cube
+[2021.06.25-10.37.29:700][821]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_7.Middle Cube
+[2021.06.25-10.37.29:700][821]LogBlueprintUserMessages: [Cardboard_new_C_7] Cardboard_new_C_7.Middle Cube
+[2021.06.25-10.37.33:551][230]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall3_19.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.37.33:950][271]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall3_19.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.37.34:269][304]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall3_19.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.37.34:535][331]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_8.Middle Cube
+[2021.06.25-10.37.34:535][331]LogBlueprintUserMessages: [Cardboard_new_C_8] Cardboard_new_C_8.Middle Cube
+[2021.06.25-10.37.35:524][432]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_9.Middle Cube
+[2021.06.25-10.37.35:524][432]LogBlueprintUserMessages: [Cardboard_new_C_9] Cardboard_new_C_9.Middle Cube
+[2021.06.25-10.37.38:399][731]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_10.Middle Cube
+[2021.06.25-10.37.38:399][731]LogBlueprintUserMessages: [Cardboard_new_C_10] Cardboard_new_C_10.Middle Cube
+[2021.06.25-10.37.42:096][126]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall3_19.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.37.42:491][164]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall3_19.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.37.42:856][201]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall3_19.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.37.43:162][233]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_11.Middle Cube
+[2021.06.25-10.37.43:162][233]LogBlueprintUserMessages: [Cardboard_new_C_11] Cardboard_new_C_11.Middle Cube
+[2021.06.25-10.37.44:841][406]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_12.Middle Cube
+[2021.06.25-10.37.44:841][406]LogBlueprintUserMessages: [Cardboard_new_C_12] Cardboard_new_C_12.Middle Cube
+[2021.06.25-10.37.47:560][675]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall3_19.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.37.47:838][702]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_13.Middle Cube
+[2021.06.25-10.37.47:838][702]LogBlueprintUserMessages: [Cardboard_new_C_13] Cardboard_new_C_13.Middle Cube
+[2021.06.25-10.37.50:466][973]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall1_17.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.37.50:816][ 10]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_14.Middle Cube
+[2021.06.25-10.37.50:816][ 10]LogBlueprintUserMessages: [Cardboard_new_C_14] Cardboard_new_C_14.Middle Cube
+[2021.06.25-10.37.53:408][286]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_15.Middle Cube
+[2021.06.25-10.37.53:408][286]LogBlueprintUserMessages: [Cardboard_new_C_15] Cardboard_new_C_15.Middle Cube
+[2021.06.25-10.37.56:546][615]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_16.Middle Cube
+[2021.06.25-10.37.56:546][615]LogBlueprintUserMessages: [Cardboard_new_C_16] Cardboard_new_C_16.Middle Cube
+[2021.06.25-10.37.59:464][912]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall4_20.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.37.59:785][945]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_17.Middle Cube
+[2021.06.25-10.37.59:785][945]LogBlueprintUserMessages: [Cardboard_new_C_17] Cardboard_new_C_17.Middle Cube
+[2021.06.25-10.38.02:986][263]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall4_20.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.38.03:265][294]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall4_20.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.38.03:728][341]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_18.Middle Cube
+[2021.06.25-10.38.03:729][341]LogBlueprintUserMessages: [Cardboard_new_C_18] Cardboard_new_C_18.Middle Cube
+[2021.06.25-10.38.05:903][567]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall4_20.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.38.06:286][607]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] EditorCube8_2.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.38.06:573][635]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall1_17.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.38.06:848][664]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_19.Middle Cube
+[2021.06.25-10.38.06:848][664]LogBlueprintUserMessages: [Cardboard_new_C_19] Cardboard_new_C_19.Middle Cube
+[2021.06.25-10.38.09:075][902]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_20.Middle Cube
+[2021.06.25-10.38.09:075][902]LogBlueprintUserMessages: [Cardboard_new_C_20] Cardboard_new_C_20.Middle Cube
+[2021.06.25-10.38.12:674][281]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall1_17.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.38.13:056][317]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] BigWall2_22.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.38.13:413][350]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_21.Middle Cube
+[2021.06.25-10.38.13:413][350]LogBlueprintUserMessages: [Cardboard_new_C_21] Cardboard_new_C_21.Middle Cube
+[2021.06.25-10.38.14:705][484]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] EditorCube9_3.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.38.14:997][513]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_22.Middle Cube
+[2021.06.25-10.38.14:997][513]LogBlueprintUserMessages: [Cardboard_new_C_22] Cardboard_new_C_22.Middle Cube
+[2021.06.25-10.38.18:577][886]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_23.Middle Cube
+[2021.06.25-10.38.18:577][886]LogBlueprintUserMessages: [Cardboard_new_C_23] Cardboard_new_C_23.Middle Cube
+[2021.06.25-10.38.21:116][150]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall4_20.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.38.21:424][183]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_24.Middle Cube
+[2021.06.25-10.38.21:424][183]LogBlueprintUserMessages: [Cardboard_new_C_24] Cardboard_new_C_24.Middle Cube
+[2021.06.25-10.38.24:577][514]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall3_19.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.38.25:009][561]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall3_19.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.38.25:376][600]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall3_19.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.38.25:698][632]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall3_19.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.38.25:989][661]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_25.Middle Cube
+[2021.06.25-10.38.25:989][661]LogBlueprintUserMessages: [Cardboard_new_C_25] Cardboard_new_C_25.Middle Cube
+[2021.06.25-10.38.27:518][817]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_26.Middle Cube
+[2021.06.25-10.38.27:519][817]LogBlueprintUserMessages: [Cardboard_new_C_26] Cardboard_new_C_26.Middle Cube
+[2021.06.25-10.38.30:434][127]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_27.Middle Cube
+[2021.06.25-10.38.30:434][127]LogBlueprintUserMessages: [Cardboard_new_C_27] Cardboard_new_C_27.Middle Cube
+[2021.06.25-10.38.33:134][407]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_28.Middle Cube
+[2021.06.25-10.38.33:134][407]LogBlueprintUserMessages: [Cardboard_new_C_28] Cardboard_new_C_28.Middle Cube
+[2021.06.25-10.38.49:628][164]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_29.Middle Cube
+[2021.06.25-10.38.49:628][164]LogBlueprintUserMessages: [Cardboard_new_C_29] Cardboard_new_C_29.Middle Cube
+[2021.06.25-10.38.50:914][295]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_31.Middle Cube
+[2021.06.25-10.38.50:914][295]LogBlueprintUserMessages: [Cardboard_new_C_31] Cardboard_new_C_31.Middle Cube
+[2021.06.25-10.38.51:878][391]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] EditorCube9_3.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.38.52:233][428]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall1_17.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.38.52:584][463]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_30.Middle Cube
+[2021.06.25-10.38.52:584][463]LogBlueprintUserMessages: [Cardboard_new_C_30] Cardboard_new_C_30.Middle Cube
+[2021.06.25-10.38.53:761][583]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall1_17.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.38.54:228][632]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall4_20.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.38.54:578][665]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_32.Middle Cube
+[2021.06.25-10.38.54:578][665]LogBlueprintUserMessages: [Cardboard_new_C_32] Cardboard_new_C_32.Middle Cube
+[2021.06.25-10.38.57:480][965]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall1_17.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.38.57:770][996]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] EditorCube9_3.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.38.58:160][ 38]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_33.Middle Cube
+[2021.06.25-10.38.58:160][ 38]LogBlueprintUserMessages: [Cardboard_new_C_33] Cardboard_new_C_33.Middle Cube
+[2021.06.25-10.38.59:897][208]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall1_17.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.39.00:136][230]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_34.Middle Cube
+[2021.06.25-10.39.00:136][230]LogBlueprintUserMessages: [Cardboard_new_C_34] Cardboard_new_C_34.Middle Cube
+[2021.06.25-10.39.02:778][488]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] EditorCube9_3.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.39.03:059][518]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] EditorCube9_3.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.39.03:332][547]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_35.Middle Cube
+[2021.06.25-10.39.03:332][547]LogBlueprintUserMessages: [Cardboard_new_C_35] Cardboard_new_C_35.Middle Cube
+[2021.06.25-10.39.05:644][778]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_36.Middle Cube
+[2021.06.25-10.39.05:645][778]LogBlueprintUserMessages: [Cardboard_new_C_36] Cardboard_new_C_36.Middle Cube
+[2021.06.25-10.39.08:970][135]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_37.Middle Cube
+[2021.06.25-10.39.08:970][135]LogBlueprintUserMessages: [Cardboard_new_C_37] Cardboard_new_C_37.Middle Cube
+[2021.06.25-10.39.12:247][476]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_38.Middle Cube
+[2021.06.25-10.39.12:247][476]LogBlueprintUserMessages: [Cardboard_new_C_38] Cardboard_new_C_38.Middle Cube
+[2021.06.25-10.39.14:725][719]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_39.Middle Cube
+[2021.06.25-10.39.14:725][719]LogBlueprintUserMessages: [Cardboard_new_C_39] Cardboard_new_C_39.Middle Cube
+[2021.06.25-10.39.17:430][992]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_40.Middle Cube
+[2021.06.25-10.39.17:430][992]LogBlueprintUserMessages: [Cardboard_new_C_40] Cardboard_new_C_40.Middle Cube
+[2021.06.25-10.39.20:829][341]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_41.Middle Cube
+[2021.06.25-10.39.20:829][341]LogBlueprintUserMessages: [Cardboard_new_C_41] Cardboard_new_C_41.Middle Cube
+[2021.06.25-10.39.23:786][645]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_42.Top Cube
+[2021.06.25-10.39.23:787][645]LogBlueprintUserMessages: [Cardboard_new_C_42] Cardboard_new_C_42.Top Cube
+[2021.06.25-10.39.27:002][984]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall1_17.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.39.27:318][ 17]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall1_17.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.39.27:622][ 47]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_43.Middle Cube
+[2021.06.25-10.39.27:623][ 47]LogBlueprintUserMessages: [Cardboard_new_C_43] Cardboard_new_C_43.Middle Cube
+[2021.06.25-10.39.32:108][515]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_44.Middle Cube
+[2021.06.25-10.39.32:108][515]LogBlueprintUserMessages: [Cardboard_new_C_44] Cardboard_new_C_44.Middle Cube
+[2021.06.25-10.39.33:338][646]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_45.Top Cube
+[2021.06.25-10.39.33:338][646]LogBlueprintUserMessages: [Cardboard_new_C_45] Cardboard_new_C_45.Top Cube
+[2021.06.25-10.39.36:434][971]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall4_20.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.39.36:861][ 14]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_46.Middle Cube
+[2021.06.25-10.39.36:861][ 14]LogBlueprintUserMessages: [Cardboard_new_C_46] Cardboard_new_C_46.Middle Cube
+[2021.06.25-10.39.38:998][236]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_47.Middle Cube
+[2021.06.25-10.39.38:998][236]LogBlueprintUserMessages: [Cardboard_new_C_47] Cardboard_new_C_47.Middle Cube
+[2021.06.25-10.39.41:857][534]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall1_17.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.39.42:199][571]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall1_17.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.39.42:494][602]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_48.Middle Cube
+[2021.06.25-10.39.42:495][602]LogBlueprintUserMessages: [Cardboard_new_C_48] Cardboard_new_C_48.Middle Cube
+[2021.06.25-10.39.44:855][851]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall4_20.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.39.45:199][887]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall4_20.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.39.45:563][919]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall4_20.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.39.45:904][956]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall4_20.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.39.46:167][984]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_49.Middle Cube
+[2021.06.25-10.39.46:167][984]LogBlueprintUserMessages: [Cardboard_new_C_49] Cardboard_new_C_49.Middle Cube
+[2021.06.25-10.39.47:902][167]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_50.Middle Cube
+[2021.06.25-10.39.47:903][167]LogBlueprintUserMessages: [Cardboard_new_C_50] Cardboard_new_C_50.Middle Cube
+[2021.06.25-10.39.50:398][419]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_51.Top Cube
+[2021.06.25-10.39.50:398][419]LogBlueprintUserMessages: [Cardboard_new_C_51] Cardboard_new_C_51.Top Cube
+[2021.06.25-10.39.54:235][812]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_52.Middle Cube
+[2021.06.25-10.39.54:235][812]LogBlueprintUserMessages: [Cardboard_new_C_52] Cardboard_new_C_52.Middle Cube
+[2021.06.25-10.39.58:800][283]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_53.Middle Cube
+[2021.06.25-10.39.58:800][283]LogBlueprintUserMessages: [Cardboard_new_C_53] Cardboard_new_C_53.Middle Cube
+[2021.06.25-10.40.00:856][496]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall1_17.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.40.01:098][520]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_54.Top Cube
+[2021.06.25-10.40.01:098][520]LogBlueprintUserMessages: [Cardboard_new_C_54] Cardboard_new_C_54.Top Cube
+[2021.06.25-10.40.02:770][694]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall1_17.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.40.03:084][727]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] EditorCube8_2.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.40.03:409][761]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] EditorCube8_2.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.40.03:752][795]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_55.Top Cube
+[2021.06.25-10.40.03:752][795]LogBlueprintUserMessages: [Cardboard_new_C_55] Cardboard_new_C_55.Top Cube
+[2021.06.25-10.40.05:440][965]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall1_17.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.40.05:742][996]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_56.Middle Cube
+[2021.06.25-10.40.05:742][996]LogBlueprintUserMessages: [Cardboard_new_C_56] Cardboard_new_C_56.Middle Cube
+[2021.06.25-10.40.05:932][ 15]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall1_17.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.40.09:663][398]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall1_17.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.40.15:506][ 14]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall1_17.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.40.15:861][ 51]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_57.Middle Cube
+[2021.06.25-10.40.15:862][ 51]LogBlueprintUserMessages: [Cardboard_new_C_57] Cardboard_new_C_57.Middle Cube
+[2021.06.25-10.40.18:102][272]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall4_20.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.40.18:462][310]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_58.Middle Cube
+[2021.06.25-10.40.18:462][310]LogBlueprintUserMessages: [Cardboard_new_C_58] Cardboard_new_C_58.Middle Cube
+[2021.06.25-10.40.21:326][608]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_59.Middle Cube
+[2021.06.25-10.40.21:326][608]LogBlueprintUserMessages: [Cardboard_new_C_59] Cardboard_new_C_59.Middle Cube
+[2021.06.25-10.40.23:891][871]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_60.Middle Cube
+[2021.06.25-10.40.23:891][871]LogBlueprintUserMessages: [Cardboard_new_C_60] Cardboard_new_C_60.Middle Cube
+[2021.06.25-10.40.27:207][220]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_61.Middle Cube
+[2021.06.25-10.40.27:207][220]LogBlueprintUserMessages: [Cardboard_new_C_61] Cardboard_new_C_61.Middle Cube
+[2021.06.25-10.40.29:708][481]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall1_17.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.40.29:991][510]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_62.Middle Cube
+[2021.06.25-10.40.29:991][510]LogBlueprintUserMessages: [Cardboard_new_C_62] Cardboard_new_C_62.Middle Cube
+[2021.06.25-10.40.32:760][784]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_63.Middle Cube
+[2021.06.25-10.40.32:760][784]LogBlueprintUserMessages: [Cardboard_new_C_63] Cardboard_new_C_63.Middle Cube
+[2021.06.25-10.40.35:892][105]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_64.Middle Cube
+[2021.06.25-10.40.35:892][105]LogBlueprintUserMessages: [Cardboard_new_C_64] Cardboard_new_C_64.Middle Cube
+[2021.06.25-10.40.38:444][366]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall1_17.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.40.38:709][391]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_65.Middle Cube
+[2021.06.25-10.40.38:710][391]LogBlueprintUserMessages: [Cardboard_new_C_65] Cardboard_new_C_65.Middle Cube
+[2021.06.25-10.40.42:007][733]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall1_17.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.40.42:298][765]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_66.Middle Cube
+[2021.06.25-10.40.42:298][765]LogBlueprintUserMessages: [Cardboard_new_C_66] Cardboard_new_C_66.Middle Cube
+[2021.06.25-10.40.45:091][ 54]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_67.Middle Cube
+[2021.06.25-10.40.45:091][ 54]LogBlueprintUserMessages: [Cardboard_new_C_67] Cardboard_new_C_67.Middle Cube
+[2021.06.25-10.40.47:475][303]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall4_20.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.40.47:731][327]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_68.Middle Cube
+[2021.06.25-10.40.47:732][327]LogBlueprintUserMessages: [Cardboard_new_C_68] Cardboard_new_C_68.Middle Cube
+[2021.06.25-10.40.50:944][654]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall1_17.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.40.51:181][679]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall1_17.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.40.51:467][709]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_69.Middle Cube
+[2021.06.25-10.40.51:467][709]LogBlueprintUserMessages: [Cardboard_new_C_69] Cardboard_new_C_69.Middle Cube
+[2021.06.25-10.40.53:708][941]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall1_17.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.40.53:981][969]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall1_17.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.40.54:263][997]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_70.Middle Cube
+[2021.06.25-10.40.54:263][997]LogBlueprintUserMessages: [Cardboard_new_C_70] Cardboard_new_C_70.Middle Cube
+[2021.06.25-10.40.56:582][236]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall1_17.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.40.56:792][258]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_71.Middle Cube
+[2021.06.25-10.40.56:792][258]LogBlueprintUserMessages: [Cardboard_new_C_71] Cardboard_new_C_71.Middle Cube
+[2021.06.25-10.40.59:956][583]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall3_19.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.41.00:220][606]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall3_19.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.41.00:506][634]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_72.Middle Cube
+[2021.06.25-10.41.00:506][634]LogBlueprintUserMessages: [Cardboard_new_C_72] Cardboard_new_C_72.Middle Cube
+[2021.06.25-10.41.02:676][848]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] EditorCube8_2.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.41.02:963][878]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] EditorCube8_2.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.41.03:203][902]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_73.Middle Cube
+[2021.06.25-10.41.03:204][902]LogBlueprintUserMessages: [Cardboard_new_C_73] Cardboard_new_C_73.Middle Cube
+[2021.06.25-10.41.05:977][188]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_74.Middle Cube
+[2021.06.25-10.41.05:977][188]LogBlueprintUserMessages: [Cardboard_new_C_74] Cardboard_new_C_74.Middle Cube
+[2021.06.25-10.41.08:949][502]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_75.Middle Cube
+[2021.06.25-10.41.08:949][502]LogBlueprintUserMessages: [Cardboard_new_C_75] Cardboard_new_C_75.Middle Cube
+[2021.06.25-10.41.11:723][785]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_76.Middle Cube
+[2021.06.25-10.41.11:723][785]LogBlueprintUserMessages: [Cardboard_new_C_76] Cardboard_new_C_76.Middle Cube
+[2021.06.25-10.41.14:442][ 62]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall1_17.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.41.14:669][ 85]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_77.Middle Cube
+[2021.06.25-10.41.14:669][ 85]LogBlueprintUserMessages: [Cardboard_new_C_77] Cardboard_new_C_77.Middle Cube
+[2021.06.25-10.41.14:906][109]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Floor_16.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.41.17:966][417]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall1_17.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.41.18:217][443]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall1_17.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.41.18:492][470]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall1_17.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.41.18:794][499]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall1_17.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.41.19:038][523]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_78.Middle Cube
+[2021.06.25-10.41.19:038][523]LogBlueprintUserMessages: [Cardboard_new_C_78] Cardboard_new_C_78.Middle Cube
+[2021.06.25-10.41.21:248][749]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_79.Middle Cube
+[2021.06.25-10.41.21:248][749]LogBlueprintUserMessages: [Cardboard_new_C_79] Cardboard_new_C_79.Middle Cube
+[2021.06.25-10.41.23:561][991]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall1_17.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.41.23:778][ 13]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_80.Middle Cube
+[2021.06.25-10.41.23:778][ 13]LogBlueprintUserMessages: [Cardboard_new_C_80] Cardboard_new_C_80.Middle Cube
+[2021.06.25-10.41.26:453][287]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall4_20.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.41.26:742][316]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall4_20.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.41.27:021][346]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_81.Middle Cube
+[2021.06.25-10.41.27:021][346]LogBlueprintUserMessages: [Cardboard_new_C_81] Cardboard_new_C_81.Middle Cube
+[2021.06.25-10.41.29:722][623]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall3_19.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.41.30:057][658]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall1_17.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.41.30:368][690]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_82.Middle Cube
+[2021.06.25-10.41.30:368][690]LogBlueprintUserMessages: [Cardboard_new_C_82] Cardboard_new_C_82.Middle Cube
+[2021.06.25-10.41.32:963][959]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_83.Middle Cube
+[2021.06.25-10.41.32:963][959]LogBlueprintUserMessages: [Cardboard_new_C_83] Cardboard_new_C_83.Middle Cube
+[2021.06.25-10.41.35:702][247]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_84.Middle Cube
+[2021.06.25-10.41.35:702][247]LogBlueprintUserMessages: [Cardboard_new_C_84] Cardboard_new_C_84.Middle Cube
+[2021.06.25-10.41.35:896][267]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall1_17.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.41.39:197][612]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_85.Middle Cube
+[2021.06.25-10.41.39:197][612]LogBlueprintUserMessages: [Cardboard_new_C_85] Cardboard_new_C_85.Middle Cube
+[2021.06.25-10.41.41:561][857]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_86.Middle Cube
+[2021.06.25-10.41.41:562][857]LogBlueprintUserMessages: [Cardboard_new_C_86] Cardboard_new_C_86.Middle Cube
+[2021.06.25-10.41.44:345][151]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_87.Middle Cube
+[2021.06.25-10.41.44:345][151]LogBlueprintUserMessages: [Cardboard_new_C_87] Cardboard_new_C_87.Middle Cube
+[2021.06.25-10.41.56:358][403]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall4_20.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.41.56:741][440]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_88.Middle Cube
+[2021.06.25-10.41.56:741][440]LogBlueprintUserMessages: [Cardboard_new_C_88] Cardboard_new_C_88.Middle Cube
+[2021.06.25-10.42.00:025][758]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_89.Middle Cube
+[2021.06.25-10.42.00:025][758]LogBlueprintUserMessages: [Cardboard_new_C_89] Cardboard_new_C_89.Middle Cube
+[2021.06.25-10.42.02:799][ 23]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_90.Middle Cube
+[2021.06.25-10.42.02:799][ 23]LogBlueprintUserMessages: [Cardboard_new_C_90] Cardboard_new_C_90.Middle Cube
+[2021.06.25-10.42.06:009][330]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_91.Middle Cube
+[2021.06.25-10.42.06:009][330]LogBlueprintUserMessages: [Cardboard_new_C_91] Cardboard_new_C_91.Middle Cube
+[2021.06.25-10.42.09:144][628]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_92.Middle Cube
+[2021.06.25-10.42.09:144][628]LogBlueprintUserMessages: [Cardboard_new_C_92] Cardboard_new_C_92.Middle Cube
+[2021.06.25-10.42.12:013][899]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_93.Middle Cube
+[2021.06.25-10.42.12:013][899]LogBlueprintUserMessages: [Cardboard_new_C_93] Cardboard_new_C_93.Middle Cube
+[2021.06.25-10.42.14:880][202]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall4_20.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.42.15:151][229]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_94.Middle Cube
+[2021.06.25-10.42.15:151][229]LogBlueprintUserMessages: [Cardboard_new_C_94] Cardboard_new_C_94.Middle Cube
+[2021.06.25-10.42.18:213][547]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_95.Middle Cube
+[2021.06.25-10.42.18:213][547]LogBlueprintUserMessages: [Cardboard_new_C_95] Cardboard_new_C_95.Middle Cube
+[2021.06.25-10.42.20:923][824]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_96.Middle Cube
+[2021.06.25-10.42.20:923][824]LogBlueprintUserMessages: [Cardboard_new_C_96] Cardboard_new_C_96.Middle Cube
+[2021.06.25-10.42.23:743][119]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall1_17.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.42.24:049][152]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_97.Middle Cube
+[2021.06.25-10.42.24:049][152]LogBlueprintUserMessages: [Cardboard_new_C_97] Cardboard_new_C_97.Middle Cube
+[2021.06.25-10.42.26:908][453]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_98.Middle Cube
+[2021.06.25-10.42.26:908][453]LogBlueprintUserMessages: [Cardboard_new_C_98] Cardboard_new_C_98.Middle Cube
+[2021.06.25-10.42.30:136][787]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_99.Middle Cube
+[2021.06.25-10.42.30:136][787]LogBlueprintUserMessages: [Cardboard_new_C_99] Cardboard_new_C_99.Middle Cube
+[2021.06.25-10.42.33:377][116]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall4_20.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.42.33:673][146]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall4_20.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.42.33:953][175]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall4_20.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.42.34:154][196]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall4_20.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.42.34:427][224]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_100.Middle Cube
+[2021.06.25-10.42.34:427][224]LogBlueprintUserMessages: [Cardboard_new_C_100] Cardboard_new_C_100.Middle Cube
+[2021.06.25-10.42.34:606][242]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall4_20.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.42.34:792][260]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall4_20.StaticMeshComponent0 1M_Cube
+[2021.06.25-10.42.35:086][287]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.25-10.42.35:087][287]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.06.25-10.42.35:087][287]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.06.25-10.42.35:088][287]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.25-10.42.35:099][287]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.25-10.42.35:104][287]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.25-10.42.35:125][287]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.25-10.42.35:126][287]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.25-10.42.35:127][287]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.25-10.42.35:154][287]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2021.06.25-10.42.35:197][288]LogPlayLevel: Display: Destroying online subsystem :Context_88
+[2021.06.25-10.43.59:131][987]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Assets/Blueprints/Player/FirstPersonCharacter.FirstPersonCharacter
+[2021.06.25-10.49.23:844][317]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.06.25-10.49.23:855][317]LogBlueprint: Error: [AssetLog] C:\Users\chris\Documents\GitHub\TinySummerProject\TinySummer_Project 4.26\Content\Assets\Blueprints\Player\FirstPersonCharacter.uasset: [Compiler] Found more than one function with the same name InpAxisEvt_Turn_K2Node_InputAxisEvent_157; second occurance at  InputAxis Turn
+[2021.06.25-10.49.23:855][317]LogBlueprint: Error: [AssetLog] C:\Users\chris\Documents\GitHub\TinySummerProject\TinySummer_Project 4.26\Content\Assets\Blueprints\Player\FirstPersonCharacter.uasset: [Compiler] Found more than one function with the same name InpAxisEvt_LookUp_K2Node_InputAxisEvent_172; second occurance at  InputAxis LookUp
+[2021.06.25-10.49.23:910][317]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2021.06.25-10.52.28:660][447]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.06.25-10.52.29:144][447]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.483 s
+[2021.06.25-10.52.29:144][447]LogOutputDevice: Error: === Handled ensure: ===
+[2021.06.25-10.52.29:144][447]LogOutputDevice: Error: 
+[2021.06.25-10.52.29:144][447]LogOutputDevice: Error: Ensure condition failed: !bGraphDataInvalid [File:D:/Build/++UE4/Sync/Engine/Source/Editor/GraphEditor/Private/SGraphPin.cpp] [Line: 821]
+[2021.06.25-10.52.29:144][447]LogOutputDevice: Error: The Graph Pin Object has been invalidate. Someone is keeping a hard ref on the SGraphPin. See InvalidateGraphData for more info
+[2021.06.25-10.52.29:144][447]LogOutputDevice: Error: Stack: 
+[2021.06.25-10.52.29:144][447]LogOutputDevice: Error: [Callstack] 0x00007ff858b1d149 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2021.06.25-10.52.29:144][447]LogOutputDevice: Error: [Callstack] 0x00007ff8589c2141 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2021.06.25-10.52.29:144][447]LogOutputDevice: Error: [Callstack] 0x00007ff8589c0db8 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2021.06.25-10.52.29:144][447]LogOutputDevice: Error: [Callstack] 0x00007ff8589ce88c UE4Editor-GraphEditor.dll!UnknownFunction []
+[2021.06.25-10.52.29:144][447]LogOutputDevice: Error: [Callstack] 0x00007ff858a46b8c UE4Editor-GraphEditor.dll!UnknownFunction []
+[2021.06.25-10.52.29:144][447]LogOutputDevice: Error: [Callstack] 0x00007ff858a44089 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2021.06.25-10.52.29:144][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:144][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c54a55 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c53dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff85b65fc19 UE4Editor-Slate.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c53dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c53dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff85b65faa4 UE4Editor-Slate.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c54a55 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c57748 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c54beb UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c53dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c57748 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff85b661ec0 UE4Editor-Slate.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c53dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c57748 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff85b661ec0 UE4Editor-Slate.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c54a55 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c53dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c57748 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c54beb UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c53dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c53dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff85b65faa4 UE4Editor-Slate.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c54a55 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c57748 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c54beb UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c53dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c57748 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff85b661ec0 UE4Editor-Slate.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c54a55 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c53dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c57748 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c54beb UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:145][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c57748 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:146][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c54beb UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:146][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:146][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c54a55 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:146][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:146][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c53dc2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:146][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c56d26 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:146][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c57857 UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:146][447]LogOutputDevice: Error: [Callstack] 0x00007ff876b8252a UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:146][447]LogOutputDevice: Error: [Callstack] 0x00007ff876c57aec UE4Editor-SlateCore.dll!UnknownFunction []
+[2021.06.25-10.52.29:146][447]LogOutputDevice: Error: [Callstack] 0x00007ff85b42977e UE4Editor-Slate.dll!UnknownFunction []
+[2021.06.25-10.52.29:146][447]LogOutputDevice: Error: [Callstack] 0x00007ff85b429b2b UE4Editor-Slate.dll!UnknownFunction []
+[2021.06.25-10.52.29:146][447]LogOutputDevice: Error: [Callstack] 0x00007ff85b45b93e UE4Editor-Slate.dll!UnknownFunction []
+[2021.06.25-10.52.29:146][447]LogOutputDevice: Error: [Callstack] 0x00007ff85b42a0d7 UE4Editor-Slate.dll!UnknownFunction []
+[2021.06.25-10.52.29:146][447]LogOutputDevice: Error: [Callstack] 0x00007ff85b481e57 UE4Editor-Slate.dll!UnknownFunction []
+[2021.06.25-10.52.29:146][447]LogOutputDevice: Error: [Callstack] 0x00007ff85b481659 UE4Editor-Slate.dll!UnknownFunction []
+[2021.06.25-10.52.29:146][447]LogOutputDevice: Error: [Callstack] 0x00007ff757bfae49 UE4Editor.exe!UnknownFunction []
+[2021.06.25-10.52.29:146][447]LogOutputDevice: Error: [Callstack] 0x00007ff757c1117c UE4Editor.exe!UnknownFunction []
+[2021.06.25-10.52.29:146][447]LogOutputDevice: Error: [Callstack] 0x00007ff757c1125a UE4Editor.exe!UnknownFunction []
+[2021.06.25-10.52.29:146][447]LogOutputDevice: Error: [Callstack] 0x00007ff757c252bd UE4Editor.exe!UnknownFunction []
+[2021.06.25-10.52.29:146][447]LogOutputDevice: Error: [Callstack] 0x00007ff757c27fea UE4Editor.exe!UnknownFunction []
+[2021.06.25-10.52.29:146][447]LogOutputDevice: Error: [Callstack] 0x00007ff8c1d27034 KERNEL32.DLL!UnknownFunction []
+[2021.06.25-10.52.29:146][447]LogOutputDevice: Error: [Callstack] 0x00007ff8c2bc2651 ntdll.dll!UnknownFunction []
+[2021.06.25-10.52.29:146][447]LogOutputDevice: Error: 
+[2021.06.25-10.52.29:156][447]LogStats:                SubmitErrorReport -  0.000 s
+[2021.06.25-10.52.31:925][447]LogStats:                    SendNewReport -  2.768 s
+[2021.06.25-10.52.31:925][447]LogStats:             FDebug::EnsureFailed -  3.264 s
+[2021.06.25-10.52.32:512][448]LogAudioMixer: Resetting audio stream to device id 
+[2021.06.25-10.52.32:563][448]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.25-10.52.32:563][448]LogAudioMixer: Display: 1: FrontRight
+[2021.06.25-10.54.11:102][525]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.06.25-10.54.11:111][525]LogBlueprint: Error: [AssetLog] C:\Users\chris\Documents\GitHub\TinySummerProject\TinySummer_Project 4.26\Content\Assets\Blueprints\Player\FirstPersonCharacter.uasset: [Compiler] Found more than one function with the same name InpAxisEvt_Turn_K2Node_InputAxisEvent_157; second occurance at  InputAxis Turn
+[2021.06.25-10.54.11:112][525]LogBlueprint: Error: [AssetLog] C:\Users\chris\Documents\GitHub\TinySummerProject\TinySummer_Project 4.26\Content\Assets\Blueprints\Player\FirstPersonCharacter.uasset: [Compiler] Found more than one function with the same name InpAxisEvt_LookUp_K2Node_InputAxisEvent_172; second occurance at  InputAxis LookUp
+[2021.06.25-10.54.11:172][525]LogUObjectHash: Compacting FUObjectHashTables data took   4.57ms
+[2021.06.25-10.54.11:941][551]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/FirstPersonCharacter3655BC2D4619F6BCD8A1E183252A78F9.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/Assets/Blueprints/Player/FirstPersonCharacter.uasset'
+[2021.06.25-10.54.11:961][551]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2021.06.25-10.54.11:961][551]LogContentValidation: Display: Validating Blueprint /Game/Assets/Blueprints/Player/FirstPersonCharacter.FirstPersonCharacter
+[2021.06.25-10.54.14:882][705]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.06.25-10.54.14:965][705]LogUObjectHash: Compacting FUObjectHashTables data took   4.81ms
+[2021.06.25-10.54.15:712][732]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/FirstPersonCharacter99914C24469F0FC76C06CABD8E18DD35.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/Assets/Blueprints/Player/FirstPersonCharacter.uasset'
+[2021.06.25-10.54.15:727][732]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2021.06.25-10.54.15:727][732]LogContentValidation: Display: Validating Blueprint /Game/Assets/Blueprints/Player/FirstPersonCharacter.FirstPersonCharacter

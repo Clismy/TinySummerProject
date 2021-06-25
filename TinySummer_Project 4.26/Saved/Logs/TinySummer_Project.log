@@ -4830,3 +4830,110 @@ Script Stack (0 frames):
 [2021.06.25-10.54.15:712][732]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/FirstPersonCharacter99914C24469F0FC76C06CABD8E18DD35.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/Assets/Blueprints/Player/FirstPersonCharacter.uasset'
 [2021.06.25-10.54.15:727][732]AssetCheck: New page: Asset Save: FirstPersonCharacter
 [2021.06.25-10.54.15:727][732]LogContentValidation: Display: Validating Blueprint /Game/Assets/Blueprints/Player/FirstPersonCharacter.FirstPersonCharacter
+[2021.06.25-10.54.40:742][877]LogUObjectHash: Compacting FUObjectHashTables data took   4.06ms
+[2021.06.25-10.54.40:778][877]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/FirstPersonExampleMap_Auto4F80D56574C73CB9EE484B1B2A5B48DAF.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto4.umap'
+[2021.06.25-10.54.40:780][877]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.078
+[2021.06.25-10.54.40:780][877]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.078
+[2021.06.25-10.54.40:780][877]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Widgets/WBP_MainMenu] ([1] browsable assets)...
+[2021.06.25-10.54.40:781][877]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Widgets/WBP_MainMenu]
+[2021.06.25-10.54.40:790][877]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/WBP_MainMenu_Auto4F83B374F4FA66B9281A16BB34F8E68C9.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/Autosaves/Game/Assets/Widgets/WBP_MainMenu_Auto4.uasset'
+[2021.06.25-10.54.40:791][877]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/GameModes/FirstPersonGameMode] ([1] browsable assets)...
+[2021.06.25-10.54.40:791][877]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/GameModes/FirstPersonGameMode]
+[2021.06.25-10.54.40:794][877]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/FirstPersonGameMode_Auto493AE038E48CCC790048497B6959E71BF.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/Autosaves/Game/Assets/GameModes/FirstPersonGameMode_Auto4.uasset'
+[2021.06.25-10.54.40:795][877]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Blueprints/Enemy/Cardboard_new] ([1] browsable assets)...
+[2021.06.25-10.54.40:833][877]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Assets/Blueprints/Enemy/Cardboard_new.Cardboard_new]
+[2021.06.25-10.54.40:834][877]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Blueprints/Enemy/Cardboard_new]
+[2021.06.25-10.54.40:863][877]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/Cardboard_new_Auto4B5D25C5D4E21539C8B2EBCAADE757D73.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/Autosaves/Game/Assets/Blueprints/Enemy/Cardboard_new_Auto4.uasset'
+[2021.06.25-10.54.40:864][877]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Blueprints/Managers/LevelManager] ([1] browsable assets)...
+[2021.06.25-10.54.40:864][877]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Blueprints/Managers/LevelManager]
+[2021.06.25-10.54.40:900][877]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/LevelManager_Auto40225C17444D8338DD8400984D2026900.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/Autosaves/Game/Assets/Blueprints/Managers/LevelManager_Auto4.uasset'
+[2021.06.25-10.54.40:900][877]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Blueprints/Managers/EnemySpawner] ([1] browsable assets)...
+[2021.06.25-10.54.40:901][877]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Blueprints/Managers/EnemySpawner]
+[2021.06.25-10.54.40:936][877]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/EnemySpawner_Auto40F5C46AF43FE155089BAC486949BA3C1.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/Autosaves/Game/Assets/Blueprints/Managers/EnemySpawner_Auto4.uasset'
+[2021.06.25-10.54.40:937][877]LogFileHelpers: Auto-saving content packages took 0.157
+[2021.06.25-10.59.51:579][755]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.06.25-10.59.51:677][755]LogUObjectHash: Compacting FUObjectHashTables data took   4.81ms
+[2021.06.25-10.59.53:719][863]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/FirstPersonCharacterC0D846CC497DED17EADA52B3D3ADEB48.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/Assets/Blueprints/Player/FirstPersonCharacter.uasset'
+[2021.06.25-10.59.53:751][863]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2021.06.25-10.59.53:751][863]LogContentValidation: Display: Validating Blueprint /Game/Assets/Blueprints/Player/FirstPersonCharacter.FirstPersonCharacter
+[2021.06.25-11.00.14:180][ 41]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.06.25-11.00.14:268][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   4.68ms
+[2021.06.25-11.00.15:169][ 73]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/FirstPersonCharacterA172759841D817E880C86F896741A738.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/Assets/Blueprints/Player/FirstPersonCharacter.uasset'
+[2021.06.25-11.00.15:186][ 73]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2021.06.25-11.00.15:187][ 73]LogContentValidation: Display: Validating Blueprint /Game/Assets/Blueprints/Player/FirstPersonCharacter.FirstPersonCharacter
+[2021.06.25-11.00.16:310][142]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2021.06.25-11.00.17:578][246]LogUObjectHash: Compacting FUObjectHashTables data took   4.97ms
+[2021.06.25-11.00.17:621][246]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/FirstPersonExampleMapE2C28A4F43E949CEBE5C29B87532BCBD.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2021.06.25-11.00.17:647][246]AssetCheck: New page: Asset Save: FirstPersonExampleMap
+[2021.06.25-11.00.17:648][246]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.06.25-11.03.17:325][ 65]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.06.25-11.03.17:409][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   4.02ms
+[2021.06.25-11.03.18:122][ 99]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/FirstPersonCharacter270277C44FCC9C5D7160BFACF129F740.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/Assets/Blueprints/Player/FirstPersonCharacter.uasset'
+[2021.06.25-11.03.18:139][ 99]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2021.06.25-11.03.18:139][ 99]LogContentValidation: Display: Validating Blueprint /Game/Assets/Blueprints/Player/FirstPersonCharacter.FirstPersonCharacter
+[2021.06.25-11.03.19:710][181]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.25-11.03.19:718][181]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.25-11.03.19:719][181]PIE: New page: PIE session: FirstPersonExampleMap (25 Jun 2021, 15:03:19)
+[2021.06.25-11.03.19:743][181]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.06.25-11.03.19:761][181]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017979s)
+[2021.06.25-11.03.19:763][181]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.06.25-11.03.19:763][181]LogPlayLevel: PIE: World Init took: (0.001822s)
+[2021.06.25-11.03.19:763][181]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.020024s)
+[2021.06.25-11.03.19:799][181]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
+[2021.06.25-11.03.19:801][181]LogAudio: Display: Creating Audio Device:                 Id: 44, Scope: Unique, Realtime: True
+[2021.06.25-11.03.19:801][181]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.25-11.03.19:801][181]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.25-11.03.19:801][181]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.25-11.03.19:801][181]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.25-11.03.19:801][181]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.25-11.03.19:801][181]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.25-11.03.19:801][181]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.25-11.03.19:801][181]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.25-11.03.19:802][181]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.25-11.03.19:802][181]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.25-11.03.19:817][181]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.25-11.03.19:817][181]LogAudioMixer: Display: 1: FrontRight
+[2021.06.25-11.03.19:839][181]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2021.06.25-11.03.19:839][181]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.25-11.03.19:839][181]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.25-11.03.19:839][181]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.25-11.03.19:840][181]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.25-11.03.19:840][181]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.25-11.03.19:840][181]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.25-11.03.19:859][181]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.25-11.03.19:859][181]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.25-11.03.19:859][181]LogInit: FAudioDevice initialized.
+[2021.06.25-11.03.19:859][181]LogAudio: Display: Audio Device (ID: 44) registered with world 'FirstPersonExampleMap'.
+[2021.06.25-11.03.19:868][181]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.06.25-11.03.19:872][181]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.06.25-13.03.19
+[2021.06.25-11.03.19:872][181]LogWorld: Bringing up level for play took: 0.002813
+[2021.06.25-11.03.19:872][181]LogOnline: OSS: Creating online subsystem instance for: :Context_90
+[2021.06.25-11.03.19:878][181]PIE: Server logged in
+[2021.06.25-11.03.19:879][181]PIE: Play in editor total start time 0,162 seconds.
+[2021.06.25-11.03.35:329][782]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Cardboard_new_C_1.Middle Cube
+[2021.06.25-11.03.35:330][782]LogBlueprintUserMessages: [Cardboard_new_C_1] Cardboard_new_C_1.Middle Cube
+[2021.06.25-11.03.35:718][820]LogBlueprintUserMessages: [Cardboard_new_C_0] 
+[2021.06.25-11.03.37:074][958]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall3_19.StaticMeshComponent0 1M_Cube
+[2021.06.25-11.03.37:510][  4]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall3_19.StaticMeshComponent0 1M_Cube
+[2021.06.25-11.03.37:849][ 38]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall3_19.StaticMeshComponent0 1M_Cube
+[2021.06.25-11.03.38:162][ 70]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall3_19.StaticMeshComponent0 1M_Cube
+[2021.06.25-11.03.38:395][ 92]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall3_19.StaticMeshComponent0 1M_Cube
+[2021.06.25-11.03.38:547][107]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall3_19.StaticMeshComponent0 1M_Cube
+[2021.06.25-11.03.38:692][121]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall3_19.StaticMeshComponent0 1M_Cube
+[2021.06.25-11.03.38:848][137]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] Wall3_19.StaticMeshComponent0 1M_Cube
+[2021.06.25-11.03.39:375][185]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.25-11.03.39:375][185]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.06.25-11.03.39:377][185]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.06.25-11.03.39:377][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.25-11.03.39:417][185]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.25-11.03.39:422][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.25-11.03.39:449][185]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.25-11.03.39:449][185]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.25-11.03.39:451][185]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.25-11.03.39:474][185]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.25-11.03.39:480][185]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2021.06.25-11.03.39:522][186]LogPlayLevel: Display: Destroying online subsystem :Context_90
+[2021.06.25-11.03.40:931][310]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2021.06.25-11.03.40:970][310]LogSavePackage: Moving '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Saved/FirstPersonExampleMapEFF4F97E421323FC7C3504929D46144A.tmp' to '../../../../../../Users/chris/Documents/GitHub/TinySummerProject/TinySummer_Project 4.26/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2021.06.25-11.03.40:996][310]AssetCheck: New page: Asset Save: FirstPersonExampleMap
+[2021.06.25-11.03.40:996][310]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap

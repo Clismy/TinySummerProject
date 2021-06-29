@@ -73,3 +73,6 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 TinySummer_Project 4.26/Saved/Logs/TinySummer_Project.log
+Saved
+Intermediate
+DerivedDataCache

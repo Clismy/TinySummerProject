@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
 //Name: ANIM_enemy.ma
-//Last modified: Tue, Jul 06, 2021 09:16:45 AM
+//Last modified: Tue, Jul 06, 2021 10:08:49 AM
 //Codeset: 1252
 file -rdi 1 -ns "RIG_enemy" -rfn "RIG_enemyRN" -op "v=0;" -typ "mayaAscii" "C:/Users/jacky/Desktop/TinySummerProject/TinySummerProject/Art Share/TeensySummer/scenes/ANIMATION/RIG_enemy.ma";
 file -r -ns "RIG_enemy" -dr 1 -rfn "RIG_enemyRN" -op "v=0;" -typ "mayaAscii" "C:/Users/jacky/Desktop/TinySummerProject/TinySummerProject/Art Share/TeensySummer/scenes/ANIMATION/RIG_enemy.ma";
@@ -13,12 +13,12 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202102181415-29bfc1879c";
 fileInfo "osv" "Windows 10 Home v2004 (Build: 19041)";
-fileInfo "UUID" "185A4FE9-49E5-BF4A-AD9A-D18B8147B5B9";
+fileInfo "UUID" "D65C154E-4C27-BACE-BBF0-60B130354F30";
 createNode transform -s -n "persp";
 	rename -uid "05766627-4560-6CE8-7150-8680C9C82A49";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 376.08958534680522 262.72916202351234 434.01361418410329 ;
-	setAttr ".r" -type "double3" -377.13835272961438 38.600000000005771 0 ;
+	setAttr ".t" -type "double3" 573.26310303485445 237.41861503102712 170.55241758868726 ;
+	setAttr ".r" -type "double3" -374.73835272961435 70.200000000005772 2.3473565338959247e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "5A507296-4200-74E1-3CA1-A090C426A934";
 	setAttr -k off ".v" no;
@@ -87,6 +87,8 @@ createNode transform -n "idle_18_19" -p "TIMELINE";
 	rename -uid "CB123F88-46EC-87BD-F47C-41887FE2D595";
 createNode transform -n "despawn_20_25" -p "TIMELINE";
 	rename -uid "78ED3F05-4AD9-6FFF-1C27-5FACD9F1B48E";
+createNode transform -n "idleDown_26_27" -p "TIMELINE";
+	rename -uid "93B0D60F-4F18-E9C7-BA7C-EDAC764E1A5A";
 createNode transform -n "pCube1";
 	rename -uid "9366098E-4B9C-C88A-1CBA-AD89675FCA78";
 	setAttr ".t" -type "double3" 0 49.999999999999972 35.704729928750993 ;
@@ -106,19 +108,19 @@ createNode mesh -n "pCubeShape1" -p "pCube1";
 	setAttr ".cdvm[0]"  0 1 1;
 	setAttr ".ai_translator" -type "string" "polymesh";
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "6850098D-4EA0-7F7D-8041-59BF5FF1981C";
+	rename -uid "AAF45B2A-4A1A-9AD3-11A9-C9B24DD328FF";
 	setAttr -s 33 ".lnk";
 	setAttr -s 33 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "BF2DE309-41C9-693C-372D-91B595CC0321";
+	rename -uid "ADE15A3A-40C3-2A72-BB17-C58DFFC79429";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "23D6D283-42ED-32CE-9A6A-72B2A1BF3BF3";
+	rename -uid "1A528A58-4599-0FE9-3D51-AF99C2912E79";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "984ECD0C-454E-C161-8A1B-31B263CB59BC";
+	rename -uid "BA4ADB6D-49D6-708E-75C6-0DB6DD21D840";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "D38C579F-4830-7ED1-BE95-1D9C7DC4EB54";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "55E2B219-442E-5DF0-6866-49B9355DDAD9";
+	rename -uid "75FFC8D1-448C-965B-BF47-27A5D82B308D";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "F7D1EA6B-4CF0-B0B4-BBA0-B3ABD35338E5";
 	setAttr ".g" yes;
@@ -198,7 +200,7 @@ createNode script -n "uiConfigurationScriptNode";
 	setAttr ".st" 3;
 createNode script -n "sceneConfigurationScriptNode";
 	rename -uid "DDB751F1-4755-AF45-3EAD-669A0AFEA3EB";
-	setAttr ".b" -type "string" "playbackOptions -min 18 -max 19 -ast 0 -aet 40 ";
+	setAttr ".b" -type "string" "playbackOptions -min 26 -max 27 -ast 0 -aet 40 ";
 	setAttr ".st" 6;
 createNode animCurveTA -n "enemyPopcorn_ctrl_rotateX";
 	rename -uid "A49CC75F-4F3C-7CE1-1D45-1EAFBDDC1055";
@@ -249,8 +251,8 @@ createNode animCurveTL -n "enemyPopcorn_ctrl_translateX";
 	setAttr ".wgt" no;
 	setAttr ".ktv[0]"  19 0;
 select -ne :time1;
-	setAttr ".o" 22;
-	setAttr ".unw" 22;
+	setAttr ".o" 26;
+	setAttr ".unw" 26;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1

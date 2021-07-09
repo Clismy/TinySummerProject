@@ -1,6 +1,6 @@
 //Maya ASCII 2019 scene
 //Name: roomModules.ma
-//Last modified: Fri, Jul 09, 2021 12:40:48 PM
+//Last modified: Fri, Jul 09, 2021 12:56:29 PM
 //Codeset: 1252
 requires maya "2019";
 requires "stereoCamera" "10.0";
@@ -17,17 +17,17 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "A9181D3F-4640-2AC4-8E5B-C6BE6E0B4C5F";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -177.58390449801215 174.79758068936468 598.87283488745572 ;
-	setAttr ".r" -type "double3" -12245.738353444656 10418.599999998369 0 ;
+	setAttr ".t" -type "double3" -135.53921413174999 452.3177772843602 1447.5772323087067 ;
+	setAttr ".r" -type "double3" -12251.138353435788 10428.999999998676 -4.0501051915492743e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "4BBE98F0-47D3-C412-5207-82AD6A2358A1";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 705.6185344169669;
+	setAttr ".coi" 1453.5613672019899;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
-	setAttr ".tp" -type "double3" -184.48251283168793 76.66680908203125 -2.4259090423583984e-05 ;
+	setAttr ".tp" -type "double3" 100 99.788436889648409 -55.573652505874634 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 	setAttr ".ai_translator" -type "string" "perspective";
 createNode transform -s -n "top";
@@ -567,7 +567,6 @@ createNode camera -n "leftShape" -p "left";
 	setAttr ".ai_translator" -type "string" "orthographic";
 createNode transform -n "frontWall_low";
 	rename -uid "9A5F5352-4817-050E-B875-1383967300EA";
-	setAttr ".v" no;
 createNode transform -n "MESH_room_frontWallRight_low" -p "frontWall_low";
 	rename -uid "45DA2466-4BFD-AEF8-CD22-27BD17891F9B";
 	setAttr ".rp" -type "double3" 200 100 0 ;
@@ -588,13 +587,14 @@ createNode mesh -n "MESH_room_frontWallRight_lowShape" -p "MESH_room_frontWallRi
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 32 ".uvst[0].uvsp[0:31]" -type "float2" 0.98771197 1.082703829
 		 0.98771185 0.082703918 0.012288004 1.082703948 0.021727562 1.000000238419 0.021727562
-		 -2.3841858e-07 0.45914608 1 0.049720168 8.9406967e-08 0.092497826 8.9406967e-08 0.044188023
-		 -2.3841858e-07 0.049720168 0.99999988 0.24769944 -5.9604645e-08 0.044188023 1.000000238419
-		 0.20066291 1.000000953674 0.20066285 4.7683716e-07 0.63888365 0 0.13233697 -4.1723251e-07
-		 0.16061735 0.99999988 0.13233697 1.000000476837 0.19419485 1.4901161e-07 0.19419485
-		 0.99999988 0.16061735 1.4901161e-07 0.097689599 1.000000476837 0.097689599 -4.1723251e-07
-		 0.63888365 1 0.2476995 0.99999928 0.1565423 1.3709068e-06 0.1565423 0.99999863 0.092497826
-		 0.99999988 0.45914608 0 0.137393 0.99999863 0.137393 1.3709068e-06 0.012288123 0.082703978;
+		 -2.3841858e-07 0.45914608 0.91845018 0.049720168 8.9406967e-08 0.092497826 8.9406967e-08
+		 0.044188023 -2.3841858e-07 0.049720168 0.99999988 0.24769944 -5.9604645e-08 0.044188023
+		 1.000000238419 0.20066291 1.000000953674 0.20066285 4.7683716e-07 0.63888365 -0.081549808
+		 0.13233697 -4.1723251e-07 0.16061735 0.99999988 0.13233697 1.000000476837 0.19419485
+		 1.4901161e-07 0.19419485 0.99999988 0.16061735 1.4901161e-07 0.097689599 1.000000476837
+		 0.097689599 -4.1723251e-07 0.63888365 0.91845018 0.2476995 0.99999928 0.1565423 1.3709068e-06
+		 0.1565423 0.99999863 0.092497826 0.99999988 0.45914608 -0.081549808 0.137393 0.99999863
+		 0.137393 1.3709068e-06 0.012288123 0.082703978;
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".op" yes;
@@ -654,96 +654,10 @@ createNode mesh -n "polySurfaceShape1" -p "MESH_room_frontWallRight_low";
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 	setAttr ".ai_translator" -type "string" "polymesh";
-createNode transform -n "MESH_room_frontWall_low" -p "frontWall_low";
-	rename -uid "5C2425C6-491B-4354-43AF-39A72B5CB46B";
-createNode mesh -n "MESH_room_frontWall_lowShape" -p "MESH_room_frontWall_low";
-	rename -uid "724C96D0-44B7-8403-C8B3-07B7E1380E56";
-	setAttr -k off ".v";
-	setAttr -s 5 ".iog[0].og";
-	setAttr ".iog[0].og[0].gcl" -type "componentList" 2 "f[0:12]" "f[15]";
-	setAttr ".iog[0].og[2].gcl" -type "componentList" 1 "f[0:15]";
-	setAttr ".iog[0].og[3].gcl" -type "componentList" 1 "f[0:15]";
-	setAttr ".iog[0].og[5].gcl" -type "componentList" 1 "f[13:14]";
-	setAttr ".iog[0].og[6].gcl" -type "componentList" 2 "f[0:12]" "f[15]";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.5 0.24005110642146887 ;
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr -s 38 ".uvst[0].uvsp[0:37]" -type "float2" 0.99153316 6.8545341e-07
-		 0.99153316 0.99999934 0.93870366 0.99999934 0.92250657 0.99999934 0.92250657 6.8545341e-07
-		 0.9387036 6.8545341e-07 0.90287191 0.99999934 0.89200366 0.99999934 0.89200366 6.8545341e-07
-		 0.90287185 6.8545341e-07 0.96241581 0.99999934 0.95497537 0.99999934 0.95497537 6.8545341e-07
-		 0.96241581 6.8545341e-07 0.87378442 0.99999934 0.85225606 0.99999934 0.85225594 6.8545341e-07
-		 0.8737843 6.8545341e-07 0.97312593 0.99999934 0.96823525 0.99999934 0.96823525 6.8545341e-07
-		 0.97312593 6.8545341e-07 0.80846679 0.99999934 0.80846679 6.8545341e-07 0.9654513
-		 0.99999934 0.9654513 6.8545341e-07 0.91448647 0.99999934 0.91448641 6.8545341e-07
-		 1 0.022133857 1 0.45796835 0 0.45796835 0 0.022133857 0 0.83376402 0 0.55813539 1
-		 0.55813545 1 0.83376414 0.98212218 6.8545341e-07 0.98212218 0.99999934;
-	setAttr ".cuvs" -type "string" "map1";
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 38 ".vt[0:37]"  200 81.40023041 1.1920929e-07 -1.4210855e-14 81.40023041 1.1920929e-07
-		 200 93.19155121 21.61293793 -1.4210855e-14 93.19155121 21.61293793 200 96.39865112 21.15664864
-		 -3.9443045e-31 96.39865112 21.15664864 0 98.25921631 17.87632751 200 98.25921631 17.87632751
-		 200 97.66493225 15.78553581 0 97.66493225 15.78553581 -3.2918079e-14 88.82646942 20.094177246
-		 200 88.82646942 20.094177246 200 89.98628998 21.049879074 -3.3049477e-14 89.98628998 21.049879074
-		 200 97.8442688 12.1460743 0 97.8442688 12.1460743 200 100.50109863 8.75782394 1.4210855e-14 100.50109863 8.75782394
-		 200 88.54459381 12.076076508 -3.9443045e-31 88.54459381 12.076076508 200 88.61646271 15.81716633
-		 -3.9443045e-31 88.61646271 15.81716633 200 100.50109863 -9.5367432e-07 1.4210855e-14 100.50109863 -9.5367432e-07
-		 200 88.10819244 17.8856163 0 88.10819244 17.8856163 200 97.61174011 20.10719681 0 97.61174011 20.10719681
-		 200 0 4.7683716e-07 0 0 4.7683716e-07 200 100 0 0 100 0 200 100 -55.12573242 0 100 -55.12573242
-		 200 86.40498352 4.7683716e-07 0 86.40498352 4.7683716e-07 -5.8619775e-15 85.57396698 5.86719465
-		 200 85.57396698 5.86719465;
-	setAttr -s 51 ".ed[0:50]"  0 1 0 1 36 0 2 3 1 2 4 0 4 5 1 3 5 0 6 7 1
-		 7 8 0 8 9 1 6 9 0 10 11 1 11 12 0 12 13 1 10 13 0 14 15 1 14 16 0 16 17 1 15 17 0
-		 18 19 1 18 20 0 20 21 1 19 21 0 16 22 0 22 23 0 17 23 0 0 37 0 8 14 0 9 15 0 20 24 0
-		 24 25 1 21 25 0 4 26 0 26 27 1 5 27 0 12 2 0 13 3 0 26 7 0 6 27 0 24 11 0 10 25 0
-		 28 29 0 28 34 0 29 35 0 30 31 0 30 32 0 31 33 0 32 33 0 34 35 0 36 19 0 37 18 0 36 37 1;
-	setAttr -s 16 -ch 64 ".fc[0:15]" -type "polyFaces" 
-		f 4 -49 50 49 18
-		mu 0 4 21 36 37 18
-		f 4 -3 3 4 -6
-		mu 0 4 5 2 3 4
-		f 4 6 7 8 -10
-		mu 0 4 9 6 7 8
-		f 4 10 11 12 -14
-		mu 0 4 13 10 11 12
-		f 4 -15 15 16 -18
-		mu 0 4 17 14 15 16
-		f 4 -19 19 20 -22
-		mu 0 4 21 18 19 20
-		f 4 -17 22 23 -25
-		mu 0 4 16 15 22 23
-		f 4 -9 26 14 -28
-		mu 0 4 8 7 14 17
-		f 4 -21 28 29 -31
-		mu 0 4 20 19 24 25
-		f 4 -5 31 32 -34
-		mu 0 4 4 3 26 27
-		f 4 -13 34 2 -36
-		mu 0 4 12 11 2 5
-		f 4 36 -7 37 -33
-		mu 0 4 26 6 9 27
-		f 4 38 -11 39 -30
-		mu 0 4 24 10 13 25
-		f 4 41 47 -43 -41
-		mu 0 4 28 29 30 31
-		f 4 44 46 -46 -44
-		mu 0 4 32 33 34 35
-		f 4 -51 -2 -1 25
-		mu 0 4 37 36 0 1;
-	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
-	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
-	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
-	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
-	setAttr ".dfgi" 23;
-	setAttr ".dr" 1;
-	setAttr ".ai_translator" -type "string" "polymesh";
 createNode transform -n "MESH_room_frontWallLeft_low" -p "frontWall_low";
 	rename -uid "F11CA367-4742-7F1E-1D1E-08AFF5EF19A6";
-	setAttr ".rp" -type "double3" 0 100 0 ;
-	setAttr ".sp" -type "double3" 0 99.999999999999957 0 ;
+	setAttr ".rp" -type "double3" -200 100 0 ;
+	setAttr ".sp" -type "double3" -200 99.999999999999957 0 ;
 createNode mesh -n "MESH_room_frontWallLeft_lowShape" -p "MESH_room_frontWallLeft_low";
 	rename -uid "789575B3-42A2-23DD-A865-B6A4026F36C6";
 	setAttr -k off ".v";
@@ -756,18 +670,18 @@ createNode mesh -n "MESH_room_frontWallLeft_lowShape" -p "MESH_room_frontWallLef
 	setAttr ".iog[0].og[15].gcl" -type "componentList" 2 "f[1:2]" "f[4:7]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.24189022928476334 0.5 ;
+	setAttr ".pv" -type "double2" 0.39545253664255142 0.41845018744314977 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 32 ".uvst[0].uvsp[0:31]" -type "float2" 0.98771197 1.082703829
 		 0.98771185 0.082703918 0.012288004 1.082703948 0.25618538 1.000000238419 0.25618538
-		 -2.3841858e-07 0.15202142 1 0.28417799 8.9406967e-08 0.32695565 8.9406967e-08 0.27864584
-		 -2.3841858e-07 0.28417799 0.99999988 0.48215726 -5.9604645e-08 0.27864584 1.000000238419
-		 0.43512073 1.000000953674 0.43512067 4.7683716e-07 0.33175904 0 0.36679479 -4.1723251e-07
-		 0.39507517 0.99999988 0.36679479 1.000000476837 0.42865267 1.4901161e-07 0.42865267
-		 0.99999988 0.39507517 1.4901161e-07 0.33214742 1.000000476837 0.33214742 -4.1723251e-07
-		 0.33175904 1 0.48215732 0.99999928 0.39100012 1.3709068e-06 0.39100012 0.99999863
-		 0.32695565 0.99999988 0.15202142 0 0.37185082 0.99999863 0.37185082 1.3709068e-06
-		 0.012288123 0.082703978;
+		 -2.3841858e-07 0.15202142 0.91845018 0.28417799 8.9406967e-08 0.32695565 8.9406967e-08
+		 0.27864584 -2.3841858e-07 0.28417799 0.99999988 0.48215726 -5.9604645e-08 0.27864584
+		 1.000000238419 0.43512073 1.000000953674 0.43512067 4.7683716e-07 0.33175904 -0.081549808
+		 0.36679479 -4.1723251e-07 0.39507517 0.99999988 0.36679479 1.000000476837 0.42865267
+		 1.4901161e-07 0.42865267 0.99999988 0.39507517 1.4901161e-07 0.33214742 1.000000476837
+		 0.33214742 -4.1723251e-07 0.33175904 0.91845018 0.48215732 0.99999928 0.39100012
+		 1.3709068e-06 0.39100012 0.99999863 0.32695565 0.99999988 0.15202142 -0.081549808
+		 0.37185082 0.99999863 0.37185082 1.3709068e-06 0.012288123 0.082703978;
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".op" yes;
@@ -872,8 +786,104 @@ createNode mesh -n "polySurfaceShape11" -p "MESH_room_frontWallLeft_low";
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 	setAttr ".dfgi" 22;
 	setAttr ".ai_translator" -type "string" "polymesh";
+createNode transform -n "MESH_room_frontWall_low" -p "frontWall_low";
+	rename -uid "1351EF06-4860-1080-A39B-0AB60C53CF74";
+createNode mesh -n "MESH_room_frontWall_lowShape" -p "MESH_room_frontWall_low";
+	rename -uid "3B6F0460-4016-75F1-5BA2-CCA55E1E5BEE";
+	setAttr -k off ".v";
+	setAttr -s 3 ".iog[0].og";
+	setAttr ".iog[0].og[0].gcl" -type "componentList" 2 "f[0:12]" "f[15:18]";
+	setAttr ".iog[0].og[1].gcl" -type "componentList" 1 "f[13:14]";
+	setAttr ".iog[0].og[2].gcl" -type "componentList" 2 "f[0:12]" "f[15:18]";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr -s 50 ".uvst[0].uvsp[0:49]" -type "float2" 0.99153316 6.8545341e-07
+		 0.99153316 0.99999934 0.93870366 0.99999934 0.92250657 0.99999934 0.92250657 6.8545341e-07
+		 0.9387036 6.8545341e-07 0.90287191 0.99999934 0.89200366 0.99999934 0.89200366 6.8545341e-07
+		 0.90287185 6.8545341e-07 0.96241581 0.99999934 0.95497537 0.99999934 0.95497537 6.8545341e-07
+		 0.96241581 6.8545341e-07 0.87378442 0.99999934 0.85225606 0.99999934 0.85225594 6.8545341e-07
+		 0.8737843 6.8545341e-07 0.97312593 0.99999934 0.96823525 0.99999934 0.96823525 6.8545341e-07
+		 0.97312593 6.8545341e-07 0.80846679 0.99999934 0.80846679 6.8545341e-07 0.9654513
+		 0.99999934 0.9654513 6.8545341e-07 0.91448647 0.99999934 0.91448641 6.8545341e-07
+		 1 0.022133857 1 0.45796835 0 0.45796835 0 0.022133857 0 0.83376402 0 0.55813539 1
+		 0.55813545 1 0.83376414 0.98212218 6.8545341e-07 0.98212218 0.99999934 0.049720168
+		 8.9406967e-08 0.092497826 8.9406967e-08 0.092497826 0.99999988 0.049720168 0.99999988
+		 0.24769944 -5.9604645e-08 0.2476995 0.99999928 0.20066291 1.000000953674 0.20066285
+		 4.7683716e-07 0.021727562 1.000000238419 0.021727562 -2.3841858e-07 0.044188023 -2.3841858e-07
+		 0.044188023 1.000000238419;
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 46 ".vt[0:45]"  200 81.40023041 1.1920929e-07 -1.4210855e-14 81.40023041 1.1920929e-07
+		 200 93.19155121 21.61293793 -1.4210855e-14 93.19155121 21.61293793 200 96.39865112 21.15664864
+		 -3.9443045e-31 96.39865112 21.15664864 0 98.25921631 17.87632751 200 98.25921631 17.87632751
+		 200 97.66493225 15.78553581 0 97.66493225 15.78553581 -3.2918079e-14 88.82646942 20.094177246
+		 200 88.82646942 20.094177246 200 89.98628998 21.049879074 -3.3049477e-14 89.98628998 21.049879074
+		 200 97.8442688 12.1460743 0 97.8442688 12.1460743 200 100.50109863 8.75782394 1.4210855e-14 100.50109863 8.75782394
+		 200 88.54459381 12.076076508 -3.9443045e-31 88.54459381 12.076076508 200 88.61646271 15.81716633
+		 -3.9443045e-31 88.61646271 15.81716633 200 100.50109863 -9.5367432e-07 1.4210855e-14 100.50109863 -9.5367432e-07
+		 200 88.10819244 17.8856163 0 88.10819244 17.8856163 200 97.61174011 20.10719681 0 97.61174011 20.10719681
+		 200 0 4.7683716e-07 0 0 4.7683716e-07 200 100 0 0 100 0 200 100 -55.12573242 0 100 -55.12573242
+		 200 86.40498352 4.7683716e-07 0 86.40498352 4.7683716e-07 -5.8619775e-15 85.57396698 5.86719465
+		 200 85.57396698 5.86719465 200 96.92510986 -55.90222931 0 96.92510986 -55.90222931
+		 200 101.41720581 -47.34670639 200 101.41720581 -55.90222931 0 101.41720581 -55.90222931
+		 0 101.41720581 -47.34670639 200 92.0098876953 -47.34671021 0 92.0098876953 -47.34671021;
+	setAttr -s 61 ".ed[0:60]"  0 1 0 1 36 0 2 3 1 2 4 0 4 5 1 3 5 0 6 7 1
+		 7 8 0 8 9 1 6 9 0 10 11 1 11 12 0 12 13 1 10 13 0 14 15 1 14 16 0 16 17 1 15 17 0
+		 18 19 1 18 20 0 20 21 1 19 21 0 16 22 0 22 23 0 17 23 0 0 37 0 8 14 0 9 15 0 20 24 0
+		 24 25 1 21 25 0 4 26 0 26 27 1 5 27 0 12 2 0 13 3 0 26 7 0 6 27 0 24 11 0 10 25 0
+		 28 29 0 28 34 0 29 35 0 30 31 0 30 32 0 31 33 0 32 33 0 34 35 0 36 19 0 37 18 0 36 37 1
+		 38 39 0 38 41 0 40 41 0 39 42 0 41 42 0 43 42 0 40 43 0 44 45 0 44 40 0 45 43 0;
+	setAttr -s 19 -ch 76 ".fc[0:18]" -type "polyFaces" 
+		f 4 -49 50 49 18
+		mu 0 4 21 36 37 18
+		f 4 -3 3 4 -6
+		mu 0 4 5 2 3 4
+		f 4 6 7 8 -10
+		mu 0 4 9 6 7 8
+		f 4 10 11 12 -14
+		mu 0 4 13 10 11 12
+		f 4 -15 15 16 -18
+		mu 0 4 17 14 15 16
+		f 4 -19 19 20 -22
+		mu 0 4 21 18 19 20
+		f 4 -17 22 23 -25
+		mu 0 4 16 15 22 23
+		f 4 -9 26 14 -28
+		mu 0 4 8 7 14 17
+		f 4 -21 28 29 -31
+		mu 0 4 20 19 24 25
+		f 4 -5 31 32 -34
+		mu 0 4 4 3 26 27
+		f 4 -13 34 2 -36
+		mu 0 4 12 11 2 5
+		f 4 36 -7 37 -33
+		mu 0 4 26 6 9 27
+		f 4 38 -11 39 -30
+		mu 0 4 24 10 13 25
+		f 4 41 47 -43 -41
+		mu 0 4 28 29 30 31
+		f 4 44 46 -46 -44
+		mu 0 4 32 33 34 35
+		f 4 -51 -2 -1 25
+		mu 0 4 37 36 0 1
+		f 4 53 55 -57 -58
+		mu 0 4 38 39 40 41
+		f 4 -59 59 57 -61
+		mu 0 4 42 43 44 45
+		f 4 51 54 -56 -53
+		mu 0 4 46 47 48 49;
+	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
+	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
+	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
+	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
+	setAttr ".dfgi" 23;
+	setAttr ".ai_translator" -type "string" "polymesh";
 createNode transform -n "frontWall_high";
 	rename -uid "5B406A89-41D2-E24A-23E4-24BE55C90F46";
+	setAttr ".v" no;
 createNode transform -n "MESH_room_frontWallLeft_high" -p "frontWall_high";
 	rename -uid "C2B55301-4FEC-921D-454A-80934AAA0B38";
 	setAttr ".rp" -type "double3" -96.535247802734375 200 -25.647946119308472 ;
@@ -3409,19 +3419,19 @@ createNode mesh -n "MESH_room_frontWall_highShape" -p "MESH_room_frontWall_high"
 	setAttr ".dr" 3;
 	setAttr ".ai_translator" -type "string" "polymesh";
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "1F83A840-4F31-4AC1-CE18-8683DFB18A20";
+	rename -uid "744D656F-414E-1FDD-8B92-C6B54C653559";
 	setAttr -s 9 ".lnk";
 	setAttr -s 9 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "7A7428BB-448F-2CB3-056E-6E830730E9EE";
+	rename -uid "A94F1563-490A-D3D3-261E-D2B71468BCA7";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "8E6B3364-4E80-BC57-8A86-3091984669DB";
+	rename -uid "265FB7D0-4774-6E37-2748-2683BD3BF696";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "199D23BB-4F6B-60CC-719A-218817A2E276";
+	rename -uid "7C6A623D-42D5-AB29-12DD-49A283E1EB79";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "CE5D0E18-48DE-22C9-85F5-439356D6A194";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "06230912-4C38-F99E-E163-CE8ABF2BB16B";
+	rename -uid "79F71FD7-44C6-315C-5160-EF8E91785C10";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "7E16A5AF-4ED1-56DB-B8CC-66BA10D55CF0";
 	setAttr ".g" yes;
@@ -3562,15 +3572,6 @@ createNode shadingEngine -n "lambert9SG";
 	setAttr -s 6 ".gn";
 createNode materialInfo -n "materialInfo11";
 	rename -uid "BACB5FD3-4A01-2611-4F24-5081553D928D";
-createNode groupId -n "groupId41";
-	rename -uid "058D7D15-47C1-6305-5788-60A2024A1EF9";
-	setAttr ".ihi" 0;
-createNode groupId -n "groupId39";
-	rename -uid "AD86715A-4A7E-1721-D7C9-03BC7B4A4827";
-	setAttr ".ihi" 0;
-createNode groupId -n "groupId35";
-	rename -uid "434D391B-44B2-EFD0-B622-40B1FD54F6BF";
-	setAttr ".ihi" 0;
 createNode groupId -n "groupId46";
 	rename -uid "E2435231-4780-2530-1068-B89FCCD94A4B";
 	setAttr ".ihi" 0;
@@ -3634,6 +3635,15 @@ createNode groupId -n "groupId92";
 createNode groupId -n "groupId93";
 	rename -uid "075966B6-41B1-B420-011E-1690B129C405";
 	setAttr ".ihi" 0;
+createNode groupId -n "groupId94";
+	rename -uid "1BBAB3D9-4964-9CFB-ACE3-50B594FD7C65";
+	setAttr ".ihi" 0;
+createNode groupId -n "groupId95";
+	rename -uid "3191DF4C-45F2-4E91-C303-7BA3B70F3C2E";
+	setAttr ".ihi" 0;
+createNode groupId -n "groupId96";
+	rename -uid "54F867F6-4C50-BF12-2D63-708F0FA204BF";
+	setAttr ".ihi" 0;
 select -ne :time1;
 	setAttr ".o" 1;
 	setAttr ".unw" 1;
@@ -3680,19 +3690,19 @@ connectAttr "lambert9SG.mwc" "MESH_room_frontWallRight_lowShape.iog.og[7].gco";
 connectAttr "groupId60.id" "MESH_room_frontWallRight_lowShape.iog.og[10].gid";
 connectAttr "textureEditorIsolateSelectSet.mwc" "MESH_room_frontWallRight_lowShape.iog.og[10].gco"
 		;
-connectAttr "groupId35.id" "MESH_room_frontWall_lowShape.iog.og[0].gid";
-connectAttr "lambert4SG.mwc" "MESH_room_frontWall_lowShape.iog.og[0].gco";
-connectAttr "groupId39.id" "MESH_room_frontWall_lowShape.iog.og[5].gid";
-connectAttr "lambert9SG.mwc" "MESH_room_frontWall_lowShape.iog.og[5].gco";
-connectAttr "groupId41.id" "MESH_room_frontWall_lowShape.iog.og[6].gid";
-connectAttr "textureEditorIsolateSelectSet.mwc" "MESH_room_frontWall_lowShape.iog.og[6].gco"
-		;
 connectAttr "groupId46.id" "MESH_room_frontWallLeft_lowShape.iog.og[6].gid";
 connectAttr "lambert4SG.mwc" "MESH_room_frontWallLeft_lowShape.iog.og[6].gco";
 connectAttr "groupId47.id" "MESH_room_frontWallLeft_lowShape.iog.og[7].gid";
 connectAttr "lambert9SG.mwc" "MESH_room_frontWallLeft_lowShape.iog.og[7].gco";
 connectAttr "groupId57.id" "MESH_room_frontWallLeft_lowShape.iog.og[15].gid";
 connectAttr "textureEditorIsolateSelectSet.mwc" "MESH_room_frontWallLeft_lowShape.iog.og[15].gco"
+		;
+connectAttr "groupId94.id" "MESH_room_frontWall_lowShape.iog.og[0].gid";
+connectAttr "lambert4SG.mwc" "MESH_room_frontWall_lowShape.iog.og[0].gco";
+connectAttr "groupId95.id" "MESH_room_frontWall_lowShape.iog.og[1].gid";
+connectAttr "lambert9SG.mwc" "MESH_room_frontWall_lowShape.iog.og[1].gco";
+connectAttr "groupId96.id" "MESH_room_frontWall_lowShape.iog.og[2].gid";
+connectAttr "textureEditorIsolateSelectSet.mwc" "MESH_room_frontWall_lowShape.iog.og[2].gco"
 		;
 connectAttr "groupId88.id" "MESH_room_frontWallLeft_highShape.iog.og[0].gid";
 connectAttr "lambert4SG.mwc" "MESH_room_frontWallLeft_highShape.iog.og[0].gco";
@@ -3744,18 +3754,18 @@ connectAttr "MESH_room_wallBottomShape.iog" "lambert3SG.dsm" -na;
 connectAttr "lambert3SG.msg" "materialInfo5.sg";
 connectAttr "wallBot_mat.msg" "materialInfo5.m";
 connectAttr "wallFrontMisc_mat.oc" "lambert4SG.ss";
-connectAttr "MESH_room_frontWall_lowShape.iog.og[0]" "lambert4SG.dsm" -na;
 connectAttr "MESH_room_frontWallLeft_lowShape.iog.og[6]" "lambert4SG.dsm" -na;
 connectAttr "MESH_room_frontWallRight_lowShape.iog.og[6]" "lambert4SG.dsm" -na;
 connectAttr "MESH_room_frontWallRight_highShape.iog.og[0]" "lambert4SG.dsm" -na;
 connectAttr "MESH_room_frontWallLeft_highShape.iog.og[0]" "lambert4SG.dsm" -na;
 connectAttr "MESH_room_frontWall_highShape.iog.og[0]" "lambert4SG.dsm" -na;
-connectAttr "groupId35.msg" "lambert4SG.gn" -na;
+connectAttr "MESH_room_frontWall_lowShape.iog.og[0]" "lambert4SG.dsm" -na;
 connectAttr "groupId46.msg" "lambert4SG.gn" -na;
 connectAttr "groupId58.msg" "lambert4SG.gn" -na;
 connectAttr "groupId85.msg" "lambert4SG.gn" -na;
 connectAttr "groupId88.msg" "lambert4SG.gn" -na;
 connectAttr "groupId91.msg" "lambert4SG.gn" -na;
+connectAttr "groupId94.msg" "lambert4SG.gn" -na;
 connectAttr "lambert4SG.msg" "materialInfo6.sg";
 connectAttr "wallFrontMisc_mat.msg" "materialInfo6.m";
 connectAttr "wallTop_mat.oc" "lambert5SG.ss";
@@ -3774,14 +3784,12 @@ connectAttr "lambert8.oc" "MESH_baseRoomSG.ss";
 connectAttr "MESH_baseRoomShape.iog" "MESH_baseRoomSG.dsm" -na;
 connectAttr "MESH_baseRoomSG.msg" "materialInfo10.sg";
 connectAttr "lambert8.msg" "materialInfo10.m";
-connectAttr "groupId41.msg" "textureEditorIsolateSelectSet.gn" -na;
 connectAttr "groupId57.msg" "textureEditorIsolateSelectSet.gn" -na;
 connectAttr "groupId60.msg" "textureEditorIsolateSelectSet.gn" -na;
 connectAttr "groupId86.msg" "textureEditorIsolateSelectSet.gn" -na;
 connectAttr "groupId89.msg" "textureEditorIsolateSelectSet.gn" -na;
 connectAttr "groupId93.msg" "textureEditorIsolateSelectSet.gn" -na;
-connectAttr "MESH_room_frontWall_lowShape.iog.og[6]" "textureEditorIsolateSelectSet.dsm"
-		 -na;
+connectAttr "groupId96.msg" "textureEditorIsolateSelectSet.gn" -na;
 connectAttr "MESH_room_frontWallLeft_lowShape.iog.og[15]" "textureEditorIsolateSelectSet.dsm"
 		 -na;
 connectAttr "MESH_room_frontWallRight_lowShape.iog.og[10]" "textureEditorIsolateSelectSet.dsm"
@@ -3792,20 +3800,22 @@ connectAttr "MESH_room_frontWallLeft_highShape.iog.og[1]" "textureEditorIsolateS
 		 -na;
 connectAttr "MESH_room_frontWall_highShape.iog.og[6]" "textureEditorIsolateSelectSet.dsm"
 		 -na;
+connectAttr "MESH_room_frontWall_lowShape.iog.og[2]" "textureEditorIsolateSelectSet.dsm"
+		 -na;
 connectAttr "file1.oc" "wallFrontWood_mat.c";
 connectAttr "wallFrontWood_mat.oc" "lambert9SG.ss";
-connectAttr "groupId39.msg" "lambert9SG.gn" -na;
 connectAttr "groupId47.msg" "lambert9SG.gn" -na;
 connectAttr "groupId59.msg" "lambert9SG.gn" -na;
 connectAttr "groupId87.msg" "lambert9SG.gn" -na;
 connectAttr "groupId90.msg" "lambert9SG.gn" -na;
 connectAttr "groupId92.msg" "lambert9SG.gn" -na;
-connectAttr "MESH_room_frontWall_lowShape.iog.og[5]" "lambert9SG.dsm" -na;
+connectAttr "groupId95.msg" "lambert9SG.gn" -na;
 connectAttr "MESH_room_frontWallLeft_lowShape.iog.og[7]" "lambert9SG.dsm" -na;
 connectAttr "MESH_room_frontWallRight_lowShape.iog.og[7]" "lambert9SG.dsm" -na;
 connectAttr "MESH_room_frontWallRight_highShape.iog.og[2]" "lambert9SG.dsm" -na;
 connectAttr "MESH_room_frontWallLeft_highShape.iog.og[2]" "lambert9SG.dsm" -na;
 connectAttr "MESH_room_frontWall_highShape.iog.og[5]" "lambert9SG.dsm" -na;
+connectAttr "MESH_room_frontWall_lowShape.iog.og[1]" "lambert9SG.dsm" -na;
 connectAttr "lambert9SG.msg" "materialInfo11.sg";
 connectAttr "wallFrontWood_mat.msg" "materialInfo11.m";
 connectAttr "file1.msg" "materialInfo11.t" -na;

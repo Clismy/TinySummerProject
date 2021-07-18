@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
 //Name: ANIM_player.ma
-//Last modified: Fri, Jul 16, 2021 11:06:54 AM
+//Last modified: Fri, Jul 16, 2021 11:23:56 PM
 //Codeset: 1252
 file -rdi 1 -ns "RIG_player" -rfn "RIG_playerRN" -op "v=0;" -typ "mayaAscii"
 		 "C:/Users/jacky/Desktop/TinySummerProject/TinySummerProject/Art Share/TeensySummer/scenes/ANIMATION/RIG_player.ma";
@@ -14,12 +14,12 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202102181415-29bfc1879c";
 fileInfo "osv" "Windows 10 Home v2004 (Build: 19041)";
-fileInfo "UUID" "0D08AAC3-41A4-56D3-0210-F28D57CF6897";
+fileInfo "UUID" "79E23756-4159-E560-C117-3F98894C9341";
 createNode transform -s -n "persp";
 	rename -uid "0CDBDD1D-4F5E-70DE-BBE5-9C96EC8B7921";
 	setAttr ".v" no;
 	setAttr ".t" -type "double3" 20.505582362297098 17.984944145492108 -89.606125177610537 ;
-	setAttr ".r" -type "double3" -7.5383527295643722 1590.9999999991533 0 ;
+	setAttr ".r" -type "double3" -7.5383527295643722 1590.9999999991535 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "7BE97945-4D49-F3E0-FDD7-219AC99D551E";
 	setAttr -k off ".v" no;
@@ -117,23 +117,23 @@ createNode transform -n "shootHigh_2000_2020" -p "TIMELINE";
 createNode transform -n "shootLow_2500_2520" -p "TIMELINE";
 	rename -uid "3B57E140-48D3-EB53-6721-6B9CDAA23658";
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "6D5A47A8-493C-3556-8551-73884567FBEA";
+	rename -uid "A1F2CC5F-457E-FF23-03BC-578E27026B87";
 	setAttr -s 8 ".lnk";
 	setAttr -s 8 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "200B3AB8-483B-7AEA-30AB-EB913E1FD0C3";
+	rename -uid "9D3791D3-429C-8431-ECB6-47BBB062B8B0";
 	setAttr ".bsdt[0].bscd" -type "Int32Array" 1 0 ;
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "CCC6EA74-4B67-1D59-9A93-65A2A021DF4A";
+	rename -uid "F92C8BC6-4FE2-1B0B-1689-D98DF2E46A0F";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "88FD91CC-4F4C-D15E-5C44-9A9137BCCEFC";
+	rename -uid "985EC572-4512-E1CD-5263-6A95068851FA";
 	setAttr ".cdl" 1;
 	setAttr -s 2 ".dli[1]"  1;
 	setAttr -s 2 ".dli";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "16AFBBED-498D-78B2-3AD1-A687198F60DE";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "3404CEE3-4192-A066-A376-7EA85B0FDCAE";
+	rename -uid "A3A03864-4FF2-9F14-86AE-12955750F0DC";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "B0D19E26-4AE2-57CD-B2C8-EB991DF9B875";
 	setAttr ".g" yes;
@@ -3922,8 +3922,8 @@ createNode animCurveTA -n "r_fingerPinkyIn_ctrl_rotateZ";
 	setAttr -s 7 ".kox[2:6]"  1 1 1 1 1;
 	setAttr -s 7 ".koy[2:6]"  0 0 0 0 0;
 select -ne :time1;
-	setAttr ".o" 2013;
-	setAttr ".unw" 2013;
+	setAttr ".o" 2011;
+	setAttr ".unw" 2011;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1

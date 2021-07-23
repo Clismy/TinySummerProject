@@ -1,6 +1,6 @@
 //Maya ASCII 2019 scene
 //Name: balloons.ma
-//Last modified: Fri, Jul 23, 2021 09:58:36 AM
+//Last modified: Fri, Jul 23, 2021 10:53:17 AM
 //Codeset: 1252
 requires maya "2019";
 requires "stereoCamera" "10.0";
@@ -13843,19 +13843,19 @@ createNode mesh -n "know_highShape" -p "know_high";
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 	setAttr ".ai_translator" -type "string" "polymesh";
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "FFE9AC0D-401F-C4AE-0908-F8A04438D81D";
+	rename -uid "4BBDFA10-4BDC-93DD-B785-B3A739562ADB";
 	setAttr -s 2 ".lnk";
 	setAttr -s 2 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "749A70C1-4ADD-4121-0559-01A4FE680CB3";
+	rename -uid "442DE0D9-45EF-CEF5-818C-C7BF5E148CBC";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "4EDAAE5C-401A-641B-9D39-EBB78A82D9B5";
+	rename -uid "59027D2A-47C1-E6C1-015D-47A5DE56984B";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "F0A7F4F2-4E29-BF3F-94A7-07B834E7700B";
+	rename -uid "350C03F6-4BE8-F178-E56E-189CC81A5905";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "01FFEC4D-4536-5D76-4B10-38AA9F01FF35";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "DFDB8683-40D3-4384-4A85-899EA3CA05D2";
+	rename -uid "26699C6A-4EC6-126A-38E8-2FA72ACA1B33";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "7B2E2FA7-4468-0A2F-9735-B0A9963FE3E7";
 	setAttr ".g" yes;

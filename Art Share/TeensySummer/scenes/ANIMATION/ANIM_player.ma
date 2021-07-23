@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
 //Name: ANIM_player.ma
-//Last modified: Fri, Jul 23, 2021 09:21:32 AM
+//Last modified: Fri, Jul 23, 2021 03:02:01 PM
 //Codeset: 1252
 file -rdi 1 -ns "RIG_player" -rfn "RIG_playerRN" -op "v=0;" -typ "mayaAscii"
 		 "C:/Users/jacky/Desktop/TinySummerProject/TinySummerProject/Art Share/TeensySummer/scenes/ANIMATION/RIG_player.ma";
@@ -14,7 +14,7 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202102181415-29bfc1879c";
 fileInfo "osv" "Windows 10 Home v2009 (Build: 19043)";
-fileInfo "UUID" "9DB90CD1-4604-C4E1-A110-DC8F0DEDF27C";
+fileInfo "UUID" "6EB9C517-4D7E-06E2-815D-949C480812F1";
 createNode transform -s -n "persp";
 	rename -uid "0CDBDD1D-4F5E-70DE-BBE5-9C96EC8B7921";
 	setAttr ".v" no;
@@ -679,7 +679,7 @@ createNode reference -n "RIG_playerRN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"RIG_playerRN"
 		"RIG_playerRN" 0
-		"RIG_playerRN" 510
+		"RIG_playerRN" 497
 		2 "|RIG_player:root" "visibility" " 0"
 		2 "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl" "translate" " -type \"double3\" 0 0 0"
 		
@@ -736,19 +736,6 @@ createNode reference -n "RIG_playerRN";
 		2 "RIG_player:player_bs" "w[0:25]" " -s 26 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0012073754 0 0 0.0047059837000000002 0 0 0.66864294000000002 1 0.42766454999999998 0.62627321000000002 1 0.36416161000000002"
 		
 		2 "RIG_player:player_bs" "weight" " -s 26"
-		2 "RIG_player:player_bs" "weight[0]" " -av"
-		2 "RIG_player:player_bs" "weight[1]" " -av"
-		2 "RIG_player:player_bs" "weight[2]" " -av"
-		2 "RIG_player:player_bs" "weight[3]" " -av"
-		2 "RIG_player:player_bs" "weight[4]" " -av"
-		2 "RIG_player:player_bs" "weight[5]" " -av"
-		2 "RIG_player:player_bs" "weight[6]" " -av"
-		2 "RIG_player:player_bs" "weight[7]" " -av"
-		2 "RIG_player:player_bs" "weight[8]" " -av"
-		2 "RIG_player:player_bs" "weight[9]" " -av"
-		2 "RIG_player:player_bs" "weight[10]" " -av"
-		2 "RIG_player:player_bs" "weight[11]" " -av"
-		2 "RIG_player:player_bs" "weight[12]" " -av"
 		5 3 "RIG_playerRN" "|RIG_player:MESH_player.message" "RIG_playerRN.placeHolderList[1]" 
 		""
 		5 4 "RIG_playerRN" "|RIG_player:MESH_player.drawOverride" "RIG_playerRN.placeHolderList[2]" 
@@ -7389,8 +7376,8 @@ createNode animCurveTA -n "r_fingerPinkyIn_ctrl_rotateZ";
 	setAttr -s 59 ".koy[1:58]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 select -ne :time1;
-	setAttr ".o" 4068;
-	setAttr ".unw" 4068;
+	setAttr ".o" 4067;
+	setAttr ".unw" 4067;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1

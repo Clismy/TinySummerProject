@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
 //Name: ANIM_player.ma
-//Last modified: Fri, Jul 23, 2021 03:02:01 PM
+//Last modified: Mon, Jul 26, 2021 10:13:20 AM
 //Codeset: 1252
 file -rdi 1 -ns "RIG_player" -rfn "RIG_playerRN" -op "v=0;" -typ "mayaAscii"
 		 "C:/Users/jacky/Desktop/TinySummerProject/TinySummerProject/Art Share/TeensySummer/scenes/ANIMATION/RIG_player.ma";
@@ -14,21 +14,21 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202102181415-29bfc1879c";
 fileInfo "osv" "Windows 10 Home v2009 (Build: 19043)";
-fileInfo "UUID" "6EB9C517-4D7E-06E2-815D-949C480812F1";
+fileInfo "UUID" "92B6B9FC-4A8B-7B47-2516-8CBDB19F05AD";
 createNode transform -s -n "persp";
 	rename -uid "0CDBDD1D-4F5E-70DE-BBE5-9C96EC8B7921";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 107.09665817147561 24.013336071945783 -40.744893398483036 ;
-	setAttr ".r" -type "double3" 351.86164733275712 1552.9999999998715 0 ;
+	setAttr ".t" -type "double3" -28.027954332505498 -8.8304651027195469 -6.9262195255609669 ;
+	setAttr ".r" -type "double3" 381.86164733077248 1329.4000000000613 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "7BE97945-4D49-F3E0-FDD7-219AC99D551E";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 136.45455514657448;
+	setAttr ".coi" 44.870698474383254;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
-	setAttr ".tp" -type "double3" -17.585075476229019 4.6962967077024089 11.87682855953326 ;
+	setAttr ".tp" -type "double3" 14.196252502315033 6.997975018061025 0.31855386639805783 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 	setAttr ".ai_translator" -type "string" "perspective";
 createNode transform -s -n "top";
@@ -182,23 +182,23 @@ createNode transform -n "menuIntro_4000_4080" -p "TIMELINE";
 	setAttr ".uocol" yes;
 	setAttr ".oclr" -type "float3" 0.5 1 0.5 ;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "4C14DC65-4DD0-85C1-204E-8FAB2FA5CDA2";
+	rename -uid "EA18AAD9-4328-A61C-EB40-BD9A73250DF2";
 	setAttr -s 8 ".lnk";
 	setAttr -s 8 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "CC204804-4DFE-1634-6D79-448B50118132";
+	rename -uid "C455E99B-4313-4F5C-7B4D-A2A38C801201";
 	setAttr ".bsdt[0].bscd" -type "Int32Array" 1 0 ;
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "041FAB43-4155-7EB9-7837-C7AC4EEBFC78";
+	rename -uid "2C7462A8-4AEB-4433-BFD0-FC9AFF1EABB1";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "5C93293E-42C6-7593-10BB-67B76371EE5A";
+	rename -uid "E7400CB3-40BF-2F81-28B8-BFA658A6172C";
 	setAttr ".cdl" 1;
 	setAttr -s 2 ".dli[1]"  1;
 	setAttr -s 2 ".dli";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "16AFBBED-498D-78B2-3AD1-A687198F60DE";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "AB6E9499-419A-F2B8-30BB-63B817895ADE";
+	rename -uid "FF412AB8-487C-DB0A-1BF9-F7A215A471DD";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "B0D19E26-4AE2-57CD-B2C8-EB991DF9B875";
 	setAttr ".g" yes;
@@ -207,7 +207,7 @@ createNode reference -n "RIG_playerRN";
 	setAttr -s 2 ".fn";
 	setAttr ".fn[0]" -type "string" "C:/Users/jacky/Desktop/TinySummerProject/TinySummerProject/Art Share/TeensySummer/scenes/ANIMATION/RIG_player_blendshape.ma";
 	setAttr ".fn[1]" -type "string" "C:/Users/jacky/Desktop/TinySummerProject/TinySummerProject/Art Share/TeensySummer/scenes/ANIMATION/RIG_player.ma";
-	setAttr -s 468 ".phl";
+	setAttr -s 540 ".phl";
 	setAttr ".phl[1]" 0;
 	setAttr ".phl[2]" 0;
 	setAttr ".phl[3]" 0;
@@ -676,64 +676,88 @@ createNode reference -n "RIG_playerRN";
 	setAttr ".phl[466]" 0;
 	setAttr ".phl[467]" 0;
 	setAttr ".phl[468]" 0;
+	setAttr ".phl[469]" 0;
+	setAttr ".phl[470]" 0;
+	setAttr ".phl[471]" 0;
+	setAttr ".phl[472]" 0;
+	setAttr ".phl[473]" 0;
+	setAttr ".phl[474]" 0;
+	setAttr ".phl[475]" 0;
+	setAttr ".phl[476]" 0;
+	setAttr ".phl[477]" 0;
+	setAttr ".phl[478]" 0;
+	setAttr ".phl[479]" 0;
+	setAttr ".phl[480]" 0;
+	setAttr ".phl[481]" 0;
+	setAttr ".phl[482]" 0;
+	setAttr ".phl[483]" 0;
+	setAttr ".phl[484]" 0;
+	setAttr ".phl[485]" 0;
+	setAttr ".phl[486]" 0;
+	setAttr ".phl[487]" 0;
+	setAttr ".phl[488]" 0;
+	setAttr ".phl[489]" 0;
+	setAttr ".phl[490]" 0;
+	setAttr ".phl[491]" 0;
+	setAttr ".phl[492]" 0;
+	setAttr ".phl[493]" 0;
+	setAttr ".phl[494]" 0;
+	setAttr ".phl[495]" 0;
+	setAttr ".phl[496]" 0;
+	setAttr ".phl[497]" 0;
+	setAttr ".phl[498]" 0;
+	setAttr ".phl[499]" 0;
+	setAttr ".phl[500]" 0;
+	setAttr ".phl[501]" 0;
+	setAttr ".phl[502]" 0;
+	setAttr ".phl[503]" 0;
+	setAttr ".phl[504]" 0;
+	setAttr ".phl[505]" 0;
+	setAttr ".phl[506]" 0;
+	setAttr ".phl[507]" 0;
+	setAttr ".phl[508]" 0;
+	setAttr ".phl[509]" 0;
+	setAttr ".phl[510]" 0;
+	setAttr ".phl[511]" 0;
+	setAttr ".phl[512]" 0;
+	setAttr ".phl[513]" 0;
+	setAttr ".phl[514]" 0;
+	setAttr ".phl[515]" 0;
+	setAttr ".phl[516]" 0;
+	setAttr ".phl[517]" 0;
+	setAttr ".phl[518]" 0;
+	setAttr ".phl[519]" 0;
+	setAttr ".phl[520]" 0;
+	setAttr ".phl[521]" 0;
+	setAttr ".phl[522]" 0;
+	setAttr ".phl[523]" 0;
+	setAttr ".phl[524]" 0;
+	setAttr ".phl[525]" 0;
+	setAttr ".phl[526]" 0;
+	setAttr ".phl[527]" 0;
+	setAttr ".phl[528]" 0;
+	setAttr ".phl[529]" 0;
+	setAttr ".phl[530]" 0;
+	setAttr ".phl[531]" 0;
+	setAttr ".phl[532]" 0;
+	setAttr ".phl[533]" 0;
+	setAttr ".phl[534]" 0;
+	setAttr ".phl[535]" 0;
+	setAttr ".phl[536]" 0;
+	setAttr ".phl[537]" 0;
+	setAttr ".phl[538]" 0;
+	setAttr ".phl[539]" 0;
+	setAttr ".phl[540]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"RIG_playerRN"
 		"RIG_playerRN" 0
-		"RIG_playerRN" 497
+		"RIG_playerRN" 545
 		2 "|RIG_player:root" "visibility" " 0"
 		2 "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl" "translate" " -type \"double3\" 0 0 0"
 		
 		2 "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl" "rotate" " -type \"double3\" 0 0 0"
 		
-		2 "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:l_armLower_fxGrp|RIG_player:l_armLower_ctrl" 
-		"translate" " -type \"double3\" -23.18234718267218852 0.35077808754723683 0"
-		2 "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:l_armLower_fxGrp|RIG_player:l_armLower_ctrl" 
-		"rotate" " -type \"double3\" 0 0 -58.19238251145502261"
-		2 "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:l_hand_fxGrp|RIG_player:l_hand_ctrl" 
-		"rotate" " -type \"double3\" 0 0 0"
-		2 "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb0_fxGrp|RIG_player:l_fingerThumb0_ctrl" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb0_fxGrp|RIG_player:l_fingerThumb0_ctrl" 
-		"rotate" " -type \"double3\" 0 0 0"
-		2 "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb1_fxGrp|RIG_player:l_fingerThumb1_ctrl" 
-		"rotate" " -type \"double3\" 0 0 0"
-		2 "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb2_fxGrp|RIG_player:l_fingerThumb2_ctrl" 
-		"rotate" " -type \"double3\" 0 0 0"
-		2 "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex0_fxGrp|RIG_player:l_fingerIndex0_ctrl" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex0_fxGrp|RIG_player:l_fingerIndex0_ctrl" 
-		"rotate" " -type \"double3\" 0 0 0"
-		2 "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex1_fxGrp|RIG_player:l_fingerIndex1_ctrl" 
-		"rotate" " -type \"double3\" 0 0 0"
-		2 "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex2_fxGrp|RIG_player:l_fingerIndex2_ctrl" 
-		"rotate" " -type \"double3\" 0 0 0"
-		2 "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle0_fxGrp|RIG_player:l_fingerMiddle0_ctrl" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle0_fxGrp|RIG_player:l_fingerMiddle0_ctrl" 
-		"rotate" " -type \"double3\" 0 0 0"
-		2 "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle1_fxGrp|RIG_player:l_fingerMiddle1_ctrl" 
-		"rotate" " -type \"double3\" 0 0 0"
-		2 "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle2_fxGrp|RIG_player:l_fingerMiddle2_ctrl" 
-		"rotate" " -type \"double3\" 0 0 0"
-		2 "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing0_fxGrp|RIG_player:l_fingerRing0_ctrl" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing0_fxGrp|RIG_player:l_fingerRing0_ctrl" 
-		"rotate" " -type \"double3\" 0 0 0"
-		2 "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing1_fxGrp|RIG_player:l_fingerRing1_ctrl" 
-		"rotate" " -type \"double3\" 0 0 0"
-		2 "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing2_fxGrp|RIG_player:l_fingerRing2_ctrl" 
-		"rotate" " -type \"double3\" 0 0 0"
-		2 "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinkyIn_fxGrp|RIG_player:l_fingerPinkyIn_ctrl" 
-		"rotate" " -type \"double3\" 0 0 0"
-		2 "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky0_fxGrp|RIG_player:l_fingerPinky0_ctrl" 
-		"translate" " -type \"double3\" 0 0 0"
-		2 "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky0_fxGrp|RIG_player:l_fingerPinky0_ctrl" 
-		"rotate" " -type \"double3\" 0 0 0"
-		2 "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky1_fxGrp|RIG_player:l_fingerPinky1_ctrl" 
-		"rotate" " -type \"double3\" 0 0 0"
-		2 "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky2_fxGrp|RIG_player:l_fingerPinky2_ctrl" 
-		"rotate" " -type \"double3\" 0 0 0"
-		2 "RIG_player:player_bs" "w[0:25]" " -s 26 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0012073754 0 0 0.0047059837000000002 0 0 0.66864294000000002 1 0.42766454999999998 0.62627321000000002 1 0.36416161000000002"
+		2 "RIG_player:player_bs" "w[0:25]" " -s 26 0.015881778999999999 0 0 0.025247822999999999 0.34686243999999999 0.61247510000000005 0.67829287000000005 0.51477676999999999 0.90303266000000004 0.65068786999999995 1 0.90303266000000004 1 0 0 0 0 0 0 0 0 0 0 0 0 0"
 		
 		2 "RIG_player:player_bs" "weight" " -s 26"
 		5 3 "RIG_playerRN" "|RIG_player:MESH_player.message" "RIG_playerRN.placeHolderList[1]" 
@@ -938,739 +962,883 @@ createNode reference -n "RIG_playerRN";
 		"RIG_playerRN.placeHolderList[100]" ""
 		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:l_armLower_fxGrp.message" 
 		"RIG_playerRN.placeHolderList[101]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:l_armLower_fxGrp|RIG_player:l_armLower_ctrl.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:l_armLower_fxGrp|RIG_player:l_armLower_ctrl.translateX" 
 		"RIG_playerRN.placeHolderList[102]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:l_armLower_fxGrp|RIG_player:l_armLower_ctrl|RIG_player:l_armLower_ctrlShape.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:l_armLower_fxGrp|RIG_player:l_armLower_ctrl.translateY" 
 		"RIG_playerRN.placeHolderList[103]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:l_hand_fxGrp.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:l_armLower_fxGrp|RIG_player:l_armLower_ctrl.translateZ" 
 		"RIG_playerRN.placeHolderList[104]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:l_hand_fxGrp|RIG_player:l_hand_ctrl.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:l_armLower_fxGrp|RIG_player:l_armLower_ctrl.rotateX" 
 		"RIG_playerRN.placeHolderList[105]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:l_hand_fxGrp|RIG_player:l_hand_ctrl|RIG_player:l_hand_ctrlShape.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:l_armLower_fxGrp|RIG_player:l_armLower_ctrl.rotateY" 
 		"RIG_playerRN.placeHolderList[106]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:l_hand_fxGrp|RIG_player:l_hand_fxGrp_parentConstraint1.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:l_armLower_fxGrp|RIG_player:l_armLower_ctrl.rotateZ" 
 		"RIG_playerRN.placeHolderList[107]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:l_armLower_fxGrp|RIG_player:l_armLower_ctrl.message" 
 		"RIG_playerRN.placeHolderList[108]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb0_fxGrp.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:l_armLower_fxGrp|RIG_player:l_armLower_ctrl|RIG_player:l_armLower_ctrlShape.message" 
 		"RIG_playerRN.placeHolderList[109]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb0_fxGrp|RIG_player:l_fingerThumb0_ctrl.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:l_hand_fxGrp.message" 
 		"RIG_playerRN.placeHolderList[110]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb0_fxGrp|RIG_player:l_fingerThumb0_ctrl|RIG_player:l_fingerThumb0_ctrlShape.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:l_hand_fxGrp|RIG_player:l_hand_ctrl.rotateX" 
 		"RIG_playerRN.placeHolderList[111]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb0_fxGrp|RIG_player:l_fingerThumb0_fxGrp_parentConstraint1.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:l_hand_fxGrp|RIG_player:l_hand_ctrl.rotateY" 
 		"RIG_playerRN.placeHolderList[112]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb1_fxGrp.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:l_hand_fxGrp|RIG_player:l_hand_ctrl.rotateZ" 
 		"RIG_playerRN.placeHolderList[113]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb1_fxGrp|RIG_player:l_fingerThumb1_ctrl.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:l_hand_fxGrp|RIG_player:l_hand_ctrl.message" 
 		"RIG_playerRN.placeHolderList[114]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb1_fxGrp|RIG_player:l_fingerThumb1_ctrl|RIG_player:l_fingerThumb1_ctrlShape.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:l_hand_fxGrp|RIG_player:l_hand_ctrl|RIG_player:l_hand_ctrlShape.message" 
 		"RIG_playerRN.placeHolderList[115]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb1_fxGrp|RIG_player:l_fingerThumb1_fxGrp_parentConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:l_hand_fxGrp|RIG_player:l_hand_fxGrp_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[116]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb2_fxGrp.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS.message" 
 		"RIG_playerRN.placeHolderList[117]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb2_fxGrp|RIG_player:l_fingerThumb2_ctrl.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb0_fxGrp.message" 
 		"RIG_playerRN.placeHolderList[118]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb2_fxGrp|RIG_player:l_fingerThumb2_ctrl|RIG_player:l_fingerThumb2_ctrlShape.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb0_fxGrp|RIG_player:l_fingerThumb0_ctrl.translateX" 
 		"RIG_playerRN.placeHolderList[119]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb2_fxGrp|RIG_player:l_fingerThumb2_fxGrp_parentConstraint1.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb0_fxGrp|RIG_player:l_fingerThumb0_ctrl.translateY" 
 		"RIG_playerRN.placeHolderList[120]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb0_fxGrp|RIG_player:l_fingerThumb0_ctrl.translateZ" 
 		"RIG_playerRN.placeHolderList[121]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex0_fxGrp.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb0_fxGrp|RIG_player:l_fingerThumb0_ctrl.rotateX" 
 		"RIG_playerRN.placeHolderList[122]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex0_fxGrp|RIG_player:l_fingerIndex0_ctrl.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb0_fxGrp|RIG_player:l_fingerThumb0_ctrl.rotateY" 
 		"RIG_playerRN.placeHolderList[123]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex0_fxGrp|RIG_player:l_fingerIndex0_ctrl|RIG_player:l_fingerIndex0_ctrlShape.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb0_fxGrp|RIG_player:l_fingerThumb0_ctrl.rotateZ" 
 		"RIG_playerRN.placeHolderList[124]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex0_fxGrp|RIG_player:l_fingerIndex0_fxGrp_parentConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb0_fxGrp|RIG_player:l_fingerThumb0_ctrl.message" 
 		"RIG_playerRN.placeHolderList[125]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex1_fxGrp.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb0_fxGrp|RIG_player:l_fingerThumb0_ctrl|RIG_player:l_fingerThumb0_ctrlShape.message" 
 		"RIG_playerRN.placeHolderList[126]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex1_fxGrp|RIG_player:l_fingerIndex1_ctrl.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb0_fxGrp|RIG_player:l_fingerThumb0_fxGrp_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[127]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex1_fxGrp|RIG_player:l_fingerIndex1_ctrl|RIG_player:l_fingerIndex1_ctrlShape.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb1_fxGrp.message" 
 		"RIG_playerRN.placeHolderList[128]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex1_fxGrp|RIG_player:l_fingerIndex1_fxGrp_parentConstraint1.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb1_fxGrp|RIG_player:l_fingerThumb1_ctrl.rotateX" 
 		"RIG_playerRN.placeHolderList[129]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex2_fxGrp.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb1_fxGrp|RIG_player:l_fingerThumb1_ctrl.rotateY" 
 		"RIG_playerRN.placeHolderList[130]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex2_fxGrp|RIG_player:l_fingerIndex2_ctrl.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb1_fxGrp|RIG_player:l_fingerThumb1_ctrl.rotateZ" 
 		"RIG_playerRN.placeHolderList[131]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex2_fxGrp|RIG_player:l_fingerIndex2_ctrl|RIG_player:l_fingerIndex2_ctrlShape.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb1_fxGrp|RIG_player:l_fingerThumb1_ctrl.message" 
 		"RIG_playerRN.placeHolderList[132]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex2_fxGrp|RIG_player:l_fingerIndex2_fxGrp_parentConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb1_fxGrp|RIG_player:l_fingerThumb1_ctrl|RIG_player:l_fingerThumb1_ctrlShape.message" 
 		"RIG_playerRN.placeHolderList[133]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb1_fxGrp|RIG_player:l_fingerThumb1_fxGrp_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[134]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle0_fxGrp.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb2_fxGrp.message" 
 		"RIG_playerRN.placeHolderList[135]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle0_fxGrp|RIG_player:l_fingerMiddle0_ctrl.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb2_fxGrp|RIG_player:l_fingerThumb2_ctrl.rotateX" 
 		"RIG_playerRN.placeHolderList[136]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle0_fxGrp|RIG_player:l_fingerMiddle0_ctrl|RIG_player:l_fingerMiddle0_ctrlShape.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb2_fxGrp|RIG_player:l_fingerThumb2_ctrl.rotateY" 
 		"RIG_playerRN.placeHolderList[137]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle0_fxGrp|RIG_player:l_fingerMiddle0_fxGrp_parentConstraint1.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb2_fxGrp|RIG_player:l_fingerThumb2_ctrl.rotateZ" 
 		"RIG_playerRN.placeHolderList[138]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle1_fxGrp.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb2_fxGrp|RIG_player:l_fingerThumb2_ctrl.message" 
 		"RIG_playerRN.placeHolderList[139]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle1_fxGrp|RIG_player:l_fingerMiddle1_ctrl.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb2_fxGrp|RIG_player:l_fingerThumb2_ctrl|RIG_player:l_fingerThumb2_ctrlShape.message" 
 		"RIG_playerRN.placeHolderList[140]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle1_fxGrp|RIG_player:l_fingerMiddle1_ctrl|RIG_player:l_fingerMiddle1_ctrlShape.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_THUMB_CTRLS|RIG_player:l_fingerThumb2_fxGrp|RIG_player:l_fingerThumb2_fxGrp_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[141]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle1_fxGrp|RIG_player:l_fingerMiddle1_fxGrp_parentConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS.message" 
 		"RIG_playerRN.placeHolderList[142]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle2_fxGrp.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex0_fxGrp.message" 
 		"RIG_playerRN.placeHolderList[143]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle2_fxGrp|RIG_player:l_fingerMiddle2_ctrl.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex0_fxGrp|RIG_player:l_fingerIndex0_ctrl.translateX" 
 		"RIG_playerRN.placeHolderList[144]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle2_fxGrp|RIG_player:l_fingerMiddle2_ctrl|RIG_player:l_fingerMiddle2_ctrlShape.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex0_fxGrp|RIG_player:l_fingerIndex0_ctrl.translateY" 
 		"RIG_playerRN.placeHolderList[145]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle2_fxGrp|RIG_player:l_fingerMiddle2_fxGrp_parentConstraint1.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex0_fxGrp|RIG_player:l_fingerIndex0_ctrl.translateZ" 
 		"RIG_playerRN.placeHolderList[146]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex0_fxGrp|RIG_player:l_fingerIndex0_ctrl.rotateX" 
 		"RIG_playerRN.placeHolderList[147]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing0_fxGrp.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex0_fxGrp|RIG_player:l_fingerIndex0_ctrl.rotateY" 
 		"RIG_playerRN.placeHolderList[148]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing0_fxGrp|RIG_player:l_fingerRing0_ctrl.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex0_fxGrp|RIG_player:l_fingerIndex0_ctrl.rotateZ" 
 		"RIG_playerRN.placeHolderList[149]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing0_fxGrp|RIG_player:l_fingerRing0_ctrl|RIG_player:l_fingerRing0_ctrlShape.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex0_fxGrp|RIG_player:l_fingerIndex0_ctrl.message" 
 		"RIG_playerRN.placeHolderList[150]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing0_fxGrp|RIG_player:l_fingerRing0_fxGrp_parentConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex0_fxGrp|RIG_player:l_fingerIndex0_ctrl|RIG_player:l_fingerIndex0_ctrlShape.message" 
 		"RIG_playerRN.placeHolderList[151]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing1_fxGrp.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex0_fxGrp|RIG_player:l_fingerIndex0_fxGrp_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[152]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing1_fxGrp|RIG_player:l_fingerRing1_ctrl.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex1_fxGrp.message" 
 		"RIG_playerRN.placeHolderList[153]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing1_fxGrp|RIG_player:l_fingerRing1_ctrl|RIG_player:l_fingerRing1_ctrlShape.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex1_fxGrp|RIG_player:l_fingerIndex1_ctrl.rotateX" 
 		"RIG_playerRN.placeHolderList[154]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing1_fxGrp|RIG_player:l_fingerRing1_fxGrp_parentConstraint1.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex1_fxGrp|RIG_player:l_fingerIndex1_ctrl.rotateY" 
 		"RIG_playerRN.placeHolderList[155]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing2_fxGrp.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex1_fxGrp|RIG_player:l_fingerIndex1_ctrl.rotateZ" 
 		"RIG_playerRN.placeHolderList[156]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing2_fxGrp|RIG_player:l_fingerRing2_ctrl.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex1_fxGrp|RIG_player:l_fingerIndex1_ctrl.message" 
 		"RIG_playerRN.placeHolderList[157]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing2_fxGrp|RIG_player:l_fingerRing2_ctrl|RIG_player:l_fingerRing2_ctrlShape.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex1_fxGrp|RIG_player:l_fingerIndex1_ctrl|RIG_player:l_fingerIndex1_ctrlShape.message" 
 		"RIG_playerRN.placeHolderList[158]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing2_fxGrp|RIG_player:l_fingerRing2_fxGrp_parentConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex1_fxGrp|RIG_player:l_fingerIndex1_fxGrp_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[159]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex2_fxGrp.message" 
 		"RIG_playerRN.placeHolderList[160]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinkyIn_fxGrp.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex2_fxGrp|RIG_player:l_fingerIndex2_ctrl.rotateX" 
 		"RIG_playerRN.placeHolderList[161]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinkyIn_fxGrp|RIG_player:l_fingerPinkyIn_ctrl.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex2_fxGrp|RIG_player:l_fingerIndex2_ctrl.rotateY" 
 		"RIG_playerRN.placeHolderList[162]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinkyIn_fxGrp|RIG_player:l_fingerPinkyIn_ctrl|RIG_player:l_fingerPinkyIn_ctrlShape.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex2_fxGrp|RIG_player:l_fingerIndex2_ctrl.rotateZ" 
 		"RIG_playerRN.placeHolderList[163]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinkyIn_fxGrp|RIG_player:l_fingerPinkyIn_fxGrp_parentConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex2_fxGrp|RIG_player:l_fingerIndex2_ctrl.message" 
 		"RIG_playerRN.placeHolderList[164]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky0_fxGrp.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex2_fxGrp|RIG_player:l_fingerIndex2_ctrl|RIG_player:l_fingerIndex2_ctrlShape.message" 
 		"RIG_playerRN.placeHolderList[165]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky0_fxGrp|RIG_player:l_fingerPinky0_ctrl.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_INDEX_CTRLS|RIG_player:l_fingerIndex2_fxGrp|RIG_player:l_fingerIndex2_fxGrp_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[166]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky0_fxGrp|RIG_player:l_fingerPinky0_ctrl|RIG_player:l_fingerPinky0_ctrlShape.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS.message" 
 		"RIG_playerRN.placeHolderList[167]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky0_fxGrp|RIG_player:l_fingerPinky0_fxGrp_parentConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle0_fxGrp.message" 
 		"RIG_playerRN.placeHolderList[168]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky1_fxGrp.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle0_fxGrp|RIG_player:l_fingerMiddle0_ctrl.translateX" 
 		"RIG_playerRN.placeHolderList[169]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky1_fxGrp|RIG_player:l_fingerPinky1_ctrl.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle0_fxGrp|RIG_player:l_fingerMiddle0_ctrl.translateY" 
 		"RIG_playerRN.placeHolderList[170]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky1_fxGrp|RIG_player:l_fingerPinky1_ctrl|RIG_player:l_fingerPinky1_ctrlShape.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle0_fxGrp|RIG_player:l_fingerMiddle0_ctrl.translateZ" 
 		"RIG_playerRN.placeHolderList[171]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky1_fxGrp|RIG_player:l_fingerPinky1_fxGrp_parentConstraint1.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle0_fxGrp|RIG_player:l_fingerMiddle0_ctrl.rotateX" 
 		"RIG_playerRN.placeHolderList[172]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky2_fxGrp.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle0_fxGrp|RIG_player:l_fingerMiddle0_ctrl.rotateY" 
 		"RIG_playerRN.placeHolderList[173]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky2_fxGrp|RIG_player:l_fingerPinky2_ctrl.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle0_fxGrp|RIG_player:l_fingerMiddle0_ctrl.rotateZ" 
 		"RIG_playerRN.placeHolderList[174]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky2_fxGrp|RIG_player:l_fingerPinky2_ctrl|RIG_player:l_fingerPinky2_ctrlShape.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle0_fxGrp|RIG_player:l_fingerMiddle0_ctrl.message" 
 		"RIG_playerRN.placeHolderList[175]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky2_fxGrp|RIG_player:l_fingerPinky2_fxGrp_parentConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle0_fxGrp|RIG_player:l_fingerMiddle0_ctrl|RIG_player:l_fingerMiddle0_ctrlShape.message" 
 		"RIG_playerRN.placeHolderList[176]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle0_fxGrp|RIG_player:l_fingerMiddle0_fxGrp_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[177]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:r_armLower_fxGrp.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle1_fxGrp.message" 
 		"RIG_playerRN.placeHolderList[178]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:r_armLower_fxGrp|RIG_player:r_armLower_ctrl.translateX" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle1_fxGrp|RIG_player:l_fingerMiddle1_ctrl.rotateX" 
 		"RIG_playerRN.placeHolderList[179]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:r_armLower_fxGrp|RIG_player:r_armLower_ctrl.translateY" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle1_fxGrp|RIG_player:l_fingerMiddle1_ctrl.rotateY" 
 		"RIG_playerRN.placeHolderList[180]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:r_armLower_fxGrp|RIG_player:r_armLower_ctrl.translateZ" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle1_fxGrp|RIG_player:l_fingerMiddle1_ctrl.rotateZ" 
 		"RIG_playerRN.placeHolderList[181]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:r_armLower_fxGrp|RIG_player:r_armLower_ctrl.rotateX" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle1_fxGrp|RIG_player:l_fingerMiddle1_ctrl.message" 
 		"RIG_playerRN.placeHolderList[182]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:r_armLower_fxGrp|RIG_player:r_armLower_ctrl.rotateY" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle1_fxGrp|RIG_player:l_fingerMiddle1_ctrl|RIG_player:l_fingerMiddle1_ctrlShape.message" 
 		"RIG_playerRN.placeHolderList[183]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:r_armLower_fxGrp|RIG_player:r_armLower_ctrl.rotateZ" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle1_fxGrp|RIG_player:l_fingerMiddle1_fxGrp_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[184]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:r_armLower_fxGrp|RIG_player:r_armLower_ctrl.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle2_fxGrp.message" 
 		"RIG_playerRN.placeHolderList[185]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:r_armLower_fxGrp|RIG_player:r_armLower_ctrl|RIG_player:r_armLower_ctrlShape.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle2_fxGrp|RIG_player:l_fingerMiddle2_ctrl.rotateX" 
 		"RIG_playerRN.placeHolderList[186]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:r_hand_fxGrp.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle2_fxGrp|RIG_player:l_fingerMiddle2_ctrl.rotateY" 
 		"RIG_playerRN.placeHolderList[187]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:r_hand_fxGrp|RIG_player:r_hand_ctrl.rotateX" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle2_fxGrp|RIG_player:l_fingerMiddle2_ctrl.rotateZ" 
 		"RIG_playerRN.placeHolderList[188]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:r_hand_fxGrp|RIG_player:r_hand_ctrl.rotateY" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle2_fxGrp|RIG_player:l_fingerMiddle2_ctrl.message" 
 		"RIG_playerRN.placeHolderList[189]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:r_hand_fxGrp|RIG_player:r_hand_ctrl.rotateZ" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle2_fxGrp|RIG_player:l_fingerMiddle2_ctrl|RIG_player:l_fingerMiddle2_ctrlShape.message" 
 		"RIG_playerRN.placeHolderList[190]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:r_hand_fxGrp|RIG_player:r_hand_ctrl.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_MIDDLE_CTRLS|RIG_player:l_fingerMiddle2_fxGrp|RIG_player:l_fingerMiddle2_fxGrp_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[191]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:r_hand_fxGrp|RIG_player:r_hand_ctrl|RIG_player:r_hand_ctrlShape.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS.message" 
 		"RIG_playerRN.placeHolderList[192]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:r_hand_fxGrp|RIG_player:r_hand_fxGrp_parentConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing0_fxGrp.message" 
 		"RIG_playerRN.placeHolderList[193]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing0_fxGrp|RIG_player:l_fingerRing0_ctrl.translateX" 
 		"RIG_playerRN.placeHolderList[194]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb0_fxGrp.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing0_fxGrp|RIG_player:l_fingerRing0_ctrl.translateY" 
 		"RIG_playerRN.placeHolderList[195]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb0_fxGrp|RIG_player:r_fingerThumb0_ctrl.translateX" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing0_fxGrp|RIG_player:l_fingerRing0_ctrl.translateZ" 
 		"RIG_playerRN.placeHolderList[196]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb0_fxGrp|RIG_player:r_fingerThumb0_ctrl.translateY" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing0_fxGrp|RIG_player:l_fingerRing0_ctrl.rotateX" 
 		"RIG_playerRN.placeHolderList[197]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb0_fxGrp|RIG_player:r_fingerThumb0_ctrl.translateZ" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing0_fxGrp|RIG_player:l_fingerRing0_ctrl.rotateY" 
 		"RIG_playerRN.placeHolderList[198]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb0_fxGrp|RIG_player:r_fingerThumb0_ctrl.rotateX" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing0_fxGrp|RIG_player:l_fingerRing0_ctrl.rotateZ" 
 		"RIG_playerRN.placeHolderList[199]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb0_fxGrp|RIG_player:r_fingerThumb0_ctrl.rotateY" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing0_fxGrp|RIG_player:l_fingerRing0_ctrl.message" 
 		"RIG_playerRN.placeHolderList[200]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb0_fxGrp|RIG_player:r_fingerThumb0_ctrl.rotateZ" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing0_fxGrp|RIG_player:l_fingerRing0_ctrl|RIG_player:l_fingerRing0_ctrlShape.message" 
 		"RIG_playerRN.placeHolderList[201]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb0_fxGrp|RIG_player:r_fingerThumb0_ctrl.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing0_fxGrp|RIG_player:l_fingerRing0_fxGrp_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[202]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb0_fxGrp|RIG_player:r_fingerThumb0_ctrl|RIG_player:r_fingerThumb0_ctrlShape.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing1_fxGrp.message" 
 		"RIG_playerRN.placeHolderList[203]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb0_fxGrp|RIG_player:r_fingerThumb0_fxGrp_parentConstraint1.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing1_fxGrp|RIG_player:l_fingerRing1_ctrl.rotateX" 
 		"RIG_playerRN.placeHolderList[204]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb1_fxGrp.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing1_fxGrp|RIG_player:l_fingerRing1_ctrl.rotateY" 
 		"RIG_playerRN.placeHolderList[205]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb1_fxGrp|RIG_player:r_fingerThumb1_ctrl.rotateX" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing1_fxGrp|RIG_player:l_fingerRing1_ctrl.rotateZ" 
 		"RIG_playerRN.placeHolderList[206]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb1_fxGrp|RIG_player:r_fingerThumb1_ctrl.rotateY" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing1_fxGrp|RIG_player:l_fingerRing1_ctrl.message" 
 		"RIG_playerRN.placeHolderList[207]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb1_fxGrp|RIG_player:r_fingerThumb1_ctrl.rotateZ" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing1_fxGrp|RIG_player:l_fingerRing1_ctrl|RIG_player:l_fingerRing1_ctrlShape.message" 
 		"RIG_playerRN.placeHolderList[208]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb1_fxGrp|RIG_player:r_fingerThumb1_ctrl.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing1_fxGrp|RIG_player:l_fingerRing1_fxGrp_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[209]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb1_fxGrp|RIG_player:r_fingerThumb1_ctrl|RIG_player:r_fingerThumb1_ctrlShape.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing2_fxGrp.message" 
 		"RIG_playerRN.placeHolderList[210]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb1_fxGrp|RIG_player:r_fingerThumb1_fxGrp_parentConstraint1.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing2_fxGrp|RIG_player:l_fingerRing2_ctrl.rotateX" 
 		"RIG_playerRN.placeHolderList[211]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb2_fxGrp.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing2_fxGrp|RIG_player:l_fingerRing2_ctrl.rotateY" 
 		"RIG_playerRN.placeHolderList[212]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb2_fxGrp|RIG_player:r_fingerThumb2_ctrl.rotateX" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing2_fxGrp|RIG_player:l_fingerRing2_ctrl.rotateZ" 
 		"RIG_playerRN.placeHolderList[213]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb2_fxGrp|RIG_player:r_fingerThumb2_ctrl.rotateY" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing2_fxGrp|RIG_player:l_fingerRing2_ctrl.message" 
 		"RIG_playerRN.placeHolderList[214]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb2_fxGrp|RIG_player:r_fingerThumb2_ctrl.rotateZ" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing2_fxGrp|RIG_player:l_fingerRing2_ctrl|RIG_player:l_fingerRing2_ctrlShape.message" 
 		"RIG_playerRN.placeHolderList[215]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb2_fxGrp|RIG_player:r_fingerThumb2_ctrl.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_RING_CTRLS|RIG_player:l_fingerRing2_fxGrp|RIG_player:l_fingerRing2_fxGrp_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[216]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb2_fxGrp|RIG_player:r_fingerThumb2_ctrl|RIG_player:r_fingerThumb2_ctrlShape.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS.message" 
 		"RIG_playerRN.placeHolderList[217]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb2_fxGrp|RIG_player:r_fingerThumb2_fxGrp_parentConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinkyIn_fxGrp.message" 
 		"RIG_playerRN.placeHolderList[218]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinkyIn_fxGrp|RIG_player:l_fingerPinkyIn_ctrl.rotateX" 
 		"RIG_playerRN.placeHolderList[219]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex0_fxGrp.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinkyIn_fxGrp|RIG_player:l_fingerPinkyIn_ctrl.rotateY" 
 		"RIG_playerRN.placeHolderList[220]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex0_fxGrp|RIG_player:r_fingerIndex0_ctrl.translateX" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinkyIn_fxGrp|RIG_player:l_fingerPinkyIn_ctrl.rotateZ" 
 		"RIG_playerRN.placeHolderList[221]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex0_fxGrp|RIG_player:r_fingerIndex0_ctrl.translateY" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinkyIn_fxGrp|RIG_player:l_fingerPinkyIn_ctrl.message" 
 		"RIG_playerRN.placeHolderList[222]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex0_fxGrp|RIG_player:r_fingerIndex0_ctrl.translateZ" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinkyIn_fxGrp|RIG_player:l_fingerPinkyIn_ctrl|RIG_player:l_fingerPinkyIn_ctrlShape.message" 
 		"RIG_playerRN.placeHolderList[223]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex0_fxGrp|RIG_player:r_fingerIndex0_ctrl.rotateX" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinkyIn_fxGrp|RIG_player:l_fingerPinkyIn_fxGrp_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[224]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex0_fxGrp|RIG_player:r_fingerIndex0_ctrl.rotateY" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky0_fxGrp.message" 
 		"RIG_playerRN.placeHolderList[225]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex0_fxGrp|RIG_player:r_fingerIndex0_ctrl.rotateZ" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky0_fxGrp|RIG_player:l_fingerPinky0_ctrl.translateX" 
 		"RIG_playerRN.placeHolderList[226]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex0_fxGrp|RIG_player:r_fingerIndex0_ctrl.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky0_fxGrp|RIG_player:l_fingerPinky0_ctrl.translateY" 
 		"RIG_playerRN.placeHolderList[227]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex0_fxGrp|RIG_player:r_fingerIndex0_ctrl|RIG_player:r_fingerIndex0_ctrlShape.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky0_fxGrp|RIG_player:l_fingerPinky0_ctrl.translateZ" 
 		"RIG_playerRN.placeHolderList[228]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex0_fxGrp|RIG_player:r_fingerIndex0_fxGrp_parentConstraint1.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky0_fxGrp|RIG_player:l_fingerPinky0_ctrl.rotateX" 
 		"RIG_playerRN.placeHolderList[229]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex1_fxGrp.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky0_fxGrp|RIG_player:l_fingerPinky0_ctrl.rotateY" 
 		"RIG_playerRN.placeHolderList[230]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex1_fxGrp|RIG_player:r_fingerIndex1_ctrl.rotateX" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky0_fxGrp|RIG_player:l_fingerPinky0_ctrl.rotateZ" 
 		"RIG_playerRN.placeHolderList[231]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex1_fxGrp|RIG_player:r_fingerIndex1_ctrl.rotateY" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky0_fxGrp|RIG_player:l_fingerPinky0_ctrl.message" 
 		"RIG_playerRN.placeHolderList[232]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex1_fxGrp|RIG_player:r_fingerIndex1_ctrl.rotateZ" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky0_fxGrp|RIG_player:l_fingerPinky0_ctrl|RIG_player:l_fingerPinky0_ctrlShape.message" 
 		"RIG_playerRN.placeHolderList[233]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex1_fxGrp|RIG_player:r_fingerIndex1_ctrl.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky0_fxGrp|RIG_player:l_fingerPinky0_fxGrp_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[234]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex1_fxGrp|RIG_player:r_fingerIndex1_ctrl|RIG_player:r_fingerIndex1_ctrlShape.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky1_fxGrp.message" 
 		"RIG_playerRN.placeHolderList[235]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex1_fxGrp|RIG_player:r_fingerIndex1_fxGrp_parentConstraint1.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky1_fxGrp|RIG_player:l_fingerPinky1_ctrl.rotateX" 
 		"RIG_playerRN.placeHolderList[236]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex2_fxGrp.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky1_fxGrp|RIG_player:l_fingerPinky1_ctrl.rotateY" 
 		"RIG_playerRN.placeHolderList[237]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex2_fxGrp|RIG_player:r_fingerIndex2_ctrl.rotateX" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky1_fxGrp|RIG_player:l_fingerPinky1_ctrl.rotateZ" 
 		"RIG_playerRN.placeHolderList[238]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex2_fxGrp|RIG_player:r_fingerIndex2_ctrl.rotateY" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky1_fxGrp|RIG_player:l_fingerPinky1_ctrl.message" 
 		"RIG_playerRN.placeHolderList[239]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex2_fxGrp|RIG_player:r_fingerIndex2_ctrl.rotateZ" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky1_fxGrp|RIG_player:l_fingerPinky1_ctrl|RIG_player:l_fingerPinky1_ctrlShape.message" 
 		"RIG_playerRN.placeHolderList[240]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex2_fxGrp|RIG_player:r_fingerIndex2_ctrl.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky1_fxGrp|RIG_player:l_fingerPinky1_fxGrp_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[241]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex2_fxGrp|RIG_player:r_fingerIndex2_ctrl|RIG_player:r_fingerIndex2_ctrlShape.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky2_fxGrp.message" 
 		"RIG_playerRN.placeHolderList[242]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex2_fxGrp|RIG_player:r_fingerIndex2_fxGrp_parentConstraint1.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky2_fxGrp|RIG_player:l_fingerPinky2_ctrl.rotateX" 
 		"RIG_playerRN.placeHolderList[243]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky2_fxGrp|RIG_player:l_fingerPinky2_ctrl.rotateY" 
 		"RIG_playerRN.placeHolderList[244]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle0_fxGrp.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky2_fxGrp|RIG_player:l_fingerPinky2_ctrl.rotateZ" 
 		"RIG_playerRN.placeHolderList[245]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle0_fxGrp|RIG_player:r_fingerMiddle0_ctrl.translateX" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky2_fxGrp|RIG_player:l_fingerPinky2_ctrl.message" 
 		"RIG_playerRN.placeHolderList[246]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle0_fxGrp|RIG_player:r_fingerMiddle0_ctrl.translateY" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky2_fxGrp|RIG_player:l_fingerPinky2_ctrl|RIG_player:l_fingerPinky2_ctrlShape.message" 
 		"RIG_playerRN.placeHolderList[247]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle0_fxGrp|RIG_player:r_fingerMiddle0_ctrl.translateZ" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:LEFT_ARM_CTRLS|RIG_player:LEFT_PINKY_CTRLS|RIG_player:l_fingerPinky2_fxGrp|RIG_player:l_fingerPinky2_fxGrp_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[248]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle0_fxGrp|RIG_player:r_fingerMiddle0_ctrl.rotateX" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS.message" 
 		"RIG_playerRN.placeHolderList[249]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle0_fxGrp|RIG_player:r_fingerMiddle0_ctrl.rotateY" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:r_armLower_fxGrp.message" 
 		"RIG_playerRN.placeHolderList[250]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle0_fxGrp|RIG_player:r_fingerMiddle0_ctrl.rotateZ" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:r_armLower_fxGrp|RIG_player:r_armLower_ctrl.translateX" 
 		"RIG_playerRN.placeHolderList[251]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle0_fxGrp|RIG_player:r_fingerMiddle0_ctrl.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:r_armLower_fxGrp|RIG_player:r_armLower_ctrl.translateY" 
 		"RIG_playerRN.placeHolderList[252]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle0_fxGrp|RIG_player:r_fingerMiddle0_ctrl|RIG_player:r_fingerMiddle0_ctrlShape.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:r_armLower_fxGrp|RIG_player:r_armLower_ctrl.translateZ" 
 		"RIG_playerRN.placeHolderList[253]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle0_fxGrp|RIG_player:r_fingerMiddle0_fxGrp_parentConstraint1.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:r_armLower_fxGrp|RIG_player:r_armLower_ctrl.rotateX" 
 		"RIG_playerRN.placeHolderList[254]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle1_fxGrp.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:r_armLower_fxGrp|RIG_player:r_armLower_ctrl.rotateY" 
 		"RIG_playerRN.placeHolderList[255]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle1_fxGrp|RIG_player:r_fingerMiddle1_ctrl.rotateX" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:r_armLower_fxGrp|RIG_player:r_armLower_ctrl.rotateZ" 
 		"RIG_playerRN.placeHolderList[256]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle1_fxGrp|RIG_player:r_fingerMiddle1_ctrl.rotateY" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:r_armLower_fxGrp|RIG_player:r_armLower_ctrl.message" 
 		"RIG_playerRN.placeHolderList[257]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle1_fxGrp|RIG_player:r_fingerMiddle1_ctrl.rotateZ" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:r_armLower_fxGrp|RIG_player:r_armLower_ctrl|RIG_player:r_armLower_ctrlShape.message" 
 		"RIG_playerRN.placeHolderList[258]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle1_fxGrp|RIG_player:r_fingerMiddle1_ctrl.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:r_hand_fxGrp.message" 
 		"RIG_playerRN.placeHolderList[259]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle1_fxGrp|RIG_player:r_fingerMiddle1_ctrl|RIG_player:r_fingerMiddle1_ctrlShape.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:r_hand_fxGrp|RIG_player:r_hand_ctrl.rotateX" 
 		"RIG_playerRN.placeHolderList[260]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle1_fxGrp|RIG_player:r_fingerMiddle1_fxGrp_parentConstraint1.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:r_hand_fxGrp|RIG_player:r_hand_ctrl.rotateY" 
 		"RIG_playerRN.placeHolderList[261]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle2_fxGrp.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:r_hand_fxGrp|RIG_player:r_hand_ctrl.rotateZ" 
 		"RIG_playerRN.placeHolderList[262]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle2_fxGrp|RIG_player:r_fingerMiddle2_ctrl.rotateX" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:r_hand_fxGrp|RIG_player:r_hand_ctrl.message" 
 		"RIG_playerRN.placeHolderList[263]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle2_fxGrp|RIG_player:r_fingerMiddle2_ctrl.rotateY" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:r_hand_fxGrp|RIG_player:r_hand_ctrl|RIG_player:r_hand_ctrlShape.message" 
 		"RIG_playerRN.placeHolderList[264]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle2_fxGrp|RIG_player:r_fingerMiddle2_ctrl.rotateZ" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:r_hand_fxGrp|RIG_player:r_hand_fxGrp_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[265]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle2_fxGrp|RIG_player:r_fingerMiddle2_ctrl.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS.message" 
 		"RIG_playerRN.placeHolderList[266]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle2_fxGrp|RIG_player:r_fingerMiddle2_ctrl|RIG_player:r_fingerMiddle2_ctrlShape.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb0_fxGrp.message" 
 		"RIG_playerRN.placeHolderList[267]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle2_fxGrp|RIG_player:r_fingerMiddle2_fxGrp_parentConstraint1.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb0_fxGrp|RIG_player:r_fingerThumb0_ctrl.translateX" 
 		"RIG_playerRN.placeHolderList[268]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb0_fxGrp|RIG_player:r_fingerThumb0_ctrl.translateY" 
 		"RIG_playerRN.placeHolderList[269]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing0_fxGrp.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb0_fxGrp|RIG_player:r_fingerThumb0_ctrl.translateZ" 
 		"RIG_playerRN.placeHolderList[270]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing0_fxGrp|RIG_player:r_fingerRing0_ctrl.translateX" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb0_fxGrp|RIG_player:r_fingerThumb0_ctrl.rotateX" 
 		"RIG_playerRN.placeHolderList[271]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing0_fxGrp|RIG_player:r_fingerRing0_ctrl.translateY" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb0_fxGrp|RIG_player:r_fingerThumb0_ctrl.rotateY" 
 		"RIG_playerRN.placeHolderList[272]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing0_fxGrp|RIG_player:r_fingerRing0_ctrl.translateZ" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb0_fxGrp|RIG_player:r_fingerThumb0_ctrl.rotateZ" 
 		"RIG_playerRN.placeHolderList[273]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing0_fxGrp|RIG_player:r_fingerRing0_ctrl.rotateX" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb0_fxGrp|RIG_player:r_fingerThumb0_ctrl.message" 
 		"RIG_playerRN.placeHolderList[274]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing0_fxGrp|RIG_player:r_fingerRing0_ctrl.rotateY" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb0_fxGrp|RIG_player:r_fingerThumb0_ctrl|RIG_player:r_fingerThumb0_ctrlShape.message" 
 		"RIG_playerRN.placeHolderList[275]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing0_fxGrp|RIG_player:r_fingerRing0_ctrl.rotateZ" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb0_fxGrp|RIG_player:r_fingerThumb0_fxGrp_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[276]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing0_fxGrp|RIG_player:r_fingerRing0_ctrl.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb1_fxGrp.message" 
 		"RIG_playerRN.placeHolderList[277]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing0_fxGrp|RIG_player:r_fingerRing0_ctrl|RIG_player:r_fingerRing0_ctrlShape.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb1_fxGrp|RIG_player:r_fingerThumb1_ctrl.rotateX" 
 		"RIG_playerRN.placeHolderList[278]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing0_fxGrp|RIG_player:r_fingerRing0_fxGrp_parentConstraint1.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb1_fxGrp|RIG_player:r_fingerThumb1_ctrl.rotateY" 
 		"RIG_playerRN.placeHolderList[279]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing1_fxGrp.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb1_fxGrp|RIG_player:r_fingerThumb1_ctrl.rotateZ" 
 		"RIG_playerRN.placeHolderList[280]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing1_fxGrp|RIG_player:r_fingerRing1_ctrl.rotateX" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb1_fxGrp|RIG_player:r_fingerThumb1_ctrl.message" 
 		"RIG_playerRN.placeHolderList[281]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing1_fxGrp|RIG_player:r_fingerRing1_ctrl.rotateY" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb1_fxGrp|RIG_player:r_fingerThumb1_ctrl|RIG_player:r_fingerThumb1_ctrlShape.message" 
 		"RIG_playerRN.placeHolderList[282]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing1_fxGrp|RIG_player:r_fingerRing1_ctrl.rotateZ" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb1_fxGrp|RIG_player:r_fingerThumb1_fxGrp_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[283]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing1_fxGrp|RIG_player:r_fingerRing1_ctrl.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb2_fxGrp.message" 
 		"RIG_playerRN.placeHolderList[284]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing1_fxGrp|RIG_player:r_fingerRing1_ctrl|RIG_player:r_fingerRing1_ctrlShape.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb2_fxGrp|RIG_player:r_fingerThumb2_ctrl.rotateX" 
 		"RIG_playerRN.placeHolderList[285]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing1_fxGrp|RIG_player:r_fingerRing1_fxGrp_parentConstraint1.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb2_fxGrp|RIG_player:r_fingerThumb2_ctrl.rotateY" 
 		"RIG_playerRN.placeHolderList[286]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing2_fxGrp.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb2_fxGrp|RIG_player:r_fingerThumb2_ctrl.rotateZ" 
 		"RIG_playerRN.placeHolderList[287]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing2_fxGrp|RIG_player:r_fingerRing2_ctrl.rotateX" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb2_fxGrp|RIG_player:r_fingerThumb2_ctrl.message" 
 		"RIG_playerRN.placeHolderList[288]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing2_fxGrp|RIG_player:r_fingerRing2_ctrl.rotateY" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb2_fxGrp|RIG_player:r_fingerThumb2_ctrl|RIG_player:r_fingerThumb2_ctrlShape.message" 
 		"RIG_playerRN.placeHolderList[289]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing2_fxGrp|RIG_player:r_fingerRing2_ctrl.rotateZ" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_THUMB_CTRLS|RIG_player:r_fingerThumb2_fxGrp|RIG_player:r_fingerThumb2_fxGrp_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[290]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing2_fxGrp|RIG_player:r_fingerRing2_ctrl.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS.message" 
 		"RIG_playerRN.placeHolderList[291]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing2_fxGrp|RIG_player:r_fingerRing2_ctrl|RIG_player:r_fingerRing2_ctrlShape.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex0_fxGrp.message" 
 		"RIG_playerRN.placeHolderList[292]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing2_fxGrp|RIG_player:r_fingerRing2_fxGrp_parentConstraint1.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex0_fxGrp|RIG_player:r_fingerIndex0_ctrl.translateX" 
 		"RIG_playerRN.placeHolderList[293]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex0_fxGrp|RIG_player:r_fingerIndex0_ctrl.translateY" 
 		"RIG_playerRN.placeHolderList[294]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinkyIn_fxGrp.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex0_fxGrp|RIG_player:r_fingerIndex0_ctrl.translateZ" 
 		"RIG_playerRN.placeHolderList[295]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinkyIn_fxGrp|RIG_player:r_fingerPinkyIn_ctrl.rotateX" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex0_fxGrp|RIG_player:r_fingerIndex0_ctrl.rotateX" 
 		"RIG_playerRN.placeHolderList[296]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinkyIn_fxGrp|RIG_player:r_fingerPinkyIn_ctrl.rotateY" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex0_fxGrp|RIG_player:r_fingerIndex0_ctrl.rotateY" 
 		"RIG_playerRN.placeHolderList[297]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinkyIn_fxGrp|RIG_player:r_fingerPinkyIn_ctrl.rotateZ" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex0_fxGrp|RIG_player:r_fingerIndex0_ctrl.rotateZ" 
 		"RIG_playerRN.placeHolderList[298]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinkyIn_fxGrp|RIG_player:r_fingerPinkyIn_ctrl.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex0_fxGrp|RIG_player:r_fingerIndex0_ctrl.message" 
 		"RIG_playerRN.placeHolderList[299]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinkyIn_fxGrp|RIG_player:r_fingerPinkyIn_ctrl|RIG_player:r_fingerPinkyIn_ctrlShape.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex0_fxGrp|RIG_player:r_fingerIndex0_ctrl|RIG_player:r_fingerIndex0_ctrlShape.message" 
 		"RIG_playerRN.placeHolderList[300]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinkyIn_fxGrp|RIG_player:r_fingerPinkyIn_fxGrp_parentConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex0_fxGrp|RIG_player:r_fingerIndex0_fxGrp_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[301]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky0_fxGrp.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex1_fxGrp.message" 
 		"RIG_playerRN.placeHolderList[302]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky0_fxGrp|RIG_player:r_fingerPinky0_ctrl.translateX" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex1_fxGrp|RIG_player:r_fingerIndex1_ctrl.rotateX" 
 		"RIG_playerRN.placeHolderList[303]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky0_fxGrp|RIG_player:r_fingerPinky0_ctrl.translateY" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex1_fxGrp|RIG_player:r_fingerIndex1_ctrl.rotateY" 
 		"RIG_playerRN.placeHolderList[304]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky0_fxGrp|RIG_player:r_fingerPinky0_ctrl.translateZ" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex1_fxGrp|RIG_player:r_fingerIndex1_ctrl.rotateZ" 
 		"RIG_playerRN.placeHolderList[305]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky0_fxGrp|RIG_player:r_fingerPinky0_ctrl.rotateX" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex1_fxGrp|RIG_player:r_fingerIndex1_ctrl.message" 
 		"RIG_playerRN.placeHolderList[306]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky0_fxGrp|RIG_player:r_fingerPinky0_ctrl.rotateY" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex1_fxGrp|RIG_player:r_fingerIndex1_ctrl|RIG_player:r_fingerIndex1_ctrlShape.message" 
 		"RIG_playerRN.placeHolderList[307]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky0_fxGrp|RIG_player:r_fingerPinky0_ctrl.rotateZ" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex1_fxGrp|RIG_player:r_fingerIndex1_fxGrp_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[308]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky0_fxGrp|RIG_player:r_fingerPinky0_ctrl.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex2_fxGrp.message" 
 		"RIG_playerRN.placeHolderList[309]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky0_fxGrp|RIG_player:r_fingerPinky0_ctrl|RIG_player:r_fingerPinky0_ctrlShape.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex2_fxGrp|RIG_player:r_fingerIndex2_ctrl.rotateX" 
 		"RIG_playerRN.placeHolderList[310]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky0_fxGrp|RIG_player:r_fingerPinky0_fxGrp_parentConstraint1.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex2_fxGrp|RIG_player:r_fingerIndex2_ctrl.rotateY" 
 		"RIG_playerRN.placeHolderList[311]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky1_fxGrp.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex2_fxGrp|RIG_player:r_fingerIndex2_ctrl.rotateZ" 
 		"RIG_playerRN.placeHolderList[312]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky1_fxGrp|RIG_player:r_fingerPinky1_ctrl.rotateX" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex2_fxGrp|RIG_player:r_fingerIndex2_ctrl.message" 
 		"RIG_playerRN.placeHolderList[313]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky1_fxGrp|RIG_player:r_fingerPinky1_ctrl.rotateY" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex2_fxGrp|RIG_player:r_fingerIndex2_ctrl|RIG_player:r_fingerIndex2_ctrlShape.message" 
 		"RIG_playerRN.placeHolderList[314]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky1_fxGrp|RIG_player:r_fingerPinky1_ctrl.rotateZ" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_INDEX_CTRLS|RIG_player:r_fingerIndex2_fxGrp|RIG_player:r_fingerIndex2_fxGrp_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[315]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky1_fxGrp|RIG_player:r_fingerPinky1_ctrl.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS.message" 
 		"RIG_playerRN.placeHolderList[316]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky1_fxGrp|RIG_player:r_fingerPinky1_ctrl|RIG_player:r_fingerPinky1_ctrlShape.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle0_fxGrp.message" 
 		"RIG_playerRN.placeHolderList[317]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky1_fxGrp|RIG_player:r_fingerPinky1_fxGrp_parentConstraint1.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle0_fxGrp|RIG_player:r_fingerMiddle0_ctrl.translateX" 
 		"RIG_playerRN.placeHolderList[318]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky2_fxGrp.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle0_fxGrp|RIG_player:r_fingerMiddle0_ctrl.translateY" 
 		"RIG_playerRN.placeHolderList[319]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky2_fxGrp|RIG_player:r_fingerPinky2_ctrl.rotateX" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle0_fxGrp|RIG_player:r_fingerMiddle0_ctrl.translateZ" 
 		"RIG_playerRN.placeHolderList[320]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky2_fxGrp|RIG_player:r_fingerPinky2_ctrl.rotateY" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle0_fxGrp|RIG_player:r_fingerMiddle0_ctrl.rotateX" 
 		"RIG_playerRN.placeHolderList[321]" ""
-		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky2_fxGrp|RIG_player:r_fingerPinky2_ctrl.rotateZ" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle0_fxGrp|RIG_player:r_fingerMiddle0_ctrl.rotateY" 
 		"RIG_playerRN.placeHolderList[322]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky2_fxGrp|RIG_player:r_fingerPinky2_ctrl.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle0_fxGrp|RIG_player:r_fingerMiddle0_ctrl.rotateZ" 
 		"RIG_playerRN.placeHolderList[323]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky2_fxGrp|RIG_player:r_fingerPinky2_ctrl|RIG_player:r_fingerPinky2_ctrlShape.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle0_fxGrp|RIG_player:r_fingerMiddle0_ctrl.message" 
 		"RIG_playerRN.placeHolderList[324]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky2_fxGrp|RIG_player:r_fingerPinky2_fxGrp_parentConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle0_fxGrp|RIG_player:r_fingerMiddle0_ctrl|RIG_player:r_fingerMiddle0_ctrlShape.message" 
 		"RIG_playerRN.placeHolderList[325]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle0_fxGrp|RIG_player:r_fingerMiddle0_fxGrp_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[326]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle1_fxGrp.message" 
 		"RIG_playerRN.placeHolderList[327]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle1_fxGrp|RIG_player:r_fingerMiddle1_ctrl.rotateX" 
 		"RIG_playerRN.placeHolderList[328]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle1_fxGrp|RIG_player:r_fingerMiddle1_ctrl.rotateY" 
 		"RIG_playerRN.placeHolderList[329]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerThumb0_jnt.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle1_fxGrp|RIG_player:r_fingerMiddle1_ctrl.rotateZ" 
 		"RIG_playerRN.placeHolderList[330]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerThumb0_jnt|RIG_player:l_fingerThumb1_jnt.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle1_fxGrp|RIG_player:r_fingerMiddle1_ctrl.message" 
 		"RIG_playerRN.placeHolderList[331]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerThumb0_jnt|RIG_player:l_fingerThumb1_jnt|RIG_player:l_fingerThumb2_jnt.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle1_fxGrp|RIG_player:r_fingerMiddle1_ctrl|RIG_player:r_fingerMiddle1_ctrlShape.message" 
 		"RIG_playerRN.placeHolderList[332]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerThumb0_jnt|RIG_player:l_fingerThumb1_jnt|RIG_player:l_fingerThumb2_jnt|RIG_player:l_fingerThumb3_jnt.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle1_fxGrp|RIG_player:r_fingerMiddle1_fxGrp_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[333]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerThumb0_jnt|RIG_player:l_fingerThumb1_jnt|RIG_player:l_fingerThumb2_jnt|RIG_player:l_fingerThumb2_jnt_orientConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle2_fxGrp.message" 
 		"RIG_playerRN.placeHolderList[334]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerThumb0_jnt|RIG_player:l_fingerThumb1_jnt|RIG_player:l_fingerThumb1_jnt_orientConstraint1.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle2_fxGrp|RIG_player:r_fingerMiddle2_ctrl.rotateX" 
 		"RIG_playerRN.placeHolderList[335]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerThumb0_jnt|RIG_player:l_fingerThumb0_jnt_parentConstraint1.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle2_fxGrp|RIG_player:r_fingerMiddle2_ctrl.rotateY" 
 		"RIG_playerRN.placeHolderList[336]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerIndex0_jnt.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle2_fxGrp|RIG_player:r_fingerMiddle2_ctrl.rotateZ" 
 		"RIG_playerRN.placeHolderList[337]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerIndex0_jnt|RIG_player:l_fingerIndex1_jnt.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle2_fxGrp|RIG_player:r_fingerMiddle2_ctrl.message" 
 		"RIG_playerRN.placeHolderList[338]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerIndex0_jnt|RIG_player:l_fingerIndex1_jnt|RIG_player:l_fingerIndex2_jnt.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle2_fxGrp|RIG_player:r_fingerMiddle2_ctrl|RIG_player:r_fingerMiddle2_ctrlShape.message" 
 		"RIG_playerRN.placeHolderList[339]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerIndex0_jnt|RIG_player:l_fingerIndex1_jnt|RIG_player:l_fingerIndex2_jnt|RIG_player:l_fingerIndex3_jnt.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_MIDDLE_CTRLS|RIG_player:r_fingerMiddle2_fxGrp|RIG_player:r_fingerMiddle2_fxGrp_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[340]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerIndex0_jnt|RIG_player:l_fingerIndex1_jnt|RIG_player:l_fingerIndex2_jnt|RIG_player:l_fingerIndex2_jnt_orientConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS.message" 
 		"RIG_playerRN.placeHolderList[341]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerIndex0_jnt|RIG_player:l_fingerIndex1_jnt|RIG_player:l_fingerIndex1_jnt_orientConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing0_fxGrp.message" 
 		"RIG_playerRN.placeHolderList[342]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerIndex0_jnt|RIG_player:l_fingerIndex0_jnt_parentConstraint1.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing0_fxGrp|RIG_player:r_fingerRing0_ctrl.translateX" 
 		"RIG_playerRN.placeHolderList[343]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerMiddle0_jnt.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing0_fxGrp|RIG_player:r_fingerRing0_ctrl.translateY" 
 		"RIG_playerRN.placeHolderList[344]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerMiddle0_jnt|RIG_player:l_fingerMiddle1_jnt.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing0_fxGrp|RIG_player:r_fingerRing0_ctrl.translateZ" 
 		"RIG_playerRN.placeHolderList[345]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerMiddle0_jnt|RIG_player:l_fingerMiddle1_jnt|RIG_player:l_fingerMiddle2_jnt.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing0_fxGrp|RIG_player:r_fingerRing0_ctrl.rotateX" 
 		"RIG_playerRN.placeHolderList[346]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerMiddle0_jnt|RIG_player:l_fingerMiddle1_jnt|RIG_player:l_fingerMiddle2_jnt|RIG_player:l_fingerMiddle3_jnt.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing0_fxGrp|RIG_player:r_fingerRing0_ctrl.rotateY" 
 		"RIG_playerRN.placeHolderList[347]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerMiddle0_jnt|RIG_player:l_fingerMiddle1_jnt|RIG_player:l_fingerMiddle2_jnt|RIG_player:l_fingerMiddle2_jnt_orientConstraint1.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing0_fxGrp|RIG_player:r_fingerRing0_ctrl.rotateZ" 
 		"RIG_playerRN.placeHolderList[348]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerMiddle0_jnt|RIG_player:l_fingerMiddle1_jnt|RIG_player:l_fingerMiddle1_jnt_orientConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing0_fxGrp|RIG_player:r_fingerRing0_ctrl.message" 
 		"RIG_playerRN.placeHolderList[349]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerMiddle0_jnt|RIG_player:l_fingerMiddle0_jnt_parentConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing0_fxGrp|RIG_player:r_fingerRing0_ctrl|RIG_player:r_fingerRing0_ctrlShape.message" 
 		"RIG_playerRN.placeHolderList[350]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerRing0_jnt.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing0_fxGrp|RIG_player:r_fingerRing0_fxGrp_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[351]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerRing0_jnt|RIG_player:l_fingerRing1_jnt.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing1_fxGrp.message" 
 		"RIG_playerRN.placeHolderList[352]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerRing0_jnt|RIG_player:l_fingerRing1_jnt|RIG_player:l_fingerRing2_jnt.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing1_fxGrp|RIG_player:r_fingerRing1_ctrl.rotateX" 
 		"RIG_playerRN.placeHolderList[353]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerRing0_jnt|RIG_player:l_fingerRing1_jnt|RIG_player:l_fingerRing2_jnt|RIG_player:l_fingerRing3_jnt.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing1_fxGrp|RIG_player:r_fingerRing1_ctrl.rotateY" 
 		"RIG_playerRN.placeHolderList[354]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerRing0_jnt|RIG_player:l_fingerRing1_jnt|RIG_player:l_fingerRing2_jnt|RIG_player:l_fingerRing2_jnt_orientConstraint1.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing1_fxGrp|RIG_player:r_fingerRing1_ctrl.rotateZ" 
 		"RIG_playerRN.placeHolderList[355]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerRing0_jnt|RIG_player:l_fingerRing1_jnt|RIG_player:l_fingerRing1_jnt_orientConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing1_fxGrp|RIG_player:r_fingerRing1_ctrl.message" 
 		"RIG_playerRN.placeHolderList[356]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerRing0_jnt|RIG_player:l_fingerRing0_jnt_parentConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing1_fxGrp|RIG_player:r_fingerRing1_ctrl|RIG_player:r_fingerRing1_ctrlShape.message" 
 		"RIG_playerRN.placeHolderList[357]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerPinkyIn_jnt.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing1_fxGrp|RIG_player:r_fingerRing1_fxGrp_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[358]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerPinkyIn_jnt|RIG_player:l_fingerPinky0_jnt.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing2_fxGrp.message" 
 		"RIG_playerRN.placeHolderList[359]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerPinkyIn_jnt|RIG_player:l_fingerPinky0_jnt|RIG_player:l_fingerPinky1_jnt.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing2_fxGrp|RIG_player:r_fingerRing2_ctrl.rotateX" 
 		"RIG_playerRN.placeHolderList[360]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerPinkyIn_jnt|RIG_player:l_fingerPinky0_jnt|RIG_player:l_fingerPinky1_jnt|RIG_player:l_fingerPinky2_jnt.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing2_fxGrp|RIG_player:r_fingerRing2_ctrl.rotateY" 
 		"RIG_playerRN.placeHolderList[361]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerPinkyIn_jnt|RIG_player:l_fingerPinky0_jnt|RIG_player:l_fingerPinky1_jnt|RIG_player:l_fingerPinky2_jnt|RIG_player:l_fingerPinky3_jnt.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing2_fxGrp|RIG_player:r_fingerRing2_ctrl.rotateZ" 
 		"RIG_playerRN.placeHolderList[362]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerPinkyIn_jnt|RIG_player:l_fingerPinky0_jnt|RIG_player:l_fingerPinky1_jnt|RIG_player:l_fingerPinky2_jnt|RIG_player:l_fingerPinky2_jnt_orientConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing2_fxGrp|RIG_player:r_fingerRing2_ctrl.message" 
 		"RIG_playerRN.placeHolderList[363]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerPinkyIn_jnt|RIG_player:l_fingerPinky0_jnt|RIG_player:l_fingerPinky1_jnt|RIG_player:l_fingerPinky1_jnt_orientConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing2_fxGrp|RIG_player:r_fingerRing2_ctrl|RIG_player:r_fingerRing2_ctrlShape.message" 
 		"RIG_playerRN.placeHolderList[364]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerPinkyIn_jnt|RIG_player:l_fingerPinky0_jnt|RIG_player:l_fingerPinky0_jnt_parentConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_RING_CTRLS|RIG_player:r_fingerRing2_fxGrp|RIG_player:r_fingerRing2_fxGrp_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[365]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerPinkyIn_jnt|RIG_player:l_fingerPinkyIn_jnt_orientConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS.message" 
 		"RIG_playerRN.placeHolderList[366]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_hand_jnt_orientConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinkyIn_fxGrp.message" 
 		"RIG_playerRN.placeHolderList[367]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_handEnd_jnt.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinkyIn_fxGrp|RIG_player:r_fingerPinkyIn_ctrl.rotateX" 
 		"RIG_playerRN.placeHolderList[368]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_armLower_jnt_parentConstraint1.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinkyIn_fxGrp|RIG_player:r_fingerPinkyIn_ctrl.rotateY" 
 		"RIG_playerRN.placeHolderList[369]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_arm_rotExt_fxGrp.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinkyIn_fxGrp|RIG_player:r_fingerPinkyIn_ctrl.rotateZ" 
 		"RIG_playerRN.placeHolderList[370]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_arm_rotExt_fxGrp|RIG_player:l_hand_rotExt.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinkyIn_fxGrp|RIG_player:r_fingerPinkyIn_ctrl.message" 
 		"RIG_playerRN.placeHolderList[371]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_arm_rotExt_fxGrp|RIG_player:l_hand_rotExt|RIG_player:l_hand_rotExtEnd.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinkyIn_fxGrp|RIG_player:r_fingerPinkyIn_ctrl|RIG_player:r_fingerPinkyIn_ctrlShape.message" 
 		"RIG_playerRN.placeHolderList[372]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_arm_rotExt_fxGrp|RIG_player:l_hand_rotExt|RIG_player:l_hand_rotExt_aimConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinkyIn_fxGrp|RIG_player:r_fingerPinkyIn_fxGrp_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[373]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_arm_rotExt_fxGrp|RIG_player:l_hand_rotExt|RIG_player:l_hand_rotExt_output.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky0_fxGrp.message" 
 		"RIG_playerRN.placeHolderList[374]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_arm_rotExt_fxGrp|RIG_player:l_hand_rotExt|RIG_player:l_hand_rotExt_output|RIG_player:l_hand_rotExt_outputShape.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky0_fxGrp|RIG_player:r_fingerPinky0_ctrl.translateX" 
 		"RIG_playerRN.placeHolderList[375]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_arm_rotExt_fxGrp|RIG_player:l_hand_rotExt|RIG_player:l_hand_rotExt_output|RIG_player:l_hand_rotExt_output_orientConstraint1.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky0_fxGrp|RIG_player:r_fingerPinky0_ctrl.translateY" 
 		"RIG_playerRN.placeHolderList[376]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_arm_rotExt_fxGrp|RIG_player:l_arm_twists_grp.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky0_fxGrp|RIG_player:r_fingerPinky0_ctrl.translateZ" 
 		"RIG_playerRN.placeHolderList[377]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_arm_rotExt_fxGrp|RIG_player:l_arm_twists_grp|RIG_player:l_arm_twist0_jnt.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky0_fxGrp|RIG_player:r_fingerPinky0_ctrl.rotateX" 
 		"RIG_playerRN.placeHolderList[378]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_arm_rotExt_fxGrp|RIG_player:l_arm_twists_grp|RIG_player:l_arm_twist1_jnt.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky0_fxGrp|RIG_player:r_fingerPinky0_ctrl.rotateY" 
 		"RIG_playerRN.placeHolderList[379]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_arm_rotExt_fxGrp|RIG_player:l_arm_twists_grp|RIG_player:l_arm_twists_grp_parentConstraint1.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky0_fxGrp|RIG_player:r_fingerPinky0_ctrl.rotateZ" 
 		"RIG_playerRN.placeHolderList[380]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_arm_rotExt_fxGrp|RIG_player:l_arm_rotExt_fxGrp_parentConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky0_fxGrp|RIG_player:r_fingerPinky0_ctrl.message" 
 		"RIG_playerRN.placeHolderList[381]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky0_fxGrp|RIG_player:r_fingerPinky0_ctrl|RIG_player:r_fingerPinky0_ctrlShape.message" 
 		"RIG_playerRN.placeHolderList[382]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky0_fxGrp|RIG_player:r_fingerPinky0_fxGrp_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[383]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky1_fxGrp.message" 
 		"RIG_playerRN.placeHolderList[384]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerThumb0_jnt.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky1_fxGrp|RIG_player:r_fingerPinky1_ctrl.rotateX" 
 		"RIG_playerRN.placeHolderList[385]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerThumb0_jnt|RIG_player:r_fingerThumb1_jnt.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky1_fxGrp|RIG_player:r_fingerPinky1_ctrl.rotateY" 
 		"RIG_playerRN.placeHolderList[386]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerThumb0_jnt|RIG_player:r_fingerThumb1_jnt|RIG_player:r_fingerThumb2_jnt.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky1_fxGrp|RIG_player:r_fingerPinky1_ctrl.rotateZ" 
 		"RIG_playerRN.placeHolderList[387]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerThumb0_jnt|RIG_player:r_fingerThumb1_jnt|RIG_player:r_fingerThumb2_jnt|RIG_player:r_fingerThumb3_jnt.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky1_fxGrp|RIG_player:r_fingerPinky1_ctrl.message" 
 		"RIG_playerRN.placeHolderList[388]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerThumb0_jnt|RIG_player:r_fingerThumb1_jnt|RIG_player:r_fingerThumb2_jnt|RIG_player:r_fingerThumb2_jnt_orientConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky1_fxGrp|RIG_player:r_fingerPinky1_ctrl|RIG_player:r_fingerPinky1_ctrlShape.message" 
 		"RIG_playerRN.placeHolderList[389]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerThumb0_jnt|RIG_player:r_fingerThumb1_jnt|RIG_player:r_fingerThumb1_jnt_orientConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky1_fxGrp|RIG_player:r_fingerPinky1_fxGrp_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[390]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerThumb0_jnt|RIG_player:r_fingerThumb0_jnt_parentConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky2_fxGrp.message" 
 		"RIG_playerRN.placeHolderList[391]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerIndex0_jnt.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky2_fxGrp|RIG_player:r_fingerPinky2_ctrl.rotateX" 
 		"RIG_playerRN.placeHolderList[392]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerIndex0_jnt|RIG_player:r_fingerIndex1_jnt.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky2_fxGrp|RIG_player:r_fingerPinky2_ctrl.rotateY" 
 		"RIG_playerRN.placeHolderList[393]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerIndex0_jnt|RIG_player:r_fingerIndex1_jnt|RIG_player:r_fingerIndex2_jnt.message" 
+		5 4 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky2_fxGrp|RIG_player:r_fingerPinky2_ctrl.rotateZ" 
 		"RIG_playerRN.placeHolderList[394]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerIndex0_jnt|RIG_player:r_fingerIndex1_jnt|RIG_player:r_fingerIndex2_jnt|RIG_player:r_fingerIndex3_jnt.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky2_fxGrp|RIG_player:r_fingerPinky2_ctrl.message" 
 		"RIG_playerRN.placeHolderList[395]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerIndex0_jnt|RIG_player:r_fingerIndex1_jnt|RIG_player:r_fingerIndex2_jnt|RIG_player:r_fingerIndex2_jnt_orientConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky2_fxGrp|RIG_player:r_fingerPinky2_ctrl|RIG_player:r_fingerPinky2_ctrlShape.message" 
 		"RIG_playerRN.placeHolderList[396]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerIndex0_jnt|RIG_player:r_fingerIndex1_jnt|RIG_player:r_fingerIndex1_jnt_orientConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:CTRLS|RIG_player:RIGHT_ARM_CTRLS|RIG_player:RIGHT_PINKY_CTRLS|RIG_player:r_fingerPinky2_fxGrp|RIG_player:r_fingerPinky2_fxGrp_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[397]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerIndex0_jnt|RIG_player:r_fingerIndex0_jnt_parentConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS.message" 
 		"RIG_playerRN.placeHolderList[398]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerMiddle0_jnt.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS.message" 
 		"RIG_playerRN.placeHolderList[399]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerMiddle0_jnt|RIG_player:r_fingerMiddle1_jnt.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt.message" 
 		"RIG_playerRN.placeHolderList[400]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerMiddle0_jnt|RIG_player:r_fingerMiddle1_jnt|RIG_player:r_fingerMiddle2_jnt.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt.message" 
 		"RIG_playerRN.placeHolderList[401]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerMiddle0_jnt|RIG_player:r_fingerMiddle1_jnt|RIG_player:r_fingerMiddle2_jnt|RIG_player:r_fingerMiddle3_jnt.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerThumb0_jnt.message" 
 		"RIG_playerRN.placeHolderList[402]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerMiddle0_jnt|RIG_player:r_fingerMiddle1_jnt|RIG_player:r_fingerMiddle2_jnt|RIG_player:r_fingerMiddle2_jnt_orientConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerThumb0_jnt|RIG_player:l_fingerThumb1_jnt.message" 
 		"RIG_playerRN.placeHolderList[403]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerMiddle0_jnt|RIG_player:r_fingerMiddle1_jnt|RIG_player:r_fingerMiddle1_jnt_orientConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerThumb0_jnt|RIG_player:l_fingerThumb1_jnt|RIG_player:l_fingerThumb2_jnt.message" 
 		"RIG_playerRN.placeHolderList[404]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerMiddle0_jnt|RIG_player:r_fingerMiddle0_jnt_parentConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerThumb0_jnt|RIG_player:l_fingerThumb1_jnt|RIG_player:l_fingerThumb2_jnt|RIG_player:l_fingerThumb3_jnt.message" 
 		"RIG_playerRN.placeHolderList[405]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerRing0_jnt.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerThumb0_jnt|RIG_player:l_fingerThumb1_jnt|RIG_player:l_fingerThumb2_jnt|RIG_player:l_fingerThumb2_jnt_orientConstraint1.message" 
 		"RIG_playerRN.placeHolderList[406]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerRing0_jnt|RIG_player:r_fingerRing1_jnt.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerThumb0_jnt|RIG_player:l_fingerThumb1_jnt|RIG_player:l_fingerThumb1_jnt_orientConstraint1.message" 
 		"RIG_playerRN.placeHolderList[407]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerRing0_jnt|RIG_player:r_fingerRing1_jnt|RIG_player:r_fingerRing2_jnt.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerThumb0_jnt|RIG_player:l_fingerThumb0_jnt_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[408]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerRing0_jnt|RIG_player:r_fingerRing1_jnt|RIG_player:r_fingerRing2_jnt|RIG_player:r_fingerRing3_jnt.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerIndex0_jnt.message" 
 		"RIG_playerRN.placeHolderList[409]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerRing0_jnt|RIG_player:r_fingerRing1_jnt|RIG_player:r_fingerRing2_jnt|RIG_player:r_fingerRing2_jnt_orientConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerIndex0_jnt|RIG_player:l_fingerIndex1_jnt.message" 
 		"RIG_playerRN.placeHolderList[410]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerRing0_jnt|RIG_player:r_fingerRing1_jnt|RIG_player:r_fingerRing1_jnt_orientConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerIndex0_jnt|RIG_player:l_fingerIndex1_jnt|RIG_player:l_fingerIndex2_jnt.message" 
 		"RIG_playerRN.placeHolderList[411]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerRing0_jnt|RIG_player:r_fingerRing0_jnt_parentConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerIndex0_jnt|RIG_player:l_fingerIndex1_jnt|RIG_player:l_fingerIndex2_jnt|RIG_player:l_fingerIndex3_jnt.message" 
 		"RIG_playerRN.placeHolderList[412]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerPinkyIn_jnt.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerIndex0_jnt|RIG_player:l_fingerIndex1_jnt|RIG_player:l_fingerIndex2_jnt|RIG_player:l_fingerIndex2_jnt_orientConstraint1.message" 
 		"RIG_playerRN.placeHolderList[413]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerPinkyIn_jnt|RIG_player:r_fingerPinky0_jnt.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerIndex0_jnt|RIG_player:l_fingerIndex1_jnt|RIG_player:l_fingerIndex1_jnt_orientConstraint1.message" 
 		"RIG_playerRN.placeHolderList[414]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerPinkyIn_jnt|RIG_player:r_fingerPinky0_jnt|RIG_player:r_fingerPinky1_jnt.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerIndex0_jnt|RIG_player:l_fingerIndex0_jnt_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[415]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerPinkyIn_jnt|RIG_player:r_fingerPinky0_jnt|RIG_player:r_fingerPinky1_jnt|RIG_player:r_fingerPinky2_jnt.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerMiddle0_jnt.message" 
 		"RIG_playerRN.placeHolderList[416]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerPinkyIn_jnt|RIG_player:r_fingerPinky0_jnt|RIG_player:r_fingerPinky1_jnt|RIG_player:r_fingerPinky2_jnt|RIG_player:r_fingerPinky3_jnt.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerMiddle0_jnt|RIG_player:l_fingerMiddle1_jnt.message" 
 		"RIG_playerRN.placeHolderList[417]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerPinkyIn_jnt|RIG_player:r_fingerPinky0_jnt|RIG_player:r_fingerPinky1_jnt|RIG_player:r_fingerPinky2_jnt|RIG_player:r_fingerPinky2_jnt_orientConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerMiddle0_jnt|RIG_player:l_fingerMiddle1_jnt|RIG_player:l_fingerMiddle2_jnt.message" 
 		"RIG_playerRN.placeHolderList[418]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerPinkyIn_jnt|RIG_player:r_fingerPinky0_jnt|RIG_player:r_fingerPinky1_jnt|RIG_player:r_fingerPinky1_jnt_orientConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerMiddle0_jnt|RIG_player:l_fingerMiddle1_jnt|RIG_player:l_fingerMiddle2_jnt|RIG_player:l_fingerMiddle3_jnt.message" 
 		"RIG_playerRN.placeHolderList[419]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerPinkyIn_jnt|RIG_player:r_fingerPinky0_jnt|RIG_player:r_fingerPinky0_jnt_parentConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerMiddle0_jnt|RIG_player:l_fingerMiddle1_jnt|RIG_player:l_fingerMiddle2_jnt|RIG_player:l_fingerMiddle2_jnt_orientConstraint1.message" 
 		"RIG_playerRN.placeHolderList[420]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerPinkyIn_jnt|RIG_player:r_fingerPinkyIn_jnt_orientConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerMiddle0_jnt|RIG_player:l_fingerMiddle1_jnt|RIG_player:l_fingerMiddle1_jnt_orientConstraint1.message" 
 		"RIG_playerRN.placeHolderList[421]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_handEnd_jnt.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerMiddle0_jnt|RIG_player:l_fingerMiddle0_jnt_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[422]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_hand_jnt_orientConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerRing0_jnt.message" 
 		"RIG_playerRN.placeHolderList[423]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_armLower_jnt_parentConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerRing0_jnt|RIG_player:l_fingerRing1_jnt.message" 
 		"RIG_playerRN.placeHolderList[424]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_arm_rotExt_fxGrp.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerRing0_jnt|RIG_player:l_fingerRing1_jnt|RIG_player:l_fingerRing2_jnt.message" 
 		"RIG_playerRN.placeHolderList[425]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_arm_rotExt_fxGrp|RIG_player:r_hand_rotExt.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerRing0_jnt|RIG_player:l_fingerRing1_jnt|RIG_player:l_fingerRing2_jnt|RIG_player:l_fingerRing3_jnt.message" 
 		"RIG_playerRN.placeHolderList[426]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_arm_rotExt_fxGrp|RIG_player:r_hand_rotExt|RIG_player:r_hand_rotExtEnd.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerRing0_jnt|RIG_player:l_fingerRing1_jnt|RIG_player:l_fingerRing2_jnt|RIG_player:l_fingerRing2_jnt_orientConstraint1.message" 
 		"RIG_playerRN.placeHolderList[427]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_arm_rotExt_fxGrp|RIG_player:r_hand_rotExt|RIG_player:r_hand_rotExt_aimConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerRing0_jnt|RIG_player:l_fingerRing1_jnt|RIG_player:l_fingerRing1_jnt_orientConstraint1.message" 
 		"RIG_playerRN.placeHolderList[428]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_arm_rotExt_fxGrp|RIG_player:r_hand_rotExt|RIG_player:r_hand_rotExt_output.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerRing0_jnt|RIG_player:l_fingerRing0_jnt_parentConstraint1.message" 
 		"RIG_playerRN.placeHolderList[429]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_arm_rotExt_fxGrp|RIG_player:r_hand_rotExt|RIG_player:r_hand_rotExt_output|RIG_player:r_hand_rotExt_outputShape.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerPinkyIn_jnt.message" 
 		"RIG_playerRN.placeHolderList[430]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_arm_rotExt_fxGrp|RIG_player:r_hand_rotExt|RIG_player:r_hand_rotExt_output|RIG_player:r_hand_rotExt_output_orientConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerPinkyIn_jnt|RIG_player:l_fingerPinky0_jnt.message" 
 		"RIG_playerRN.placeHolderList[431]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_arm_rotExt_fxGrp|RIG_player:r_arm_twists_grp.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerPinkyIn_jnt|RIG_player:l_fingerPinky0_jnt|RIG_player:l_fingerPinky1_jnt.message" 
 		"RIG_playerRN.placeHolderList[432]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_arm_rotExt_fxGrp|RIG_player:r_arm_twists_grp|RIG_player:r_arm_twist0_jnt.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerPinkyIn_jnt|RIG_player:l_fingerPinky0_jnt|RIG_player:l_fingerPinky1_jnt|RIG_player:l_fingerPinky2_jnt.message" 
 		"RIG_playerRN.placeHolderList[433]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_arm_rotExt_fxGrp|RIG_player:r_arm_twists_grp|RIG_player:r_arm_twist1_jnt.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerPinkyIn_jnt|RIG_player:l_fingerPinky0_jnt|RIG_player:l_fingerPinky1_jnt|RIG_player:l_fingerPinky2_jnt|RIG_player:l_fingerPinky3_jnt.message" 
 		"RIG_playerRN.placeHolderList[434]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_arm_rotExt_fxGrp|RIG_player:r_arm_twists_grp|RIG_player:r_arm_twists_grp_parentConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerPinkyIn_jnt|RIG_player:l_fingerPinky0_jnt|RIG_player:l_fingerPinky1_jnt|RIG_player:l_fingerPinky2_jnt|RIG_player:l_fingerPinky2_jnt_orientConstraint1.message" 
 		"RIG_playerRN.placeHolderList[435]" ""
-		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_arm_rotExt_fxGrp|RIG_player:r_arm_rotExt_fxGrp_parentConstraint1.message" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerPinkyIn_jnt|RIG_player:l_fingerPinky0_jnt|RIG_player:l_fingerPinky1_jnt|RIG_player:l_fingerPinky1_jnt_orientConstraint1.message" 
 		"RIG_playerRN.placeHolderList[436]" ""
-		5 3 "RIG_playerRN" "RIG_player:shapeEditorManager.message" "RIG_playerRN.placeHolderList[437]" 
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerPinkyIn_jnt|RIG_player:l_fingerPinky0_jnt|RIG_player:l_fingerPinky0_jnt_parentConstraint1.message" 
+		"RIG_playerRN.placeHolderList[437]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_fingerPinkyIn_jnt|RIG_player:l_fingerPinkyIn_jnt_orientConstraint1.message" 
+		"RIG_playerRN.placeHolderList[438]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_hand_jnt_orientConstraint1.message" 
+		"RIG_playerRN.placeHolderList[439]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_hand_jnt|RIG_player:l_handEnd_jnt.message" 
+		"RIG_playerRN.placeHolderList[440]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_armLower_jnt|RIG_player:l_armLower_jnt_parentConstraint1.message" 
+		"RIG_playerRN.placeHolderList[441]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_arm_rotExt_fxGrp.message" 
+		"RIG_playerRN.placeHolderList[442]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_arm_rotExt_fxGrp|RIG_player:l_hand_rotExt.message" 
+		"RIG_playerRN.placeHolderList[443]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_arm_rotExt_fxGrp|RIG_player:l_hand_rotExt|RIG_player:l_hand_rotExtEnd.message" 
+		"RIG_playerRN.placeHolderList[444]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_arm_rotExt_fxGrp|RIG_player:l_hand_rotExt|RIG_player:l_hand_rotExt_aimConstraint1.message" 
+		"RIG_playerRN.placeHolderList[445]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_arm_rotExt_fxGrp|RIG_player:l_hand_rotExt|RIG_player:l_hand_rotExt_output.message" 
+		"RIG_playerRN.placeHolderList[446]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_arm_rotExt_fxGrp|RIG_player:l_hand_rotExt|RIG_player:l_hand_rotExt_output|RIG_player:l_hand_rotExt_outputShape.message" 
+		"RIG_playerRN.placeHolderList[447]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_arm_rotExt_fxGrp|RIG_player:l_hand_rotExt|RIG_player:l_hand_rotExt_output|RIG_player:l_hand_rotExt_output_orientConstraint1.message" 
+		"RIG_playerRN.placeHolderList[448]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_arm_rotExt_fxGrp|RIG_player:l_arm_twists_grp.message" 
+		"RIG_playerRN.placeHolderList[449]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_arm_rotExt_fxGrp|RIG_player:l_arm_twists_grp|RIG_player:l_arm_twist0_jnt.message" 
+		"RIG_playerRN.placeHolderList[450]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_arm_rotExt_fxGrp|RIG_player:l_arm_twists_grp|RIG_player:l_arm_twist1_jnt.message" 
+		"RIG_playerRN.placeHolderList[451]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_arm_rotExt_fxGrp|RIG_player:l_arm_twists_grp|RIG_player:l_arm_twists_grp_parentConstraint1.message" 
+		"RIG_playerRN.placeHolderList[452]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:LEFT_ARM_JOINTS|RIG_player:l_arm_rotExt_fxGrp|RIG_player:l_arm_rotExt_fxGrp_parentConstraint1.message" 
+		"RIG_playerRN.placeHolderList[453]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS.message" 
+		"RIG_playerRN.placeHolderList[454]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt.message" 
+		"RIG_playerRN.placeHolderList[455]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt.message" 
+		"RIG_playerRN.placeHolderList[456]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerThumb0_jnt.message" 
+		"RIG_playerRN.placeHolderList[457]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerThumb0_jnt|RIG_player:r_fingerThumb1_jnt.message" 
+		"RIG_playerRN.placeHolderList[458]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerThumb0_jnt|RIG_player:r_fingerThumb1_jnt|RIG_player:r_fingerThumb2_jnt.message" 
+		"RIG_playerRN.placeHolderList[459]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerThumb0_jnt|RIG_player:r_fingerThumb1_jnt|RIG_player:r_fingerThumb2_jnt|RIG_player:r_fingerThumb3_jnt.message" 
+		"RIG_playerRN.placeHolderList[460]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerThumb0_jnt|RIG_player:r_fingerThumb1_jnt|RIG_player:r_fingerThumb2_jnt|RIG_player:r_fingerThumb2_jnt_orientConstraint1.message" 
+		"RIG_playerRN.placeHolderList[461]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerThumb0_jnt|RIG_player:r_fingerThumb1_jnt|RIG_player:r_fingerThumb1_jnt_orientConstraint1.message" 
+		"RIG_playerRN.placeHolderList[462]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerThumb0_jnt|RIG_player:r_fingerThumb0_jnt_parentConstraint1.message" 
+		"RIG_playerRN.placeHolderList[463]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerIndex0_jnt.message" 
+		"RIG_playerRN.placeHolderList[464]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerIndex0_jnt|RIG_player:r_fingerIndex1_jnt.message" 
+		"RIG_playerRN.placeHolderList[465]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerIndex0_jnt|RIG_player:r_fingerIndex1_jnt|RIG_player:r_fingerIndex2_jnt.message" 
+		"RIG_playerRN.placeHolderList[466]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerIndex0_jnt|RIG_player:r_fingerIndex1_jnt|RIG_player:r_fingerIndex2_jnt|RIG_player:r_fingerIndex3_jnt.message" 
+		"RIG_playerRN.placeHolderList[467]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerIndex0_jnt|RIG_player:r_fingerIndex1_jnt|RIG_player:r_fingerIndex2_jnt|RIG_player:r_fingerIndex2_jnt_orientConstraint1.message" 
+		"RIG_playerRN.placeHolderList[468]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerIndex0_jnt|RIG_player:r_fingerIndex1_jnt|RIG_player:r_fingerIndex1_jnt_orientConstraint1.message" 
+		"RIG_playerRN.placeHolderList[469]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerIndex0_jnt|RIG_player:r_fingerIndex0_jnt_parentConstraint1.message" 
+		"RIG_playerRN.placeHolderList[470]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerMiddle0_jnt.message" 
+		"RIG_playerRN.placeHolderList[471]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerMiddle0_jnt|RIG_player:r_fingerMiddle1_jnt.message" 
+		"RIG_playerRN.placeHolderList[472]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerMiddle0_jnt|RIG_player:r_fingerMiddle1_jnt|RIG_player:r_fingerMiddle2_jnt.message" 
+		"RIG_playerRN.placeHolderList[473]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerMiddle0_jnt|RIG_player:r_fingerMiddle1_jnt|RIG_player:r_fingerMiddle2_jnt|RIG_player:r_fingerMiddle3_jnt.message" 
+		"RIG_playerRN.placeHolderList[474]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerMiddle0_jnt|RIG_player:r_fingerMiddle1_jnt|RIG_player:r_fingerMiddle2_jnt|RIG_player:r_fingerMiddle2_jnt_orientConstraint1.message" 
+		"RIG_playerRN.placeHolderList[475]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerMiddle0_jnt|RIG_player:r_fingerMiddle1_jnt|RIG_player:r_fingerMiddle1_jnt_orientConstraint1.message" 
+		"RIG_playerRN.placeHolderList[476]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerMiddle0_jnt|RIG_player:r_fingerMiddle0_jnt_parentConstraint1.message" 
+		"RIG_playerRN.placeHolderList[477]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerRing0_jnt.message" 
+		"RIG_playerRN.placeHolderList[478]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerRing0_jnt|RIG_player:r_fingerRing1_jnt.message" 
+		"RIG_playerRN.placeHolderList[479]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerRing0_jnt|RIG_player:r_fingerRing1_jnt|RIG_player:r_fingerRing2_jnt.message" 
+		"RIG_playerRN.placeHolderList[480]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerRing0_jnt|RIG_player:r_fingerRing1_jnt|RIG_player:r_fingerRing2_jnt|RIG_player:r_fingerRing3_jnt.message" 
+		"RIG_playerRN.placeHolderList[481]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerRing0_jnt|RIG_player:r_fingerRing1_jnt|RIG_player:r_fingerRing2_jnt|RIG_player:r_fingerRing2_jnt_orientConstraint1.message" 
+		"RIG_playerRN.placeHolderList[482]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerRing0_jnt|RIG_player:r_fingerRing1_jnt|RIG_player:r_fingerRing1_jnt_orientConstraint1.message" 
+		"RIG_playerRN.placeHolderList[483]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerRing0_jnt|RIG_player:r_fingerRing0_jnt_parentConstraint1.message" 
+		"RIG_playerRN.placeHolderList[484]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerPinkyIn_jnt.message" 
+		"RIG_playerRN.placeHolderList[485]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerPinkyIn_jnt|RIG_player:r_fingerPinky0_jnt.message" 
+		"RIG_playerRN.placeHolderList[486]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerPinkyIn_jnt|RIG_player:r_fingerPinky0_jnt|RIG_player:r_fingerPinky1_jnt.message" 
+		"RIG_playerRN.placeHolderList[487]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerPinkyIn_jnt|RIG_player:r_fingerPinky0_jnt|RIG_player:r_fingerPinky1_jnt|RIG_player:r_fingerPinky2_jnt.message" 
+		"RIG_playerRN.placeHolderList[488]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerPinkyIn_jnt|RIG_player:r_fingerPinky0_jnt|RIG_player:r_fingerPinky1_jnt|RIG_player:r_fingerPinky2_jnt|RIG_player:r_fingerPinky3_jnt.message" 
+		"RIG_playerRN.placeHolderList[489]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerPinkyIn_jnt|RIG_player:r_fingerPinky0_jnt|RIG_player:r_fingerPinky1_jnt|RIG_player:r_fingerPinky2_jnt|RIG_player:r_fingerPinky2_jnt_orientConstraint1.message" 
+		"RIG_playerRN.placeHolderList[490]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerPinkyIn_jnt|RIG_player:r_fingerPinky0_jnt|RIG_player:r_fingerPinky1_jnt|RIG_player:r_fingerPinky1_jnt_orientConstraint1.message" 
+		"RIG_playerRN.placeHolderList[491]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerPinkyIn_jnt|RIG_player:r_fingerPinky0_jnt|RIG_player:r_fingerPinky0_jnt_parentConstraint1.message" 
+		"RIG_playerRN.placeHolderList[492]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_fingerPinkyIn_jnt|RIG_player:r_fingerPinkyIn_jnt_orientConstraint1.message" 
+		"RIG_playerRN.placeHolderList[493]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_handEnd_jnt.message" 
+		"RIG_playerRN.placeHolderList[494]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_hand_jnt|RIG_player:r_hand_jnt_orientConstraint1.message" 
+		"RIG_playerRN.placeHolderList[495]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_armLower_jnt|RIG_player:r_armLower_jnt_parentConstraint1.message" 
+		"RIG_playerRN.placeHolderList[496]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_arm_rotExt_fxGrp.message" 
+		"RIG_playerRN.placeHolderList[497]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_arm_rotExt_fxGrp|RIG_player:r_hand_rotExt.message" 
+		"RIG_playerRN.placeHolderList[498]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_arm_rotExt_fxGrp|RIG_player:r_hand_rotExt|RIG_player:r_hand_rotExtEnd.message" 
+		"RIG_playerRN.placeHolderList[499]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_arm_rotExt_fxGrp|RIG_player:r_hand_rotExt|RIG_player:r_hand_rotExt_aimConstraint1.message" 
+		"RIG_playerRN.placeHolderList[500]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_arm_rotExt_fxGrp|RIG_player:r_hand_rotExt|RIG_player:r_hand_rotExt_output.message" 
+		"RIG_playerRN.placeHolderList[501]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_arm_rotExt_fxGrp|RIG_player:r_hand_rotExt|RIG_player:r_hand_rotExt_output|RIG_player:r_hand_rotExt_outputShape.message" 
+		"RIG_playerRN.placeHolderList[502]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_arm_rotExt_fxGrp|RIG_player:r_hand_rotExt|RIG_player:r_hand_rotExt_output|RIG_player:r_hand_rotExt_output_orientConstraint1.message" 
+		"RIG_playerRN.placeHolderList[503]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_arm_rotExt_fxGrp|RIG_player:r_arm_twists_grp.message" 
+		"RIG_playerRN.placeHolderList[504]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_arm_rotExt_fxGrp|RIG_player:r_arm_twists_grp|RIG_player:r_arm_twist0_jnt.message" 
+		"RIG_playerRN.placeHolderList[505]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_arm_rotExt_fxGrp|RIG_player:r_arm_twists_grp|RIG_player:r_arm_twist1_jnt.message" 
+		"RIG_playerRN.placeHolderList[506]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_arm_rotExt_fxGrp|RIG_player:r_arm_twists_grp|RIG_player:r_arm_twists_grp_parentConstraint1.message" 
+		"RIG_playerRN.placeHolderList[507]" ""
+		5 3 "RIG_playerRN" "|RIG_player:PLAYER_RIG|RIG_player:master_ctrl|RIG_player:JOINTS|RIG_player:RIGHT_ARM_JOINTS|RIG_player:r_arm_rotExt_fxGrp|RIG_player:r_arm_rotExt_fxGrp_parentConstraint1.message" 
+		"RIG_playerRN.placeHolderList[508]" ""
+		5 3 "RIG_playerRN" "RIG_player:shapeEditorManager.message" "RIG_playerRN.placeHolderList[509]" 
 		""
-		5 3 "RIG_playerRN" "RIG_player:poseInterpolatorManager.message" "RIG_playerRN.placeHolderList[438]" 
+		5 3 "RIG_playerRN" "RIG_player:poseInterpolatorManager.message" "RIG_playerRN.placeHolderList[510]" 
 		""
-		5 3 "RIG_playerRN" "RIG_player:layerManager.message" "RIG_playerRN.placeHolderList[439]" 
+		5 3 "RIG_playerRN" "RIG_player:layerManager.message" "RIG_playerRN.placeHolderList[511]" 
 		""
-		5 3 "RIG_playerRN" "RIG_player:defaultLayer.message" "RIG_playerRN.placeHolderList[440]" 
+		5 3 "RIG_playerRN" "RIG_player:defaultLayer.message" "RIG_playerRN.placeHolderList[512]" 
 		""
-		5 3 "RIG_playerRN" "RIG_player:uiConfigurationScriptNode.message" "RIG_playerRN.placeHolderList[441]" 
+		5 3 "RIG_playerRN" "RIG_player:uiConfigurationScriptNode.message" "RIG_playerRN.placeHolderList[513]" 
 		""
 		5 3 "RIG_playerRN" "RIG_player:sceneConfigurationScriptNode.message" 
-		"RIG_playerRN.placeHolderList[442]" ""
-		5 3 "RIG_playerRN" "RIG_player:hands_mat.message" "RIG_playerRN.placeHolderList[443]" 
+		"RIG_playerRN.placeHolderList[514]" ""
+		5 3 "RIG_playerRN" "RIG_player:hands_mat.message" "RIG_playerRN.placeHolderList[515]" 
 		""
-		5 3 "RIG_playerRN" "RIG_player:lambert2SG.message" "RIG_playerRN.placeHolderList[444]" 
+		5 3 "RIG_playerRN" "RIG_player:lambert2SG.message" "RIG_playerRN.placeHolderList[516]" 
 		""
 		5 3 "RIG_playerRN" "RIG_player:polySurfaceShape2HiddenFacesSet.message" 
-		"RIG_playerRN.placeHolderList[445]" ""
-		5 3 "RIG_playerRN" "RIG_player:hands_hands_mat.message" "RIG_playerRN.placeHolderList[446]" 
+		"RIG_playerRN.placeHolderList[517]" ""
+		5 3 "RIG_playerRN" "RIG_player:hands_hands_mat.message" "RIG_playerRN.placeHolderList[518]" 
 		""
-		5 3 "RIG_playerRN" "RIG_player:phong1SG.message" "RIG_playerRN.placeHolderList[447]" 
+		5 3 "RIG_playerRN" "RIG_player:phong1SG.message" "RIG_playerRN.placeHolderList[519]" 
 		""
-		5 3 "RIG_playerRN" "RIG_player:gloves_mat.message" "RIG_playerRN.placeHolderList[448]" 
+		5 3 "RIG_playerRN" "RIG_player:gloves_mat.message" "RIG_playerRN.placeHolderList[520]" 
 		""
-		5 3 "RIG_playerRN" "RIG_player:hands_lambert2SG.message" "RIG_playerRN.placeHolderList[449]" 
+		5 3 "RIG_playerRN" "RIG_player:hands_lambert2SG.message" "RIG_playerRN.placeHolderList[521]" 
 		""
 		5 3 "RIG_playerRN" "RIG_player:hands_polySurfaceShape2HiddenFacesSet.message" 
-		"RIG_playerRN.placeHolderList[450]" ""
-		5 3 "RIG_playerRN" "RIG_player:hands_hands_mat1.message" "RIG_playerRN.placeHolderList[451]" 
+		"RIG_playerRN.placeHolderList[522]" ""
+		5 3 "RIG_playerRN" "RIG_player:hands_hands_mat1.message" "RIG_playerRN.placeHolderList[523]" 
 		""
-		5 3 "RIG_playerRN" "RIG_player:hands_phong1SG.message" "RIG_playerRN.placeHolderList[452]" 
+		5 3 "RIG_playerRN" "RIG_player:hands_phong1SG.message" "RIG_playerRN.placeHolderList[524]" 
 		""
-		5 3 "RIG_playerRN" "RIG_player:hands_gloves_mat.message" "RIG_playerRN.placeHolderList[453]" 
+		5 3 "RIG_playerRN" "RIG_player:hands_gloves_mat.message" "RIG_playerRN.placeHolderList[525]" 
 		""
-		5 3 "RIG_playerRN" "RIG_player:hands_lambert2SG1.message" "RIG_playerRN.placeHolderList[454]" 
+		5 3 "RIG_playerRN" "RIG_player:hands_lambert2SG1.message" "RIG_playerRN.placeHolderList[526]" 
 		""
-		5 3 "RIG_playerRN" "RIG_player:multiplyDivide1.message" "RIG_playerRN.placeHolderList[455]" 
+		5 3 "RIG_playerRN" "RIG_player:multiplyDivide1.message" "RIG_playerRN.placeHolderList[527]" 
 		""
-		5 3 "RIG_playerRN" "RIG_player:unitConversion1.message" "RIG_playerRN.placeHolderList[456]" 
+		5 3 "RIG_playerRN" "RIG_player:unitConversion1.message" "RIG_playerRN.placeHolderList[528]" 
 		""
-		5 3 "RIG_playerRN" "RIG_player:unitConversion2.message" "RIG_playerRN.placeHolderList[457]" 
+		5 3 "RIG_playerRN" "RIG_player:unitConversion2.message" "RIG_playerRN.placeHolderList[529]" 
 		""
-		5 3 "RIG_playerRN" "RIG_player:unitConversion3.message" "RIG_playerRN.placeHolderList[458]" 
+		5 3 "RIG_playerRN" "RIG_player:unitConversion3.message" "RIG_playerRN.placeHolderList[530]" 
 		""
-		5 3 "RIG_playerRN" "RIG_player:unitConversion4.message" "RIG_playerRN.placeHolderList[459]" 
+		5 3 "RIG_playerRN" "RIG_player:unitConversion4.message" "RIG_playerRN.placeHolderList[531]" 
 		""
-		5 3 "RIG_playerRN" "RIG_player:multiplyDivide2.message" "RIG_playerRN.placeHolderList[460]" 
+		5 3 "RIG_playerRN" "RIG_player:multiplyDivide2.message" "RIG_playerRN.placeHolderList[532]" 
 		""
-		5 3 "RIG_playerRN" "RIG_player:unitConversion5.message" "RIG_playerRN.placeHolderList[461]" 
+		5 3 "RIG_playerRN" "RIG_player:unitConversion5.message" "RIG_playerRN.placeHolderList[533]" 
 		""
-		5 3 "RIG_playerRN" "RIG_player:unitConversion6.message" "RIG_playerRN.placeHolderList[462]" 
+		5 3 "RIG_playerRN" "RIG_player:unitConversion6.message" "RIG_playerRN.placeHolderList[534]" 
 		""
-		5 3 "RIG_playerRN" "RIG_player:unitConversion7.message" "RIG_playerRN.placeHolderList[463]" 
+		5 3 "RIG_playerRN" "RIG_player:unitConversion7.message" "RIG_playerRN.placeHolderList[535]" 
 		""
-		5 3 "RIG_playerRN" "RIG_player:unitConversion8.message" "RIG_playerRN.placeHolderList[464]" 
+		5 3 "RIG_playerRN" "RIG_player:unitConversion8.message" "RIG_playerRN.placeHolderList[536]" 
 		""
-		5 3 "RIG_playerRN" "RIG_player:skinCluster3.message" "RIG_playerRN.placeHolderList[465]" 
+		5 3 "RIG_playerRN" "RIG_player:skinCluster3.message" "RIG_playerRN.placeHolderList[537]" 
 		""
-		5 3 "RIG_playerRN" "RIG_player:bindPose1.message" "RIG_playerRN.placeHolderList[466]" 
+		5 3 "RIG_playerRN" "RIG_player:bindPose1.message" "RIG_playerRN.placeHolderList[538]" 
 		""
-		5 3 "RIG_playerRN" "RIG_player:blendShape1_knuckles.message" "RIG_playerRN.placeHolderList[467]" 
+		5 3 "RIG_playerRN" "RIG_player:blendShape1_knuckles.message" "RIG_playerRN.placeHolderList[539]" 
 		""
-		5 3 "RIG_playerRN" "RIG_player:player_bs.message" "RIG_playerRN.placeHolderList[468]" 
+		5 3 "RIG_playerRN" "RIG_player:player_bs.message" "RIG_playerRN.placeHolderList[540]" 
 		"";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
@@ -1682,7 +1850,7 @@ createNode script -n "uiConfigurationScriptNode";
 	rename -uid "16431F83-4F1D-C9B9-0EA2-FF868A2B2C50";
 	setAttr ".b" -type "string" (
 		"// Maya Mel UI Configuration File.\n//\n//  This script is machine generated.  Edit at your own risk.\n//\n//\n\nglobal string $gMainPane;\nif (`paneLayout -exists $gMainPane`) {\n\n\tglobal int $gUseScenePanelConfig;\n\tint    $useSceneConfig = $gUseScenePanelConfig;\n\tint    $nodeEditorPanelVisible = stringArrayContains(\"nodeEditorPanel1\", `getPanel -vis`);\n\tint    $nodeEditorWorkspaceControlOpen = (`workspaceControl -exists nodeEditorPanel1Window` && `workspaceControl -q -visible nodeEditorPanel1Window`);\n\tint    $menusOkayInPanels = `optionVar -q allowMenusInPanels`;\n\tint    $nVisPanes = `paneLayout -q -nvp $gMainPane`;\n\tint    $nPanes = 0;\n\tstring $editorName;\n\tstring $panelName;\n\tstring $itemFilterName;\n\tstring $panelConfig;\n\n\t//\n\t//  get current state of the UI\n\t//\n\tsceneUIReplacement -update $gMainPane;\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Top View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Top View\")) -mbv $menusOkayInPanels  $panelName;\n"
-		+ "\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"top\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 1\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 32768\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n"
+		+ "\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"persp\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 1\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 32768\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n"
 		+ "            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -controllers 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n"
 		+ "            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 619\n            -height 332\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n"
 		+ "\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Side View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Side View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"side\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n"
@@ -1693,7 +1861,7 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -controllers 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n"
 		+ "            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 619\n            -height 332\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Persp View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Persp View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"cam01\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n"
 		+ "            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 1\n            -activeComponentsXray 0\n            -displayTextures 1\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 32768\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n"
-		+ "            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -controllers 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n"
+		+ "            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -controllers 1\n            -nurbsCurves 0\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n"
 		+ "            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1245\n            -height 708\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n"
 		+ "\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -docTag \"isolOutln_fromSeln\" \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 1\n            -showReferenceMembers 1\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -organizeByClip 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showParentContainers 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n"
 		+ "            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -isSet 0\n            -isSetMember 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            -renderFilterIndex 0\n            -selectionOrder \"chronological\" \n"
@@ -1721,13 +1889,13 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "                -bumpResolution 4 4 \n                -textureCompression 0\n                -transparencyAlgorithm \"frontAndBackCull\" \n                -transpInShadows 0\n                -cullingOverride \"none\" \n                -lowQualityLighting 0\n                -maximumNumHardwareLights 0\n                -occlusionCulling 0\n                -shadingModel 0\n                -useBaseRenderer 0\n                -useReducedRenderer 0\n                -smallObjectCulling 0\n                -smallObjectThreshold -1 \n                -interactiveDisableShadows 0\n                -interactiveBackFaceCull 0\n                -sortTransparent 1\n                -controllers 1\n                -nurbsCurves 1\n                -nurbsSurfaces 1\n                -polymeshes 1\n                -subdivSurfaces 1\n                -planes 1\n                -lights 1\n                -cameras 1\n                -controlVertices 1\n                -hulls 1\n                -grid 1\n                -imagePlane 1\n                -joints 1\n                -ikHandles 1\n"
 		+ "                -deformers 1\n                -dynamics 1\n                -particleInstancers 1\n                -fluids 1\n                -hairSystems 1\n                -follicles 1\n                -nCloths 1\n                -nParticles 1\n                -nRigids 1\n                -dynamicConstraints 1\n                -locators 1\n                -manipulators 1\n                -pluginShapes 1\n                -dimensions 1\n                -handles 1\n                -pivots 1\n                -textures 1\n                -strokes 1\n                -motionTrails 1\n                -clipGhosts 1\n                -greasePencils 1\n                -shadows 0\n                -captureSequenceNumber -1\n                -width 0\n                -height 0\n                -sceneRenderFilter 0\n                -displayMode \"centerEye\" \n                -viewColor 0 0 0 1 \n                -useCustomBackground 1\n                $editorName;\n            stereoCameraView -e -viewSelected 0 $editorName;\n            stereoCameraView -e \n"
 		+ "                -pluginObjects \"gpuCacheDisplayFilter\" 1 \n                $editorName; };\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\tif ($useSceneConfig) {\n        string $configName = `getPanel -cwl (localizedPanelLabel(\"Current Layout\"))`;\n        if (\"\" != $configName) {\n\t\t\tpanelConfiguration -edit -label (localizedPanelLabel(\"Current Layout\")) \n\t\t\t\t-userCreated false\n\t\t\t\t-defaultImage \"vacantCell.xP:/\"\n\t\t\t\t-image \"\"\n\t\t\t\t-sc false\n\t\t\t\t-configString \"global string $gMainPane; paneLayout -e -cn \\\"single\\\" -ps 1 100 100 $gMainPane;\"\n\t\t\t\t-removeAllPanels\n\t\t\t\t-ap false\n\t\t\t\t\t(localizedPanelLabel(\"Persp View\")) \n\t\t\t\t\t\"modelPanel\"\n"
-		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -camera \\\"cam01\\\" \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1245\\n    -height 708\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
-		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -camera \\\"cam01\\\" \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1245\\n    -height 708\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
+		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -camera \\\"cam01\\\" \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 0\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1245\\n    -height 708\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
+		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -camera \\\"cam01\\\" \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 0\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1245\\n    -height 708\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
 		+ "\t\t\t\t$configName;\n\n            setNamedPanelLayout (localizedPanelLabel(\"Current Layout\"));\n        }\n\n        panelHistory -e -clear mainPanelHistory;\n        sceneUIReplacement -clear;\n\t}\n\n\ngrid -spacing 100 -size 1000 -divisions 1 -displayAxes yes -displayGridLines yes -displayDivisionLines yes -displayPerspectiveLabels no -displayOrthographicLabels no -displayAxesBold yes -perspectiveLabelPosition axis -orthographicLabelPosition edge;\nviewManip -drawCompass 0 -compassAngle 0 -frontParameters \"\" -homeParameters \"\" -selectionLockParameters \"\";\n}\n");
 	setAttr ".st" 3;
 createNode script -n "sceneConfigurationScriptNode";
 	rename -uid "49B6886F-4C98-91AD-BA80-84AFA0461FB5";
-	setAttr ".b" -type "string" "playbackOptions -min 4000 -max 4080 -ast 0 -aet 4100 ";
+	setAttr ".b" -type "string" "playbackOptions -min 3000 -max 3127 -ast 0 -aet 4100 ";
 	setAttr ".st" 6;
 createNode aiOptions -s -n "defaultArnoldRenderOptions";
 	rename -uid "7B4DEC5C-4608-CC02-ED93-0684DF3C933B";
@@ -2950,7 +3118,7 @@ createNode animCurveTA -n "r_fingerRing0_ctrl_rotateX";
 	rename -uid "4159B1D7-481D-3C95-FF2D-A098411FAEAB";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 76 ".ktv[0:75]"  0 -1.7752987848662503 64 -1.7752987848662503
+	setAttr -s 77 ".ktv[0:76]"  0 -1.7752987848662503 64 -1.7752987848662503
 		 96 -1.7752987848662503 100 -1.7752987848662503 108 25.831572603155177 119 25.831572603155177
 		 135 0 144 -1.7752987848662503 150 -1.7752987848662503 160 -1.7752987848662503 200 -1.7752987848662503
 		 264 -1.7752987848662503 280 -1.7752987848662503 300 -1.7752987848662503 385 -1.7752987848662503
@@ -2966,42 +3134,42 @@ createNode animCurveTA -n "r_fingerRing0_ctrl_rotateX";
 		 2040 -1.7752987848662503 2060 -1.7752987848662503 2061 -1.7752987848662503 2475 -1.7752987848662503
 		 2490 -1.7752987848662503 2500 -1.7752987848662503 2520 -1.7752987848662503 2521 -1.7752987848662503
 		 2540 -1.7752987848662503 2560 -1.7752987848662503 2561 -1.7752987848662503 2580 -1.7752987848662503
-		 2600 -1.7752987848662503 2610 -1.7752987848662503 2625 -1.7752987848662503 3000 -1.7752987848662503
-		 3064 -1.7752987848662503 3069 -1.7752987848662503 3070 -1.7752987848662503 3100 0
-		 3952 0 3999 0 4000 0 4014 -0.62862513009383214 4028 -1.7752987848662503;
-	setAttr -s 76 ".kit[4:75]"  18 18 18 1 18 18 1 1 
+		 2600 -1.7752987848662503 2610 -1.7752987848662503 2625 -1.7752987848662503 2640 -1.7752987848662503
+		 3000 0 3135 0 3140 -1.7752987848662503 3141 -1.7752987848662503 3171 0 3952 0 3999 0
+		 4000 0 4014 -0.62862513009383214 4028 -1.7752987848662503;
+	setAttr -s 77 ".kit[4:76]"  18 18 18 1 18 18 1 1 
 		18 18 1 18 1 1 1 18 1 1 18 1 1 1 18 18 18 
 		18 18 18 18 18 1 1 1 1 18 1 1 1 1 18 1 1 
 		1 1 1 1 18 1 1 1 18 18 18 1 18 18 1 1 18 
-		1 18 1 18 1 18 18 18 18 1 1 18 18;
-	setAttr -s 76 ".kot[4:75]"  18 18 18 1 18 18 1 1 
+		1 18 1 18 18 1 18 18 18 18 1 1 18 18;
+	setAttr -s 77 ".kot[4:76]"  18 18 18 1 18 18 1 1 
 		18 18 1 18 1 1 1 18 1 1 18 1 1 1 18 18 18 
 		18 18 18 18 18 1 1 1 1 18 1 1 1 1 18 1 1 
 		1 1 1 1 18 1 1 18 18 18 18 1 18 1 1 18 18 
-		1 18 1 18 1 18 18 18 18 1 1 18 18;
-	setAttr -s 76 ".kix[0:75]"  1 1 1 1 1 1 0.9551983554905219 1 1 1 1 
+		1 18 1 18 18 1 18 18 18 18 1 1 18 18;
+	setAttr -s 77 ".kix[0:76]"  1 1 1 1 1 1 0.9551983554905219 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 2.1333333333333471 1 1 1 2.1333333333333471 1 1 1 0.99994680091982158 
 		0.99994680091982158 1 1 1 1 2.1333333333333471 2.1333333333333471 2.1333333333333471 
 		1 1 1 1 2.1333333333333471 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 2.1333333333333471 
-		1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1 0.99944940115049252 1;
-	setAttr -s 76 ".kiy[0:75]"  0 0 0 0 0 0 -0.29596638604443321 0 0 0 
+		1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.99944940115049252 1;
+	setAttr -s 77 ".kiy[0:76]"  0 0 0 0 0 0 -0.29596638604443321 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.010314811205967925 0.010314811205967925 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 -0.033179730859694348 0;
-	setAttr -s 76 ".kox[0:75]"  1 1 1 1 1 1 0.9551983554905219 1 1 1 1 
+		0 0 -0.033179730859694348 0;
+	setAttr -s 77 ".kox[0:76]"  1 1 1 1 1 1 0.9551983554905219 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 28.733333333333327 1 1 1 28.733333333333327 1 1 1 0.99994680091982158 
 		0.99994680091982158 1 1 1 1 28.733333333333327 28.733333333333327 28.733333333333327 
 		1 1 1 1 28.733333333333327 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 
-		1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1 0.99944940115049252 1;
-	setAttr -s 76 ".koy[0:75]"  0 0 0 0 0 0 -0.29596638604443326 0 0 0 
+		1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.99944940115049252 1;
+	setAttr -s 77 ".koy[0:76]"  0 0 0 0 0 0 -0.29596638604443326 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.010314811205967925 0.010314811205967925 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 -0.033179730859694348 0;
+		0 0 -0.033179730859694348 0;
 createNode animCurveTA -n "r_fingerRing0_ctrl_rotateY";
 	rename -uid "621885CC-4910-92F1-4401-70B2DF119F35";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 76 ".ktv[0:75]"  0 -72.384462990296115 64 -72.384462990296115
+	setAttr -s 77 ".ktv[0:76]"  0 -72.384462990296115 64 -72.384462990296115
 		 96 -72.384462990296115 100 -72.384462990296115 108 -107.23661210983835 119 -107.23661210983835
 		 135 -7.4964119045696345 144 -72.384462990296115 150 -72.384462990296115 160 -72.384462990296115
 		 200 -72.384462990296115 264 -72.384462990296115 280 -72.384462990296115 300 -72.384462990296115
@@ -3018,42 +3186,42 @@ createNode animCurveTA -n "r_fingerRing0_ctrl_rotateY";
 		 2475 -72.384462990296115 2490 -72.384462990296115 2500 -72.384462990296115 2520 -72.384462990296115
 		 2521 -72.384462990296115 2540 -72.384462990296115 2560 -72.384462990296115 2561 -72.384462990296115
 		 2580 -72.384462990296115 2600 -72.384462990296115 2610 -72.384462990296115 2625 -72.384462990296115
-		 3000 -72.384462990296115 3064 -72.384462990296115 3069 -72.384462990296115 3070 -72.384462990296115
-		 3100 0 3952 0 3999 -15.98004365877248 4000 -15.98004365877248 4014 -31.291879936475677
+		 2640 -72.384462990296115 3000 0 3135 0 3140 -72.384462990296115 3141 -72.384462990296115
+		 3171 0 3952 0 3999 -15.98004365877248 4000 -15.98004365877248 4014 -31.291879936475677
 		 4028 -72.384462990296115;
-	setAttr -s 76 ".kit[4:75]"  18 18 18 1 18 18 1 1 
+	setAttr -s 77 ".kit[4:76]"  18 18 18 1 18 18 1 1 
 		18 18 1 18 1 1 1 18 1 1 18 1 1 1 18 18 18 
 		18 18 18 18 18 1 1 1 1 18 1 1 1 1 18 1 1 
 		1 1 1 1 18 1 1 1 18 18 18 1 18 18 1 1 18 
-		1 18 1 18 1 18 18 18 18 1 1 18 18;
-	setAttr -s 76 ".kot[4:75]"  18 18 18 1 18 18 1 1 
+		1 18 1 18 18 1 18 18 18 18 1 1 18 18;
+	setAttr -s 77 ".kot[4:76]"  18 18 18 1 18 18 1 1 
 		18 18 1 18 1 1 1 18 1 1 18 1 1 1 18 18 18 
 		18 18 18 18 18 1 1 1 1 18 1 1 1 1 18 1 1 
 		1 1 1 1 18 1 1 18 18 18 18 1 18 1 1 18 18 
-		1 18 1 18 1 18 18 18 18 1 1 18 18;
-	setAttr -s 76 ".kix[0:75]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+		1 18 1 18 18 1 18 18 18 18 1 1 18 18;
+	setAttr -s 77 ".kix[0:76]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
 		1 2.1333333333333471 1 1 1 2.1333333333333471 1 1 1 0.99483097835806744 0.99859381600717512 
 		1 1 1 1 2.1333333333333471 2.1333333333333471 2.1333333333333471 1 1 1 1 2.1333333333333471 
 		1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 2.1333333333333471 1 1 2.1333333333333471 
-		1 1 1 1 1 1 1 1 1 1 1 1 1 0.68801781775352444 1;
-	setAttr -s 76 ".kiy[0:75]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.68801781775352444 1;
+	setAttr -s 77 ".kiy[0:76]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0.10154469212681906 0.053013117548659179 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.72569379386465616 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.72569379386465616 
 		0;
-	setAttr -s 76 ".kox[0:75]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+	setAttr -s 77 ".kox[0:76]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
 		1 28.733333333333327 1 1 1 28.733333333333327 1 1 1 0.99483097835806733 0.99859381600717523 
 		1 1 1 1 28.733333333333327 28.733333333333327 28.733333333333327 1 1 1 1 28.733333333333327 
 		1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 1 1 28.733333333333327 
-		1 1 1 1 1 1 1 1 1 1 1 1 1 0.68801781775352444 1;
-	setAttr -s 76 ".koy[0:75]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.68801781775352444 1;
+	setAttr -s 77 ".koy[0:76]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0.10154469212681905 0.053013117548659186 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.72569379386465616 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.72569379386465616 
 		0;
 createNode animCurveTA -n "r_fingerRing0_ctrl_rotateZ";
 	rename -uid "ADD59ECB-4988-C5A8-A01B-6D90D02DC4A0";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 76 ".ktv[0:75]"  0 6.4319864064017027 64 6.4319864064017027
+	setAttr -s 77 ".ktv[0:76]"  0 6.4319864064017027 64 6.4319864064017027
 		 96 6.4319864064017027 100 6.4319864064017027 108 -25.519220707888483 119 -25.519220707888483
 		 135 0 144 6.4319864064017027 150 6.4319864064017027 160 6.4319864064017027 200 6.4319864064017027
 		 264 6.4319864064017027 280 6.4319864064017027 300 6.4319864064017027 385 6.4319864064017027
@@ -3069,42 +3237,42 @@ createNode animCurveTA -n "r_fingerRing0_ctrl_rotateZ";
 		 2040 6.4319864064017027 2060 6.4319864064017027 2061 6.4319864064017027 2475 6.4319864064017027
 		 2490 6.4319864064017027 2500 6.4319864064017027 2520 6.4319864064017027 2521 6.4319864064017027
 		 2540 6.4319864064017027 2560 6.4319864064017027 2561 6.4319864064017027 2580 6.4319864064017027
-		 2600 6.4319864064017027 2610 6.4319864064017027 2625 6.4319864064017027 3000 6.4319864064017027
-		 3064 6.4319864064017027 3069 6.4319864064017027 3070 6.4319864064017027 3100 0 3952 0
-		 3999 0 4000 0 4014 5.0664004231735618 4028 6.4319864064017027;
-	setAttr -s 76 ".kit[4:75]"  18 18 18 1 18 18 1 1 
+		 2600 6.4319864064017027 2610 6.4319864064017027 2625 6.4319864064017027 2640 6.4319864064017027
+		 3000 0 3135 0 3140 6.4319864064017027 3141 6.4319864064017027 3171 0 3952 0 3999 0
+		 4000 0 4014 5.0664004231735618 4028 6.4319864064017027;
+	setAttr -s 77 ".kit[4:76]"  18 18 18 1 18 18 1 1 
 		18 18 1 18 1 1 1 18 1 1 18 1 1 1 18 18 18 
 		18 18 18 18 18 1 1 1 1 18 1 1 1 1 18 1 1 
 		1 1 1 1 18 1 1 1 18 18 18 1 18 18 1 1 18 
-		1 18 1 18 1 18 18 18 18 1 1 18 18;
-	setAttr -s 76 ".kot[4:75]"  18 18 18 1 18 18 1 1 
+		1 18 1 18 18 1 18 18 18 18 1 1 18 18;
+	setAttr -s 77 ".kot[4:76]"  18 18 18 1 18 18 1 1 
 		18 18 1 18 1 1 1 18 1 1 18 1 1 1 18 18 18 
 		18 18 18 18 18 1 1 1 1 18 1 1 1 1 18 1 1 
 		1 1 1 1 18 1 1 18 18 18 18 1 18 1 1 18 18 
-		1 18 1 18 1 18 18 18 18 1 1 18 18;
-	setAttr -s 76 ".kix[0:75]"  1 1 1 1 1 1 0.83108324402097988 1 1 1 1 
+		1 18 1 18 18 1 18 18 18 18 1 1 18 18;
+	setAttr -s 77 ".kix[0:76]"  1 1 1 1 1 1 0.83108324402097988 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 2.1333333333333471 1 1 1 2.1333333333333471 1 1 1 0.99993819774921888 
 		0.99993819774921888 1 1 1 1 2.1333333333333471 2.1333333333333471 2.1333333333333471 
 		1 1 1 1 2.1333333333333471 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 2.1333333333333471 
-		1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1 0.99284416604508274 1;
-	setAttr -s 76 ".kiy[0:75]"  0 0 0 0 0 0 0.55614803920140232 0 0 0 0 
+		1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.99284416604508274 1;
+	setAttr -s 77 ".kiy[0:76]"  0 0 0 0 0 0 0.55614803920140232 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.011117584361902447 -0.011117584361902447 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0.11941717611065945 0;
-	setAttr -s 76 ".kox[0:75]"  1 1 1 1 1 1 0.83108324402097988 1 1 1 1 
+		0 0 0.11941717611065945 0;
+	setAttr -s 77 ".kox[0:76]"  1 1 1 1 1 1 0.83108324402097988 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 28.733333333333327 1 1 1 28.733333333333327 1 1 1 0.99993819774921888 
 		0.99993819774921899 1 1 1 1 28.733333333333327 28.733333333333327 28.733333333333327 
 		1 1 1 1 28.733333333333327 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 
-		1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1 0.99284416604508274 1;
-	setAttr -s 76 ".koy[0:75]"  0 0 0 0 0 0 0.55614803920140221 0 0 0 0 
+		1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.99284416604508274 1;
+	setAttr -s 77 ".koy[0:76]"  0 0 0 0 0 0 0.55614803920140221 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.011117584361902447 -0.011117584361902449 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0.11941717611065945 0;
+		0 0 0.11941717611065945 0;
 createNode animCurveTL -n "r_fingerPinky0_ctrl_translateX";
 	rename -uid "E2100BD9-45CC-82B6-1203-E888AD215751";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 71 ".ktv[0:70]"  0 0.085114319984677264 64 0.085114319984677264
+	setAttr -s 72 ".ktv[0:71]"  0 0.085114319984677264 64 0.085114319984677264
 		 96 0.085114319984677264 100 0.085114319984677264 108 0 119 0 142 0.085114319984677264
 		 150 0.085114319984677264 160 0.085114319984677264 200 0.085114319984677264 264 0.085114319984677264
 		 280 0.085114319984677264 300 0.085114319984677264 385 0.085114319984677264 400 0.085114319984677264
@@ -3119,38 +3287,38 @@ createNode animCurveTL -n "r_fingerPinky0_ctrl_translateX";
 		 2040 0.085114319984677264 2060 0.085114319984677264 2061 0.085114319984677264 2475 0.085114319984677264
 		 2490 0.085114319984677264 2500 0.085114319984677264 2520 0.085114319984677264 2521 0.085114319984677264
 		 2540 0.085114319984677264 2560 0.085114319984677264 2561 0.085114319984677264 2580 0.085114319984677264
-		 2600 0.085114319984677264 2610 0.085114319984677264 2625 0.085114319984677264 3000 0.085114319984677264
-		 3064 0.085114319984677264 3069 0.085114319984677264 3070 0.085114319984677264 3100 0
-		 3952 0 3999 0.085114319984677264 4000 0.085114319984677264 4028 0.085114319984677264;
-	setAttr -s 71 ".kit[4:70]"  18 18 1 18 18 1 1 18 
+		 2600 0.085114319984677264 2610 0.085114319984677264 2625 0.085114319984677264 2640 0.085114319984677264
+		 3000 0 3135 0 3140 0.085114319984677264 3141 0.085114319984677264 3171 0 3952 0 3999 0.085114319984677264
+		 4000 0.085114319984677264 4028 0.085114319984677264;
+	setAttr -s 72 ".kit[4:71]"  18 18 1 18 18 1 1 18 
 		18 1 18 1 1 1 18 1 1 18 1 1 1 18 18 18 18 
 		18 18 1 1 1 18 1 1 1 1 18 1 1 1 1 1 1 
 		18 1 1 1 18 18 18 1 18 18 1 1 18 1 18 1 18 
-		1 18 18 18 18 1 1 18;
-	setAttr -s 71 ".kot[4:70]"  18 18 1 18 18 1 1 18 
+		18 1 18 18 18 18 1 1 18;
+	setAttr -s 72 ".kot[4:71]"  18 18 1 18 18 1 1 18 
 		18 1 18 1 1 1 18 1 1 18 1 1 1 18 18 18 18 
 		18 18 1 1 1 18 1 1 1 1 18 1 1 1 1 1 1 
 		18 1 1 18 18 18 18 1 18 1 1 18 18 1 18 1 18 
-		1 18 18 18 18 1 1 18;
-	setAttr -s 71 ".kix[0:70]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+		18 1 18 18 18 18 1 1 18;
+	setAttr -s 72 ".kix[0:71]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
 		2.1333333333333471 1 1 1 2.1333333333333471 1 1 1 1 1 1 2.1333333333333471 2.1333333333333471 
 		2.1333333333333471 1 1 1 1 2.1333333333333471 1 1 2.1333333333333471 1 1 1 1 1 1 
-		1 1 1 1 1 2.1333333333333471 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 71 ".kiy[0:70]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1 1 2.1333333333333471 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 72 ".kiy[0:71]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 71 ".kox[0:70]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+		0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 72 ".kox[0:71]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
 		28.733333333333327 1 1 1 28.733333333333327 1 1 1 1 1 1 28.733333333333327 28.733333333333327 
 		28.733333333333327 1 1 1 1 28.733333333333327 1 1 28.733333333333327 1 1 1 1 1 1 
-		1 1 1 1 1 28.733333333333327 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 71 ".koy[0:70]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1 1 28.733333333333327 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 72 ".koy[0:71]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTL -n "r_fingerPinky0_ctrl_translateY";
 	rename -uid "5E2BE701-4C99-C35D-C52D-388FCABB0ECF";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 71 ".ktv[0:70]"  0 -1.0523566811936766 64 -1.0523566811936766
+	setAttr -s 72 ".ktv[0:71]"  0 -1.0523566811936766 64 -1.0523566811936766
 		 96 -1.0523566811936766 100 -1.0523566811936766 108 0 119 0 142 -1.0523566811936766
 		 150 -1.0523566811936766 160 -1.0523566811936766 200 -1.0523566811936766 264 -1.0523566811936766
 		 280 -1.0523566811936766 300 -1.0523566811936766 385 -1.0523566811936766 400 -1.0523566811936766
@@ -3165,38 +3333,38 @@ createNode animCurveTL -n "r_fingerPinky0_ctrl_translateY";
 		 2040 -1.0523566811936766 2060 -1.0523566811936766 2061 -1.0523566811936766 2475 -1.0523566811936766
 		 2490 -1.0523566811936766 2500 -1.0523566811936766 2520 -1.0523566811936766 2521 -1.0523566811936766
 		 2540 -1.0523566811936766 2560 -1.0523566811936766 2561 -1.0523566811936766 2580 -1.0523566811936766
-		 2600 -1.0523566811936766 2610 -1.0523566811936766 2625 -1.0523566811936766 3000 -1.0523566811936766
-		 3064 -1.0523566811936766 3069 -1.0523566811936766 3070 -1.0523566811936766 3100 0
-		 3952 0 3999 -1.0523566811936766 4000 -1.0523566811936766 4028 -1.0523566811936766;
-	setAttr -s 71 ".kit[4:70]"  18 18 1 18 18 1 1 18 
+		 2600 -1.0523566811936766 2610 -1.0523566811936766 2625 -1.0523566811936766 2640 -1.0523566811936766
+		 3000 0 3135 0 3140 -1.0523566811936766 3141 -1.0523566811936766 3171 0 3952 0 3999 -1.0523566811936766
+		 4000 -1.0523566811936766 4028 -1.0523566811936766;
+	setAttr -s 72 ".kit[4:71]"  18 18 1 18 18 1 1 18 
 		18 1 18 1 1 1 18 1 1 18 1 1 1 18 18 18 18 
 		18 18 1 1 1 18 1 1 1 1 18 1 1 1 1 1 1 
 		18 1 1 1 18 18 18 1 18 18 1 1 18 1 18 1 18 
-		1 18 18 18 18 1 1 18;
-	setAttr -s 71 ".kot[4:70]"  18 18 1 18 18 1 1 18 
+		18 1 18 18 18 18 1 1 18;
+	setAttr -s 72 ".kot[4:71]"  18 18 1 18 18 1 1 18 
 		18 1 18 1 1 1 18 1 1 18 1 1 1 18 18 18 18 
 		18 18 1 1 1 18 1 1 1 1 18 1 1 1 1 1 1 
 		18 1 1 18 18 18 18 1 18 1 1 18 18 1 18 1 18 
-		1 18 18 18 18 1 1 18;
-	setAttr -s 71 ".kix[0:70]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+		18 1 18 18 18 18 1 1 18;
+	setAttr -s 72 ".kix[0:71]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
 		2.1333333333333471 1 1 1 2.1333333333333471 1 1 1 1 1 1 2.1333333333333471 2.1333333333333471 
 		2.1333333333333471 1 1 1 1 2.1333333333333471 1 1 2.1333333333333471 1 1 1 1 1 1 
-		1 1 1 1 1 2.1333333333333471 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 71 ".kiy[0:70]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1 1 2.1333333333333471 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 72 ".kiy[0:71]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 71 ".kox[0:70]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+		0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 72 ".kox[0:71]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
 		28.733333333333327 1 1 1 28.733333333333327 1 1 1 1 1 1 28.733333333333327 28.733333333333327 
 		28.733333333333327 1 1 1 1 28.733333333333327 1 1 28.733333333333327 1 1 1 1 1 1 
-		1 1 1 1 1 28.733333333333327 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 71 ".koy[0:70]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1 1 28.733333333333327 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 72 ".koy[0:71]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTL -n "r_fingerPinky0_ctrl_translateZ";
 	rename -uid "C1FAB0A4-45B6-AA51-7DAB-3F9E826088F1";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 71 ".ktv[0:70]"  0 0.093965977861993469 64 0.093965977861993469
+	setAttr -s 72 ".ktv[0:71]"  0 0.093965977861993469 64 0.093965977861993469
 		 96 0.093965977861993469 100 0.093965977861993469 108 0 119 0 142 0.093965977861993469
 		 150 0.093965977861993469 160 0.093965977861993469 200 0.093965977861993469 264 0.093965977861993469
 		 280 0.093965977861993469 300 0.093965977861993469 385 0.093965977861993469 400 0.093965977861993469
@@ -3211,38 +3379,38 @@ createNode animCurveTL -n "r_fingerPinky0_ctrl_translateZ";
 		 2040 0.093965977861993469 2060 0.093965977861993469 2061 0.093965977861993469 2475 0.093965977861993469
 		 2490 0.093965977861993469 2500 0.093965977861993469 2520 0.093965977861993469 2521 0.093965977861993469
 		 2540 0.093965977861993469 2560 0.093965977861993469 2561 0.093965977861993469 2580 0.093965977861993469
-		 2600 0.093965977861993469 2610 0.093965977861993469 2625 0.093965977861993469 3000 0.093965977861993469
-		 3064 0.093965977861993469 3069 0.093965977861993469 3070 0.093965977861993469 3100 0
-		 3952 0 3999 0.093965977861993469 4000 0.093965977861993469 4028 0.093965977861993469;
-	setAttr -s 71 ".kit[4:70]"  18 18 1 18 18 1 1 18 
+		 2600 0.093965977861993469 2610 0.093965977861993469 2625 0.093965977861993469 2640 0.093965977861993469
+		 3000 0 3135 0 3140 0.093965977861993469 3141 0.093965977861993469 3171 0 3952 0 3999 0.093965977861993469
+		 4000 0.093965977861993469 4028 0.093965977861993469;
+	setAttr -s 72 ".kit[4:71]"  18 18 1 18 18 1 1 18 
 		18 1 18 1 1 1 18 1 1 18 1 1 1 18 18 18 18 
 		18 18 1 1 1 18 1 1 1 1 18 1 1 1 1 1 1 
 		18 1 1 1 18 18 18 1 18 18 1 1 18 1 18 1 18 
-		1 18 18 18 18 1 1 18;
-	setAttr -s 71 ".kot[4:70]"  18 18 1 18 18 1 1 18 
+		18 1 18 18 18 18 1 1 18;
+	setAttr -s 72 ".kot[4:71]"  18 18 1 18 18 1 1 18 
 		18 1 18 1 1 1 18 1 1 18 1 1 1 18 18 18 18 
 		18 18 1 1 1 18 1 1 1 1 18 1 1 1 1 1 1 
 		18 1 1 18 18 18 18 1 18 1 1 18 18 1 18 1 18 
-		1 18 18 18 18 1 1 18;
-	setAttr -s 71 ".kix[0:70]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+		18 1 18 18 18 18 1 1 18;
+	setAttr -s 72 ".kix[0:71]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
 		2.1333333333333471 1 1 1 2.1333333333333471 1 1 1 1 1 1 2.1333333333333471 2.1333333333333471 
 		2.1333333333333471 1 1 1 1 2.1333333333333471 1 1 2.1333333333333471 1 1 1 1 1 1 
-		1 1 1 1 1 2.1333333333333471 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 71 ".kiy[0:70]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1 1 2.1333333333333471 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 72 ".kiy[0:71]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 71 ".kox[0:70]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+		0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 72 ".kox[0:71]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
 		28.733333333333327 1 1 1 28.733333333333327 1 1 1 1 1 1 28.733333333333327 28.733333333333327 
 		28.733333333333327 1 1 1 1 28.733333333333327 1 1 28.733333333333327 1 1 1 1 1 1 
-		1 1 1 1 1 28.733333333333327 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 71 ".koy[0:70]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1 1 28.733333333333327 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 72 ".koy[0:71]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerPinky0_ctrl_rotateX";
 	rename -uid "6F2E5781-4250-AD3D-245A-0B8460FAA796";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 75 ".ktv[0:74]"  0 -32.493641364273479 64 -32.493641364273479
+	setAttr -s 76 ".ktv[0:75]"  0 -32.493641364273479 64 -32.493641364273479
 		 96 -32.493641364273479 100 -32.493641364273479 108 29.89450009634168 119 29.89450009634168
 		 133 0 142 -32.493641364273479 150 -32.493641364273479 160 -32.493641364273479 200 -32.493641364273479
 		 264 -32.493641364273479 280 -32.493641364273479 300 -32.493641364273479 385 -32.493641364273479
@@ -3258,40 +3426,40 @@ createNode animCurveTA -n "r_fingerPinky0_ctrl_rotateX";
 		 2040 -32.493641364273479 2060 -32.493641364273479 2061 -32.493641364273479 2475 -32.493641364273479
 		 2490 -32.493641364273479 2500 -32.493641364273479 2520 -32.493641364273479 2521 -32.493641364273479
 		 2540 -32.493641364273479 2560 -32.493641364273479 2561 -32.493641364273479 2580 -32.493641364273479
-		 2600 -32.493641364273479 2610 -32.493641364273479 2625 -32.493641364273479 3000 -32.493641364273479
-		 3064 -32.493641364273479 3069 -32.493641364273479 3070 -32.493641364273479 3100 0
-		 3952 0 3999 -13.329964963722304 4000 -13.329964963722304 4028 -32.493641364273479;
-	setAttr -s 75 ".kit[4:74]"  18 18 18 1 18 18 1 1 
+		 2600 -32.493641364273479 2610 -32.493641364273479 2625 -32.493641364273479 2640 -32.493641364273479
+		 3000 0 3135 0 3140 -32.493641364273479 3141 -32.493641364273479 3171 0 3952 0 3999 -13.329964963722304
+		 4000 -13.329964963722304 4028 -32.493641364273479;
+	setAttr -s 76 ".kit[4:75]"  18 18 18 1 18 18 1 1 
 		18 18 1 18 1 1 1 18 1 1 18 1 1 1 18 18 18 
 		18 18 18 18 18 18 1 1 1 18 1 1 1 1 18 1 1 
 		1 1 1 1 18 1 1 1 18 18 18 1 18 18 1 1 18 
-		1 18 1 18 1 18 18 18 18 1 1 18;
-	setAttr -s 75 ".kot[4:74]"  18 18 18 1 18 18 1 1 
+		1 18 1 18 18 1 18 18 18 18 1 1 18;
+	setAttr -s 76 ".kot[4:75]"  18 18 18 1 18 18 1 1 
 		18 18 1 18 1 1 1 18 1 1 18 1 1 1 18 18 18 
 		18 18 18 18 18 18 1 1 1 18 1 1 1 1 18 1 1 
 		1 1 1 1 18 1 1 18 18 18 18 1 18 1 1 18 18 
-		1 18 1 18 1 18 18 18 18 1 1 18;
-	setAttr -s 75 ".kix[0:74]"  1 1 1 1 1 1 0.57570373948822684 1 1 1 1 
+		1 18 1 18 18 1 18 18 18 18 1 1 18;
+	setAttr -s 76 ".kix[0:75]"  1 1 1 1 1 1 0.57570373948822684 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 2.1333333333333471 1 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 0.92032493662056014 
 		2.1333333333333471 2.1333333333333471 2.1333333333333471 1 1 1 1 2.1333333333333471 
 		1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 2.1333333333333471 1 1 2.1333333333333471 
-		1 1 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 75 ".kiy[0:74]"  0 0 0 0 0 0 -0.81765836651946022 0 0 0 
+		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 76 ".kiy[0:75]"  0 0 0 0 0 0 -0.81765836651946022 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.39115471495862347 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 75 ".kox[0:74]"  1 1 1 1 1 1 0.57570373948822684 1 1 1 1 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 76 ".kox[0:75]"  1 1 1 1 1 1 0.57570373948822684 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 28.733333333333327 1 1 1 28.733333333333327 1 1 1 1 1 1 1 1 0.92032493662056014 
 		28.733333333333327 28.733333333333327 28.733333333333327 1 1 1 1 28.733333333333327 
 		1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 1 1 28.733333333333327 
-		1 1 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 75 ".koy[0:74]"  0 0 0 0 0 0 -0.81765836651946022 0 0 0 
+		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 76 ".koy[0:75]"  0 0 0 0 0 0 -0.81765836651946022 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.39115471495862347 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerPinky0_ctrl_rotateY";
 	rename -uid "86BBCD67-436D-FB74-4A52-DF9C4BCD563A";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 75 ".ktv[0:74]"  0 -69.193922699725732 64 -69.193922699725732
+	setAttr -s 76 ".ktv[0:75]"  0 -69.193922699725732 64 -69.193922699725732
 		 96 -69.193922699725732 100 -69.193922699725732 108 -114.42387132838191 119 -114.42387132838191
 		 133 -11.793020272372923 142 -69.193922699725732 150 -69.193922699725732 160 -69.193922699725732
 		 200 -69.193922699725732 264 -69.193922699725732 280 -69.193922699725732 300 -69.193922699725732
@@ -3308,39 +3476,39 @@ createNode animCurveTA -n "r_fingerPinky0_ctrl_rotateY";
 		 2475 -69.193922699725732 2490 -69.193922699725732 2500 -69.193922699725732 2520 -69.193922699725732
 		 2521 -69.193922699725732 2540 -69.193922699725732 2560 -69.193922699725732 2561 -69.193922699725732
 		 2580 -69.193922699725732 2600 -69.193922699725732 2610 -69.193922699725732 2625 -69.193922699725732
-		 3000 -69.193922699725732 3064 -69.193922699725732 3069 -69.193922699725732 3070 -69.193922699725732
-		 3100 0 3952 0 3999 -34.143249918571769 4000 -34.143249918571769 4028 -69.193922699725732;
-	setAttr -s 75 ".kit[4:74]"  18 18 18 1 18 18 1 1 
+		 2640 -69.193922699725732 3000 0 3135 0 3140 -69.193922699725732 3141 -69.193922699725732
+		 3171 0 3952 0 3999 -34.143249918571769 4000 -34.143249918571769 4028 -69.193922699725732;
+	setAttr -s 76 ".kit[4:75]"  18 18 18 1 18 18 1 1 
 		18 18 1 18 1 1 1 18 1 1 18 1 1 1 18 18 18 
 		18 18 18 18 18 18 1 1 1 18 1 1 1 1 18 1 1 
 		1 1 1 1 18 1 1 1 18 18 18 1 18 18 1 1 18 
-		1 18 1 18 1 18 18 18 18 1 1 18;
-	setAttr -s 75 ".kot[4:74]"  18 18 18 1 18 18 1 1 
+		1 18 1 18 18 1 18 18 18 18 1 1 18;
+	setAttr -s 76 ".kot[4:75]"  18 18 18 1 18 18 1 1 
 		18 18 1 18 1 1 1 18 1 1 18 1 1 1 18 18 18 
 		18 18 18 18 18 18 1 1 1 18 1 1 1 1 18 1 1 
 		1 1 1 1 18 1 1 18 18 18 18 1 18 1 1 18 18 
-		1 18 1 18 1 18 18 18 18 1 1 18;
-	setAttr -s 75 ".kix[0:74]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+		1 18 1 18 18 1 18 18 18 18 1 1 18;
+	setAttr -s 76 ".kix[0:75]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
 		1 2.1333333333333471 1 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 2.1333333333333471 
 		2.1333333333333471 2.1333333333333471 1 1 1 1 2.1333333333333471 1 1 2.1333333333333471 
 		1 1 1 1 1 1 1 1 1 1 1 2.1333333333333471 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 
-		1 1 1 1 1;
-	setAttr -s 75 ".kiy[0:74]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1 1 1;
+	setAttr -s 76 ".kiy[0:75]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 75 ".kox[0:74]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 76 ".kox[0:75]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
 		1 28.733333333333327 1 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 28.733333333333327 
 		28.733333333333327 28.733333333333327 1 1 1 1 28.733333333333327 1 1 28.733333333333327 
 		1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 
-		1 1 1 1 1;
-	setAttr -s 75 ".koy[0:74]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1 1 1;
+	setAttr -s 76 ".koy[0:75]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerPinky0_ctrl_rotateZ";
 	rename -uid "C83EE22B-4599-A021-AF42-D8BA01ED21C2";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 75 ".ktv[0:74]"  0 38.310378076190879 64 38.310378076190879
+	setAttr -s 76 ".ktv[0:75]"  0 38.310378076190879 64 38.310378076190879
 		 96 38.310378076190879 100 38.310378076190879 108 -28.770875523588476 119 -28.770875523588476
 		 133 0 142 38.310378076190879 150 38.310378076190879 160 38.310378076190879 200 38.310378076190879
 		 264 38.310378076190879 280 38.310378076190879 300 38.310378076190879 385 38.310378076190879
@@ -3356,40 +3524,40 @@ createNode animCurveTA -n "r_fingerPinky0_ctrl_rotateZ";
 		 2040 38.310378076190879 2060 38.310378076190879 2061 38.310378076190879 2475 38.310378076190879
 		 2490 38.310378076190879 2500 38.310378076190879 2520 38.310378076190879 2521 38.310378076190879
 		 2540 38.310378076190879 2560 38.310378076190879 2561 38.310378076190879 2580 38.310378076190879
-		 2600 38.310378076190879 2610 38.310378076190879 2625 38.310378076190879 3000 38.310378076190879
-		 3064 38.310378076190879 3069 38.310378076190879 3070 38.310378076190879 3100 0 3952 0
-		 3999 15.11681727466949 4000 15.11681727466949 4028 38.310378076190879;
-	setAttr -s 75 ".kit[4:74]"  18 18 18 1 18 18 1 1 
+		 2600 38.310378076190879 2610 38.310378076190879 2625 38.310378076190879 2640 38.310378076190879
+		 3000 0 3135 0 3140 38.310378076190879 3141 38.310378076190879 3171 0 3952 0 3999 15.11681727466949
+		 4000 15.11681727466949 4028 38.310378076190879;
+	setAttr -s 76 ".kit[4:75]"  18 18 18 1 18 18 1 1 
 		18 18 1 18 1 1 1 18 1 1 18 1 1 1 18 18 18 
 		18 18 18 18 18 18 1 1 1 18 1 1 1 1 18 1 1 
 		1 1 1 1 18 1 1 1 18 18 18 1 18 18 1 1 18 
-		1 18 1 18 1 18 18 18 18 1 1 18;
-	setAttr -s 75 ".kot[4:74]"  18 18 18 1 18 18 1 1 
+		1 18 1 18 18 1 18 18 18 18 1 1 18;
+	setAttr -s 76 ".kot[4:75]"  18 18 18 1 18 18 1 1 
 		18 18 1 18 1 1 1 18 1 1 18 1 1 1 18 18 18 
 		18 18 18 18 18 18 1 1 1 18 1 1 1 1 18 1 1 
 		1 1 1 1 18 1 1 18 18 18 18 1 18 1 1 18 18 
-		1 18 1 18 1 18 18 18 18 1 1 18;
-	setAttr -s 75 ".kix[0:74]"  1 1 1 1 1 1 0.54782535173407043 1 1 1 1 
+		1 18 1 18 18 1 18 18 18 18 1 1 18;
+	setAttr -s 76 ".kix[0:75]"  1 1 1 1 1 1 0.54782535173407043 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 2.1333333333333471 1 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 0.91135469025549964 
 		2.1333333333333471 2.1333333333333471 2.1333333333333471 1 1 1 1 2.1333333333333471 
 		1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 2.1333333333333471 1 1 2.1333333333333471 
-		1 1 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 75 ".kiy[0:74]"  0 0 0 0 0 0 0.83659272289295106 0 0 0 0 
+		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 76 ".kiy[0:75]"  0 0 0 0 0 0 0.83659272289295106 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.41162194857575585 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 75 ".kox[0:74]"  1 1 1 1 1 1 0.54782535173407032 1 1 1 1 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 76 ".kox[0:75]"  1 1 1 1 1 1 0.54782535173407032 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 28.733333333333327 1 1 1 28.733333333333327 1 1 1 1 1 1 1 1 0.91135469025549964 
 		28.733333333333327 28.733333333333327 28.733333333333327 1 1 1 1 28.733333333333327 
 		1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 1 1 28.733333333333327 
-		1 1 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 75 ".koy[0:74]"  0 0 0 0 0 0 0.83659272289295106 0 0 0 0 
+		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 76 ".koy[0:75]"  0 0 0 0 0 0 0.83659272289295106 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.41162194857575585 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerRing1_ctrl_rotateY";
 	rename -uid "536E564F-4364-C4FC-A9EA-A1BC243DDD54";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 88 ".ktv[0:87]"  0 -119.86003241830151 64 -119.86003241830151
+	setAttr -s 89 ".ktv[0:88]"  0 -119.86003241830151 64 -119.86003241830151
 		 96 -119.86003241830151 100 -119.86003241830151 110 -79.602224144694176 119 -79.602224144694176
 		 135 -7.4964119045696345 144 -119.86003241830151 150 -119.86003241830151 160 -119.86003241830151
 		 200 -119.86003241830151 213 -124.13690318890237 240 -124.13690318890237 249 -120.82558904197833
@@ -3408,47 +3576,47 @@ createNode animCurveTA -n "r_fingerRing1_ctrl_rotateY";
 		 2516 -119.86003241830151 2520 -119.86003241830151 2521 -119.86003241830151 2540 -119.86003241830151
 		 2541 -104.43259185035056 2546 -94.589715812729281 2551 -115.64116977980592 2556 -119.86003241830151
 		 2560 -119.86003241830151 2561 -119.86003241830151 2580 -119.86003241830151 2600 -119.86003241830151
-		 2610 -119.86003241830151 2625 -119.86003241830151 3000 -119.86003241830151 3064 -119.86003241830151
-		 3069 -119.86003241830151 3070 -119.86003241830151 3100 0 3952 0 3999 -15.98004365877248
+		 2610 -119.86003241830151 2625 -119.86003241830151 2640 -119.86003241830151 3000 0
+		 3135 0 3140 -119.86003241830151 3141 -119.86003241830151 3171 0 3952 0 3999 -15.98004365877248
 		 4000 -15.98004365877248 4014 -68.891423769481179 4028 -98.113148225809752 4036 -98.113148225809752
 		 4043 -116.11397676354278;
-	setAttr -s 88 ".kit[0:87]"  1 1 1 1 18 18 18 1 
+	setAttr -s 89 ".kit[0:88]"  1 1 1 1 18 18 18 1 
 		18 18 1 18 1 18 1 18 18 1 18 1 1 1 18 1 1 
 		18 1 1 1 18 18 18 18 18 1 1 1 1 18 1 1 1 
 		1 18 1 1 1 1 1 1 18 1 18 18 1 1 1 18 18 
 		18 18 18 18 1 18 18 18 18 18 18 1 1 18 1 18 1 
-		18 1 18 18 18 18 1 1 18 18 18 18;
-	setAttr -s 88 ".kot[0:87]"  1 1 1 1 18 18 18 1 
+		18 18 1 18 18 18 18 1 1 18 18 18 18;
+	setAttr -s 89 ".kot[0:88]"  1 1 1 1 18 18 18 1 
 		18 18 1 18 1 18 1 18 18 1 18 1 1 1 18 1 1 
 		18 1 1 1 18 18 18 18 18 1 1 1 1 18 1 1 1 
 		1 18 1 1 1 1 1 1 18 1 18 18 1 1 18 18 18 
 		18 18 18 18 1 18 1 18 18 18 18 1 18 18 1 18 1 
-		18 1 18 18 18 18 1 1 18 18 18 18;
-	setAttr -s 88 ".kix[0:87]"  1 1 1 1 1 1 1 1 1 1 1 1 1 0.99567513561030052 
+		18 18 1 18 18 18 18 1 1 18 18 18 18;
+	setAttr -s 89 ".kix[0:88]"  1 1 1 1 1 1 1 1 1 1 1 1 1 0.99567513561030052 
 		1 1 1 1 1 1 1 1 1 1 2.1333333333333471 1 1 1 2.1333333333333471 1 1 1 0.92145481254817552 
 		1 1 2.1333333333333471 2.1333333333333471 2.1333333333333471 1 1 1 1 2.1333333333333471 
 		1 1 2.1333333333333471 1 1 1 1 1 1 0.54825736809881509 1 1 1 1 1 1 1 0.98826003250856698 
 		1 1 2.1333333333333471 1 1 0.41298582202109463 1 0.60294291621711371 1 2.1333333333333471 
-		1 1 1 1 1 1 1 1 1 1 1 1 1 0.54563046142506688 1 1 1;
-	setAttr -s 88 ".kiy[0:87]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0.092903306331957064 
+		1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.54563046142506688 1 1 1;
+	setAttr -s 89 ".kiy[0:88]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0.092903306331957064 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3884855575588454 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0.83630966652631744 0 0 0 0 0 0 0 -0.15278124278250274 0 0 0 0 0 0.91073745437944997 
-		0 -0.79778433162327933 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.83802589432849173 0 0 0;
-	setAttr -s 88 ".kox[0:87]"  1 1 1 1 1 1 1 1 1 1 1 1 1 0.99567513561030074 
+		0 -0.79778433162327933 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.83802589432849173 0 0 0;
+	setAttr -s 89 ".kox[0:88]"  1 1 1 1 1 1 1 1 1 1 1 1 1 0.99567513561030074 
 		1 1 1 1 1 1 1 1 1 1 28.733333333333327 1 1 1 28.733333333333327 1 1 1 0.92145481254817541 
 		1 1 28.733333333333327 28.733333333333327 28.733333333333327 1 1 1 1 28.733333333333327 
 		1 1 28.733333333333327 1 1 1 1 1 1 0.54825736809881509 1 1 1 1 1 1 1 0.98826003250856709 
 		1 1 28.733333333333327 1 1 0.41298582202109463 1 0.60294291621711371 1 28.733333333333327 
-		1 1 1 1 1 1 1 1 1 1 1 1 1 0.54563046142506688 1 1 1;
-	setAttr -s 88 ".koy[0:87]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0.092903306331957078 
+		1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.54563046142506688 1 1 1;
+	setAttr -s 89 ".koy[0:88]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0.092903306331957078 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.38848555755884534 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0.83630966652631744 0 0 0 0 0 0 0 -0.15278124278250274 0 0 0 0 0 0.91073745437944986 
-		0 -0.79778433162327933 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.83802589432849173 0 0 0;
+		0 -0.79778433162327933 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.83802589432849173 0 0 0;
 createNode animCurveTA -n "r_fingerPinky1_ctrl_rotateX";
 	rename -uid "C595F332-4240-6F8A-CBCD-7EADE02069B6";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 85 ".ktv[0:84]"  0 1.9979806796440078 64 1.9979806796440078
+	setAttr -s 86 ".ktv[0:85]"  0 1.9979806796440078 64 1.9979806796440078
 		 96 1.9979806796440078 100 1.9979806796440078 110 -12.313908569266781 119 -12.313908569266781
 		 133 0 142 1.9979806796440078 150 1.9979806796440078 160 1.9979806796440078 200 1.9979806796440078
 		 213 1.7736382674031503 240 1.7736382674031503 249 1.9473325974995088 264 1.9979806796440078
@@ -3466,46 +3634,48 @@ createNode animCurveTA -n "r_fingerPinky1_ctrl_rotateX";
 		 2509 1.7797850285933707 2516 1.9979806796440078 2520 1.9979806796440078 2521 1.9979806796440078
 		 2540 1.9979806796440078 2541 7.9198348322293857 2546 12.025063034091408 2551 2.1387294871871525
 		 2556 1.9979806796440078 2560 1.9979806796440078 2561 1.9979806796440078 2580 1.9979806796440078
-		 2600 1.9979806796440078 2610 1.9979806796440078 2625 1.9979806796440078 3000 1.9979806796440078
-		 3064 1.9979806796440078 3069 1.9979806796440078 3070 1.9979806796440078 3100 0 3952 0
-		 3999 0 4000 0 4028 1.9979806796440078 4036 1.9979806796440078 4043 0.93744451202517054;
-	setAttr -s 85 ".kit[0:84]"  1 1 1 1 18 18 18 1 
+		 2600 1.9979806796440078 2610 1.9979806796440078 2625 1.9979806796440078 2640 1.9979806796440078
+		 3000 0 3135 0 3140 1.9979806796440078 3141 1.9979806796440078 3171 0 3952 0 3999 0
+		 4000 0 4028 1.9979806796440078 4036 1.9979806796440078 4043 0.93744451202517054;
+	setAttr -s 86 ".kit[0:85]"  1 1 1 1 18 18 18 1 
 		18 18 1 18 1 18 1 18 18 1 18 1 1 1 18 1 1 
 		18 1 1 1 18 18 18 18 18 1 1 1 1 18 1 1 1 
 		1 18 1 1 1 1 1 1 18 1 18 1 1 18 18 18 18 
-		18 18 1 18 18 18 18 18 18 1 1 18 1 18 1 18 1 
-		18 18 18 18 1 1 18 18 18;
-	setAttr -s 85 ".kot[0:84]"  1 1 1 1 18 18 18 1 
+		18 18 1 18 18 18 18 18 18 1 1 18 1 18 1 18 18 
+		1 18 18 18 18 1 1 18 18 18;
+	setAttr -s 86 ".kot[0:85]"  1 1 1 1 18 18 18 1 
 		18 18 1 18 1 18 1 18 18 1 18 1 1 1 18 1 1 
 		18 1 1 1 18 18 18 18 18 1 1 1 1 18 1 1 1 
 		1 18 1 1 1 1 1 1 18 1 18 1 18 18 18 18 18 
-		18 18 1 18 1 18 18 18 18 1 18 18 1 18 1 18 1 
-		18 18 18 18 1 1 18 18 18;
-	setAttr -s 85 ".kix[0:84]"  1 1 1 1 1 1 0.95080672337268746 1 1 1 1 
+		18 18 1 18 1 18 18 18 18 1 18 18 1 18 1 18 18 
+		1 18 18 18 18 1 1 18 18 18;
+	setAttr -s 86 ".kix[0:85]"  1 1 1 1 1 1 0.95080672337268746 1 1 1 1 
 		1 1 0.99998802267777298 1 1 1 1 1 1 1 1 1 1 2.1333333333333471 1 1 1 2.1333333333333471 
 		1 1 1 0.99994726815062507 1 1 2.1333333333333471 2.1333333333333471 2.1333333333333471 
 		1 1 1 1 2.1333333333333471 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 0.999982019854876 
 		1 1 2.1333333333333471 1 1 0.75256624921211746 1 0.99902383569847164 1 2.1333333333333471 
-		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 85 ".kiy[0:84]"  0 0 0 0 0 0 0.30978472329876722 0 0 0 0 
+		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 86 ".kiy[0:85]"  0 0 0 0 0 0 0.30978472329876722 0 0 0 0 
 		0 0 0.0048943335601244657 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.010269416638829418 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.0059966629855501049 0 0 0 0 
-		0 0.6585165453857672 0 -0.044174378391925263 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 85 ".kox[0:84]"  1 1 1 1 1 1 0.95080672337268735 1 1 1 1 
+		0 0.6585165453857672 0 -0.044174378391925263 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		0;
+	setAttr -s 86 ".kox[0:85]"  1 1 1 1 1 1 0.95080672337268735 1 1 1 1 
 		1 1 0.99998802267777287 1 1 1 1 1 1 1 1 1 1 28.733333333333327 1 1 1 28.733333333333327 
 		1 1 1 0.99994726815062518 1 1 28.733333333333327 28.733333333333327 28.733333333333327 
 		1 1 1 1 28.733333333333327 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 0.99998201985487611 
 		1 1 28.733333333333327 1 1 0.75256624921211746 1 0.99902383569847164 1 28.733333333333327 
-		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 85 ".koy[0:84]"  0 0 0 0 0 0 0.30978472329876716 0 0 0 0 
+		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 86 ".koy[0:85]"  0 0 0 0 0 0 0.30978472329876716 0 0 0 0 
 		0 0 0.0048943335601244657 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.010269416638829418 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.0059966629855501049 0 0 0 0 
-		0 0.6585165453857672 0 -0.044174378391925263 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+		0 0.6585165453857672 0 -0.044174378391925263 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		0;
 createNode animCurveTA -n "r_fingerPinky1_ctrl_rotateY";
 	rename -uid "651DEBDD-473B-EC5E-38C7-D4960A8204A1";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 88 ".ktv[0:87]"  0 -119.97691551025044 64 -119.97691551025044
+	setAttr -s 89 ".ktv[0:88]"  0 -119.97691551025044 64 -119.97691551025044
 		 96 -119.97691551025044 100 -119.97691551025044 110 -84.337673153261889 119 -84.337673153261889
 		 133 -11.793020272372923 142 -119.97691551025044 150 -119.97691551025044 160 -119.97691551025044
 		 200 -119.97691551025044 213 -124.25148024725821 240 -124.25148024725821 249 -120.94195151824127
@@ -3524,47 +3694,46 @@ createNode animCurveTA -n "r_fingerPinky1_ctrl_rotateY";
 		 2509 -124.23342574102979 2516 -119.97691551025044 2520 -119.97691551025044 2521 -119.97691551025044
 		 2540 -119.97691551025044 2541 -104.62515417077053 2546 -94.796292805088314 2551 -115.75917332419057
 		 2556 -119.97691551025044 2560 -119.97691551025044 2561 -119.97691551025044 2580 -119.97691551025044
-		 2600 -119.97691551025044 2610 -119.97691551025044 2625 -119.97691551025044 3000 -119.97691551025044
-		 3064 -119.97691551025044 3069 -119.97691551025044 3070 -119.97691551025044 3100 0
-		 3952 0 3999 -17.170783863517745 4000 -17.170783863517745 4028 -104.67313257491168
-		 4036 -104.67313257491168 4043 -122.66891007387494;
-	setAttr -s 88 ".kit[0:87]"  1 1 1 1 18 18 18 1 
+		 2600 -119.97691551025044 2610 -119.97691551025044 2625 -119.97691551025044 2640 -119.97691551025044
+		 3000 0 3135 0 3140 -119.97691551025044 3141 -119.97691551025044 3171 0 3952 0 3999 -17.170783863517745
+		 4000 -17.170783863517745 4028 -104.67313257491168 4036 -104.67313257491168 4043 -122.66891007387494;
+	setAttr -s 89 ".kit[0:88]"  1 1 1 1 18 18 18 1 
 		18 18 1 18 1 18 1 18 18 1 18 1 1 1 18 1 1 
 		18 1 1 1 18 18 18 18 18 1 1 1 1 18 1 1 1 
 		1 18 1 1 1 1 1 1 18 1 18 18 1 1 1 1 18 
 		18 18 18 18 18 1 18 18 18 18 18 18 1 1 18 1 18 
-		1 18 1 18 18 18 18 1 1 18 18 18;
-	setAttr -s 88 ".kot[0:87]"  1 1 1 1 18 18 18 1 
+		1 18 18 1 18 18 18 18 1 1 18 18 18;
+	setAttr -s 89 ".kot[0:88]"  1 1 1 1 18 18 18 1 
 		18 18 1 18 1 18 1 18 18 1 18 1 1 1 18 1 1 
 		18 1 1 1 18 18 18 18 18 1 1 1 1 18 1 1 1 
 		1 18 1 1 1 1 1 1 18 1 18 18 1 1 1 18 18 
 		18 18 18 18 18 1 18 1 18 18 18 18 1 18 18 1 18 
-		1 18 1 18 18 18 18 1 1 18 18 18;
-	setAttr -s 88 ".kix[0:87]"  1 1 1 1 1 1 1 1 1 1 1 1 1 0.99567976800372404 
+		1 18 18 1 18 18 18 18 1 1 18 18 18;
+	setAttr -s 89 ".kix[0:88]"  1 1 1 1 1 1 1 1 1 1 1 1 1 0.99567976800372404 
 		1 1 1 1 1 1 1 1 1 1 2.1333333333333471 1 1 1 2.1333333333333471 1 1 1 0.97779652307555776 
 		1 1 2.1333333333333471 2.1333333333333471 2.1333333333333471 1 1 1 1 2.1333333333333471 
 		1 1 2.1333333333333471 1 1 1 1 1 1 0.76039826641725095 1 1 1 1 1 1 1 1 0.98826989860568193 
 		1 1 2.1333333333333471 1 1 0.41420487326802374 1 0.6043071854065557 1 2.1333333333333471 
-		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 88 ".kiy[0:87]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0.092853646067617382 
+		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 89 ".kiy[0:88]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0.092853646067617382 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.20955657818677595 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0.64945706280680271 0 0 0 0 0 0 0 0 -0.15271741063125396 0 0 0 0 0 0.91018367539800471 
-		0 -0.79675142024724799 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 88 ".kox[0:87]"  1 1 1 1 1 1 1 1 1 1 1 1 1 0.99567976800372393 
+		0 -0.79675142024724799 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 89 ".kox[0:88]"  1 1 1 1 1 1 1 1 1 1 1 1 1 0.99567976800372393 
 		1 1 1 1 1 1 1 1 1 1 28.733333333333327 1 1 1 28.733333333333327 1 1 1 0.97779652307555764 
 		1 1 28.733333333333327 28.733333333333327 28.733333333333327 1 1 1 1 28.733333333333327 
 		1 1 28.733333333333327 1 1 1 1 1 1 0.76039826641725106 1 1 1 1 1 1 1 1 0.98826989860568204 
 		1 1 28.733333333333327 1 1 0.41420487326802374 1 0.6043071854065557 1 28.733333333333327 
-		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 88 ".koy[0:87]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0.092853646067617382 
+		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 89 ".koy[0:88]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0.092853646067617382 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.20955657818677592 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0.64945706280680282 0 0 0 0 0 0 0 0 -0.15271741063125396 0 0 0 0 0 0.9101836753980046 
-		0 -0.79675142024724799 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+		0 -0.79675142024724799 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerPinky1_ctrl_rotateZ";
 	rename -uid "B1F97E14-414F-AE85-6CB6-2E8399C18769";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 85 ".ktv[0:84]"  0 -6.3161696182632987 64 -6.3161696182632987
+	setAttr -s 86 ".ktv[0:85]"  0 -6.3161696182632987 64 -6.3161696182632987
 		 96 -6.3161696182632987 100 -6.3161696182632987 110 0 119 0 133 0 142 -6.3161696182632987
 		 150 -6.3161696182632987 160 -6.3161696182632987 200 -6.3161696182632987 213 -6.0514838762672074
 		 240 -6.0514838762672074 249 -6.2564135290370544 264 -6.3161696182632987 280 -6.3161696182632987
@@ -3582,81 +3751,81 @@ createNode animCurveTA -n "r_fingerPinky1_ctrl_rotateZ";
 		 2516 -6.3161696182632987 2520 -6.3161696182632987 2521 -6.3161696182632987 2540 -6.3161696182632987
 		 2541 -13.317364079868955 2546 -16.569464126343188 2551 -6.4674118206435756 2556 -6.3161696182632987
 		 2560 -6.3161696182632987 2561 -6.3161696182632987 2580 -6.3161696182632987 2600 -6.3161696182632987
-		 2610 -6.3161696182632987 2625 -6.3161696182632987 3000 -6.3161696182632987 3064 -6.3161696182632987
-		 3069 -6.3161696182632987 3070 -6.3161696182632987 3100 0 3952 0 3999 0 4000 0 4028 -6.3161696182632987
-		 4036 -6.3161696182632987 4043 -5.1724644173196195;
-	setAttr -s 85 ".kit[0:84]"  1 1 1 1 18 18 18 1 
+		 2610 -6.3161696182632987 2625 -6.3161696182632987 2640 -6.3161696182632987 3000 0
+		 3135 0 3140 -6.3161696182632987 3141 -6.3161696182632987 3171 0 3952 0 3999 0 4000 0
+		 4028 -6.3161696182632987 4036 -6.3161696182632987 4043 -5.1724644173196195;
+	setAttr -s 86 ".kit[0:85]"  1 1 1 1 18 18 18 1 
 		18 18 1 18 1 18 1 18 18 1 18 1 1 1 18 1 1 
 		18 1 1 1 18 18 18 18 18 1 1 1 1 18 1 1 1 
 		1 18 1 1 1 1 1 1 18 1 18 1 1 18 18 18 18 
-		18 18 1 18 18 18 18 18 18 1 1 18 1 18 1 18 1 
-		18 18 18 18 1 1 18 18 18;
-	setAttr -s 85 ".kot[0:84]"  1 1 1 1 18 18 18 1 
+		18 18 1 18 18 18 18 18 18 1 1 18 1 18 1 18 18 
+		1 18 18 18 18 1 1 18 18 18;
+	setAttr -s 86 ".kot[0:85]"  1 1 1 1 18 18 18 1 
 		18 18 1 18 1 18 1 18 18 1 18 1 1 1 18 1 1 
 		18 1 1 1 18 18 18 18 18 1 1 1 1 18 1 1 1 
 		1 18 1 1 1 1 1 1 18 1 18 1 18 18 18 18 18 
-		18 18 1 18 1 18 18 18 18 1 18 18 1 18 1 18 1 
-		18 18 18 18 1 1 18 18 18;
-	setAttr -s 85 ".kix[0:84]"  1 1 1 1 1 1 1 1 1 1 1 1 1 0.99998332771984511 
+		18 18 1 18 1 18 18 18 18 1 18 18 1 18 1 18 18 
+		1 18 18 18 18 1 1 18 18 18;
+	setAttr -s 86 ".kix[0:85]"  1 1 1 1 1 1 1 1 1 1 1 1 1 0.99998332771984511 
 		1 1 1 1 1 1 1 1 1 1 2.1333333333333471 1 1 1 2.1333333333333471 1 1 1 0.99988265327137027 
 		1 1 2.1333333333333471 2.1333333333333471 2.1333333333333471 1 1 1 1 2.1333333333333471 
 		1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 0.99997187851217395 1 1 2.1333333333333471 
 		1 1 0.74522950028991719 1 0.99887311097284759 1 2.1333333333333471 1 1 1 1 1 1 1 
-		1 1 1 1 1 1 1 1 1;
-	setAttr -s 85 ".kiy[0:84]"  0 0 0 0 0 0 0 0 0 0 0 0 0 -0.0057744508262779918 
+		1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 86 ".kiy[0:85]"  0 0 0 0 0 0 0 0 0 0 0 0 0 -0.0057744508262779918 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.015319258696316056 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0.0074994789708359433 0 0 0 0 0 -0.66680806226202782 0 
-		0.047460596028971298 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 85 ".kox[0:84]"  1 1 1 1 1 1 1 1 1 1 1 1 1 0.99998332771984499 
+		0.047460596028971298 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 86 ".kox[0:85]"  1 1 1 1 1 1 1 1 1 1 1 1 1 0.99998332771984499 
 		1 1 1 1 1 1 1 1 1 1 28.733333333333327 1 1 1 28.733333333333327 1 1 1 0.99988265327137016 
 		1 1 28.733333333333327 28.733333333333327 28.733333333333327 1 1 1 1 28.733333333333327 
 		1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 0.99997187851217395 1 1 28.733333333333327 
 		1 1 0.74522950028991719 1 0.99887311097284759 1 28.733333333333327 1 1 1 1 1 1 1 
-		1 1 1 1 1 1 1 1 1;
-	setAttr -s 85 ".koy[0:84]"  0 0 0 0 0 0 0 0 0 0 0 0 0 -0.0057744508262779909 
+		1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 86 ".koy[0:85]"  0 0 0 0 0 0 0 0 0 0 0 0 0 -0.0057744508262779909 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.015319258696316054 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0.007499478970835945 0 0 0 0 0 -0.66680806226202782 0 0.047460596028971298 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerPinky2_ctrl_rotateX";
 	rename -uid "7DDBB7F7-44AB-259B-548D-AAA8A1454F4E";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 71 ".ktv[0:70]"  0 0 64 0 96 0 100 0 142 0 150 0 160 0 200 0
+	setAttr -s 72 ".ktv[0:71]"  0 0 64 0 96 0 100 0 142 0 150 0 160 0 200 0
 		 249 0 264 0 280 0 300 0 385 0 400 0 450 0 514 0 578 0 952 0 1000 0 1064 0 1180 0
 		 1200 0 1264 0 1328 0 1380 0 1393 0 1400 0 1410 0 1422 0 1456 0 1465 0 1475 0 1480 0
 		 1482 0 1500 0 1564 0 1628 0 1692 0 1696 0 1700 0 1764 0 1926 0 1967 0 2000 0 2020 0
 		 2021 0 2040 0 2060 0 2061 0 2475 0 2490 0 2500 0 2516 0 2520 0 2521 0 2540 0 2556 0
-		 2560 0 2561 0 2580 0 2600 0 2610 0 2625 0 3000 0 3064 0 3069 0 3070 0 3952 0 3999 0
-		 4000 0 4033 0;
-	setAttr -s 71 ".kit[5:70]"  18 18 1 18 1 18 18 1 
+		 2560 0 2561 0 2580 0 2600 0 2610 0 2625 0 2640 0 3000 0 3135 0 3140 0 3141 0 3952 0
+		 3999 0 4000 0 4033 0;
+	setAttr -s 72 ".kit[5:71]"  18 18 1 18 1 18 18 1 
 		18 1 1 1 18 1 1 18 1 1 1 18 18 18 18 18 18 
 		1 1 1 18 1 1 1 1 18 1 1 1 1 1 1 18 1 
 		1 1 18 18 18 18 1 18 18 18 1 1 18 1 18 1 18 
-		1 18 18 18 1 1 18;
-	setAttr -s 71 ".kot[5:70]"  18 18 1 18 1 18 18 1 
+		18 1 18 18 18 1 1 18;
+	setAttr -s 72 ".kot[5:71]"  18 18 1 18 1 18 18 1 
 		18 1 1 1 18 1 1 18 1 1 1 18 18 18 18 18 18 
 		1 1 1 18 1 1 1 1 18 1 1 1 1 1 1 18 1 
 		1 18 18 18 18 18 1 18 1 18 1 18 18 1 18 1 18 
-		1 18 18 18 1 1 18;
-	setAttr -s 71 ".kix[0:70]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2.1333333333333471 
+		18 1 18 18 18 1 1 18;
+	setAttr -s 72 ".kix[0:71]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2.1333333333333471 
 		1 1 1 2.1333333333333471 1 1 1 1 1 1 2.1333333333333471 2.1333333333333471 2.1333333333333471 
 		1 1 1 1 2.1333333333333471 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 2.1333333333333471 
-		1 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 71 ".kiy[0:70]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 72 ".kiy[0:71]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 71 ".kox[0:70]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 
+		0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 72 ".kox[0:71]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 
 		1 1 1 28.733333333333327 1 1 1 1 1 1 28.733333333333327 28.733333333333327 28.733333333333327 
 		1 1 1 1 28.733333333333327 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 
-		1 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 71 ".koy[0:70]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 72 ".koy[0:71]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerPinky2_ctrl_rotateY";
 	rename -uid "5FE3F9C2-4E69-334E-F4DE-749AC9704CBE";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 83 ".ktv[0:82]"  0 -31.765567815542823 64 -31.765567815542823
+	setAttr -s 84 ".ktv[0:83]"  0 -31.765567815542823 64 -31.765567815542823
 		 96 -31.765567815542823 100 -31.765567815542823 110 -84.039400784629564 119 -84.039400784629564
 		 133 -11.793020272372923 142 -31.765567815542823 150 -31.765567815542823 160 -31.765567815542823
 		 200 -31.765567815542823 213 -36.042438586143739 240 -36.042438586143739 249 -32.731124439219677
@@ -3674,114 +3843,114 @@ createNode animCurveTA -n "r_fingerPinky2_ctrl_rotateY";
 		 2509 -36.024333786073647 2516 -31.765567815542823 2520 -31.765567815542823 2521 -31.765567815542823
 		 2540 -31.765567815542823 2542 -35.335400815378044 2549 -36.024333786073647 2556 -31.765567815542823
 		 2560 -31.765567815542823 2561 -31.765567815542823 2580 -31.765567815542823 2600 -31.765567815542823
-		 2610 -31.765567815542823 2625 -31.765567815542823 3000 -31.765567815542823 3064 -31.765567815542823
-		 3069 -31.765567815542823 3070 -31.765567815542823 3100 0 3952 0 3999 -20.204670025574263
+		 2610 -31.765567815542823 2625 -31.765567815542823 2640 -31.765567815542823 3000 0
+		 3135 0 3140 -31.765567815542823 3141 -31.765567815542823 3171 0 3952 0 3999 -20.204670025574263
 		 4000 -20.204670025574263 4033 -31.765567815542823 4036 -31.765567815542823 4043 -44.216863703600453;
-	setAttr -s 83 ".kit[0:82]"  1 1 1 1 18 18 18 1 
+	setAttr -s 84 ".kit[0:83]"  1 1 1 1 18 18 18 1 
 		18 18 1 18 1 18 1 18 18 1 18 1 1 1 18 1 1 
 		18 1 1 1 18 18 18 18 18 18 1 1 1 18 1 1 1 
 		1 18 1 1 1 1 1 1 18 1 1 1 18 18 18 18 18 
-		18 1 18 18 18 18 18 1 1 18 1 18 1 18 1 18 18 
-		18 18 1 1 18 18 18;
-	setAttr -s 83 ".kot[0:82]"  1 1 1 1 18 18 18 1 
+		18 1 18 18 18 18 18 1 1 18 1 18 1 18 18 1 18 
+		18 18 18 1 1 18 18 18;
+	setAttr -s 84 ".kot[0:83]"  1 1 1 1 18 18 18 1 
 		18 18 1 18 1 18 1 18 18 1 18 1 1 1 18 1 1 
 		18 1 1 1 18 18 18 18 18 18 1 1 1 18 1 1 1 
 		1 18 1 1 1 1 1 1 18 1 1 18 18 18 18 18 18 
-		18 1 18 1 18 18 18 1 18 18 1 18 1 18 1 18 18 
-		18 18 1 1 18 18 18;
-	setAttr -s 83 ".kix[0:82]"  1 1 1 1 1 1 1 1 1 1 1 1 1 0.99567513561030052 
+		18 1 18 1 18 18 18 1 18 18 1 18 1 18 18 1 18 
+		18 18 18 1 1 18 18 18;
+	setAttr -s 84 ".kix[0:83]"  1 1 1 1 1 1 1 1 1 1 1 1 1 0.99567513561030052 
 		1 1 1 1 1 1 1 1 1 1 2.1333333333333471 1 1 1 2.1333333333333471 1 1 1 1 1 1 2.1333333333333471 
 		2.1333333333333471 2.1333333333333471 1 1 1 1 2.1333333333333471 1 1 2.1333333333333471 
 		1 1 1 1 1 1 1 1 1 1 1 0.98826003250855943 1 1 2.1333333333333471 1 1 0.98826003250855943 
-		1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 83 ".kiy[0:82]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0.092903306331958591 
+		1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 84 ".kiy[0:83]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0.092903306331958591 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 -0.15278124278255234 0 0 0 0 0 -0.15278124278255231 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0;
-	setAttr -s 83 ".kox[0:82]"  1 1 1 1 1 1 1 1 1 1 1 1 1 0.99567513561030052 
+		0 0 0 0 0 0 0;
+	setAttr -s 84 ".kox[0:83]"  1 1 1 1 1 1 1 1 1 1 1 1 1 0.99567513561030052 
 		1 1 1 1 1 1 1 1 1 1 28.733333333333327 1 1 1 28.733333333333327 1 1 1 1 1 1 28.733333333333327 
 		28.733333333333327 28.733333333333327 1 1 1 1 28.733333333333327 1 1 28.733333333333327 
 		1 1 1 1 1 1 1 1 1 1 1 0.98826003250855943 1 1 28.733333333333327 1 1 0.98826003250855943 
-		1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 83 ".koy[0:82]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0.092903306331958577 
+		1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 84 ".koy[0:83]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0.092903306331958577 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 -0.15278124278255234 0 0 0 0 0 -0.15278124278255234 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0;
+		0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerPinky2_ctrl_rotateZ";
 	rename -uid "2A7867B9-472E-5B4A-18C3-6AAC98A89C6E";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 71 ".ktv[0:70]"  0 0 64 0 96 0 100 0 142 0 150 0 160 0 200 0
+	setAttr -s 72 ".ktv[0:71]"  0 0 64 0 96 0 100 0 142 0 150 0 160 0 200 0
 		 249 0 264 0 280 0 300 0 385 0 400 0 450 0 514 0 578 0 952 0 1000 0 1064 0 1180 0
 		 1200 0 1264 0 1328 0 1380 0 1393 0 1400 0 1410 0 1422 0 1456 0 1465 0 1475 0 1480 0
 		 1482 0 1500 0 1564 0 1628 0 1692 0 1696 0 1700 0 1764 0 1926 0 1967 0 2000 0 2020 0
 		 2021 0 2040 0 2060 0 2061 0 2475 0 2490 0 2500 0 2516 0 2520 0 2521 0 2540 0 2556 0
-		 2560 0 2561 0 2580 0 2600 0 2610 0 2625 0 3000 0 3064 0 3069 0 3070 0 3952 0 3999 0
-		 4000 0 4033 0;
-	setAttr -s 71 ".kit[5:70]"  18 18 1 18 1 18 18 1 
+		 2560 0 2561 0 2580 0 2600 0 2610 0 2625 0 2640 0 3000 0 3135 0 3140 0 3141 0 3952 0
+		 3999 0 4000 0 4033 0;
+	setAttr -s 72 ".kit[5:71]"  18 18 1 18 1 18 18 1 
 		18 1 1 1 18 1 1 18 1 1 1 18 18 18 18 18 18 
 		1 1 1 18 1 1 1 1 18 1 1 1 1 1 1 18 1 
 		1 1 18 18 18 18 1 18 18 18 1 1 18 1 18 1 18 
-		1 18 18 18 1 1 18;
-	setAttr -s 71 ".kot[5:70]"  18 18 1 18 1 18 18 1 
+		18 1 18 18 18 1 1 18;
+	setAttr -s 72 ".kot[5:71]"  18 18 1 18 1 18 18 1 
 		18 1 1 1 18 1 1 18 1 1 1 18 18 18 18 18 18 
 		1 1 1 18 1 1 1 1 18 1 1 1 1 1 1 18 1 
 		1 18 18 18 18 18 1 18 1 18 1 18 18 1 18 1 18 
-		1 18 18 18 1 1 18;
-	setAttr -s 71 ".kix[0:70]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2.1333333333333471 
+		18 1 18 18 18 1 1 18;
+	setAttr -s 72 ".kix[0:71]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2.1333333333333471 
 		1 1 1 2.1333333333333471 1 1 1 1 1 1 2.1333333333333471 2.1333333333333471 2.1333333333333471 
 		1 1 1 1 2.1333333333333471 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 2.1333333333333471 
-		1 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 71 ".kiy[0:70]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 72 ".kiy[0:71]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 71 ".kox[0:70]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 
+		0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 72 ".kox[0:71]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 
 		1 1 1 28.733333333333327 1 1 1 1 1 1 28.733333333333327 28.733333333333327 28.733333333333327 
 		1 1 1 1 28.733333333333327 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 
-		1 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 71 ".koy[0:70]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 72 ".koy[0:71]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerRing2_ctrl_rotateX";
 	rename -uid "09FEA0E4-4B0B-E4E9-26BA-8D99F1CDF60B";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 71 ".ktv[0:70]"  0 0 64 0 96 0 100 0 144 0 150 0 160 0 200 0
+	setAttr -s 72 ".ktv[0:71]"  0 0 64 0 96 0 100 0 144 0 150 0 160 0 200 0
 		 249 0 264 0 280 0 300 0 385 0 400 0 450 0 514 0 578 0 952 0 1000 0 1064 0 1180 0
 		 1200 0 1264 0 1328 0 1380 0 1393 0 1400 0 1410 0 1422 0 1456 0 1465 0 1475 0 1480 0
 		 1482 0 1500 0 1564 0 1628 0 1692 0 1696 0 1700 0 1764 0 1926 0 1967 0 2000 0 2020 0
 		 2021 0 2040 0 2060 0 2061 0 2475 0 2490 0 2500 0 2516 0 2520 0 2521 0 2540 0 2556 0
-		 2560 0 2561 0 2580 0 2600 0 2610 0 2625 0 3000 0 3064 0 3069 0 3070 0 3952 0 3999 0
-		 4000 0 4033 0;
-	setAttr -s 71 ".kit[5:70]"  18 18 1 18 1 18 18 1 
+		 2560 0 2561 0 2580 0 2600 0 2610 0 2625 0 2640 0 3000 0 3135 0 3140 0 3141 0 3952 0
+		 3999 0 4000 0 4033 0;
+	setAttr -s 72 ".kit[5:71]"  18 18 1 18 1 18 18 1 
 		18 1 1 1 18 1 1 18 1 1 1 18 18 18 18 18 18 
 		1 1 1 18 1 1 1 1 18 1 1 1 1 1 1 18 1 
 		1 1 18 18 18 18 1 18 18 18 1 1 18 1 18 1 18 
-		1 18 18 18 1 1 18;
-	setAttr -s 71 ".kot[5:70]"  18 18 1 18 1 18 18 1 
+		18 1 18 18 18 1 1 18;
+	setAttr -s 72 ".kot[5:71]"  18 18 1 18 1 18 18 1 
 		18 1 1 1 18 1 1 18 1 1 1 18 18 18 18 18 18 
 		1 1 1 18 1 1 1 1 18 1 1 1 1 1 1 18 1 
 		1 18 18 18 18 18 1 18 1 18 1 18 18 1 18 1 18 
-		1 18 18 18 1 1 18;
-	setAttr -s 71 ".kix[0:70]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2.1333333333333471 
+		18 1 18 18 18 1 1 18;
+	setAttr -s 72 ".kix[0:71]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2.1333333333333471 
 		1 1 1 2.1333333333333471 1 1 1 1 1 1 2.1333333333333471 2.1333333333333471 2.1333333333333471 
 		1 1 1 1 2.1333333333333471 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 2.1333333333333471 
-		1 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 71 ".kiy[0:70]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 72 ".kiy[0:71]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 71 ".kox[0:70]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 
+		0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 72 ".kox[0:71]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 
 		1 1 1 28.733333333333327 1 1 1 1 1 1 28.733333333333327 28.733333333333327 28.733333333333327 
 		1 1 1 1 28.733333333333327 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 
-		1 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 71 ".koy[0:70]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 72 ".koy[0:71]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerRing2_ctrl_rotateY";
 	rename -uid "55251462-4C53-7765-F287-A99AEDABD341";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 84 ".ktv[0:83]"  0 -36.283696203407892 64 -36.283696203407892
+	setAttr -s 85 ".ktv[0:84]"  0 -36.283696203407892 64 -36.283696203407892
 		 96 -36.283696203407892 100 -36.283696203407892 110 -96.959302038758921 119 -96.959302038758921
 		 135 -7.4964119045696345 144 -36.283696203407892 150 -36.283696203407892 160 -36.283696203407892
 		 200 -36.283696203407892 213 -40.560566974008772 240 -40.560566974008772 249 -37.249252827084739
@@ -3799,75 +3968,77 @@ createNode animCurveTA -n "r_fingerRing2_ctrl_rotateY";
 		 2509 -40.542462173938731 2516 -36.283696203407892 2520 -36.283696203407892 2521 -36.283696203407892
 		 2540 -36.283696203407892 2542 -39.853529203243113 2549 -40.542462173938731 2556 -36.283696203407892
 		 2560 -36.283696203407892 2561 -36.283696203407892 2580 -36.283696203407892 2600 -36.283696203407892
-		 2610 -36.283696203407892 2625 -36.283696203407892 3000 -36.283696203407892 3064 -36.283696203407892
-		 3069 -36.283696203407892 3070 -36.283696203407892 3100 0 3952 0 3999 -6.4389064831457645
+		 2610 -36.283696203407892 2625 -36.283696203407892 2640 -36.283696203407892 3000 0
+		 3135 0 3140 -36.283696203407892 3141 -36.283696203407892 3171 0 3952 0 3999 -6.4389064831457645
 		 4000 -6.4389064831457645 4014 4.8152890083335125 4033 -36.283696203407892 4036 -36.283696203407892
 		 4043 -48.734992091465529;
-	setAttr -s 84 ".kit[0:83]"  1 1 1 1 18 18 18 1 
+	setAttr -s 85 ".kit[0:84]"  1 1 1 1 18 18 18 1 
 		18 18 1 18 1 18 1 18 18 1 18 1 1 1 18 1 1 
 		18 1 1 1 18 18 18 18 18 1 1 1 1 18 1 1 1 
 		1 18 1 1 1 1 1 1 18 1 1 1 18 18 18 18 18 
-		18 1 18 18 18 18 18 1 1 18 1 18 1 18 1 18 18 
-		18 18 1 1 18 18 18 18;
-	setAttr -s 84 ".kot[0:83]"  1 1 1 1 18 18 18 1 
+		18 1 18 18 18 18 18 1 1 18 1 18 1 18 18 1 18 
+		18 18 18 1 1 18 18 18 18;
+	setAttr -s 85 ".kot[0:84]"  1 1 1 1 18 18 18 1 
 		18 18 1 18 1 18 1 18 18 1 18 1 1 1 18 1 1 
 		18 1 1 1 18 18 18 18 18 1 1 1 1 18 1 1 1 
 		1 18 1 1 1 1 1 1 18 1 1 18 18 18 18 18 18 
-		18 1 18 1 18 18 18 1 18 18 1 18 1 18 1 18 18 
-		18 18 1 1 18 18 18 18;
-	setAttr -s 84 ".kix[0:83]"  1 1 1 1 1 1 1 1 1 1 1 1 1 0.99567513561030052 
+		18 1 18 1 18 18 18 1 18 18 1 18 1 18 18 1 18 
+		18 18 18 1 1 18 18 18 18;
+	setAttr -s 85 ".kix[0:84]"  1 1 1 1 1 1 1 1 1 1 1 1 1 0.99567513561030052 
 		1 1 1 1 1 1 1 1 1 1 2.1333333333333471 1 1 1 2.1333333333333471 1 1 1 0.91754913335113386 
 		1 1 2.1333333333333471 2.1333333333333471 2.1333333333333471 1 1 1 1 2.1333333333333471 
 		1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 0.98826003250855887 1 1 2.1333333333333471 
-		1 1 0.98826003250855876 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 84 ".kiy[0:83]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0.092903306331957758 
+		1 1 0.98826003250855876 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+		1;
+	setAttr -s 85 ".kiy[0:84]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0.092903306331957758 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.39762241874243365 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 -0.15278124278255648 0 0 0 0 0 -0.15278124278255648 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 84 ".kox[0:83]"  1 1 1 1 1 1 1 1 1 1 1 1 1 0.99567513561030052 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 85 ".kox[0:84]"  1 1 1 1 1 1 1 1 1 1 1 1 1 0.99567513561030052 
 		1 1 1 1 1 1 1 1 1 1 28.733333333333327 1 1 1 28.733333333333327 1 1 1 0.91754913335113386 
 		1 1 28.733333333333327 28.733333333333327 28.733333333333327 1 1 1 1 28.733333333333327 
 		1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 0.98826003250855876 1 1 28.733333333333327 
-		1 1 0.98826003250855876 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 84 ".koy[0:83]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0.092903306331957744 
+		1 1 0.98826003250855876 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+		1;
+	setAttr -s 85 ".koy[0:84]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0.092903306331957744 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.39762241874243365 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 -0.15278124278255648 0 0 0 0 0 -0.15278124278255648 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerRing2_ctrl_rotateZ";
 	rename -uid "D6A66F7B-4F3E-7B7E-4614-8A93585CCC10";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 71 ".ktv[0:70]"  0 0 64 0 96 0 100 0 144 0 150 0 160 0 200 0
+	setAttr -s 72 ".ktv[0:71]"  0 0 64 0 96 0 100 0 144 0 150 0 160 0 200 0
 		 249 0 264 0 280 0 300 0 385 0 400 0 450 0 514 0 578 0 952 0 1000 0 1064 0 1180 0
 		 1200 0 1264 0 1328 0 1380 0 1393 0 1400 0 1410 0 1422 0 1456 0 1465 0 1475 0 1480 0
 		 1482 0 1500 0 1564 0 1628 0 1692 0 1696 0 1700 0 1764 0 1926 0 1967 0 2000 0 2020 0
 		 2021 0 2040 0 2060 0 2061 0 2475 0 2490 0 2500 0 2516 0 2520 0 2521 0 2540 0 2556 0
-		 2560 0 2561 0 2580 0 2600 0 2610 0 2625 0 3000 0 3064 0 3069 0 3070 0 3952 0 3999 0
-		 4000 0 4033 0;
-	setAttr -s 71 ".kit[5:70]"  18 18 1 18 1 18 18 1 
+		 2560 0 2561 0 2580 0 2600 0 2610 0 2625 0 2640 0 3000 0 3135 0 3140 0 3141 0 3952 0
+		 3999 0 4000 0 4033 0;
+	setAttr -s 72 ".kit[5:71]"  18 18 1 18 1 18 18 1 
 		18 1 1 1 18 1 1 18 1 1 1 18 18 18 18 18 18 
 		1 1 1 18 1 1 1 1 18 1 1 1 1 1 1 18 1 
 		1 1 18 18 18 18 1 18 18 18 1 1 18 1 18 1 18 
-		1 18 18 18 1 1 18;
-	setAttr -s 71 ".kot[5:70]"  18 18 1 18 1 18 18 1 
+		18 1 18 18 18 1 1 18;
+	setAttr -s 72 ".kot[5:71]"  18 18 1 18 1 18 18 1 
 		18 1 1 1 18 1 1 18 1 1 1 18 18 18 18 18 18 
 		1 1 1 18 1 1 1 1 18 1 1 1 1 1 1 18 1 
 		1 18 18 18 18 18 1 18 1 18 1 18 18 1 18 1 18 
-		1 18 18 18 1 1 18;
-	setAttr -s 71 ".kix[0:70]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2.1333333333333471 
+		18 1 18 18 18 1 1 18;
+	setAttr -s 72 ".kix[0:71]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2.1333333333333471 
 		1 1 1 2.1333333333333471 1 1 1 1 1 1 2.1333333333333471 2.1333333333333471 2.1333333333333471 
 		1 1 1 1 2.1333333333333471 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 2.1333333333333471 
-		1 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 71 ".kiy[0:70]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 72 ".kiy[0:71]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 71 ".kox[0:70]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 
+		0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 72 ".kox[0:71]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 
 		1 1 1 28.733333333333327 1 1 1 1 1 1 28.733333333333327 28.733333333333327 28.733333333333327 
 		1 1 1 1 28.733333333333327 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 
-		1 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 71 ".koy[0:70]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 72 ".koy[0:71]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_armLower_ctrl_rotateX";
 	rename -uid "9B724997-49DA-F891-E98F-C581FDD9AB02";
 	setAttr ".tan" 18;
@@ -3903,11 +4074,11 @@ createNode animCurveTA -n "r_armLower_ctrl_rotateX";
 		 2521 2.5627523209791119 2540 -18.101328228192109 2541 -18.101328228192109 2546 -18.262478784079306
 		 2550 -15.426817966247652 2555 1.5867842668873182 2560 2.5627523209791119 2561 2.5627523209791119
 		 2580 2.5627523209791119 2595 12.430026534611414 2600 12.430026534611414 2608 9.1628661639301718
-		 2625 9.5731002020568461 3000 101.21156620080201 3032 102.09828298740692 3064 101.21156620080201
-		 3069 101.21156620080201 3070 101.21156620080201 3100 0 3101 0 3110 0 3111 0 3120 0
-		 3121 0 3130 0 3131 0 3140 0 3141 0 3952 0 3998 -3.5181503278969859 3999 -3.5181503278969859
-		 4000 -3.5181503278969859 4020 -3.5181503278969859 4037 -3.5181503278969859 4039 -4.6931635376623078
-		 4050 -5.1044181610801713 4056 -4.2104283668355773 4071 13.293237665601728;
+		 2625 9.5731002020568461 2640 9.5731002020568461 3000 0 3135 0 3140 101.21156620080201
+		 3141 101.21156620080201 3171 0 3172 0 3181 0 3182 0 3191 0 3192 0 3201 0 3202 0 3211 0
+		 3212 0 3952 0 3998 -3.5181503278969859 3999 -3.5181503278969859 4000 -3.5181503278969859
+		 4020 -3.5181503278969859 4037 -3.5181503278969859 4039 -4.6931635376623078 4050 -5.1044181610801713
+		 4056 -4.2104283668355773 4071 13.293237665601728;
 	setAttr -s 148 ".kit[12:147]"  29 1 18 18 18 18 18 1 
 		18 18 18 18 18 18 18 1 18 18 18 18 18 18 18 18 18 
 		1 18 18 18 18 18 1 18 18 18 18 18 18 18 18 18 1 
@@ -3915,7 +4086,7 @@ createNode animCurveTA -n "r_armLower_ctrl_rotateX";
 		18 18 18 18 18 18 18 1 18 18 18 18 18 18 18 18 18 
 		1 18 1 1 18 18 1 18 1 18 1 18 18 1 1 18 18 
 		18 18 18 18 1 18 18 18 18 18 18 1 1 18 1 1 18 
-		1 18 1 1 18 18 18 1 18 18 18 18 18 1 18 18 18 
+		1 18 18 1 18 18 18 1 18 18 18 18 18 1 18 18 18 
 		1 1 1 18 18 18 18 18 18;
 	setAttr -s 148 ".kot[2:147]"  1 18 18 18 18 18 18 18 
 		18 18 29 1 18 1 18 1 18 18 18 18 18 18 18 18 18 
@@ -3924,7 +4095,7 @@ createNode animCurveTA -n "r_armLower_ctrl_rotateX";
 		18 18 18 18 18 1 18 1 18 1 18 1 18 1 18 1 18 
 		18 18 1 18 18 18 18 18 18 18 1 18 1 1 18 18 1 
 		18 1 18 1 18 18 1 18 18 18 18 18 18 18 1 18 1 
-		18 18 18 18 1 18 18 1 1 18 1 18 1 1 18 18 18 
+		18 18 18 18 1 18 18 1 1 18 1 18 18 1 18 18 18 
 		1 18 18 18 18 1 1 18 18 18 1 1 1 18 18 18 18 
 		18 18;
 	setAttr -s 148 ".kix[13:147]"  1 1 1 1 1 1 1 1 1 0.99999272360853031 1 
@@ -3933,9 +4104,8 @@ createNode animCurveTA -n "r_armLower_ctrl_rotateX";
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.55516253709010055 1 0.99927843723699172 1 
 		1 0.57236413558470756 0.75623971149591196 1 1 1 1 0.73348083140552911 0.97944756384284559 
 		1 1 1 1 1 0.88706488963582419 0.98753454583553679 1 1 1 1 1 0.99310376002390077 0.99881350833555094 
-		1 1 1 1 1 1 0.66815027264648874 0.95606955202308253 1 1 1 1 1 1 1 0.99905406107272565 
-		0.99998562993250295 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.99828001610638639 1 0.97368743824970327 
-		1;
+		1 1 1 1 1 1 0.66815027264648874 0.95606955202308253 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+		1 1 1 1 1 1 1 1 1 1 1 1 1 0.99828001610638639 1 0.97368743824970327 1;
 	setAttr -s 148 ".kiy[13:147]"  0 0 0 0 0 0 0 0 0 -0.0038148040570332403 
 		0 0.014385484558668898 0.004562122308426269 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 -0.011764926897705443 -0.017407672312811154 0 0 0 0 -0.016603941309777007 
@@ -3943,8 +4113,8 @@ createNode animCurveTA -n "r_armLower_ctrl_rotateX";
 		0 0 -0.8199995709123088 -0.65429465744156889 0 0 0 0 -0.67971013672053915 -0.20169895805956664 
 		0 0 0 0 0 -0.46164475690229922 -0.15740241669491625 0 0 0 0 0 0.11723873859092261 
 		0.048698825103159406 0 0 0 0 0 0 0.74402635246503379 0.29313991828883068 0 0 0 0 
-		0 0 0 0.04348543496499168 0.0053609633924463244 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 -0.058626013361245198 0 0.22788763150888647 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.058626013361245198 0 0.22788763150888647 
+		0;
 	setAttr -s 148 ".kox[2:147]"  1 1 1 1 1 1 0.99981222677459414 0.99989983081248346 
 		1 0.99993490293330289 1 1 1 1 1 1 1 1 1 1 0.9999927236085302 1 0.99989652356331971 
 		0.99998959346587346 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.99993079085259273 
@@ -3952,8 +4122,8 @@ createNode animCurveTA -n "r_armLower_ctrl_rotateX";
 		1 1 0.55516253709010055 1 0.99927843723699172 1 1 0.57236413558470756 0.75623971149591196 
 		1 1 1 1 0.73348083140552911 0.97944756384284559 1 1 1 1 1 0.88706488963582431 0.98753454583553668 
 		1 1 1 1 1 0.99310376002390066 0.99881350833555105 1 1 1 1 1 1 0.66815027264648885 
-		0.95606955202308264 1 1 1 1 1 1 1 0.99905406107272554 0.99998562993250306 1 1 1 1 
-		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.9982800161063865 1 0.97368743824970339 1;
+		0.95606955202308264 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.9982800161063865 
+		1 0.97368743824970339 1;
 	setAttr -s 148 ".koy[2:147]"  0 0 0 0 0 0 -0.019378111157376404 -0.014153739476438837 
 		0 0.011410078692365157 0 0 0 0 0 0 0 0 0 0 -0.0038148040570332403 0 0.014385484558668898 
 		0.004562122308426269 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.011764926897705445 
@@ -3961,9 +4131,8 @@ createNode animCurveTA -n "r_armLower_ctrl_rotateX";
 		0 0 0 0 0.83174188148227979 0 -0.037981638632313811 0 0 -0.8199995709123088 -0.65429465744156889 
 		0 0 0 0 -0.67971013672053915 -0.20169895805956661 0 0 0 0 0 -0.46164475690229922 
 		-0.15740241669491625 0 0 0 0 0 0.11723873859092261 0.048698825103159406 0 0 0 0 0 
-		0 0.74402635246503379 0.29313991828883068 0 0 0 0 0 0 0 0.043485434964991673 0.0053609633924463253 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.058626013361245219 0 0.2278876315088865 
-		0;
+		0 0.74402635246503379 0.29313991828883068 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		0 0 0 0 0 0 0 0 -0.058626013361245219 0 0.2278876315088865 0;
 createNode animCurveTA -n "r_armLower_ctrl_rotateY";
 	rename -uid "7FC681A3-4918-2C99-30BE-75B38EAC41EE";
 	setAttr ".tan" 18;
@@ -3998,12 +4167,11 @@ createNode animCurveTA -n "r_armLower_ctrl_rotateY";
 		 2521 -10.38993784219233 2540 -10.38993784219233 2541 -8.0437576723902389 2546 -7.5912097292769829
 		 2552 -10.057335031771387 2560 -10.38993784219233 2561 -10.38993784219233 2580 -10.38993784219233
 		 2595 6.6922614902049498 2600 6.6922614902049498 2608 -10.752579988624234 2625 -10.38993784219233
-		 3000 -16.116654771528047 3032 -15.625512669554832 3064 -16.116654771528047 3069 -16.116654771528047
-		 3070 -16.116654771528047 3100 0 3101 0 3110 0 3111 0 3120 0 3121 0 3130 7.9643231685412124
-		 3131 7.9643231685412124 3140 -9.1844276269219378 3141 -9.1844276269219378 3952 -9.1844276269219378
-		 3998 -16.657020295609701 3999 -16.657020295609701 4000 -16.657020295609701 4020 -16.657020295609701
-		 4037 -16.657020295609701 4039 -16.323855922496175 4050 -16.20724839190644 4056 -15.902046372273348
-		 4071 -10.647389975785764;
+		 2640 -10.38993784219233 3000 0 3135 0 3140 -16.116654771528047 3141 -16.116654771528047
+		 3171 0 3172 0 3181 0 3182 0 3191 0 3192 0 3201 7.9643231685412124 3202 7.9643231685412124
+		 3211 -9.1844276269219378 3212 -9.1844276269219378 3952 -9.1844276269219378 3998 -16.657020295609701
+		 3999 -16.657020295609701 4000 -16.657020295609701 4020 -16.657020295609701 4037 -16.657020295609701
+		 4039 -16.323855922496175 4050 -16.20724839190644 4056 -15.902046372273348 4071 -10.647389975785764;
 	setAttr -s 143 ".kit[0:142]"  1 1 1 1 1 1 18 18 
 		18 18 18 18 18 29 18 1 18 18 18 1 1 18 18 18 18 
 		18 18 18 1 18 18 18 1 1 18 1 1 18 1 1 1 1 
@@ -4011,7 +4179,7 @@ createNode animCurveTA -n "r_armLower_ctrl_rotateY";
 		18 1 18 1 18 1 18 18 18 18 18 18 18 1 18 1 18 
 		18 18 18 18 18 18 1 18 1 1 18 18 1 18 1 18 1 
 		18 18 1 18 1 1 18 18 18 18 18 18 1 18 18 18 18 
-		18 1 1 18 1 1 18 1 18 1 1 18 18 18 1 18 18 
+		18 1 1 18 1 1 18 1 18 18 1 18 18 18 1 18 18 
 		18 18 18 1 18 18 18 1 1 1 18 18 18 18 18 18;
 	setAttr -s 143 ".kot[0:142]"  1 1 1 1 1 1 18 18 
 		18 18 18 18 18 29 18 1 18 1 18 1 1 18 18 18 18 
@@ -4020,7 +4188,7 @@ createNode animCurveTA -n "r_armLower_ctrl_rotateY";
 		18 18 18 1 18 1 18 18 18 18 18 18 18 1 18 1 18 
 		18 18 18 18 18 18 1 18 1 1 18 18 1 18 1 18 1 
 		18 18 1 18 1 18 18 18 18 18 18 18 1 18 1 18 18 
-		18 1 18 18 1 1 18 1 18 1 1 18 18 18 1 18 18 
+		18 1 18 18 1 1 18 1 18 18 1 18 18 18 1 18 18 
 		18 18 1 1 18 18 18 1 1 1 18 18 18 18 18 18;
 	setAttr -s 143 ".kix[0:142]"  1 0.53333333333333321 1 1 0.99995287221532159 
 		1 1 1 1 0.99577843211726602 0.99817722915838947 1 0.99833815052295694 0.99857283358167548 
@@ -4036,8 +4204,8 @@ createNode animCurveTA -n "r_armLower_ctrl_rotateY";
 		1 1 0.99995287221532159 1 0.99995287221532159 0.90544086291351167 0.99372374143918074 
 		1 1 0.99995287221532159 0.99999997409745955 1 1 1 0.99915814123190616 1 1 0.53333333333333144 
 		1 1 0.99004421766530581 1 0.99787433341279363 0.53333333333333144 1 1 0.53333333333333321 
-		0.53333333333333321 1 0.53333333333333321 1 0.99993886682290545 1 1 1 1 1 1 1 1 1 
-		1 1 1 1 1 1 1 1 1 1 0.99986139232375393 0.99991561849817889 0.9968230627969803 1;
+		0.53333333333333321 1 0.53333333333333321 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+		1 0.99986139232375393 0.99991561849817889 0.9968230627969803 1;
 	setAttr -s 143 ".kiy[0:142]"  0 0.0051780660924599375 0 0 0.0097084163656426508 
 		0 0 0 0 0.091789509913058398 0.060350801069081299 0 -0.057627573351666274 -0.053406891246948515 
 		0 0.0097084163656426508 0 0 0 0 0.0097084163656426508 0 -0.022249009446563776 -0.047837251728469185 
@@ -4053,8 +4221,8 @@ createNode animCurveTA -n "r_armLower_ctrl_rotateY";
 		-0.42447242992500156 -0.11186208338895061 0 0 0.0097084163656426508 0.00022760729487186239 
 		0 0 0 -0.041024490368587171 0 0 0.0051780660924599375 0 0 0.14075669457433496 0 -0.065167589459581232 
 		0.0051780660924599375 0 0 0.0051780660924599375 0.0051780660924599375 0 0.0051780660924599375 
-		0 0.011057242736029569 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.016649208401726862 
-		0.012990607507133344 0.07964785920567681 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.016649208401726862 0.012990607507133344 
+		0.07964785920567681 0;
 	setAttr -s 143 ".kox[0:142]"  1 0.53333333333333321 1 1 0.99995287221532159 
 		1 1 1 1 0.99577843211726602 0.99817722915838947 1 0.99833815052295694 0.99857283358167548 
 		1 0.99995287221532159 1 1 1 1 0.99995287221532159 1 0.99975246015133501 0.99885514332513059 
@@ -4069,8 +4237,8 @@ createNode animCurveTA -n "r_armLower_ctrl_rotateY";
 		1 1 0.99995287221532159 1 0.99995287221532159 0.90544086291351167 0.99372374143918074 
 		1 1 0.99995287221532159 0.99999996886355969 1 1 1 0.99915814123190616 1 1 0.53333333333333144 
 		1 1 0.9900442176653057 1 0.99787433341279386 0.53333333333333144 1 1 0.53333333333333321 
-		0.53333333333333321 1 0.53333333333333321 1 0.99993886682290556 1 1 1 1 1 1 1 1 1 
-		1 1 1 1 1 1 1 1 1 1 0.99986139232375393 0.99991561849817889 0.9968230627969803 1;
+		0.53333333333333321 1 0.53333333333333321 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+		1 0.99986139232375393 0.99991561849817889 0.9968230627969803 1;
 	setAttr -s 143 ".koy[0:142]"  0 0.0051780660924599375 0 0 0.0097084163656426629 
 		0 0 0 0 0.091789509913058412 0.060350801069081299 0 -0.057627573351666274 -0.053406891246948522 
 		0 0.0097084163656426629 0 0 0 0 0.0097084163656426629 0 -0.022249009446563772 -0.047837251728469192 
@@ -4086,8 +4254,8 @@ createNode animCurveTA -n "r_armLower_ctrl_rotateY";
 		-0.42447242992500156 -0.11186208338895062 0 0 0.0097084163656426629 0.00024954534608353704 
 		0 0 0 -0.041024490368587178 0 0 0.0051780660924599375 0 0 0.14075669457433496 0 -0.065167589459581246 
 		0.0051780660924599375 0 0 0.0051780660924599375 0.0051780660924599375 0 0.0051780660924599375 
-		0 0.011057242736029569 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.016649208401726859 
-		0.012990607507133342 0.07964785920567681 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.016649208401726859 0.012990607507133342 
+		0.07964785920567681 0;
 createNode animCurveTA -n "r_armLower_ctrl_rotateZ";
 	rename -uid "829680F2-4EDC-5C40-1740-D0B13A34B19E";
 	setAttr ".tan" 18;
@@ -4124,10 +4292,10 @@ createNode animCurveTA -n "r_armLower_ctrl_rotateZ";
 		 2540 15.162164905606131 2541 26.20109486759365 2546 27.448344482761524 2552 7.4435527205248926
 		 2560 15.162164905606131 2561 15.162164905606131 2580 15.162164905606131 2595 -59.622788798172095
 		 2600 -59.622788798172095 2608 10.881664104304148 2613 15.978546843072625 2618 14.503649148622985
-		 2625 15.162164905606131 3000 38.541690683628978 3032 36.072218009784727 3064 38.541690683628978
-		 3069 38.541690683628978 3070 38.541690683628978 3100 0 3101 0 3110 -8.5808869029103256
-		 3111 -8.5808869029103256 3120 9.3021240322777885 3121 9.3021240322777885 3130 0 3131 0
-		 3140 0 3141 0 3952 0 3998 108.11102759686261 3999 108.11102759686261 4000 108.11102759686261
+		 2625 15.162164905606131 2640 15.162164905606131 3000 -56.750601624910566 3135 -56.750601624910566
+		 3140 38.541690683628978 3141 38.541690683628978 3171 0 3172 0 3181 -8.5808869029103256
+		 3182 -8.5808869029103256 3191 9.3021240322777885 3192 9.3021240322777885 3201 0 3202 0
+		 3211 0 3212 0 3952 0 3998 108.11102759686261 3999 108.11102759686261 4000 108.11102759686261
 		 4020 18.054786232314537 4037 17.136830225682054 4039 22.015716104707661 4050 24.810234756218414
 		 4056 23.119660692759854 4071 -46.945134974945255;
 	setAttr -s 152 ".kit[12:151]"  29 18 1 18 18 18 18 18 
@@ -4137,7 +4305,7 @@ createNode animCurveTA -n "r_armLower_ctrl_rotateZ";
 		18 18 18 18 18 18 18 18 1 18 18 18 18 18 18 18 18 
 		18 1 18 1 1 18 18 1 18 1 18 1 18 18 1 18 1 
 		1 18 18 18 18 18 18 1 18 18 18 18 18 1 1 18 1 
-		1 18 1 18 1 18 1 1 18 18 18 1 18 1 18 1 18 
+		1 18 1 18 1 18 18 1 18 18 18 1 18 1 18 1 18 
 		1 18 18 18 1 1 1 18 1 18 18 18 18;
 	setAttr -s 152 ".kot[2:151]"  1 18 18 18 18 18 18 18 
 		18 18 29 18 1 18 1 18 1 18 18 18 18 18 18 18 18 
@@ -4146,7 +4314,7 @@ createNode animCurveTA -n "r_armLower_ctrl_rotateZ";
 		1 18 18 18 18 18 1 18 1 18 1 18 1 18 1 18 1 
 		18 18 18 1 18 18 18 18 18 18 18 1 18 1 1 18 18 
 		1 18 1 18 1 18 18 1 18 1 18 18 18 18 18 18 18 
-		1 18 1 18 18 18 1 18 18 1 1 18 1 18 1 18 1 
+		1 18 1 18 18 18 1 18 18 1 1 18 1 18 1 18 18 
 		1 18 18 18 1 18 1 18 1 1 1 18 18 18 1 1 1 
 		18 1 18 18 18 18;
 	setAttr -s 152 ".kix[14:151]"  1 1 1 1 1 1 1 1 1 0.99975309993075634 1 
@@ -4155,16 +4323,16 @@ createNode animCurveTA -n "r_armLower_ctrl_rotateZ";
 		1 1 1 1 1 1 1 1 1 1 1 1 1 0.99927843723699172 1 1 1 1 1 1 1 1 0.34663864762627722 
 		0.79720008069399895 1 1 1 1 1 0.36730895689220022 0.84725315445084992 1 1 1 1 1 1 
 		1 0.93107501172834362 1 1 1 1 1 0.93107501172833318 1 1 1 1 1 1 1 0.52970538318461424 
-		1 1 1 1 0.99845792521206322 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.99642216733133793 
-		1 0.95541086417666576 1 0.91443938760886445 1;
+		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.99642216733133793 1 0.95541086417666576 
+		1 0.91443938760886445 1;
 	setAttr -s 152 ".kiy[14:151]"  0 0 0 0 0 0 0 0 0 0.022220242546902576 
 		0 -0.059827600434102964 -0.028659910233337894 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0.063504760585501516 0 0 0 0 0.094059581654916652 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.037981638632313373 0 0 0 0 0 0 0 0 0.93799874625280044 
 		0.60371519058367373 0 0 0 0 0 0.93009898945583425 0.53118931867375163 0 0 0 0 0 0 
 		0 0.36482779846807828 0 0 0 0 0 0.36482779846810531 0 0 0 0 0 0 0 0.84818170637266233 
-		0 0 0 0 -0.055513706246491559 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.084515468706735666 
-		0 0.29527966508582459 0 -0.40472287603930268 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.084515468706735666 0 0.29527966508582459 
+		0 -0.40472287603930268 0;
 	setAttr -s 152 ".kox[2:151]"  1 1 1 1 1 1 0.99430573609122008 0.99679677911013032 
 		1 0.99839924193065777 0.99778576881570957 1 1 1 1 1 1 1 1 1 1 0.99975309993075634 
 		1 0.99820872477969125 0.99958922040276976 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
@@ -4172,8 +4340,8 @@ createNode animCurveTA -n "r_armLower_ctrl_rotateZ";
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.99927843723699172 1 1 1 1 1 1 1 1 0.34663864762627722 
 		0.79720008069399895 1 1 1 1 1 0.36730895689220022 0.84725315445084992 1 1 1 1 1 1 
 		1 0.93107501172834373 1 1 1 1 1 0.93107501172833318 1 1 1 1 1 1 1 0.52970538318461413 
-		1 1 1 1 0.99845792521206322 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.99642216733133804 
-		1 0.95541086417666576 1 0.91443938760886456 1;
+		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.99642216733133804 1 0.95541086417666576 
+		1 0.91443938760886456 1;
 	setAttr -s 152 ".koy[2:151]"  0 0 0 0 0 0 0.10656501853843529 0.079976128661433193 
 		0 -0.056559293774655212 -0.066509845503078965 0 0 0 0 0 0 0 0 0 0 0.02222024254690258 
 		0 -0.05982760043410297 -0.028659910233337894 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
@@ -4181,8 +4349,8 @@ createNode animCurveTA -n "r_armLower_ctrl_rotateZ";
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.037981638632313373 0 0 0 0 0 0 0 0 0.93799874625280044 
 		0.60371519058367373 0 0 0 0 0 0.93009898945583425 0.53118931867375152 0 0 0 0 0 0 
 		0 0.36482779846807833 0 0 0 0 0 0.36482779846810531 0 0 0 0 0 0 0 0.84818170637266221 
-		0 0 0 0 -0.055513706246491559 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.084515468706735666 
-		0 0.29527966508582459 0 -0.40472287603930268 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.084515468706735666 0 0.29527966508582459 
+		0 -0.40472287603930268 0;
 createNode animCurveTL -n "r_armLower_ctrl_translateX";
 	rename -uid "29D9B989-4FB6-032C-4051-8095E4173BD0";
 	setAttr ".tan" 18;
@@ -4218,9 +4386,9 @@ createNode animCurveTL -n "r_armLower_ctrl_translateX";
 		 2517 3.6880733944954187 2520 3.6880733944954187 2521 3.6880733944954187 2540 3.6880733944954187
 		 2541 8.0583710878460941 2547 9.5023429449559114 2553 4.0089560294087114 2557 3.6880733944954187
 		 2560 3.6880733944954187 2561 3.6880733944954187 2580 3.6880733944954187 2595 3.6880733944954187
-		 2600 3.6880733944954187 2608 3.6880733944954187 2625 3.6880733944954187 3000 4.6595887956929953
-		 3032 4.6595887956929953 3064 4.6595887956929953 3069 4.6595887956929953 3070 4.6595887956929953
-		 3100 0 3101 0 3110 0 3111 0 3120 0 3121 0 3130 0 3131 0 3140 0 3141 0 3952 0 3998 46.286822810170143
+		 2600 3.6880733944954187 2608 3.6880733944954187 2625 3.6880733944954187 2640 3.6880733944954187
+		 3000 15.038864624404034 3135 15.038864624404034 3140 4.6595887956929953 3141 4.6595887956929953
+		 3171 0 3172 0 3181 0 3182 0 3191 0 3192 0 3201 0 3202 0 3211 0 3212 0 3952 0 3998 46.286822810170143
 		 3999 46.286822810170143 4000 10.527337357592961 4020 1.4400290871094932 4037 1.185981888794609
 		 4039 2.5793059508289731 4054 3.0222118167543135 4060 2.8264827965366881 4065 1.77708906662737
 		 4075 5.5631022288376544;
@@ -4231,7 +4399,7 @@ createNode animCurveTL -n "r_armLower_ctrl_translateX";
 		18 18 18 1 18 1 18 18 18 18 18 18 18 18 18 18 18 
 		18 18 1 18 1 18 18 18 18 1 18 1 1 18 18 1 1 
 		18 1 18 18 1 1 1 18 18 18 18 18 18 1 1 18 18 
-		18 18 18 1 1 1 18 1 1 18 1 18 1 1 18 18 18 
+		18 18 18 1 1 1 18 1 1 18 1 18 18 1 18 18 18 
 		1 18 18 18 18 18 1 18 18 18 1 1 1 18 18 18 18 
 		18 18 18;
 	setAttr -s 151 ".kot[2:150]"  1 18 18 18 18 18 18 18 
@@ -4241,7 +4409,7 @@ createNode animCurveTL -n "r_armLower_ctrl_translateX";
 		18 18 18 18 18 1 18 18 18 1 18 1 18 1 18 1 18 
 		1 18 1 18 18 18 1 18 18 18 18 1 18 1 1 18 18 
 		1 1 18 1 18 18 1 1 18 18 18 18 18 18 18 1 1 
-		18 1 18 18 18 1 1 18 18 1 1 18 1 18 1 1 18 
+		18 1 18 18 18 1 1 18 18 1 1 18 1 18 18 1 18 
 		18 18 1 18 18 18 18 1 1 18 18 18 1 1 1 18 18 
 		18 18 18 18 18;
 	setAttr -s 151 ".kix[4:150]"  1 1 1 1 1 0.99872547209304219 0.94169843412994958 
@@ -4299,11 +4467,10 @@ createNode animCurveTL -n "r_armLower_ctrl_translateY";
 		 2060 0 2061 0 2475 0 2490 0 2500 0 2501 1.3212085722211597 2507 2.0431945007760683
 		 2513 0.32088263491329272 2517 0 2520 0 2521 0 2540 0 2541 1.3212085722211597 2547 2.0431945007760683
 		 2553 0.32088263491329272 2557 0 2560 0 2561 0 2580 0 2595 0 2600 0 2608 0 2625 0
-		 3000 12.055737830097879 3032 12.055737830097879 3064 12.055737830097879 3069 12.055737830097879
-		 3070 12.055737830097879 3100 0 3101 0 3110 0 3111 0 3120 0 3121 0 3130 0 3131 0 3140 0
-		 3141 0 3952 0 3998 4.1455554475873928 3999 4.1455554475873928 4000 -6.8564643140632118
-		 4020 -4.9099349379056898 4037 -4.8243280425697943 4039 -4.8243280425697943 4050 -4.8243280425697943
-		 4056 -4.290371693805211 4071 11.421549071144934;
+		 2640 0 3000 13.491367029511236 3135 13.491367029511236 3140 12.055737830097879 3141 12.055737830097879
+		 3171 0 3172 0 3181 0 3182 0 3191 0 3192 0 3201 0 3202 0 3211 0 3212 0 3952 0 3998 4.1455554475873928
+		 3999 4.1455554475873928 4000 -6.8564643140632118 4020 -4.9099349379056898 4037 -4.8243280425697943
+		 4039 -4.8243280425697943 4050 -4.8243280425697943 4056 -4.290371693805211 4071 11.421549071144934;
 	setAttr -s 150 ".kit[4:149]"  1 18 18 18 18 18 18 18 
 		18 18 18 18 18 18 18 18 29 1 18 18 18 18 18 1 18 
 		18 18 18 18 18 1 18 18 18 18 18 18 18 18 18 1 18 
@@ -4311,7 +4478,7 @@ createNode animCurveTL -n "r_armLower_ctrl_translateY";
 		18 18 18 1 18 1 18 18 18 18 18 18 18 18 18 18 18 
 		18 18 1 18 1 18 18 18 18 1 18 1 1 18 18 1 1 
 		18 1 18 18 1 1 1 18 18 18 18 18 18 1 1 18 18 
-		18 18 18 1 1 1 18 1 1 18 1 18 1 1 18 18 18 
+		18 18 18 1 1 1 18 1 1 18 1 18 18 1 18 18 18 
 		1 18 18 18 18 18 1 18 18 18 1 1 1 18 18 18 18 
 		18 18;
 	setAttr -s 150 ".kot[2:149]"  1 18 18 18 18 18 18 18 
@@ -4321,7 +4488,7 @@ createNode animCurveTL -n "r_armLower_ctrl_translateY";
 		18 18 18 18 18 1 18 18 18 1 18 1 18 1 18 1 18 
 		1 18 1 18 18 18 1 18 18 18 18 1 18 1 1 18 18 
 		1 1 18 1 18 18 1 1 18 18 18 18 18 18 18 1 1 
-		18 1 18 18 18 1 1 18 18 1 1 18 1 18 1 1 18 
+		18 1 18 18 18 1 1 18 18 1 1 18 1 18 18 1 18 
 		18 18 1 18 18 18 18 1 1 18 18 18 1 1 1 18 18 
 		18 18 18 18;
 	setAttr -s 150 ".kix[4:149]"  1 1 1 1 1 1 1 0.32167847941026179 1 1 1 
@@ -4386,11 +4553,11 @@ createNode animCurveTL -n "r_armLower_ctrl_translateZ";
 		 2517 8.1716330275229332 2520 8.1716330275229332 2521 8.1716330275229332 2540 8.1716330275229332
 		 2541 8.9930001641705068 2547 9.3539931284479607 2553 8.4925156624362259 2557 8.1716330275229332
 		 2560 8.1716330275229332 2561 8.1716330275229332 2580 8.1716330275229332 2595 8.1716330275229332
-		 2600 8.1716330275229332 2608 8.1716330275229332 2625 8.1716330275229332 3000 11.748706195848413
-		 3032 11.748706195848413 3064 11.748706195848413 3069 11.748706195848413 3070 11.748706195848413
-		 3100 0 3101 0 3110 0 3111 0 3120 0 3121 0 3130 0 3131 0 3140 0 3141 0 3952 0 3998 23.145495835461229
-		 3999 23.145495835461229 4000 20.94214339103743 4020 18.213919972664385 4037 18.083795562572643
-		 4039 18.899492478384595 4050 19.343683868183184 4056 19.42262981435308 4071 19.70844536942279;
+		 2600 8.1716330275229332 2608 8.1716330275229332 2625 8.1716330275229332 2640 8.1716330275229332
+		 3000 0 3135 0 3140 11.748706195848413 3141 11.748706195848413 3171 0 3172 0 3181 0
+		 3182 0 3191 0 3192 0 3201 0 3202 0 3211 0 3212 0 3952 0 3998 23.145495835461229 3999 23.145495835461229
+		 4000 20.94214339103743 4020 18.213919972664385 4037 18.083795562572643 4039 18.899492478384595
+		 4050 19.343683868183184 4056 19.42262981435308 4071 19.70844536942279;
 	setAttr -s 146 ".kit[4:145]"  1 18 18 18 18 18 18 18 
 		18 18 18 18 18 18 18 18 29 1 18 18 18 18 18 1 18 
 		18 18 18 18 18 1 18 18 18 18 18 18 18 18 18 1 18 
@@ -4398,7 +4565,7 @@ createNode animCurveTL -n "r_armLower_ctrl_translateZ";
 		18 18 18 1 18 1 18 18 18 18 18 18 18 18 18 1 18 
 		1 18 18 18 18 1 18 1 1 18 18 1 1 18 1 18 18 
 		1 1 1 18 18 18 18 18 18 1 1 18 18 18 18 18 1 
-		1 1 18 1 1 18 1 18 1 1 18 18 18 1 18 18 18 
+		1 1 18 1 1 18 1 18 18 1 18 18 18 1 18 18 18 
 		18 18 1 18 18 18 1 1 1 18 18 18 18 18 18;
 	setAttr -s 146 ".kot[2:145]"  1 18 18 18 18 18 18 18 
 		18 18 18 18 18 18 18 18 18 18 29 1 18 1 18 1 18 
@@ -4407,7 +4574,7 @@ createNode animCurveTL -n "r_armLower_ctrl_translateZ";
 		18 18 18 18 18 1 18 18 18 1 18 18 18 18 18 18 18 
 		18 18 1 18 18 18 18 1 18 1 1 18 18 1 1 18 1 
 		18 18 1 1 18 18 18 18 18 18 18 1 1 18 1 18 18 
-		18 1 1 18 18 1 1 18 1 18 1 1 18 18 18 1 18 
+		18 1 1 18 18 1 1 18 1 18 18 1 18 18 18 1 18 
 		18 18 18 1 1 18 18 18 1 1 1 18 18 18 18 18 18;
 	setAttr -s 146 ".kix[4:145]"  1 1 1 1 1 1 1 1 1 0.2834775213163086 0.28644968049758029 
 		1 0.20403909177670093 1 0.53882766806335325 1 1 1 1 1 1 1 1 1 1 1 0.95645123612201288 
@@ -4449,7 +4616,7 @@ createNode animCurveTA -n "r_hand_ctrl_rotateX";
 	rename -uid "799C0FF2-4B70-DC08-123C-B1A1183BAB30";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 132 ".ktv[0:131]"  -24 0 0 0 8 0 40 0 64 0 72 0 96 0 99 0 100 0
+	setAttr -s 133 ".ktv[0:132]"  -24 0 0 0 8 0 40 0 64 0 72 0 96 0 99 0 100 0
 		 107 -27.02984802876 115 -20.518343686564112 124 51.750866690252614 128 60.962337513521639
 		 139 3.4691429148082058 150 0 160 0 176 0 200 0 215 8.0897471203072921 235 8.7831540163336292
 		 250 0.92454252803511838 264 0 280 0 300 0 311 -20.927671430544336 329 -28.252356431234773
@@ -4468,29 +4635,28 @@ createNode animCurveTA -n "r_hand_ctrl_rotateX";
 		 2042 1.9626515591890545 2048 2.38164193589978 2053 -0.18229203378691317 2060 0 2061 0
 		 2475 0 2490 0 2500 0 2501 1.7745058295811318 2508 2.2033971725590589 2513 0 2520 0
 		 2521 0 2540 0 2541 1.7745058295811318 2548 2.2033971725590589 2553 0 2560 0 2561 0
-		 2580 0 2600 0 2610 0 2625 0 3000 -6.2241377375926242e-18 3064 -6.2241377375926242e-18
-		 3069 -6.2241377375926242e-18 3070 -6.2241377375926242e-18 3952 -6.2241377375926242e-18
-		 3999 0 4000 0 4015 0.86013434306629921 4025 0.031511401302078731 4038 -0.24332934771158296
-		 4041 0.017372614903003292 4054 -0.013659690344407114 4080 -18.678027255691916;
-	setAttr -s 132 ".kit[0:131]"  1 1 1 18 1 1 18 1 
+		 2580 0 2600 0 2610 0 2625 0 2640 0 3000 -6.2241377375926242e-18 3135 0 3140 0 3141 0
+		 3952 -6.2241377375926242e-18 3999 0 4000 0 4015 0.86013434306629921 4025 0.031511401302078731
+		 4038 -0.24332934771158296 4041 0.017372614903003292 4054 -0.013659690344407114 4080 -18.678027255691916;
+	setAttr -s 133 ".kit[0:132]"  1 1 1 18 1 1 18 1 
 		18 1 18 18 28 18 1 18 1 1 18 18 18 1 18 18 18 
 		18 18 18 18 18 1 18 18 18 18 18 1 18 18 18 1 18 
 		1 1 1 18 1 1 18 1 18 18 18 18 18 1 18 18 18 
 		18 18 18 18 18 18 18 18 1 1 18 1 1 18 18 18 18 
 		18 1 18 18 18 18 18 1 18 18 1 18 1 1 18 1 18 
 		1 18 1 18 1 18 1 1 18 18 18 18 1 1 1 18 18 
-		18 1 1 1 1 18 1 18 1 18 1 18 18 18 1 1 18 
-		18 18 18 18 18;
-	setAttr -s 132 ".kot[0:131]"  1 1 1 1 1 1 18 1 
+		18 1 1 1 1 18 1 18 1 18 18 1 18 18 18 1 1 
+		18 18 18 18 18 18;
+	setAttr -s 133 ".kot[0:132]"  1 1 1 1 1 1 18 1 
 		18 1 18 18 28 18 1 18 1 1 18 1 18 1 18 18 18 
 		18 18 18 18 18 1 18 1 18 18 1 1 1 1 18 1 18 
 		1 1 1 1 1 1 18 1 18 18 18 18 18 1 18 18 18 
 		18 18 18 18 18 18 18 1 18 1 18 1 1 18 18 18 18 
 		18 1 18 18 18 18 18 1 18 18 1 18 1 1 18 1 18 
 		1 18 1 18 1 18 1 18 18 18 18 18 1 1 1 18 1 
-		18 1 1 1 18 18 1 18 1 18 1 18 18 18 1 1 18 
-		18 18 18 18 18;
-	setAttr -s 132 ".kix[0:131]"  1 0.80000000000000016 1 1 1 1 1 1 1 1 0.61608304650678558 
+		18 1 1 1 18 18 1 18 1 18 18 1 18 18 18 1 1 
+		18 18 18 18 18 18;
+	setAttr -s 133 ".kix[0:132]"  1 0.80000000000000016 1 1 1 1 1 1 1 1 0.61608304650678558 
 		0.29148074769692084 1 0.89607257210662439 1 1 1 0.79999999999999982 0.9985203420353298 
 		1 0.9946627237458463 1 1 1 0.89079940986270922 1 0.54318698204902927 1 0.51880299671294205 
 		0.51138508316789222 1 1 1 1 0.99108016165811785 1 1 1 1 0.98839696055696113 1 1 1 
@@ -4500,9 +4666,9 @@ createNode animCurveTA -n "r_hand_ctrl_rotateX";
 		1 1 1 0.25449329380435026 0.2106136622435188 1 1 0.26118689220833557 0.39577642122070372 
 		0.79999999999999716 1 1 1 0.99403764731328192 1 1 1 1 1 0.99403764731328192 1 1 1 
 		1 1 1 1 0.9954005710603484 1 1 1 1 1 0.9954005710603484 1 1 1 1 1 0.80000000000000016 
-		1 0.80000000000000016 1 1 1 1 1 1 1 1 0.99968462868583663 1 1 0.99999297014202071 
+		1 0.80000000000000016 1 1 1 1 1 1 1 1 1 0.99968462868583663 1 1 0.99999297014202071 
 		1;
-	setAttr -s 132 ".kiy[0:131]"  0 0 0 0 0 0 0 0 0 0 0.78768120442658651 
+	setAttr -s 133 ".kiy[0:132]"  0 0 0 0 0 0 0 0 0 0 0.78768120442658651 
 		0.95657669515938137 0 -0.44390758668693447 0 0 0 0 0.054379468015493752 0 -0.10317977510391328 
 		0 0 0 -0.45439675547724712 0 0.83961175702372559 0 -0.85489382416863391 -0.85935167231661791 
 		0 0 0 0 0.13326707458227924 0 0 0 0 -0.15189288450010055 0 0 0 0 0 0 0 0 0 0 0.10551221580013864 
@@ -4510,9 +4676,9 @@ createNode animCurveTA -n "r_hand_ctrl_rotateX";
 		0 0 0 0 0 0 0 0 0 -0.019484774259896084 0 0.058329399798932514 0 -0.052640529587128719 
 		0 0 0 0.96707453870351312 0.97756937619606976 0 0 -0.96528825090671821 -0.91834689764039179 
 		0 0 0 0 0.10903740515930979 0 0 0 0 0 0.10903740515930979 0 0 0 0 0 0 0 0.095800329502212955 
-		0 0 0 0 0 0.095800329502212955 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.025112609766030081 
+		0 0 0 0 0 0.095800329502212955 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.025112609766030081 
 		0 0 -0.0037496221862424687 0;
-	setAttr -s 132 ".kox[0:131]"  1 0.26666666666666655 1 1 1 1 1 1 1 1 0.61608304650678547 
+	setAttr -s 133 ".kox[0:132]"  1 0.26666666666666655 1 1 1 1 1 1 1 1 0.61608304650678547 
 		0.29148074769692084 1 0.8960725721066245 1 1 1 0.26666666666666838 0.9985203420353298 
 		1 0.99466272374584641 1 1 1 0.89079940986270911 1 0.54318698204902915 1 0.51880299671294194 
 		0.51138508316789222 1 1 1 1 0.99108016165811796 1 1 1 1 0.98839696055696113 1 1 1 
@@ -4522,9 +4688,9 @@ createNode animCurveTA -n "r_hand_ctrl_rotateX";
 		1 1 1 0.25449329380435026 0.2106136622435188 1 1 0.26118689220833557 0.39577642122070372 
 		0.26666666666666572 1 1 1 0.99403764731328181 1 1 1 1 1 0.99403764731328181 1 1 1 
 		1 1 1 1 0.99540057106034829 1 1 1 1 1 0.99540057106034829 1 1 1 1 1 0.26666666666666655 
-		1 0.26666666666666655 1 1 1 1 1 1 1 1 0.99968462868583663 1 1 0.99999297014202071 
+		1 0.26666666666666655 1 1 1 1 1 1 1 1 1 0.99968462868583663 1 1 0.99999297014202071 
 		1;
-	setAttr -s 132 ".koy[0:131]"  0 0 0 0 0 0 0 0 0 0 0.7876812044265864 
+	setAttr -s 133 ".koy[0:132]"  0 0 0 0 0 0 0 0 0 0 0.7876812044265864 
 		0.95657669515938126 0 -0.44390758668693447 0 0 0 0 0.054379468015493752 0 -0.10317977510391328 
 		0 0 0 -0.45439675547724706 0 0.83961175702372559 0 -0.85489382416863391 -0.85935167231661802 
 		0 0 0 0 0.13326707458227924 0 0 0 0 -0.15189288450010055 0 0 0 0 0 0 0 0 0 0 0.10551221580013864 
@@ -4532,7 +4698,7 @@ createNode animCurveTA -n "r_hand_ctrl_rotateX";
 		0 0 0 0 0 0 0 0 0 -0.019484774259896087 0 0.058329399798932521 0 -0.052640529587128726 
 		0 0 0 0.96707453870351312 0.97756937619606976 0 0 -0.96528825090671821 -0.91834689764039168 
 		0 0 0 0 0.10903740515930978 0 0 0 0 0 0.10903740515930978 0 0 0 0 0 0 0 0.095800329502212955 
-		0 0 0 0 0 0.095800329502212955 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.025112609766030077 
+		0 0 0 0 0 0.095800329502212955 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.025112609766030077 
 		0 0 -0.0037496221862424687 0;
 createNode animCurveTA -n "r_hand_ctrl_rotateY";
 	rename -uid "008386C9-46D4-ECBE-853C-1C89BA907317";
@@ -4565,10 +4731,10 @@ createNode animCurveTA -n "r_hand_ctrl_rotateY";
 		 2513 4.0987402319458495 2520 4.0987402319458495 2521 4.0987402319458495 2540 4.0987402319458495
 		 2541 3.6407753816192661 2548 3.4569648060572971 2553 4.0987402319458495 2560 4.0987402319458495
 		 2561 4.0987402319458495 2580 4.0987402319458495 2600 4.0987402319458495 2610 4.0987402319458495
-		 2625 4.0987402319458495 3000 3.5757227173849735 3039 0.036252864640011755 3064 3.5757227173849735
-		 3069 3.5757227173849735 3070 3.5757227173849735 3100 0 3952 0 3999 4.0987402319458495
-		 4000 4.0987402319458495 4015 2.759033090424325 4025 1.4427780215511634 4038 1.038815888708535
-		 4041 0.78842948570472926 4054 0.74931168100066103;
+		 2625 4.0987402319458495 2640 4.0987402319458495 3000 0 3135 0 3140 3.5757227173849735
+		 3141 3.5757227173849735 3171 0 3952 0 3999 4.0987402319458495 4000 4.0987402319458495
+		 4015 2.759033090424325 4025 1.4427780215511634 4038 1.038815888708535 4041 0.78842948570472926
+		 4054 0.74931168100066103;
 	setAttr -s 121 ".kit[1:120]"  1 18 1 18 1 18 1 18 
 		18 18 18 1 18 18 1 18 1 18 18 18 18 18 18 18 18 
 		1 18 18 1 18 1 18 1 18 18 1 18 1 18 1 18 1 
@@ -4593,8 +4759,8 @@ createNode animCurveTA -n "r_hand_ctrl_rotateY";
 		0.98891171028217395 0.99999466705268414 1 1 1 1 1 1 1 1 1 1 1 1 0.78996504489560726 
 		1 1 1 0.98651752505664936 1 1 1 1 0.99933221347519408 1 0.99944773279940247 1 1 1 
 		0.99933221347519408 1 0.99944773279940236 1 1 1 1 1 0.99915042652185226 1 1 1 1 1 
-		0.99915042652185226 1 1 1 1 1 1 1 1 0.99999760018300443 1 1 1 1 1 1 1 1 0.99845643626556568 
-		0.99923408781454115 0.99977080970187526 0.99998882970287739 1;
+		0.99915042652185226 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.99845643626556568 0.99923408781454115 
+		0.99977080970187526 0.99998882970287739 1;
 	setAttr -s 121 ".kiy[1:120]"  0 0 0 0 0 0 0 0.66065952795622052 0.81496749594972484 
 		0 -0.37129020267420004 0 0.00015544624667993183 0 0 0 0 0 -0.00026673186057197439 
 		-0.20662962053712242 0 0.36918670226025968 0 -0.33918743812138535 -0.40856198315393716 
@@ -4603,9 +4769,9 @@ createNode animCurveTA -n "r_hand_ctrl_rotateY";
 		-0.010847533296928124 0 0.058631890824623722 0.14850464392329879 0.0032658637741470957 
 		0 0 0 0 0 0 0 0 0 0 0 0 0.61315187991482289 0 0 0 0.16365565299158902 0 0 0 0 -0.036539391220563308 
 		0 0.033229947368817001 0 0 0 -0.036539391220563412 0 0.033229947368815807 0 0 0 0 
-		0 -0.041211954348233222 0 0 0 0 0 -0.041211954348233222 0 0 0 0 0 0 0 0 -0.0021908053843797061 
-		0 0 0 0 0 0 0 0 -0.055540479651027437 -0.039131033074045522 -0.021408597993713988 
-		-0.0047265705823224483 0;
+		0 -0.041211954348233222 0 0 0 0 0 -0.041211954348233222 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		0 0 0 0 -0.055540479651027437 -0.039131033074045522 -0.021408597993713988 -0.0047265705823224483 
+		0;
 	setAttr -s 121 ".kox[1:120]"  1 1 1 1 1 1 1 0.750685678643641 0.57950666997493261 
 		1 0.92851687405138283 1 0.99999998791823208 1 1 1 1 1 0.99999996442705663 0.97841923525484964 
 		1 0.92935524901632438 1 0.94071881123992174 0.91273057685240389 1 0.99999989654963073 
@@ -4614,8 +4780,8 @@ createNode animCurveTA -n "r_hand_ctrl_rotateY";
 		0.98891171028217395 0.99999466705268414 1 1 1 1 1 1 1 1 1 1 1 1 0.78996504489560715 
 		1 1 1 0.98651752505664936 1 1 1 1 0.99933221347519396 1 0.99944773279940236 1 1 1 
 		0.99933221347519396 1 0.99944773279940236 1 1 1 1 1 0.99915042652185215 1 1 1 1 1 
-		0.99915042652185215 1 1 1 1 1 1 1 1 0.99999760018300421 1 1 1 1 1 1 1 1 0.99845643626556579 
-		0.99923408781454104 0.99977080970187537 0.99998882970287739 1;
+		0.99915042652185215 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.99845643626556579 0.99923408781454104 
+		0.99977080970187537 0.99998882970287739 1;
 	setAttr -s 121 ".koy[1:120]"  0 0 0 0 0 0 0 0.66065952795622063 0.81496749594972462 
 		0 -0.37129020267420004 0 0.0001554462466799318 0 0 0 0 0 -0.00026673186057197434 
 		-0.20662962053712239 0 0.36918670226025974 0 -0.33918743812138535 -0.40856198315393721 
@@ -4624,14 +4790,14 @@ createNode animCurveTA -n "r_hand_ctrl_rotateY";
 		-0.010847533296928126 0 0.058631890824623729 0.14850464392329879 0.0032658637741470953 
 		0 0 0 0 0 0 0 0 0 0 0 0 0.61315187991482278 0 0 0 0.16365565299158899 0 0 0 0 -0.036539391220563301 
 		0 0.033229947368817001 0 0 0 -0.036539391220563405 0 0.033229947368815807 0 0 0 0 
-		0 -0.041211954348233222 0 0 0 0 0 -0.041211954348233222 0 0 0 0 0 0 0 0 -0.0021908053843797057 
-		0 0 0 0 0 0 0 0 -0.055540479651027451 -0.039131033074045522 -0.021408597993713991 
-		-0.0047265705823224483 0;
+		0 -0.041211954348233222 0 0 0 0 0 -0.041211954348233222 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		0 0 0 0 -0.055540479651027451 -0.039131033074045522 -0.021408597993713991 -0.0047265705823224483 
+		0;
 createNode animCurveTA -n "r_hand_ctrl_rotateZ";
 	rename -uid "9A570867-48B5-5C59-A806-1A966FC41BF7";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 162 ".ktv[0:161]"  -24 0 -8 -2.443132346580474 0 -1.221566173290237
+	setAttr -s 163 ".ktv[0:162]"  -24 0 -8 -2.443132346580474 0 -1.221566173290237
 		 8 0 24 -2.443132346580474 40 0 56 -2.443132346580474 64 -1.2215661732902372 72 0
 		 88 -2.443132346580474 96 -2.443132346580474 99 -1.2215661732902372 100 -1.2215661732902372
 		 107 25.582452493222302 116 29.54438300329462 121 30.917008246984803 127 43.953756114418518
@@ -4664,11 +4830,11 @@ createNode animCurveTA -n "r_hand_ctrl_rotateZ";
 		 2513 -2.443132346580474 2520 -1.2215661732902372 2521 -1.2215661732902372 2540 -1.2215661732902372
 		 2541 26.818255518970584 2548 30.869734701277274 2553 -3.9622471505949823 2556 -5.3507713837380679
 		 2558 -2.4874951766356572 2560 -1.2215661732902372 2561 -1.2215661732902372 2580 -1.2215661732902372
-		 2600 -1.221566173290237 2610 -1.221566173290237 2625 -1.221566173290237 3000 -1.2215661732902421
-		 3064 -1.2215661732902421 3069 -1.2215661732902421 3070 -1.2215661732902421 3100 0
-		 3952 0 3999 -1.221566173290237 4000 -1.221566173290237 4015 16.699789836897445 4025 -6.5546972311735239
-		 4038 -8.8734526096555957 4041 17.914854232170963 4054 27.709476723618767 4074 16.605331275836818;
-	setAttr -s 162 ".kit[1:161]"  1 1 1 18 18 1 1 1 
+		 2600 -1.221566173290237 2610 -1.221566173290237 2625 -1.221566173290237 2640 -1.221566173290237
+		 3000 0 3135 0 3140 -1.2215661732902421 3141 -1.2215661732902421 3171 0 3952 0 3999 -1.221566173290237
+		 4000 -1.221566173290237 4015 16.699789836897445 4025 -6.5546972311735239 4038 -8.8734526096555957
+		 4041 17.914854232170963 4054 27.709476723618767 4074 16.605331275836818;
+	setAttr -s 163 ".kit[1:162]"  1 1 1 18 18 1 1 1 
 		1 18 1 18 1 18 18 18 18 1 1 18 18 1 1 18 18 
 		18 1 1 18 18 18 18 18 18 18 18 1 18 18 18 18 18 
 		18 18 1 1 18 18 18 1 1 18 18 1 1 1 18 18 1 
@@ -4677,8 +4843,9 @@ createNode animCurveTA -n "r_hand_ctrl_rotateZ";
 		1 1 18 18 1 1 1 18 18 1 1 18 18 18 18 18 1 
 		18 18 1 18 1 1 18 1 18 1 18 1 18 1 18 1 1 
 		18 18 18 18 1 1 1 18 18 18 1 28 18 18 1 1 18 
-		1 18 1 18 1 18 18 18 18 1 1 18 18 18 18 18 1;
-	setAttr -s 162 ".kot[1:161]"  1 1 1 18 1 1 1 1 
+		1 18 1 18 18 1 18 18 18 18 1 1 18 18 18 18 18 
+		1;
+	setAttr -s 163 ".kot[1:162]"  1 1 1 18 1 1 1 1 
 		1 18 1 18 1 18 18 18 18 1 1 18 1 1 1 18 18 
 		1 1 1 18 18 18 18 18 18 18 18 1 18 1 18 18 18 
 		18 1 1 1 1 18 1 1 1 18 1 1 1 1 18 1 1 
@@ -4687,8 +4854,9 @@ createNode animCurveTA -n "r_hand_ctrl_rotateZ";
 		1 1 18 1 1 1 1 18 1 1 1 18 18 18 18 18 1 
 		18 18 1 18 1 1 18 1 18 1 18 1 18 1 18 1 18 
 		18 18 18 18 1 1 1 18 1 18 1 28 18 18 1 18 18 
-		1 18 1 18 1 18 18 18 18 1 1 18 18 18 18 18 1;
-	setAttr -s 162 ".kix[1:161]"  1 0.26666666666666661 1 1 1 1 0.99288541263308239 
+		1 18 1 18 18 1 18 18 18 18 1 1 18 18 18 18 18 
+		1;
+	setAttr -s 163 ".kix[1:162]"  1 0.26666666666666661 1 1 1 1 0.99288541263308239 
 		1 1 1 1 1 0.78929657539659437 0.98067261537969419 0.91826117069260194 0.67868111897616779 
 		1 1 0.99288541263308239 1 0.9984036473169694 1 0.26666666666666838 1 1 1 1 0.99288541263308239 
 		1 1 0.98813602192073458 0.98491138051873584 0.99164068538187411 1 0.74729669318207692 
@@ -4702,8 +4870,8 @@ createNode animCurveTA -n "r_hand_ctrl_rotateZ";
 		1 0.99288541263308239 0.62624429431020623 1 1 0.99288541263308239 1 1 1 1 0.73991838343415739 
 		1 1 0.26666666666666572 1 1 0.73991838343415739 1 0.80882961947906662 1 0.87971712735488983 
 		0.26666666666666572 1 1 0.26666666666666661 1 0.26666666666666661 1 1 1 1 1 1 1 1 
-		1 0.96291991875028438 1 0.64541033930375891 1 1;
-	setAttr -s 162 ".kiy[1:161]"  0 0.031980527632353373 0 0 0 0 0.1190737476542731 
+		1 1 0.96291991875028438 1 0.64541033930375891 1 1;
+	setAttr -s 163 ".kiy[1:162]"  0 0.031980527632353373 0 0 0 0 0.1190737476542731 
 		0 0 0 0 0 0.61401214651438973 0.19565587505707643 0.39597528003431248 0.7344330730197659 
 		0 0 0.1190737476542731 0 -0.05648147505308887 0 0.031980527632353373 0 0 0 0 0.1190737476542731 
 		0 0 0.15358125596134986 0.1730594479497658 0.12903003950773251 0 -0.66449052089486782 
@@ -4717,8 +4885,8 @@ createNode animCurveTA -n "r_hand_ctrl_rotateZ";
 		0 0 0.1190737476542731 0 0.1190737476542731 0.7796268875839979 0 0 0.1190737476542731 
 		0 0 0 0 0.672696652181489 0 0 0.031980527632353373 0 0 0.672696652181489 0 -0.58804306530504047 
 		0 0.47549739835088556 0.031980527632353373 0 0 0.031980527632353373 0 0.031980527632353373 
-		0 0 0 0 0 0 0 0 0 -0.26978737938225689 0 0.76383603863643856 0 0;
-	setAttr -s 162 ".kox[1:161]"  1 0.26666666666666661 1 1 1 1 0.99288541263308239 
+		0 0 0 0 0 0 0 0 0 0 -0.26978737938225689 0 0.76383603863643856 0 0;
+	setAttr -s 163 ".kox[1:162]"  1 0.26666666666666661 1 1 1 1 0.99288541263308239 
 		1 1 1 1 1 0.78929657539659426 0.98067261537969419 0.91826117069260194 0.67868111897616779 
 		1 1 0.99288541263308239 1 1 1 0.26666666666666838 1 1 1 1 0.99288541263308239 1 1 
 		0.98813602192073458 0.98491138051873606 0.99164068538187411 1 0.74729669318207692 
@@ -4731,9 +4899,9 @@ createNode animCurveTA -n "r_hand_ctrl_rotateZ";
 		1 1 0.99288541263308239 0.62624429431020623 1 1 0.99288541263308239 1 0.99288541263308239 
 		0.62624429431020623 1 1 0.99288541263308239 1 1 1 1 0.7399183834341575 1 1 0.26666666666666572 
 		1 1 0.7399183834341575 1 0.80882961947906673 1 0.87971712735488983 0.26666666666666572 
-		1 1 0.26666666666666661 1 0.26666666666666661 1 1 1 1 1 1 1 1 1 0.96291991875028438 
+		1 1 0.26666666666666661 1 0.26666666666666661 1 1 1 1 1 1 1 1 1 1 0.96291991875028438 
 		1 0.6454103393037588 1 1;
-	setAttr -s 162 ".koy[1:161]"  0 0.031980527632353373 0 0 0 0 0.1190737476542731 
+	setAttr -s 163 ".koy[1:162]"  0 0.031980527632353373 0 0 0 0 0.1190737476542731 
 		0 0 0 0 0 0.61401214651438973 0.19565587505707643 0.39597528003431248 0.7344330730197659 
 		0 0 0.1190737476542731 0 0 0 0.031980527632353373 0 0 0 0 0.1190737476542731 0 0 
 		0.15358125596134986 0.1730594479497658 0.12903003950773251 0 -0.66449052089486793 
@@ -4747,86 +4915,88 @@ createNode animCurveTA -n "r_hand_ctrl_rotateZ";
 		0 0.1190737476542731 0.7796268875839979 0 0 0.1190737476542731 0 0 0 0 0.67269665218148911 
 		0 0 0.031980527632353373 0 0 0.67269665218148911 0 -0.58804306530504047 0 0.47549739835088556 
 		0.031980527632353373 0 0 0.031980527632353373 0 0.031980527632353373 0 0 0 0 0 0 
-		0 0 0 -0.26978737938225683 0 0.76383603863643856 0 0;
+		0 0 0 0 -0.26978737938225683 0 0.76383603863643856 0 0;
 createNode animCurveTA -n "r_fingerRing1_ctrl_rotateX";
 	rename -uid "2AFE6A2D-4261-F4DA-8977-FD96307FED57";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 77 ".ktv[0:76]"  0 0 64 0 96 0 100 0 110 -39.724103754288144
+	setAttr -s 78 ".ktv[0:77]"  0 0 64 0 96 0 100 0 110 -39.724103754288144
 		 119 -39.724103754288144 135 0 144 0 150 0 160 0 200 0 249 0 264 0 280 0 300 0 385 0
 		 400 0 450 0 514 0 578 0 952 0 1000 0 1064 0 1180 0 1200 0 1264 0 1328 0 1380 0 1393 0
 		 1400 0 1410 0 1422 0 1456 0 1465 0 1475 0 1480 0 1482 0 1500 0 1564 0 1628 0 1692 0
 		 1696 0 1700 0 1764 0 1926 0 1967 0 2000 0 2020 0 2021 0 2040 0 2060 0 2061 0 2475 0
 		 2490 0 2500 0 2516 0 2520 0 2521 0 2540 0 2541 0 2551 0 2556 0 2560 0 2561 0 2580 0
-		 2600 0 2610 0 2625 0 3000 0 3064 0 3069 0 3070 0 3952 0 3999 0 4000 0 4028 0 4036 0;
-	setAttr -s 77 ".kit[4:76]"  18 18 18 1 18 18 1 18 
+		 2600 0 2610 0 2625 0 2640 0 3000 0 3135 0 3140 0 3141 0 3952 0 3999 0 4000 0 4028 0
+		 4036 0;
+	setAttr -s 78 ".kit[4:77]"  18 18 18 1 18 18 1 18 
 		1 18 18 1 18 1 1 1 18 1 1 18 1 1 1 18 18 
 		18 18 18 18 1 1 1 18 1 1 1 1 18 1 1 1 1 
 		1 1 18 1 1 1 18 18 18 18 1 18 18 18 18 18 1 
-		1 18 1 18 1 18 1 18 18 18 1 1 18 18;
-	setAttr -s 77 ".kot[4:76]"  18 18 18 1 18 18 1 18 
+		1 18 1 18 1 18 18 1 18 18 18 1 1 18 18;
+	setAttr -s 78 ".kot[4:77]"  18 18 18 1 18 18 1 18 
 		1 18 18 1 18 1 1 1 18 1 1 18 1 1 1 18 18 
 		18 18 18 18 1 1 1 18 1 1 1 1 18 1 1 1 1 
 		1 1 18 1 1 18 18 18 18 18 1 18 1 18 18 18 1 
-		18 18 1 18 1 18 1 18 18 18 1 1 18 18;
-	setAttr -s 77 ".kix[0:76]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+		18 18 1 18 1 18 18 1 18 18 18 1 1 18 18;
+	setAttr -s 78 ".kix[0:77]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
 		1 1 2.1333333333333471 1 1 1 2.1333333333333471 1 1 1 1 1 1 2.1333333333333471 2.1333333333333471 
 		2.1333333333333471 1 1 1 1 2.1333333333333471 1 1 2.1333333333333471 1 1 1 1 1 1 
 		1 1 1 1 1 1 2.1333333333333471 1 1 1 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 
-		1 1 1;
-	setAttr -s 77 ".kiy[0:76]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1;
+	setAttr -s 78 ".kiy[0:77]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 77 ".kox[0:76]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 78 ".kox[0:77]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
 		1 1 28.733333333333327 1 1 1 28.733333333333327 1 1 1 1 1 1 28.733333333333327 28.733333333333327 
 		28.733333333333327 1 1 1 1 28.733333333333327 1 1 28.733333333333327 1 1 1 1 1 1 
 		1 1 1 1 1 1 28.733333333333327 1 1 1 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 
-		1 1 1;
-	setAttr -s 77 ".koy[0:76]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1;
+	setAttr -s 78 ".koy[0:77]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerRing1_ctrl_rotateZ";
 	rename -uid "6EAD1296-441B-F44C-32CD-8184E50E6A8D";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 77 ".ktv[0:76]"  0 0 64 0 96 0 100 0 110 39.918170831871556
+	setAttr -s 78 ".ktv[0:77]"  0 0 64 0 96 0 100 0 110 39.918170831871556
 		 119 39.918170831871556 135 0 144 0 150 0 160 0 200 0 249 0 264 0 280 0 300 0 385 0
 		 400 0 450 0 514 0 578 0 952 0 1000 0 1064 0 1180 0 1200 0 1264 0 1328 0 1380 0 1393 0
 		 1400 0 1410 0 1422 0 1456 0 1465 0 1475 0 1480 0 1482 0 1500 0 1564 0 1628 0 1692 0
 		 1696 0 1700 0 1764 0 1926 0 1967 0 2000 0 2020 0 2021 0 2040 0 2060 0 2061 0 2475 0
 		 2490 0 2500 0 2516 0 2520 0 2521 0 2540 0 2541 0 2551 0 2556 0 2560 0 2561 0 2580 0
-		 2600 0 2610 0 2625 0 3000 0 3064 0 3069 0 3070 0 3952 0 3999 0 4000 0 4028 0 4036 0;
-	setAttr -s 77 ".kit[4:76]"  18 18 18 1 18 18 1 18 
+		 2600 0 2610 0 2625 0 2640 0 3000 0 3135 0 3140 0 3141 0 3952 0 3999 0 4000 0 4028 0
+		 4036 0;
+	setAttr -s 78 ".kit[4:77]"  18 18 18 1 18 18 1 18 
 		1 18 18 1 18 1 1 1 18 1 1 18 1 1 1 18 18 
 		18 18 18 18 1 1 1 18 1 1 1 1 18 1 1 1 1 
 		1 1 18 1 1 1 18 18 18 18 1 18 18 18 18 18 1 
-		1 18 1 18 1 18 1 18 18 18 1 1 18 18;
-	setAttr -s 77 ".kot[4:76]"  18 18 18 1 18 18 1 18 
+		1 18 1 18 1 18 18 1 18 18 18 1 1 18 18;
+	setAttr -s 78 ".kot[4:77]"  18 18 18 1 18 18 1 18 
 		1 18 18 1 18 1 1 1 18 1 1 18 1 1 1 18 18 
 		18 18 18 18 1 1 1 18 1 1 1 1 18 1 1 1 1 
 		1 1 18 1 1 18 18 18 18 18 1 18 1 18 18 18 1 
-		18 18 1 18 1 18 1 18 18 18 1 1 18 18;
-	setAttr -s 77 ".kix[0:76]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+		18 18 1 18 1 18 18 1 18 18 18 1 1 18 18;
+	setAttr -s 78 ".kix[0:77]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
 		1 1 2.1333333333333471 1 1 1 2.1333333333333471 1 1 1 1 1 1 2.1333333333333471 2.1333333333333471 
 		2.1333333333333471 1 1 1 1 2.1333333333333471 1 1 2.1333333333333471 1 1 1 1 1 1 
 		1 1 1 1 1 1 2.1333333333333471 1 1 1 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 
-		1 1 1;
-	setAttr -s 77 ".kiy[0:76]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1;
+	setAttr -s 78 ".kiy[0:77]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 77 ".kox[0:76]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 78 ".kox[0:77]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
 		1 1 28.733333333333327 1 1 1 28.733333333333327 1 1 1 1 1 1 28.733333333333327 28.733333333333327 
 		28.733333333333327 1 1 1 1 28.733333333333327 1 1 28.733333333333327 1 1 1 1 1 1 
 		1 1 1 1 1 1 28.733333333333327 1 1 1 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 
-		1 1 1;
-	setAttr -s 77 ".koy[0:76]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1;
+	setAttr -s 78 ".koy[0:77]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTL -n "r_fingerRing0_ctrl_translateX";
 	rename -uid "7FC3FEE4-45E3-570D-F9E4-F683152C68F8";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 71 ".ktv[0:70]"  0 0.015375222011634104 64 0.015375222011634104
+	setAttr -s 72 ".ktv[0:71]"  0 0.015375222011634104 64 0.015375222011634104
 		 96 0.015375222011634104 100 0.015375222011634104 108 0 119 0 144 0.015375222011634104
 		 150 0.015375222011634104 160 0.015375222011634104 200 0.015375222011634104 264 0.015375222011634104
 		 280 0.015375222011634104 300 0.015375222011634104 385 0.015375222011634104 400 0.015375222011634104
@@ -4841,38 +5011,38 @@ createNode animCurveTL -n "r_fingerRing0_ctrl_translateX";
 		 2040 0.015375222011634104 2060 0.015375222011634104 2061 0.015375222011634104 2475 0.015375222011634104
 		 2490 0.015375222011634104 2500 0.015375222011634104 2520 0.015375222011634104 2521 0.015375222011634104
 		 2540 0.015375222011634104 2560 0.015375222011634104 2561 0.015375222011634104 2580 0.015375222011634104
-		 2600 0.015375222011634104 2610 0.015375222011634104 2625 0.015375222011634104 3000 0.015375222011634104
-		 3064 0.015375222011634104 3069 0.015375222011634104 3070 0.015375222011634104 3100 0
-		 3952 0 3999 0.015375222011634104 4000 0.015375222011634104 4028 0.015375222011634104;
-	setAttr -s 71 ".kit[4:70]"  18 18 1 18 18 1 1 18 
+		 2600 0.015375222011634104 2610 0.015375222011634104 2625 0.015375222011634104 2640 0.015375222011634104
+		 3000 0 3135 0 3140 0.015375222011634104 3141 0.015375222011634104 3171 0 3952 0 3999 0.015375222011634104
+		 4000 0.015375222011634104 4028 0.015375222011634104;
+	setAttr -s 72 ".kit[4:71]"  18 18 1 18 18 1 1 18 
 		18 1 18 1 1 1 18 1 1 18 1 1 1 18 18 18 18 
 		18 18 1 1 1 18 1 1 1 1 18 1 1 1 1 1 1 
 		18 1 1 1 18 18 18 1 18 18 1 1 18 1 18 1 18 
-		1 18 18 18 18 1 1 18;
-	setAttr -s 71 ".kot[4:70]"  18 18 1 18 18 1 1 18 
+		18 1 18 18 18 18 1 1 18;
+	setAttr -s 72 ".kot[4:71]"  18 18 1 18 18 1 1 18 
 		18 1 18 1 1 1 18 1 1 18 1 1 1 18 18 18 18 
 		18 18 1 1 1 18 1 1 1 1 18 1 1 1 1 1 1 
 		18 1 1 18 18 18 18 1 18 1 1 18 18 1 18 1 18 
-		1 18 18 18 18 1 1 18;
-	setAttr -s 71 ".kix[0:70]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+		18 1 18 18 18 18 1 1 18;
+	setAttr -s 72 ".kix[0:71]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
 		2.1333333333333471 1 1 1 2.1333333333333471 1 1 1 1 1 1 2.1333333333333471 2.1333333333333471 
 		2.1333333333333471 1 1 1 1 2.1333333333333471 1 1 2.1333333333333471 1 1 1 1 1 1 
-		1 1 1 1 1 2.1333333333333471 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 71 ".kiy[0:70]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1 1 2.1333333333333471 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 72 ".kiy[0:71]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 71 ".kox[0:70]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+		0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 72 ".kox[0:71]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
 		28.733333333333327 1 1 1 28.733333333333327 1 1 1 1 1 1 28.733333333333327 28.733333333333327 
 		28.733333333333327 1 1 1 1 28.733333333333327 1 1 28.733333333333327 1 1 1 1 1 1 
-		1 1 1 1 1 28.733333333333327 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 71 ".koy[0:70]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1 1 28.733333333333327 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 72 ".koy[0:71]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTL -n "r_fingerRing0_ctrl_translateY";
 	rename -uid "9ACECC3F-4493-F26D-5D5C-D3914CF93632";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 71 ".ktv[0:70]"  0 -1.0561933208047976 64 -1.0561933208047976
+	setAttr -s 72 ".ktv[0:71]"  0 -1.0561933208047976 64 -1.0561933208047976
 		 96 -1.0561933208047976 100 -1.0561933208047976 108 0 119 0 144 -1.0561933208047976
 		 150 -1.0561933208047976 160 -1.0561933208047976 200 -1.0561933208047976 264 -1.0561933208047976
 		 280 -1.0561933208047976 300 -1.0561933208047976 385 -1.0561933208047976 400 -1.0561933208047976
@@ -4887,38 +5057,38 @@ createNode animCurveTL -n "r_fingerRing0_ctrl_translateY";
 		 2040 -1.0561933208047976 2060 -1.0561933208047976 2061 -1.0561933208047976 2475 -1.0561933208047976
 		 2490 -1.0561933208047976 2500 -1.0561933208047976 2520 -1.0561933208047976 2521 -1.0561933208047976
 		 2540 -1.0561933208047976 2560 -1.0561933208047976 2561 -1.0561933208047976 2580 -1.0561933208047976
-		 2600 -1.0561933208047976 2610 -1.0561933208047976 2625 -1.0561933208047976 3000 -1.0561933208047976
-		 3064 -1.0561933208047976 3069 -1.0561933208047976 3070 -1.0561933208047976 3100 0
-		 3952 0 3999 -1.0561933208047976 4000 -1.0561933208047976 4028 -1.0561933208047976;
-	setAttr -s 71 ".kit[4:70]"  18 18 1 18 18 1 1 18 
+		 2600 -1.0561933208047976 2610 -1.0561933208047976 2625 -1.0561933208047976 2640 -1.0561933208047976
+		 3000 0 3135 0 3140 -1.0561933208047976 3141 -1.0561933208047976 3171 0 3952 0 3999 -1.0561933208047976
+		 4000 -1.0561933208047976 4028 -1.0561933208047976;
+	setAttr -s 72 ".kit[4:71]"  18 18 1 18 18 1 1 18 
 		18 1 18 1 1 1 18 1 1 18 1 1 1 18 18 18 18 
 		18 18 1 1 1 18 1 1 1 1 18 1 1 1 1 1 1 
 		18 1 1 1 18 18 18 1 18 18 1 1 18 1 18 1 18 
-		1 18 18 18 18 1 1 18;
-	setAttr -s 71 ".kot[4:70]"  18 18 1 18 18 1 1 18 
+		18 1 18 18 18 18 1 1 18;
+	setAttr -s 72 ".kot[4:71]"  18 18 1 18 18 1 1 18 
 		18 1 18 1 1 1 18 1 1 18 1 1 1 18 18 18 18 
 		18 18 1 1 1 18 1 1 1 1 18 1 1 1 1 1 1 
 		18 1 1 18 18 18 18 1 18 1 1 18 18 1 18 1 18 
-		1 18 18 18 18 1 1 18;
-	setAttr -s 71 ".kix[0:70]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+		18 1 18 18 18 18 1 1 18;
+	setAttr -s 72 ".kix[0:71]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
 		2.1333333333333471 1 1 1 2.1333333333333471 1 1 1 1 1 1 2.1333333333333471 2.1333333333333471 
 		2.1333333333333471 1 1 1 1 2.1333333333333471 1 1 2.1333333333333471 1 1 1 1 1 1 
-		1 1 1 1 1 2.1333333333333471 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 71 ".kiy[0:70]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1 1 2.1333333333333471 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 72 ".kiy[0:71]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 71 ".kox[0:70]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+		0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 72 ".kox[0:71]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
 		28.733333333333327 1 1 1 28.733333333333327 1 1 1 1 1 1 28.733333333333327 28.733333333333327 
 		28.733333333333327 1 1 1 1 28.733333333333327 1 1 28.733333333333327 1 1 1 1 1 1 
-		1 1 1 1 1 28.733333333333327 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 71 ".koy[0:70]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1 1 28.733333333333327 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 72 ".koy[0:71]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTL -n "r_fingerRing0_ctrl_translateZ";
 	rename -uid "6B81C72A-404B-B08E-86C2-4CB9B19C5C74";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 71 ".ktv[0:70]"  0 -0.088022204871326198 64 -0.088022204871326198
+	setAttr -s 72 ".ktv[0:71]"  0 -0.088022204871326198 64 -0.088022204871326198
 		 96 -0.088022204871326198 100 -0.088022204871326198 108 0 119 0 144 -0.088022204871326198
 		 150 -0.088022204871326198 160 -0.088022204871326198 200 -0.088022204871326198 264 -0.088022204871326198
 		 280 -0.088022204871326198 300 -0.088022204871326198 385 -0.088022204871326198 400 -0.088022204871326198
@@ -4937,38 +5107,38 @@ createNode animCurveTL -n "r_fingerRing0_ctrl_translateZ";
 		 2500 -0.088022204871326198 2520 -0.088022204871326198 2521 -0.088022204871326198
 		 2540 -0.088022204871326198 2560 -0.088022204871326198 2561 -0.088022204871326198
 		 2580 -0.088022204871326198 2600 -0.088022204871326198 2610 -0.088022204871326198
-		 2625 -0.088022204871326198 3000 -0.088022204871326198 3064 -0.088022204871326198
-		 3069 -0.088022204871326198 3070 -0.088022204871326198 3100 0 3952 0 3999 -0.088022204871326198
-		 4000 -0.088022204871326198 4028 -0.088022204871326198;
-	setAttr -s 71 ".kit[4:70]"  18 18 1 18 18 1 1 18 
+		 2625 -0.088022204871326198 2640 -0.088022204871326198 3000 0 3135 0 3140 -0.088022204871326198
+		 3141 -0.088022204871326198 3171 0 3952 0 3999 -0.088022204871326198 4000 -0.088022204871326198
+		 4028 -0.088022204871326198;
+	setAttr -s 72 ".kit[4:71]"  18 18 1 18 18 1 1 18 
 		18 1 18 1 1 1 18 1 1 18 1 1 1 18 18 18 18 
 		18 18 1 1 1 18 1 1 1 1 18 1 1 1 1 1 1 
 		18 1 1 1 18 18 18 1 18 18 1 1 18 1 18 1 18 
-		1 18 18 18 18 1 1 18;
-	setAttr -s 71 ".kot[4:70]"  18 18 1 18 18 1 1 18 
+		18 1 18 18 18 18 1 1 18;
+	setAttr -s 72 ".kot[4:71]"  18 18 1 18 18 1 1 18 
 		18 1 18 1 1 1 18 1 1 18 1 1 1 18 18 18 18 
 		18 18 1 1 1 18 1 1 1 1 18 1 1 1 1 1 1 
 		18 1 1 18 18 18 18 1 18 1 1 18 18 1 18 1 18 
-		1 18 18 18 18 1 1 18;
-	setAttr -s 71 ".kix[0:70]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+		18 1 18 18 18 18 1 1 18;
+	setAttr -s 72 ".kix[0:71]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
 		2.1333333333333471 1 1 1 2.1333333333333471 1 1 1 1 1 1 2.1333333333333471 2.1333333333333471 
 		2.1333333333333471 1 1 1 1 2.1333333333333471 1 1 2.1333333333333471 1 1 1 1 1 1 
-		1 1 1 1 1 2.1333333333333471 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 71 ".kiy[0:70]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1 1 2.1333333333333471 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 72 ".kiy[0:71]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 71 ".kox[0:70]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+		0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 72 ".kox[0:71]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
 		28.733333333333327 1 1 1 28.733333333333327 1 1 1 1 1 1 28.733333333333327 28.733333333333327 
 		28.733333333333327 1 1 1 1 28.733333333333327 1 1 28.733333333333327 1 1 1 1 1 1 
-		1 1 1 1 1 28.733333333333327 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 71 ".koy[0:70]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1 1 28.733333333333327 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 72 ".koy[0:71]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerIndex0_ctrl_rotateX";
 	rename -uid "036C463F-4A9E-5C84-56BB-ADA03308BACD";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 115 ".ktv[0:114]"  -3 -0.34134910903031729 0 -0.34134910903031729
+	setAttr -s 116 ".ktv[0:115]"  -3 -0.34134910903031729 0 -0.34134910903031729
 		 29 -0.34134910903031729 61 -0.34134910903031729 64 -0.34134910903031729 93 -0.34134910903031729
 		 96 -0.34134910903031729 100 -0.34134910903031729 102 -8.347629530411691 105 -2.8057530859280573
 		 107 24.375489757485823 119 24.375489757485823 135 0 140 0.33156511954024392 144 -0.33995703471145361
@@ -4993,56 +5163,58 @@ createNode animCurveTA -n "r_fingerIndex0_ctrl_rotateX";
 		 2061 -0.34134910903031729 2475 -0.34134910903031729 2490 -0.34134910903031729 2500 -0.34134910903031729
 		 2520 -0.34134910903031729 2521 -0.34134910903031729 2540 -0.34134910903031729 2560 -0.34134910903031729
 		 2561 -0.34134910903031729 2580 -0.34134910903031729 2600 -0.34134910903031729 2610 -0.34134910903031729
-		 2625 -0.34134910903031729 3000 -0.35194866789858181 3064 -0.35194866789858181 3069 -0.35194866789858181
-		 3070 -0.35194866789858181 3100 0 3952 0 3999 -0.34134910903031729 4000 -0.34134910903031729
+		 2625 -0.34134910903031729 2640 -0.34134910903031729 3000 0 3135 0 3140 -0.35194866789858181
+		 3141 -0.35194866789858181 3171 0 3952 0 3999 -0.34134910903031729 4000 -0.34134910903031729
 		 4017 -1.3765158187225259 4028 -0.34134910903031729 4037 -0.34134910903031729 4044 -0.33971403121463239;
-	setAttr -s 115 ".kit[6:114]"  18 1 18 18 18 18 18 18 
+	setAttr -s 116 ".kit[6:115]"  18 1 18 18 18 18 18 18 
 		18 1 18 18 18 1 1 18 18 18 18 18 18 1 18 18 18 
 		1 1 18 1 1 18 1 1 1 1 1 1 18 1 1 1 1 
 		1 1 1 18 18 18 18 18 18 18 18 18 18 1 18 1 1 
 		1 1 1 1 1 1 1 1 18 1 18 1 18 18 18 18 18 
 		1 18 1 1 1 18 1 1 1 18 18 18 1 18 18 1 1 
-		18 1 18 1 18 1 18 18 18 18 1 1 18 1 18 18;
-	setAttr -s 115 ".kot[6:114]"  18 1 18 18 18 18 18 18 
+		18 1 18 1 18 18 1 18 18 18 18 1 1 18 1 18 18;
+	setAttr -s 116 ".kot[6:115]"  18 1 18 18 18 18 18 18 
 		18 1 18 1 18 1 1 18 18 18 18 18 18 1 18 1 18 
 		1 1 1 1 1 18 1 1 1 1 1 1 18 1 1 1 1 
 		1 1 1 18 18 18 18 18 18 18 18 18 18 1 18 1 1 
 		1 1 1 1 1 1 1 1 18 1 18 1 18 18 18 18 18 
 		1 18 1 1 1 18 1 1 18 18 18 18 1 18 1 1 18 
-		18 1 18 1 18 1 18 18 18 18 1 1 18 1 18 18;
-	setAttr -s 115 ".kix[0:114]"  1 0.10000000000000006 1 1 1 1 1 1 1 0.32581799813498097 
+		18 1 18 1 18 18 1 18 18 18 18 1 1 18 1 18 18;
+	setAttr -s 116 ".kix[0:115]"  1 0.10000000000000006 1 1 1 1 1 1 1 0.32581799813498097 
 		1 1 1 1 0.99999993359021755 1 1 1 1 1 1 1 1 1 0.9999999989146221 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000001563 1 1 
 		0.10000000000001563 1 1 0.10000000000001563 1 1 1 0.99965430589867033 1 1 1 1 1 1 
 		0.10000000000001563 1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000001563 
 		1 1 0.10000000000001563 1 0.10000000000001563 1 1 1 0.99999787358766068 1 1 1 0.10000000000001563 
 		1 1 1 1 1 1 1 1 1 1 1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000000006 
-		1 0.10000000000000006 1 1 1 1 1 1 0.99993853004384381 0.99993853004384381 1 1 1 1;
-	setAttr -s 115 ".kiy[0:114]"  0 0 0 0 0 0 0 0 0 0.94543251059571332 0 
+		1 0.10000000000000006 1 1 1 1 1 1 1 0.99993853004384381 0.99993853004384381 1 1 1 
+		1;
+	setAttr -s 116 ".kiy[0:115]"  0 0 0 0 0 0 0 0 0 0.94543251059571332 0 
 		0 0 0 -0.00036444418024677178 0 0 0 0 0 0 0 0 0 4.6591368645256948e-05 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.026291989240978201 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.0020622366878553979 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.011087656819935782 -0.011087656819935782 0 
-		0 0 0;
-	setAttr -s 115 ".kox[0:114]"  1 0.96666666666666656 1 1 1 1 1 1 1 0.32581799813498097 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.011087656819935782 -0.011087656819935782 
+		0 0 0 0;
+	setAttr -s 116 ".kox[0:115]"  1 0.96666666666666656 1 1 1 1 1 1 1 0.32581799813498097 
 		1 1 1 1 0.99999993359021755 1 1 1 1 1 1 1 1 1 0.9999999989146221 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 0.96666666666664725 1 1 0.96666666666664725 1 1 0.96666666666664725 1 1 
 		0.96666666666664725 1 1 0.96666666666664725 1 1 1 0.99965430589867021 1 1 1 1 1 1 
 		0.96666666666664725 1 0.96666666666664725 1 1 0.96666666666664725 1 1 0.96666666666664725 
 		1 1 0.96666666666664725 1 0.96666666666664725 1 1 1 0.9999978735876609 1 1 1 0.96666666666664725 
 		1 1 1 1 1 1 1 1 1 1 1 0.96666666666664725 1 1 0.96666666666664725 1 1 0.96666666666666656 
-		1 0.96666666666666656 1 1 1 1 1 1 0.99993853004384392 0.99993853004384392 1 1 1 1;
-	setAttr -s 115 ".koy[0:114]"  0 0 0 0 0 0 0 0 0 0.94543251059571332 0 
+		1 0.96666666666666656 1 1 1 1 1 1 1 0.99993853004384392 0.99993853004384392 1 1 1 
+		1;
+	setAttr -s 116 ".koy[0:115]"  0 0 0 0 0 0 0 0 0 0.94543251059571332 0 
 		0 0 0 -0.00036444418024677178 0 0 0 0 0 0 0 0 0 4.6591368645256941e-05 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.026291989240978201 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.0020622366878553984 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.011087656819935784 -0.011087656819935784 0 
-		0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.011087656819935784 -0.011087656819935784 
+		0 0 0 0;
 createNode animCurveTA -n "r_fingerIndex0_ctrl_rotateY";
 	rename -uid "954143D1-4143-0E39-DA65-5C92C6A1D6D3";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 116 ".ktv[0:115]"  -3 -6.1292121477365411 0 -6.1292121477365411
+	setAttr -s 117 ".ktv[0:116]"  -3 -6.1292121477365411 0 -6.1292121477365411
 		 29 -6.1292121477365411 61 -6.1292121477365411 64 -6.1292121477365411 93 -6.1292121477365411
 		 96 -6.1292121477365411 100 -6.1292121477365411 102 -39.90335330884421 107 -113.32724088760371
 		 119 -113.32724088760371 135 11.675355762118029 140 5.4046147403344369 144 -3.2868176024762477
@@ -5068,26 +5240,26 @@ createNode animCurveTA -n "r_fingerIndex0_ctrl_rotateY";
 		 2061 -6.1292121477365411 2475 -6.1292121477365411 2490 -6.1292121477365411 2500 -6.1292121477365411
 		 2520 -6.1292121477365411 2521 -6.1292121477365411 2540 -6.1292121477365411 2560 -6.1292121477365411
 		 2561 -6.1292121477365411 2580 -6.1292121477365411 2600 -6.1292121477365411 2610 -6.1292121477365411
-		 2625 -6.1292121477365411 3000 -15.347272364522906 3064 -15.347272364522906 3069 -15.347272364522906
-		 3070 -15.347272364522906 3100 0 3952 0 3999 -6.1292121477365411 4000 -6.1292121477365411
+		 2625 -6.1292121477365411 2640 -6.1292121477365411 3000 0 3135 0 3140 -15.347272364522906
+		 3141 -15.347272364522906 3171 0 3952 0 3999 -6.1292121477365411 4000 -6.1292121477365411
 		 4017 -5.9829267358419322 4028 -6.1292121477365411 4037 -6.1292121477365411 4044 -2.4723343034583483;
-	setAttr -s 116 ".kit[0:115]"  1 1 1 1 1 1 18 1 
+	setAttr -s 117 ".kit[0:116]"  1 1 1 1 1 1 18 1 
 		18 18 18 18 18 18 1 18 18 18 18 18 18 1 18 18 18 
 		18 18 18 1 18 18 18 1 1 18 1 1 18 1 1 1 1 
 		1 1 18 1 1 1 1 1 1 1 18 18 18 18 18 18 18 
 		18 18 18 1 18 1 1 1 1 1 1 1 1 1 1 18 1 
 		18 1 18 18 18 18 18 1 18 1 1 1 18 1 1 1 18 
-		18 18 1 18 18 1 1 18 1 18 1 18 1 18 18 18 18 
-		1 1 18 1 18 18;
-	setAttr -s 116 ".kot[0:115]"  1 1 1 1 1 1 18 1 
+		18 18 1 18 18 1 1 18 1 18 1 18 18 1 18 18 18 
+		18 1 1 18 1 18 18;
+	setAttr -s 117 ".kot[0:116]"  1 1 1 1 1 1 18 1 
 		18 18 18 18 18 18 1 18 1 18 18 18 18 1 18 18 18 
 		18 18 18 1 18 1 18 1 1 1 1 1 18 1 1 1 1 
 		1 1 18 1 1 1 1 1 1 1 18 18 18 18 18 18 18 
 		18 18 18 1 18 1 1 1 1 1 1 1 1 1 1 18 1 
 		18 1 18 18 18 18 18 1 18 1 1 1 18 1 1 18 18 
-		18 18 1 18 1 1 18 18 1 18 1 18 1 18 18 18 18 
-		1 1 18 1 18 18;
-	setAttr -s 116 ".kix[0:115]"  1 0.10000000000000006 1 1 1 1 1 1 0.12375456759335707 
+		18 18 1 18 1 1 18 18 1 18 1 18 18 1 18 18 18 
+		18 1 1 18 1 18 18;
+	setAttr -s 117 ".kix[0:116]"  1 0.10000000000000006 1 1 1 1 1 1 0.12375456759335707 
 		1 1 1 0.75426975933074836 0.8560128615677004 1 1 1 0.99911280969152882 1 0.99701129065361238 
 		1 1 1 1 0.99999944619340864 0.99607134160769617 1 0.99299823533414222 1 1 1 1 1 1 
 		1 1 1 1 1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000001563 1 1 
@@ -5095,14 +5267,14 @@ createNode animCurveTA -n "r_fingerIndex0_ctrl_rotateY";
 		0.10000000000001563 1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000001563 
 		1 1 0.10000000000001563 1 0.10000000000001563 1 1 1 0.99903184494497521 1 1 1 0.10000000000001563 
 		1 1 1 1 1 1 1 1 1 1 1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000000006 
-		1 0.10000000000000006 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 116 ".kiy[0:115]"  0 0 0 0 0 0 0 0 -0.99231285741936304 0 
+		1 0.10000000000000006 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 117 ".kiy[0:116]"  0 0 0 0 0 0 0 0 -0.99231285741936304 0 
 		0 0 -0.65656464278784832 -0.51695452491556437 0 0 0 0.042114053596146755 0 -0.077255979116299472 
 		0 0 0 0 0.0010524318866755079 0.088554403774426527 0 -0.11812918616192818 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0072795713313536054 0 0 0 0 0 -0.0039845807265805238 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.043992871988982447 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 116 ".kox[0:115]"  1 0.96666666666666656 1 1 1 1 1 1 0.12375456759335705 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 117 ".kox[0:116]"  1 0.96666666666666656 1 1 1 1 1 1 0.12375456759335705 
 		1 1 1 0.75426975933074836 0.8560128615677004 1 1 1 0.99911280969152871 1 0.99701129065361238 
 		1 1 1 1 0.99999944619340864 0.99607134160769628 1 0.99299823533414222 1 1 1 1 1 1 
 		1 1 1 1 1 0.96666666666664725 1 1 0.96666666666664725 1 1 0.96666666666664725 1 1 
@@ -5110,18 +5282,18 @@ createNode animCurveTA -n "r_fingerIndex0_ctrl_rotateY";
 		0.96666666666664725 1 0.96666666666664725 1 1 0.96666666666664725 1 1 0.96666666666664725 
 		1 1 0.96666666666664725 1 0.96666666666664725 1 1 1 0.99903184494497521 1 1 1 0.96666666666664725 
 		1 1 1 1 1 1 1 1 1 1 1 0.96666666666664725 1 1 0.96666666666664725 1 1 0.96666666666666656 
-		1 0.96666666666666656 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 116 ".koy[0:115]"  0 0 0 0 0 0 0 0 -0.99231285741936304 0 
+		1 0.96666666666666656 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 117 ".koy[0:116]"  0 0 0 0 0 0 0 0 -0.99231285741936304 0 
 		0 0 -0.65656464278784832 -0.51695452491556437 0 0 0 0.042114053596146755 0 -0.077255979116299472 
 		0 0 0 0 0.0010524318866755077 0.088554403774426554 0 -0.11812918616192818 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0072795713313536046 0 0 0 0 0 -0.0039845807265805229 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.043992871988982447 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerIndex0_ctrl_rotateZ";
 	rename -uid "8F612DFC-42EE-2FA5-DE3D-359AEF93D644";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 136 ".ktv[0:135]"  -3 -2.8053224824033531 0 -2.6653034640980526
+	setAttr -s 137 ".ktv[0:136]"  -3 -2.8053224824033531 0 -2.6653034640980526
 		 13 -1.2880793634125858 29 -2.8053224824033531 45 -1.2880793634125858 61 -2.8053224824033531
 		 64 -2.6653034640980526 77 -1.2880793634125858 93 -2.8053224824033531 96 -2.8053224824033531
 		 100 -2.6653034640980526 102 15.264149515316458 107 -23.488050797604735 119 -23.488050797604735
@@ -5152,28 +5324,28 @@ createNode animCurveTA -n "r_fingerIndex0_ctrl_rotateZ";
 		 2475 -2.8053224824033531 2490 -2.6653034640980486 2500 -2.6653034640980486 2520 -2.6653034640980486
 		 2521 -2.6653034640980486 2540 -2.6653034640980486 2560 -2.6653034640980486 2561 -2.6653034640980486
 		 2580 -2.6653034640980486 2600 -2.6653034640980526 2610 -2.6653034640980526 2625 -2.6653034640980526
-		 3000 -2.608599169781471 3064 -2.608599169781471 3069 -2.608599169781471 3070 -2.608599169781471
-		 3100 0 3952 0 3999 -2.6653034640980526 4000 -2.6653034640980526 4017 7.1229331428128981
+		 2640 -2.6653034640980526 3000 0 3135 0 3140 -2.608599169781471 3141 -2.608599169781471
+		 3171 0 3952 0 3999 -2.6653034640980526 4000 -2.6653034640980526 4017 7.1229331428128981
 		 4028 -2.6653034640980526 4037 -2.6653034640980526 4044 -2.6870956722939772;
-	setAttr -s 136 ".kit[0:135]"  1 1 1 18 18 1 1 1 
+	setAttr -s 137 ".kit[0:136]"  1 1 1 18 18 1 1 1 
 		1 18 1 18 18 18 18 18 18 1 18 18 18 18 18 1 1 
 		18 18 18 18 18 18 1 18 18 18 18 18 1 1 18 18 18 
 		1 1 18 1 1 1 18 18 1 1 1 1 18 1 1 18 18 
 		1 1 1 18 18 1 1 18 18 18 18 18 18 18 18 18 18 
 		1 18 1 1 18 18 1 1 1 18 18 1 1 1 18 18 1 
 		1 18 1 18 1 18 18 18 18 18 1 18 1 1 1 18 1 
-		1 1 18 18 18 1 18 18 1 1 18 1 18 1 18 1 18 
-		18 18 18 1 1 18 1 18 18;
-	setAttr -s 136 ".kot[0:135]"  1 1 1 18 18 1 1 1 
+		1 1 18 18 18 1 18 18 1 1 18 1 18 1 18 18 1 
+		18 18 18 18 1 1 18 1 18 18;
+	setAttr -s 137 ".kot[0:136]"  1 1 1 18 18 1 1 1 
 		1 18 1 18 18 18 18 18 18 1 18 1 18 18 18 1 1 
 		18 18 18 18 18 18 1 18 1 18 18 18 1 1 1 18 18 
 		1 1 18 1 1 1 18 18 1 1 1 1 18 1 1 18 18 
 		1 1 1 18 18 1 1 18 18 18 18 18 18 18 18 18 18 
 		1 18 1 1 18 18 1 1 1 18 18 1 1 1 18 18 1 
 		1 18 1 18 1 18 18 18 18 18 1 18 1 1 1 18 1 
-		1 18 18 18 18 1 18 1 1 18 18 1 18 1 18 1 18 
-		18 18 18 1 1 18 1 18 18;
-	setAttr -s 136 ".kix[0:135]"  1 0.10000000000000003 1 1 1 1 0.99897170164185867 
+		1 18 18 18 18 1 18 1 1 18 18 1 18 1 18 18 1 
+		18 18 18 18 1 1 18 1 18 18;
+	setAttr -s 137 ".kix[0:136]"  1 0.10000000000000003 1 1 1 1 0.99897170164185867 
 		1 1 1 0.99897170164185867 1 1 1 0.81248453208974603 1 1 0.99897170164185867 1 1 1 
 		1 1 1 0.99897170164185867 1 1 1 0.99996925208968357 1 1 0.99897170164185867 1 1 1 
 		1 1 1 0.99897170164185867 1 1 1 1 0.99897170164185867 1 1 0.10000000000001563 1 1 
@@ -5183,8 +5355,8 @@ createNode animCurveTA -n "r_fingerIndex0_ctrl_rotateZ";
 		1 1 0.10000000000001563 1 0.10000000000001563 1 1 1 0.99813347780214234 1 1 1 0.10000000000001563 
 		1 1 0.99897170164185867 0.99897170164185867 1 0.99897170164185867 0.99897170164185867 
 		1 1 1 1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000000003 1 0.10000000000000003 
-		1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 136 ".kiy[0:135]"  0 0.0045384725004128657 0 0 0 0 0.045338055965921983 
+		1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 137 ".kiy[0:136]"  0 0.0045384725004128657 0 0 0 0 0.045338055965921983 
 		0 0 0 0.045338055965921983 0 0 0 0.58298274855685595 0 0 0.045338055965921983 0 0 
 		0 0 0 0 0.045338055965921983 0 0 0 -0.0078418668184958868 0 0 0.045338055965921983 
 		0 0 0 0 0 0 0.045338055965921983 0 0 0 0 0.045338055965921983 0 0 0.0045384725004130114 
@@ -5194,8 +5366,8 @@ createNode animCurveTA -n "r_fingerIndex0_ctrl_rotateZ";
 		0 0 0 0 0.0045384725004130114 0 0.0045384725004130114 0 0 0 -0.061070127645191138 
 		0 0 0 0.0045384725004130114 0 0 0.045338055965921983 0.045338055965921983 0 0.045338055965921983 
 		0.045338055965921983 0 0 0 0 0.0045384725004130114 0 0 0.0045384725004130114 0 0 
-		0.0045384725004128657 0 0.0045384725004128657 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 136 ".kox[0:135]"  1 0.43333333333333329 1 1 1 1 0.99897170164185867 
+		0.0045384725004128657 0 0.0045384725004128657 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 137 ".kox[0:136]"  1 0.43333333333333329 1 1 1 1 0.99897170164185867 
 		1 1 1 0.99897170164185867 1 1 1 0.81248453208974614 1 1 0.99897170164185867 1 1 1 
 		1 1 1 0.99897170164185867 1 1 1 0.99996925208968346 1 1 0.99897170164185867 1 1 1 
 		1 1 1 0.99897170164185867 1 1 1 1 0.99897170164185867 1 1 0.43333333333331581 1 1 
@@ -5205,8 +5377,8 @@ createNode animCurveTA -n "r_fingerIndex0_ctrl_rotateZ";
 		1 1 0.43333333333331581 1 0.43333333333331581 1 1 1 0.99813347780214257 1 1 1 0.43333333333331581 
 		1 1 0.99897170164185867 0.99897170164185867 1 0.99897170164185867 0.99897170164185867 
 		1 1 1 1 0.43333333333331581 1 1 0.43333333333331581 1 1 0.43333333333333329 1 0.43333333333333329 
-		1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 136 ".koy[0:135]"  0 0.0196667141684558 0 0 0 0 0.045338055965922303 
+		1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 137 ".koy[0:136]"  0 0.0196667141684558 0 0 0 0 0.045338055965922303 
 		0 0 0 0.045338055965922303 0 0 0 0.58298274855685595 0 0 0.045338055965922303 0 0 
 		0 0 0 0 0.045338055965922303 0 0 0 -0.0078418668184958868 0 0 0.045338055965922303 
 		0 0 0 0 0 0 0.045338055965922303 0 0 0 0 0.045338055965922303 0 0 0.019666714168455966 
@@ -5216,12 +5388,12 @@ createNode animCurveTA -n "r_fingerIndex0_ctrl_rotateZ";
 		0 0 0 0 0.019666714168455966 0 0.019666714168455966 0 0 0 -0.061070127645191145 0 
 		0 0 0.019666714168455966 0 0 0.045338055965922303 0.045338055965922303 0 0.045338055965922303 
 		0.045338055965922303 0 0 0 0 0.019666714168455966 0 0 0.019666714168455966 0 0 0.0196667141684558 
-		0 0.0196667141684558 0 0 0 0 0 0 0 0 0 0 0 0;
+		0 0.0196667141684558 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerMiddle0_ctrl_rotateX";
 	rename -uid "A25025CE-47A4-47D3-A14F-B5989A4443DC";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 113 ".ktv[0:112]"  -3 -8.4415241584675229 0 -8.4415241584675229
+	setAttr -s 114 ".ktv[0:113]"  -3 -8.4415241584675229 0 -8.4415241584675229
 		 29 -8.4415241584675229 61 -8.4415241584675229 64 -8.4415241584675229 93 -8.4415241584675229
 		 96 -8.4415241584675229 100 -8.4415241584675229 102 -15.995396407742389 106 27.849089059190259
 		 119 27.849089059190259 135 0 150 -8.4415241584675229 160 -8.4415241584675229 200 -8.4415241584675229
@@ -5246,54 +5418,54 @@ createNode animCurveTA -n "r_fingerMiddle0_ctrl_rotateX";
 		 2475 -8.4415241584675229 2490 -8.4415241584675229 2500 -8.4415241584675229 2520 -8.4415241584675229
 		 2521 -8.4415241584675229 2540 -8.4415241584675229 2560 -8.4415241584675229 2561 -8.4415241584675229
 		 2580 -8.4415241584675229 2600 -8.4415241584675229 2610 -8.4415241584675229 2625 -8.4415241584675229
-		 3000 -126.28740719354865 3064 -126.28740719354865 3069 -126.28740719354865 3070 -126.28740719354865
-		 3100 0 3952 0 3999 -8.4415241584675229 4000 -8.4415241584675229 4017 -8.4415241584675229
+		 2640 -8.4415241584675229 3000 0 3135 0 3140 -126.28740719354865 3141 -126.28740719354865
+		 3171 0 3952 0 3999 -8.4415241584675229 4000 -8.4415241584675229 4017 -8.4415241584675229
 		 4028 -8.4415241584675229 4037 -8.4415241584675229 4044 -8.3784806440761166;
-	setAttr -s 113 ".kit[6:112]"  18 1 18 18 18 18 1 18 
+	setAttr -s 114 ".kit[6:113]"  18 1 18 18 18 18 1 18 
 		1 18 1 1 1 18 18 18 18 18 18 1 18 1 1 1 1 
 		1 1 1 18 1 1 1 1 1 1 18 1 1 1 1 1 1 
 		1 18 18 18 18 18 18 18 18 18 18 1 18 1 1 1 1 
 		1 1 1 1 1 1 18 1 18 1 18 18 18 18 18 1 18 
 		1 1 1 18 1 1 1 18 18 18 1 18 18 1 1 18 1 
-		18 1 18 1 18 18 18 18 1 1 18 18 18 18;
-	setAttr -s 113 ".kot[6:112]"  18 1 18 18 18 18 1 18 
+		18 1 18 18 1 18 18 18 18 1 1 18 18 18 18;
+	setAttr -s 114 ".kot[6:113]"  18 1 18 18 18 18 1 18 
 		1 18 1 1 1 18 18 18 18 18 18 1 18 1 1 1 1 
 		1 1 1 18 1 1 1 1 1 1 18 1 1 1 1 1 1 
 		1 18 18 18 18 18 18 18 18 18 18 1 18 1 1 1 1 
 		1 1 1 1 1 1 18 1 18 1 18 18 18 18 18 1 18 
 		1 1 1 18 1 1 18 18 18 18 1 18 1 1 18 18 1 
-		18 1 18 1 18 18 18 18 1 1 18 18 18 18;
-	setAttr -s 113 ".kix[0:112]"  1 0.10000000000000006 1 1 1 1 1 1 1 1 1 
+		18 1 18 18 1 18 18 18 18 1 1 18 18 18 18;
+	setAttr -s 114 ".kix[0:113]"  1 0.10000000000000006 1 1 1 1 1 1 1 1 1 
 		0.85258016791048319 1 1 1 1 1 1 1 1 1 1 0.99999690095983207 1 1 1 1 1 1 1 1 1 1 1 
 		1 1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000001563 
 		1 1 0.10000000000001563 1 1 1 1 1 1 1 1 0.99710846123347485 0.99955727792702875 0.10000000000001563 
 		1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000001563 
 		1 0.10000000000001563 1 1 1 0.99999692740528423 1 1 1 0.10000000000001563 1 1 1 1 
 		1 1 1 1 1 1 1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000000006 
-		1 0.10000000000000006 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 113 ".kiy[0:112]"  0 0 0 0 0 0 0 0 0 0 0 -0.52259645739875826 
+		1 0.10000000000000006 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 114 ".kiy[0:113]"  0 0 0 0 0 0 0 0 0 0 0 -0.52259645739875826 
 		0 0 0 0 0 0 0 0 0 0 0.0024895924830984619 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.075991555692800888 -0.029753119888657836 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0.0024789473553632189 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 113 ".kox[0:112]"  1 0.96666666666666656 1 1 1 1 1 1 1 1 1 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 114 ".kox[0:113]"  1 0.96666666666666656 1 1 1 1 1 1 1 1 1 
 		0.85258016791048319 1 1 1 1 1 1 1 1 1 1 0.99999690095983207 1 1 1 1 1 1 1 1 1 1 1 
 		1 1 0.96666666666664725 1 1 0.96666666666664725 1 1 0.96666666666664725 1 1 0.96666666666664725 
 		1 1 0.96666666666664725 1 1 1 1 1 1 1 1 0.99710846123347485 0.99955727792702875 0.96666666666664725 
 		1 0.96666666666664725 1 1 0.96666666666664725 1 1 0.96666666666664725 1 1 0.96666666666664725 
 		1 0.96666666666664725 1 1 1 0.99999692740528434 1 1 1 0.96666666666664725 1 1 1 1 
 		1 1 1 1 1 1 1 0.96666666666664725 1 1 0.96666666666664725 1 1 0.96666666666666656 
-		1 0.96666666666666656 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 113 ".koy[0:112]"  0 0 0 0 0 0 0 0 0 0 0 -0.52259645739875815 
+		1 0.96666666666666656 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 114 ".koy[0:113]"  0 0 0 0 0 0 0 0 0 0 0 -0.52259645739875815 
 		0 0 0 0 0 0 0 0 0 0 0.0024895924830984615 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.075991555692800875 -0.029753119888657833 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0.0024789473553632189 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerMiddle0_ctrl_rotateY";
 	rename -uid "BEA67C6D-4D34-2A8D-84C5-EE8EF26A4B96";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 114 ".ktv[0:113]"  -3 -8.5290906321458824 0 -8.5290906321458824
+	setAttr -s 115 ".ktv[0:114]"  -3 -8.5290906321458824 0 -8.5290906321458824
 		 29 -8.5290906321458824 61 -8.5290906321458824 64 -8.5290906321458824 93 -8.5290906321458824
 		 96 -8.5290906321458824 100 -8.5290906321458824 102 -48.337969825860853 106 -113.9818305842431
 		 119 -113.9818305842431 135 0 150 -8.5290906321458824 160 -8.5290906321458824 200 -8.5290906321458824
@@ -5318,25 +5490,25 @@ createNode animCurveTA -n "r_fingerMiddle0_ctrl_rotateY";
 		 2040 -8.5290906321458824 2060 -8.5290906321458824 2061 -8.5290906321458824 2475 -8.5290906321458824
 		 2490 -8.5290906321458824 2500 -8.5290906321458824 2520 -8.5290906321458824 2521 -8.5290906321458824
 		 2540 -8.5290906321458824 2560 -8.5290906321458824 2561 -8.5290906321458824 2580 -8.5290906321458824
-		 2600 -8.5290906321458824 2610 -8.5290906321458824 2625 -8.5290906321458824 3000 -79.624030379278835
-		 3064 -79.624030379278835 3069 -79.624030379278835 3070 -79.624030379278835 3100 0
-		 3952 0 3999 -8.5290906321458824 4000 -8.5290906321458824 4017 -8.5290906321458824
-		 4028 -8.5290906321458824 4037 -8.5290906321458824 4044 -4.9114452077375068;
-	setAttr -s 114 ".kit[6:113]"  18 1 18 18 18 18 1 18 
+		 2600 -8.5290906321458824 2610 -8.5290906321458824 2625 -8.5290906321458824 2640 -8.5290906321458824
+		 3000 0 3135 0 3140 -79.624030379278835 3141 -79.624030379278835 3171 0 3952 0 3999 -8.5290906321458824
+		 4000 -8.5290906321458824 4017 -8.5290906321458824 4028 -8.5290906321458824 4037 -8.5290906321458824
+		 4044 -4.9114452077375068;
+	setAttr -s 115 ".kit[6:114]"  18 1 18 18 18 18 1 18 
 		1 18 1 18 18 1 18 18 18 18 18 18 1 18 1 1 1 
 		1 1 1 1 18 1 1 1 1 1 1 18 1 1 1 1 1 
 		1 1 18 18 18 18 18 18 18 18 18 18 1 18 1 1 1 
 		1 1 1 1 1 1 1 18 1 18 1 18 18 18 18 18 1 
 		18 1 1 1 18 1 1 1 18 18 18 1 18 18 1 1 18 
-		1 18 1 18 1 18 18 18 18 1 1 18 18 18 18;
-	setAttr -s 114 ".kot[6:113]"  18 1 18 18 18 18 1 18 
+		1 18 1 18 18 1 18 18 18 18 1 1 18 18 18 18;
+	setAttr -s 115 ".kot[6:114]"  18 1 18 18 18 18 1 18 
 		1 18 1 18 18 1 18 18 18 18 18 18 1 18 1 1 1 
 		1 1 1 1 18 1 1 1 1 1 1 18 1 1 1 1 1 
 		1 1 18 18 18 18 18 18 18 18 18 18 1 18 1 1 1 
 		1 1 1 1 1 1 1 18 1 18 1 18 18 18 18 18 1 
 		18 1 1 1 18 1 1 18 18 18 18 1 18 1 1 18 18 
-		1 18 1 18 1 18 18 18 18 1 1 18 18 18 18;
-	setAttr -s 114 ".kix[0:113]"  1 0.10000000000000006 1 1 1 1 1 1 0.10803031150037859 
+		1 18 1 18 18 1 18 18 18 18 1 1 18 18 18 18;
+	setAttr -s 115 ".kix[0:114]"  1 0.10000000000000006 1 1 1 1 1 1 0.10803031150037859 
 		1 1 1 1 1 1 0.99815704026272645 1 0.99750353766071598 1 1 1 1 0.99981438128506328 
 		0.99661855207460304 1 0.99314568946747295 1 1 1 1 1 1 1 1 1 1 1 0.10000000000001563 
 		1 1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000001563 
@@ -5344,14 +5516,14 @@ createNode animCurveTA -n "r_fingerMiddle0_ctrl_rotateY";
 		1 1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000001563 1 0.10000000000001563 
 		1 1 1 0.99903278803477291 1 1 1 0.10000000000001563 1 1 1 1 1 1 1 1 1 1 1 0.10000000000001563 
 		1 1 0.10000000000001563 1 1 0.10000000000000006 1 0.10000000000000006 1 1 1 1 1 1 
-		1 1 1 1 1 1;
-	setAttr -s 114 ".kiy[0:113]"  0 0 0 0 0 0 0 0 -0.99414760060925111 0 
+		1 1 1 1 1 1 1;
+	setAttr -s 115 ".kiy[0:114]"  0 0 0 0 0 0 0 0 -0.99414760060925111 0 
 		0 0 0 0 0 -0.060683794986420625 0 0.070616516158450784 0 0 0 0 0.019266628546952044 
 		0.082167278528143761 0 -0.11688301626916373 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0.095968266930352278 0.065412014788268746 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 -0.04397145018609764 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 114 ".kox[0:113]"  1 0.96666666666666656 1 1 1 1 1 1 0.10803031150037859 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 115 ".kox[0:114]"  1 0.96666666666666656 1 1 1 1 1 1 0.10803031150037859 
 		1 1 1 1 1 1 0.99815704026272645 1 0.99750353766071598 1 1 1 1 0.99981438128506317 
 		0.99661855207460315 1 0.99314568946747295 1 1 1 1 1 1 1 1 1 1 1 0.96666666666664725 
 		1 1 0.96666666666664725 1 1 0.96666666666664725 1 1 0.96666666666664725 1 1 0.96666666666664725 
@@ -5359,18 +5531,18 @@ createNode animCurveTA -n "r_fingerMiddle0_ctrl_rotateY";
 		1 1 0.96666666666664725 1 1 0.96666666666664725 1 1 0.96666666666664725 1 0.96666666666664725 
 		1 1 1 0.99903278803477302 1 1 1 0.96666666666664725 1 1 1 1 1 1 1 1 1 1 1 0.96666666666664725 
 		1 1 0.96666666666664725 1 1 0.96666666666666656 1 0.96666666666666656 1 1 1 1 1 1 
-		1 1 1 1 1 1;
-	setAttr -s 114 ".koy[0:113]"  0 0 0 0 0 0 0 0 -0.99414760060925111 0 
+		1 1 1 1 1 1 1;
+	setAttr -s 115 ".koy[0:114]"  0 0 0 0 0 0 0 0 -0.99414760060925111 0 
 		0 0 0 0 0 -0.060683794986420618 0 0.070616516158450784 0 0 0 0 0.01926662854695204 
 		0.082167278528143775 0 -0.11688301626916373 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0.095968266930352278 0.065412014788268746 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 -0.043971450186097646 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerMiddle0_ctrl_rotateZ";
 	rename -uid "B2F6F530-419A-93F4-EBB1-639FF360853B";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 134 ".ktv[0:133]"  -3 1.9178174713008365 0 2.0578364896061379
+	setAttr -s 135 ".ktv[0:134]"  -3 1.9178174713008365 0 2.0578364896061379
 		 13 3.435060590291608 29 1.9178174713008365 45 3.435060590291608 61 1.9178174713008365
 		 64 2.0578364896061379 77 3.435060590291608 93 1.9178174713008365 96 1.9178174713008365
 		 100 2.0578364896061379 102 19.374586591442103 106 -26.815583079350997 119 -26.815583079350997
@@ -5400,29 +5572,29 @@ createNode animCurveTA -n "r_fingerMiddle0_ctrl_rotateZ";
 		 2060 2.0578364896061379 2061 2.1441323180206631 2475 1.9178174713008365 2490 2.0578364896061414
 		 2500 2.0578364896061414 2520 2.0578364896061414 2521 2.0578364896061414 2540 2.0578364896061414
 		 2560 2.0578364896061414 2561 2.0578364896061414 2580 2.0578364896061414 2600 2.0578364896061379
-		 2610 2.0578364896061379 2625 2.0578364896061379 3000 127.53610166993904 3064 127.53610166993904
-		 3069 127.53610166993904 3070 127.53610166993904 3100 0 3952 0 3999 2.0578364896061379
+		 2610 2.0578364896061379 2625 2.0578364896061379 2640 2.0578364896061379 3000 0 3135 0
+		 3140 127.53610166993904 3141 127.53610166993904 3171 0 3952 0 3999 2.0578364896061379
 		 4000 2.0578364896061379 4017 2.0578364896061379 4028 2.0578364896061379 4037 2.0578364896061379
 		 4044 1.5193769432592774;
-	setAttr -s 134 ".kit[4:133]"  18 1 1 1 1 18 1 18 
+	setAttr -s 135 ".kit[4:134]"  18 1 1 1 1 18 1 18 
 		18 18 18 1 18 1 18 1 18 1 1 18 18 18 18 18 18 
 		1 18 1 18 1 18 1 1 18 1 18 1 1 18 1 1 1 
 		1 18 1 1 1 1 18 1 1 1 18 1 1 1 1 18 1 
 		1 18 18 18 18 18 18 18 18 18 18 1 18 1 1 1 18 
 		1 1 1 1 18 1 1 1 1 18 1 1 18 1 18 1 18 
 		18 18 18 18 1 18 1 1 1 18 1 1 1 18 18 18 1 
-		18 18 1 1 18 1 18 1 18 1 18 18 18 18 1 1 18 
-		18 18 18;
-	setAttr -s 134 ".kot[4:133]"  18 1 1 1 1 18 1 18 
+		18 18 1 1 18 1 18 1 18 18 1 18 18 18 18 1 1 
+		18 18 18 18;
+	setAttr -s 135 ".kot[4:134]"  18 1 1 1 1 18 1 18 
 		18 18 18 1 18 1 18 1 18 1 1 18 18 18 18 18 18 
 		1 18 1 18 1 18 1 1 1 1 18 1 1 18 1 1 1 
 		1 18 1 1 1 1 18 1 1 1 18 1 1 1 1 18 1 
 		1 18 18 18 18 18 18 18 18 18 18 1 18 1 1 1 18 
 		1 1 1 1 18 1 1 1 1 18 1 1 18 1 18 1 18 
 		18 18 18 18 1 18 1 1 1 18 1 1 18 18 18 18 1 
-		18 1 1 18 18 1 18 1 18 1 18 18 18 18 1 1 18 
-		18 18 18;
-	setAttr -s 134 ".kix[0:133]"  1 0.10000000000000003 1 1 1 1 0.99897170164185867 
+		18 1 1 18 18 1 18 1 18 18 1 18 18 18 18 1 1 
+		18 18 18 18;
+	setAttr -s 135 ".kix[0:134]"  1 0.10000000000000003 1 1 1 1 0.99897170164185867 
 		1 1 1 0.99897170164185867 1 1 1 0.97755933636261949 0.99897170164185867 1 1 1 1 1 
 		1 0.99897170164185867 1 1 1 0.99927629240851656 1 1 0.99897170164185867 1 1 1 1 1 
 		1 0.99897170164185867 1 1 1 1 0.99897170164185867 1 1 0.10000000000001563 1 1 1 1 
@@ -5432,8 +5604,8 @@ createNode animCurveTA -n "r_fingerMiddle0_ctrl_rotateZ";
 		1 1 0.10000000000001563 1 0.10000000000001563 1 1 1 0.99730541533347739 1 1 1 0.10000000000001563 
 		1 1 0.99897170164185867 0.99897170164185867 1 0.99897170164185867 0.99897170164185867 
 		1 1 1 1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000000003 1 0.10000000000000003 
-		1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 134 ".kiy[0:133]"  0 0.0045384725004128865 0 0 0 0 0.045338055965921983 
+		1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 135 ".kiy[0:134]"  0 0.0045384725004128865 0 0 0 0 0.045338055965921983 
 		0 0 0 0.045338055965921983 0 0 0 0.210660257026035 0.045338055965921983 0 0 0 0 0 
 		0 0.045338055965921983 0 0 0 -0.038038026109260839 0 0 0.045338055965921983 0 0 0 
 		0 0 0 0.045338055965921983 0 0 0 0 0.045338055965921983 0 0 0.0045384725004130322 
@@ -5443,8 +5615,8 @@ createNode animCurveTA -n "r_fingerMiddle0_ctrl_rotateZ";
 		0 0.0045384725004130322 0 0 0 0 0.0045384725004130322 0 0.0045384725004130322 0 0 
 		0 0.073361492259358965 0 0 0 0.0045384725004130322 0 0 0.045338055965921983 0.045338055965921983 
 		0 0.045338055965921983 0.045338055965921983 0 0 0 0 0.0045384725004130322 0 0 0.0045384725004130322 
-		0 0 0.0045384725004128865 0 0.0045384725004128865 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 134 ".kox[0:133]"  1 0.43333333333333329 1 1 1 1 0.99897170164185867 
+		0 0 0.0045384725004128865 0 0.0045384725004128865 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 135 ".kox[0:134]"  1 0.43333333333333329 1 1 1 1 0.99897170164185867 
 		1 1 1 0.99897170164185867 1 1 1 0.97755933636261938 0.99897170164185867 1 1 1 1 1 
 		1 0.99897170164185867 1 1 1 0.99927629240851668 1 1 0.99897170164185867 1 1 1 1 1 
 		1 0.99897170164185867 1 1 1 1 0.99897170164185867 1 1 0.43333333333331581 1 1 1 1 
@@ -5454,8 +5626,8 @@ createNode animCurveTA -n "r_fingerMiddle0_ctrl_rotateZ";
 		1 1 0.43333333333331581 1 0.43333333333331581 1 1 1 0.99730541533347761 1 1 1 0.43333333333331581 
 		1 1 0.99897170164185867 0.99897170164185867 1 0.99897170164185867 0.99897170164185867 
 		1 1 1 1 0.43333333333331581 1 1 0.43333333333331581 1 1 0.43333333333333329 1 0.43333333333333329 
-		1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 134 ".koy[0:133]"  0 0.019666714168455841 0 0 0 0 0.045338055965922448 
+		1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 135 ".koy[0:134]"  0 0.019666714168455841 0 0 0 0 0.045338055965922448 
 		0 0 0 0.045338055965922448 0 0 0 0.21066025702603497 0.045338055965922448 0 0 0 0 
 		0 0 0.045338055965922448 0 0 0 -0.038038026109260846 0 0 0.045338055965922448 0 0 
 		0 0 0 0 0.045338055965922448 0 0 0 0 0.045338055965922448 0 0 0.019666714168456029 
@@ -5465,188 +5637,189 @@ createNode animCurveTA -n "r_fingerMiddle0_ctrl_rotateZ";
 		0.019666714168456029 0 0 0 0 0.019666714168456029 0 0.019666714168456029 0 0 0 0.073361492259358979 
 		0 0 0 0.019666714168456029 0 0 0.045338055965922448 0.045338055965922448 0 0.045338055965922448 
 		0.045338055965922448 0 0 0 0 0.019666714168456029 0 0 0.019666714168456029 0 0 0.019666714168455841 
-		0 0.019666714168455841 0 0 0 0 0 0 0 0 0 0 0 0;
+		0 0.019666714168455841 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTL -n "r_fingerIndex0_ctrl_translateX";
 	rename -uid "AA6B3D06-4395-3355-B2D1-FEBA0BB2AD17";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 94 ".ktv[0:93]"  -3 0 0 0 29 0 61 0 64 0 93 0 96 0 100 0
+	setAttr -s 95 ".ktv[0:94]"  -3 0 0 0 29 0 61 0 64 0 93 0 96 0 100 0
 		 144 0 150 0 160 0 197 0 229 0 261 0 264 0 280 0 300 0 329 0 347 0 385 0 400 0 447 0
 		 479 0 511 0 514 0 543 0 575 0 578 0 952 0 997 0 1000 0 1029 0 1061 0 1064 0 1093 0
 		 1180 0 1200 0 1229 0 1261 0 1264 0 1293 0 1325 0 1328 0 1380 0 1393 0 1400 0 1480 0
 		 1482 0 1500 0 1529 0 1561 0 1564 0 1593 0 1625 0 1628 0 1657 0 1689 0 1692 0 1696 0
 		 1700 0 1714 0 1720 0 1758 0 1764 0 1926 0 1967 0 2000 0 2020 0 2021 0 2040 0 2060 0
 		 2061 0 2475 0 2490 0 2500 0 2520 0 2521 0 2540 0 2560 0 2561 0 2580 0 2600 0 2610 0
-		 2625 0 3000 0 3064 0 3069 0 3070 0 3952 0 3999 0 4000 0 4017 0 4028 0 4037 0;
-	setAttr -s 94 ".kit[6:93]"  18 1 18 1 18 18 18 1 
+		 2625 0 2640 0 3000 0 3135 0 3140 0 3141 0 3952 0 3999 0 4000 0 4017 0 4028 0 4037 0;
+	setAttr -s 95 ".kit[6:94]"  18 1 18 1 18 18 18 1 
 		1 18 18 18 18 1 18 18 18 1 1 18 1 1 18 1 1 
 		1 1 1 1 18 1 1 1 1 1 1 1 18 18 18 1 18 
 		1 1 1 1 1 1 1 1 1 1 18 1 18 18 18 1 18 
 		1 1 1 18 1 1 1 18 18 18 1 18 18 1 1 18 1 
-		18 1 18 1 18 18 18 1 1 18 1 18;
-	setAttr -s 94 ".kot[6:93]"  18 1 18 1 18 1 18 1 
+		18 1 18 18 1 18 18 18 1 1 18 1 18;
+	setAttr -s 95 ".kot[6:94]"  18 1 18 1 18 1 18 1 
 		1 18 18 18 18 1 18 1 18 1 1 1 1 1 18 1 1 
 		1 1 1 1 18 1 1 1 1 1 1 1 18 18 18 1 18 
 		1 1 1 1 1 1 1 1 1 1 18 1 18 18 18 1 18 
 		1 1 1 18 1 1 18 18 18 18 1 18 1 1 18 18 1 
-		18 1 18 1 18 18 18 1 1 18 1 18;
-	setAttr -s 94 ".kix[0:93]"  1 0.10000000000000006 1 1 1 1 1 1 1 1 1 
+		18 1 18 18 1 18 18 18 1 1 18 1 18;
+	setAttr -s 95 ".kix[0:94]"  1 0.10000000000000006 1 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.10000000000001563 1 1 0.10000000000001563 
 		1 1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000001563 1 1 1 0.10000000000001563 
 		1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000001563 
 		1 0.10000000000001563 1 1 1 0.10000000000001563 1 1 1 1 1 1 1 1 1 1 1 0.10000000000001563 
 		1 1 0.10000000000001563 1 1 0.10000000000000006 1 0.10000000000000006 1 1 1 1 1 1 
-		1 1 1 1;
-	setAttr -s 94 ".kiy[0:93]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1 1;
+	setAttr -s 95 ".kiy[0:94]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 94 ".kox[0:93]"  1 0.96666666666666656 1 1 1 1 1 1 1 1 1 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 95 ".kox[0:94]"  1 0.96666666666666656 1 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.96666666666664725 1 1 0.96666666666664725 
 		1 1 0.96666666666664725 1 1 0.96666666666664725 1 1 0.96666666666664725 1 1 1 0.96666666666664725 
 		1 0.96666666666664725 1 1 0.96666666666664725 1 1 0.96666666666664725 1 1 0.96666666666664725 
 		1 0.96666666666664725 1 1 1 0.96666666666664725 1 1 1 1 1 1 1 1 1 1 1 0.96666666666664725 
 		1 1 0.96666666666664725 1 1 0.96666666666666656 1 0.96666666666666656 1 1 1 1 1 1 
-		1 1 1 1;
-	setAttr -s 94 ".koy[0:93]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1 1;
+	setAttr -s 95 ".koy[0:94]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTL -n "r_fingerIndex0_ctrl_translateY";
 	rename -uid "C5459967-4D47-2754-D78A-6983B3D59144";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 94 ".ktv[0:93]"  -3 0 0 0 29 0 61 0 64 0 93 0 96 0 100 0
+	setAttr -s 95 ".ktv[0:94]"  -3 0 0 0 29 0 61 0 64 0 93 0 96 0 100 0
 		 144 0 150 0 160 0 197 0 229 0 261 0 264 0 280 0 300 0 329 0 347 0 385 0 400 0 447 0
 		 479 0 511 0 514 0 543 0 575 0 578 0 952 0 997 0 1000 0 1029 0 1061 0 1064 0 1093 0
 		 1180 0 1200 0 1229 0 1261 0 1264 0 1293 0 1325 0 1328 0 1380 0 1393 0 1400 0 1480 0
 		 1482 0 1500 0 1529 0 1561 0 1564 0 1593 0 1625 0 1628 0 1657 0 1689 0 1692 0 1696 0
 		 1700 0 1714 0 1720 0 1758 0 1764 0 1926 0 1967 0 2000 0 2020 0 2021 0 2040 0 2060 0
 		 2061 0 2475 0 2490 0 2500 0 2520 0 2521 0 2540 0 2560 0 2561 0 2580 0 2600 0 2610 0
-		 2625 0 3000 0 3064 0 3069 0 3070 0 3952 0 3999 0 4000 0 4017 0 4028 0 4037 0;
-	setAttr -s 94 ".kit[6:93]"  18 1 18 1 18 18 18 1 
+		 2625 0 2640 0 3000 0 3135 0 3140 0 3141 0 3952 0 3999 0 4000 0 4017 0 4028 0 4037 0;
+	setAttr -s 95 ".kit[6:94]"  18 1 18 1 18 18 18 1 
 		1 18 18 18 18 1 18 18 18 1 1 18 1 1 18 1 1 
 		1 1 1 1 18 1 1 1 1 1 1 1 18 18 18 1 18 
 		1 1 1 1 1 1 1 1 1 1 18 1 18 18 18 1 18 
 		1 1 1 18 1 1 1 18 18 18 1 18 18 1 1 18 1 
-		18 1 18 1 18 18 18 1 1 18 1 18;
-	setAttr -s 94 ".kot[6:93]"  18 1 18 1 18 1 18 1 
+		18 1 18 18 1 18 18 18 1 1 18 1 18;
+	setAttr -s 95 ".kot[6:94]"  18 1 18 1 18 1 18 1 
 		1 18 18 18 18 1 18 1 18 1 1 1 1 1 18 1 1 
 		1 1 1 1 18 1 1 1 1 1 1 1 18 18 18 1 18 
 		1 1 1 1 1 1 1 1 1 1 18 1 18 18 18 1 18 
 		1 1 1 18 1 1 18 18 18 18 1 18 1 1 18 18 1 
-		18 1 18 1 18 18 18 1 1 18 1 18;
-	setAttr -s 94 ".kix[0:93]"  1 0.10000000000000006 1 1 1 1 1 1 1 1 1 
+		18 1 18 18 1 18 18 18 1 1 18 1 18;
+	setAttr -s 95 ".kix[0:94]"  1 0.10000000000000006 1 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.10000000000001563 1 1 0.10000000000001563 
 		1 1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000001563 1 1 1 0.10000000000001563 
 		1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000001563 
 		1 0.10000000000001563 1 1 1 0.10000000000001563 1 1 1 1 1 1 1 1 1 1 1 0.10000000000001563 
 		1 1 0.10000000000001563 1 1 0.10000000000000006 1 0.10000000000000006 1 1 1 1 1 1 
-		1 1 1 1;
-	setAttr -s 94 ".kiy[0:93]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1 1;
+	setAttr -s 95 ".kiy[0:94]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 94 ".kox[0:93]"  1 0.96666666666666656 1 1 1 1 1 1 1 1 1 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 95 ".kox[0:94]"  1 0.96666666666666656 1 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.96666666666664725 1 1 0.96666666666664725 
 		1 1 0.96666666666664725 1 1 0.96666666666664725 1 1 0.96666666666664725 1 1 1 0.96666666666664725 
 		1 0.96666666666664725 1 1 0.96666666666664725 1 1 0.96666666666664725 1 1 0.96666666666664725 
 		1 0.96666666666664725 1 1 1 0.96666666666664725 1 1 1 1 1 1 1 1 1 1 1 0.96666666666664725 
 		1 1 0.96666666666664725 1 1 0.96666666666666656 1 0.96666666666666656 1 1 1 1 1 1 
-		1 1 1 1;
-	setAttr -s 94 ".koy[0:93]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1 1;
+	setAttr -s 95 ".koy[0:94]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTL -n "r_fingerIndex0_ctrl_translateZ";
 	rename -uid "97D6CC43-40D6-06DB-88F3-02B8C6B5D1A1";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 94 ".ktv[0:93]"  -3 0 0 0 29 0 61 0 64 0 93 0 96 0 100 0
+	setAttr -s 95 ".ktv[0:94]"  -3 0 0 0 29 0 61 0 64 0 93 0 96 0 100 0
 		 144 0 150 0 160 0 197 0 229 0 261 0 264 0 280 0 300 0 329 0 347 0 385 0 400 0 447 0
 		 479 0 511 0 514 0 543 0 575 0 578 0 952 0 997 0 1000 0 1029 0 1061 0 1064 0 1093 0
 		 1180 0 1200 0 1229 0 1261 0 1264 0 1293 0 1325 0 1328 0 1380 0 1393 0 1400 0 1480 0
 		 1482 0 1500 0 1529 0 1561 0 1564 0 1593 0 1625 0 1628 0 1657 0 1689 0 1692 0 1696 0
 		 1700 0 1714 0 1720 0 1758 0 1764 0 1926 0 1967 0 2000 0 2020 0 2021 0 2040 0 2060 0
 		 2061 0 2475 0 2490 0 2500 0 2520 0 2521 0 2540 0 2560 0 2561 0 2580 0 2600 0 2610 0
-		 2625 0 3000 0 3064 0 3069 0 3070 0 3952 0 3999 0 4000 0 4017 0 4028 0 4037 0;
-	setAttr -s 94 ".kit[6:93]"  18 1 18 1 18 18 18 1 
+		 2625 0 2640 0 3000 0 3135 0 3140 0 3141 0 3952 0 3999 0 4000 0 4017 0 4028 0 4037 0;
+	setAttr -s 95 ".kit[6:94]"  18 1 18 1 18 18 18 1 
 		1 18 18 18 18 1 18 18 18 1 1 18 1 1 18 1 1 
 		1 1 1 1 18 1 1 1 1 1 1 1 18 18 18 1 18 
 		1 1 1 1 1 1 1 1 1 1 18 1 18 18 18 1 18 
 		1 1 1 18 1 1 1 18 18 18 1 18 18 1 1 18 1 
-		18 1 18 1 18 18 18 1 1 18 1 18;
-	setAttr -s 94 ".kot[6:93]"  18 1 18 1 18 1 18 1 
+		18 1 18 18 1 18 18 18 1 1 18 1 18;
+	setAttr -s 95 ".kot[6:94]"  18 1 18 1 18 1 18 1 
 		1 18 18 18 18 1 18 1 18 1 1 1 1 1 18 1 1 
 		1 1 1 1 18 1 1 1 1 1 1 1 18 18 18 1 18 
 		1 1 1 1 1 1 1 1 1 1 18 1 18 18 18 1 18 
 		1 1 1 18 1 1 18 18 18 18 1 18 1 1 18 18 1 
-		18 1 18 1 18 18 18 1 1 18 1 18;
-	setAttr -s 94 ".kix[0:93]"  1 0.10000000000000006 1 1 1 1 1 1 1 1 1 
+		18 1 18 18 1 18 18 18 1 1 18 1 18;
+	setAttr -s 95 ".kix[0:94]"  1 0.10000000000000006 1 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.10000000000001563 1 1 0.10000000000001563 
 		1 1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000001563 1 1 1 0.10000000000001563 
 		1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000001563 
 		1 0.10000000000001563 1 1 1 0.10000000000001563 1 1 1 1 1 1 1 1 1 1 1 0.10000000000001563 
 		1 1 0.10000000000001563 1 1 0.10000000000000006 1 0.10000000000000006 1 1 1 1 1 1 
-		1 1 1 1;
-	setAttr -s 94 ".kiy[0:93]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1 1;
+	setAttr -s 95 ".kiy[0:94]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 94 ".kox[0:93]"  1 0.96666666666666656 1 1 1 1 1 1 1 1 1 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 95 ".kox[0:94]"  1 0.96666666666666656 1 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.96666666666664725 1 1 0.96666666666664725 
 		1 1 0.96666666666664725 1 1 0.96666666666664725 1 1 0.96666666666664725 1 1 1 0.96666666666664725 
 		1 0.96666666666664725 1 1 0.96666666666664725 1 1 0.96666666666664725 1 1 0.96666666666664725 
 		1 0.96666666666664725 1 1 1 0.96666666666664725 1 1 1 1 1 1 1 1 1 1 1 0.96666666666664725 
 		1 1 0.96666666666664725 1 1 0.96666666666666656 1 0.96666666666666656 1 1 1 1 1 1 
-		1 1 1 1;
-	setAttr -s 94 ".koy[0:93]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1 1;
+	setAttr -s 95 ".koy[0:94]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTL -n "r_fingerMiddle0_ctrl_translateX";
 	rename -uid "CCE8D17D-40D8-C868-2F0D-DCA77B8CAF9F";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 95 ".ktv[0:94]"  -3 0 0 0 29 0 61 0 64 0 93 0 96 0 100 0
+	setAttr -s 96 ".ktv[0:95]"  -3 0 0 0 29 0 61 0 64 0 93 0 96 0 100 0
 		 150 0 160 0 197 0 229 0 261 0 264 0 280 0 300 0 329 0 347 0 385 0 400 0 447 0 479 0
 		 511 0 514 0 543 0 575 0 578 0 952 0 997 0 1000 0 1029 0 1061 0 1064 0 1093 0 1180 0
 		 1200 0 1229 0 1261 0 1264 0 1293 0 1325 0 1328 0 1380 0 1393 0 1400 0 1411 0 1463 0
 		 1480 0 1482 0 1500 0 1529 0 1561 0 1564 0 1593 0 1625 0 1628 0 1657 0 1689 0 1692 0
 		 1696 0 1700 0 1714 0 1720 0 1758 0 1764 0 1926 0 1967 0 2000 0 2020 0 2021 0 2040 0
 		 2060 0 2061 0 2475 0 2490 0 2500 0 2520 0 2521 0 2540 0 2560 0 2561 0 2580 0 2600 0
-		 2610 0 2625 0 3000 0 3064 0 3069 0 3070 0 3952 0 3999 0 4000 0 4017 0 4028 0 4037 0;
-	setAttr -s 95 ".kit[6:94]"  18 1 1 18 18 18 1 1 
+		 2610 0 2625 0 2640 0 3000 0 3135 0 3140 0 3141 0 3952 0 3999 0 4000 0 4017 0 4028 0
+		 4037 0;
+	setAttr -s 96 ".kit[6:95]"  18 1 1 18 18 18 1 1 
 		18 18 18 18 1 18 18 18 1 1 18 1 1 18 1 1 1 
 		1 1 1 18 1 1 1 1 1 1 1 18 18 18 18 18 1 
 		18 1 1 1 1 1 1 1 1 1 1 18 1 18 18 18 1 
 		18 1 1 1 18 1 1 1 18 18 18 1 18 18 1 1 18 
-		1 18 1 18 1 18 18 18 1 1 18 18 18;
-	setAttr -s 95 ".kot[6:94]"  18 1 1 18 1 18 1 1 
+		1 18 1 18 18 1 18 18 18 1 1 18 18 18;
+	setAttr -s 96 ".kot[6:95]"  18 1 1 18 1 18 1 1 
 		18 18 18 18 1 18 1 18 1 1 1 1 1 18 1 1 1 
 		1 1 1 18 1 1 1 1 1 1 1 18 18 18 18 18 1 
 		18 1 1 1 1 1 1 1 1 1 1 18 1 18 18 18 1 
 		18 1 1 1 18 1 1 18 18 18 18 1 18 1 1 18 18 
-		1 18 1 18 1 18 18 18 1 1 18 18 18;
-	setAttr -s 95 ".kix[0:94]"  1 0.10000000000000006 1 1 1 1 1 1 1 1 1 
+		1 18 1 18 18 1 18 18 18 1 1 18 18 18;
+	setAttr -s 96 ".kix[0:95]"  1 0.10000000000000006 1 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.10000000000001563 1 1 0.10000000000001563 1 
 		1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000001563 1 1 1 1 1 0.10000000000001563 
 		1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000001563 
 		1 0.10000000000001563 1 1 1 0.10000000000001563 1 1 1 1 1 1 1 1 1 1 1 0.10000000000001563 
 		1 1 0.10000000000001563 1 1 0.10000000000000006 1 0.10000000000000006 1 1 1 1 1 1 
-		1 1 1 1;
-	setAttr -s 95 ".kiy[0:94]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1 1;
+	setAttr -s 96 ".kiy[0:95]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 95 ".kox[0:94]"  1 0.96666666666666656 1 1 1 1 1 1 1 1 1 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 96 ".kox[0:95]"  1 0.96666666666666656 1 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.96666666666664725 1 1 0.96666666666664725 1 
 		1 0.96666666666664725 1 1 0.96666666666664725 1 1 0.96666666666664725 1 1 1 1 1 0.96666666666664725 
 		1 0.96666666666664725 1 1 0.96666666666664725 1 1 0.96666666666664725 1 1 0.96666666666664725 
 		1 0.96666666666664725 1 1 1 0.96666666666664725 1 1 1 1 1 1 1 1 1 1 1 0.96666666666664725 
 		1 1 0.96666666666664725 1 1 0.96666666666666656 1 0.96666666666666656 1 1 1 1 1 1 
-		1 1 1 1;
-	setAttr -s 95 ".koy[0:94]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1 1;
+	setAttr -s 96 ".koy[0:95]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTL -n "r_fingerMiddle0_ctrl_translateY";
 	rename -uid "7640B176-4C17-6805-A0C1-E380EC902133";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 100 ".ktv[0:99]"  -3 -0.45978450250875014 0 -0.45978450250875014
+	setAttr -s 101 ".ktv[0:100]"  -3 -0.45978450250875014 0 -0.45978450250875014
 		 29 -0.45978450250875014 61 -0.45978450250875014 64 -0.45978450250875014 93 -0.45978450250875014
 		 96 -0.45978450250875014 100 -0.45978450250875014 106 0 119 0 150 -0.45978450250875014
 		 160 -0.45978450250875014 197 -0.45978450250875014 229 -0.45978450250875014 261 -0.45978450250875014
@@ -5667,137 +5840,137 @@ createNode animCurveTL -n "r_fingerMiddle0_ctrl_translateY";
 		 2040 -0.45978450250875014 2060 -0.45978450250875014 2061 -0.45978450250875014 2475 -0.45978450250875014
 		 2490 -0.45978450250875014 2500 -0.45978450250875014 2520 -0.45978450250875014 2521 -0.45978450250875014
 		 2540 -0.45978450250875014 2560 -0.45978450250875014 2561 -0.45978450250875014 2580 -0.45978450250875014
-		 2600 -0.45978450250875014 2610 -0.45978450250875014 2625 -0.45978450250875014 3000 -0.45978450250875014
-		 3064 -0.45978450250875014 3069 -0.45978450250875014 3070 -0.45978450250875014 3100 0
-		 3952 0 3999 -0.45978450250875014 4000 -0.45978450250875014 4017 -0.45978450250875014
-		 4028 -0.45978450250875014 4037 -0.45978450250875014;
-	setAttr -s 100 ".kit[6:99]"  18 1 18 18 1 18 18 18 
+		 2600 -0.45978450250875014 2610 -0.45978450250875014 2625 -0.45978450250875014 2640 -0.45978450250875014
+		 3000 0 3135 0 3140 -0.45978450250875014 3141 -0.45978450250875014 3171 0 3952 0 3999 -0.45978450250875014
+		 4000 -0.45978450250875014 4017 -0.45978450250875014 4028 -0.45978450250875014 4037 -0.45978450250875014;
+	setAttr -s 101 ".kit[6:100]"  18 1 18 18 1 18 18 18 
 		1 1 18 18 18 18 1 18 18 18 1 1 18 1 1 18 1 
 		1 1 1 1 1 18 1 1 1 1 1 1 1 18 18 18 18 
 		18 1 18 1 1 1 1 1 1 1 1 1 1 18 1 18 18 
 		18 18 18 1 18 1 1 1 18 1 1 1 18 18 18 1 18 
-		18 1 1 18 1 18 1 18 1 18 18 18 18 1 1 18 18 
-		18;
-	setAttr -s 100 ".kot[6:99]"  18 1 18 18 1 18 1 18 
+		18 1 1 18 1 18 1 18 18 1 18 18 18 18 1 1 18 
+		18 18;
+	setAttr -s 101 ".kot[6:100]"  18 1 18 18 1 18 1 18 
 		1 1 18 18 18 18 1 18 1 18 1 1 1 1 1 18 1 
 		1 1 1 1 1 18 1 1 1 1 1 1 1 18 18 18 18 
 		18 1 18 1 1 1 1 1 1 1 1 1 1 18 1 18 18 
 		18 18 18 1 18 1 1 1 18 1 1 18 18 18 18 1 18 
-		1 1 18 18 1 18 1 18 1 18 18 18 18 1 1 18 18 
-		18;
-	setAttr -s 100 ".kix[0:99]"  1 0.10000000000000006 1 1 1 1 1 1 1 1 1 
+		1 1 18 18 1 18 1 18 18 1 18 18 18 18 1 1 18 
+		18 18;
+	setAttr -s 101 ".kix[0:100]"  1 0.10000000000000006 1 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.10000000000001563 1 1 0.10000000000001563 
 		1 1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000001563 1 1 1 1 1 
 		0.10000000000001563 1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000001563 
 		1 1 0.10000000000001563 1 0.10000000000001563 1 1 1 1 1 0.10000000000001563 1 1 1 
 		1 1 1 1 1 1 1 1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000000006 
-		1 0.10000000000000006 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 100 ".kiy[0:99]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 0.10000000000000006 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 101 ".kiy[0:100]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 100 ".kox[0:99]"  1 0.96666666666666656 1 1 1 1 1 1 1 1 1 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 101 ".kox[0:100]"  1 0.96666666666666656 1 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.96666666666664725 1 1 0.96666666666664725 
 		1 1 0.96666666666664725 1 1 0.96666666666664725 1 1 0.96666666666664725 1 1 1 1 1 
 		0.96666666666664725 1 0.96666666666664725 1 1 0.96666666666664725 1 1 0.96666666666664725 
 		1 1 0.96666666666664725 1 0.96666666666664725 1 1 1 1 1 0.96666666666664725 1 1 1 
 		1 1 1 1 1 1 1 1 0.96666666666664725 1 1 0.96666666666664725 1 1 0.96666666666666656 
-		1 0.96666666666666656 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 100 ".koy[0:99]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 0.96666666666666656 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 101 ".koy[0:100]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTL -n "r_fingerMiddle0_ctrl_translateZ";
 	rename -uid "4B797199-4FFF-F666-BD89-25BA067EE18D";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 95 ".ktv[0:94]"  -3 0 0 0 29 0 61 0 64 0 93 0 96 0 100 0
+	setAttr -s 96 ".ktv[0:95]"  -3 0 0 0 29 0 61 0 64 0 93 0 96 0 100 0
 		 150 0 160 0 197 0 229 0 261 0 264 0 280 0 300 0 329 0 347 0 385 0 400 0 447 0 479 0
 		 511 0 514 0 543 0 575 0 578 0 952 0 997 0 1000 0 1029 0 1061 0 1064 0 1093 0 1180 0
 		 1200 0 1229 0 1261 0 1264 0 1293 0 1325 0 1328 0 1380 0 1393 0 1400 0 1411 0 1463 0
 		 1480 0 1482 0 1500 0 1529 0 1561 0 1564 0 1593 0 1625 0 1628 0 1657 0 1689 0 1692 0
 		 1696 0 1700 0 1714 0 1720 0 1758 0 1764 0 1926 0 1967 0 2000 0 2020 0 2021 0 2040 0
 		 2060 0 2061 0 2475 0 2490 0 2500 0 2520 0 2521 0 2540 0 2560 0 2561 0 2580 0 2600 0
-		 2610 0 2625 0 3000 0 3064 0 3069 0 3070 0 3952 0 3999 0 4000 0 4017 0 4028 0 4037 0;
-	setAttr -s 95 ".kit[6:94]"  18 1 1 18 18 18 1 1 
+		 2610 0 2625 0 2640 0 3000 0 3135 0 3140 0 3141 0 3952 0 3999 0 4000 0 4017 0 4028 0
+		 4037 0;
+	setAttr -s 96 ".kit[6:95]"  18 1 1 18 18 18 1 1 
 		18 18 18 18 1 18 18 18 1 1 18 1 1 18 1 1 1 
 		1 1 1 18 1 1 1 1 1 1 1 18 18 18 18 18 1 
 		18 1 1 1 1 1 1 1 1 1 1 18 1 18 18 18 1 
 		18 1 1 1 18 1 1 1 18 18 18 1 18 18 1 1 18 
-		1 18 1 18 1 18 18 18 1 1 18 18 18;
-	setAttr -s 95 ".kot[6:94]"  18 1 1 18 1 18 1 1 
+		1 18 1 18 18 1 18 18 18 1 1 18 18 18;
+	setAttr -s 96 ".kot[6:95]"  18 1 1 18 1 18 1 1 
 		18 18 18 18 1 18 1 18 1 1 1 1 1 18 1 1 1 
 		1 1 1 18 1 1 1 1 1 1 1 18 18 18 18 18 1 
 		18 1 1 1 1 1 1 1 1 1 1 18 1 18 18 18 1 
 		18 1 1 1 18 1 1 18 18 18 18 1 18 1 1 18 18 
-		1 18 1 18 1 18 18 18 1 1 18 18 18;
-	setAttr -s 95 ".kix[0:94]"  1 0.10000000000000006 1 1 1 1 1 1 1 1 1 
+		1 18 1 18 18 1 18 18 18 1 1 18 18 18;
+	setAttr -s 96 ".kix[0:95]"  1 0.10000000000000006 1 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.10000000000001563 1 1 0.10000000000001563 1 
 		1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000001563 1 1 1 1 1 0.10000000000001563 
 		1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000001563 
 		1 0.10000000000001563 1 1 1 0.10000000000001563 1 1 1 1 1 1 1 1 1 1 1 0.10000000000001563 
 		1 1 0.10000000000001563 1 1 0.10000000000000006 1 0.10000000000000006 1 1 1 1 1 1 
-		1 1 1 1;
-	setAttr -s 95 ".kiy[0:94]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1 1;
+	setAttr -s 96 ".kiy[0:95]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 95 ".kox[0:94]"  1 0.96666666666666656 1 1 1 1 1 1 1 1 1 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 96 ".kox[0:95]"  1 0.96666666666666656 1 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.96666666666664725 1 1 0.96666666666664725 1 
 		1 0.96666666666664725 1 1 0.96666666666664725 1 1 0.96666666666664725 1 1 1 1 1 0.96666666666664725 
 		1 0.96666666666664725 1 1 0.96666666666664725 1 1 0.96666666666664725 1 1 0.96666666666664725 
 		1 0.96666666666664725 1 1 1 0.96666666666664725 1 1 1 1 1 1 1 1 1 1 1 0.96666666666664725 
 		1 1 0.96666666666664725 1 1 0.96666666666666656 1 0.96666666666666656 1 1 1 1 1 1 
-		1 1 1 1;
-	setAttr -s 95 ".koy[0:94]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1 1;
+	setAttr -s 96 ".koy[0:95]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerMiddle1_ctrl_rotateX";
 	rename -uid "8683C0EC-426E-6636-1314-38BDE3BBACF9";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 93 ".ktv[0:92]"  -19 0 0 0 13 0 45 0 64 0 77 0 96 0 100 0
+	setAttr -s 94 ".ktv[0:93]"  -19 0 0 0 13 0 45 0 64 0 77 0 96 0 100 0
 		 110 0 119 0 150 0 160 0 181 0 213 0 245 0 264 0 280 0 300 0 385 0 400 0 431 0 463 0
 		 495 0 514 0 527 0 559 0 578 0 952 0 981 0 1000 0 1013 0 1045 0 1064 0 1077 0 1180 0
 		 1200 0 1213 0 1245 0 1264 0 1277 0 1309 0 1328 0 1380 0 1393 0 1400 0 1480 0 1482 0
 		 1500 0 1513 0 1545 0 1564 0 1577 0 1609 0 1628 0 1641 0 1673 0 1692 0 1696 0 1700 0
 		 1714 0 1720 0 1758 0 1764 0 1926 0 1967 0 2000 0 2020 0 2021 0 2040 0 2060 0 2061 0
 		 2475 0 2490 0 2500 0 2520 0 2521 0 2540 0 2560 0 2561 0 2580 0 2600 0 2610 0 2625 0
-		 3000 0 3064 0 3069 0 3070 0 3952 0 3999 0 4000 0 4017 0 4028 0 4037 0;
-	setAttr -s 93 ".kit[6:92]"  18 1 18 18 1 18 18 18 
+		 2640 0 3000 0 3135 0 3140 0 3141 0 3952 0 3999 0 4000 0 4017 0 4028 0 4037 0;
+	setAttr -s 94 ".kit[6:93]"  18 1 18 18 1 18 18 18 
 		1 1 18 18 1 18 18 18 1 1 18 1 1 18 1 1 1 
 		1 1 1 18 1 1 1 1 1 1 1 18 18 18 1 18 1 
 		1 1 1 1 1 1 1 1 1 18 1 18 18 18 1 18 1 
 		1 1 18 1 1 1 18 18 18 1 18 18 1 1 18 1 18 
-		1 18 1 18 18 18 1 1 18 18 18;
-	setAttr -s 93 ".kot[6:92]"  18 1 18 18 1 18 1 18 
+		1 18 18 1 18 18 18 1 1 18 18 18;
+	setAttr -s 94 ".kot[6:93]"  18 1 18 18 1 18 1 18 
 		1 1 18 18 1 18 1 18 1 1 1 1 1 18 1 1 1 
 		1 1 1 18 1 1 1 1 1 1 1 18 18 18 1 18 1 
 		1 1 1 1 1 1 1 1 1 18 1 18 18 18 1 18 1 
 		1 1 18 1 1 18 18 18 18 1 18 1 1 18 18 1 18 
-		1 18 1 18 18 18 1 1 18 18 18;
-	setAttr -s 93 ".kix[0:92]"  1 0.6333333333333333 1 1 1 1 1 1 1 1 1 
+		1 18 18 1 18 18 18 1 1 18 18 18;
+	setAttr -s 94 ".kix[0:93]"  1 0.6333333333333333 1 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.63333333333334707 1 1 0.63333333333334707 1 
 		1 0.63333333333334707 1 1 0.63333333333334707 1 1 0.63333333333334707 1 1 1 0.63333333333334707 
 		1 0.63333333333334707 1 1 0.63333333333334707 1 1 0.63333333333334707 1 1 0.63333333333334707 
 		1 0.63333333333334707 1 1 1 0.63333333333334707 1 1 1 1 1 1 1 1 1 1 1 0.63333333333334707 
 		1 1 0.63333333333334707 1 1 0.6333333333333333 1 0.6333333333333333 1 1 1 1 1 1 1 
-		1 1 1;
-	setAttr -s 93 ".kiy[0:92]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1;
+	setAttr -s 94 ".kiy[0:93]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 93 ".kox[0:92]"  1 0.43333333333333329 1 1 1 1 1 1 1 1 1 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 94 ".kox[0:93]"  1 0.43333333333333329 1 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.43333333333331581 1 1 0.43333333333331581 1 
 		1 0.43333333333331581 1 1 0.43333333333331581 1 1 0.43333333333331581 1 1 1 0.43333333333331581 
 		1 0.43333333333331581 1 1 0.43333333333331581 1 1 0.43333333333331581 1 1 0.43333333333331581 
 		1 0.43333333333331581 1 1 1 0.43333333333331581 1 1 1 1 1 1 1 1 1 1 1 0.43333333333331581 
 		1 1 0.43333333333331581 1 1 0.43333333333333329 1 0.43333333333333329 1 1 1 1 1 1 
-		1 1 1 1;
-	setAttr -s 93 ".koy[0:92]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1 1;
+	setAttr -s 94 ".koy[0:93]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerMiddle1_ctrl_rotateY";
 	rename -uid "523DABB5-4227-2EC3-EA4D-4A80649EC9BE";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 129 ".ktv[0:128]"  -19 0 -3 -0.40030283757791824 0 -0.36336082766472172
+	setAttr -s 130 ".ktv[0:129]"  -19 0 -3 -0.40030283757791824 0 -0.36336082766472172
 		 13 0 29 -0.40030283757791824 45 0 61 -0.40030283757791824 64 -0.36336082766472166
 		 77 0 96 0 100 -0.36336082766472166 110 -84.337673153261889 119 -84.337673153261889
 		 135 0 150 -0.36336082766472166 160 -0.13998642848476969 181 0 197 -0.40030283757791824
@@ -5823,26 +5996,26 @@ createNode animCurveTA -n "r_fingerMiddle1_ctrl_rotateY";
 		 2061 -0.3405871186487584 2475 0 2490 -0.36336082766472044 2500 -0.36336082766472044
 		 2520 -0.36336082766472044 2521 -0.36336082766472044 2540 -0.36336082766472044 2560 -0.36336082766472044
 		 2561 -0.36336082766472044 2580 -0.36336082766472044 2600 -0.36336082766472172 2610 -0.36336082766472172
-		 2625 -0.36336082766472172 3000 -94.936842358644668 3064 -94.936842358644668 3069 -94.936842358644668
-		 3070 -94.936842358644668 3100 0 3952 0 3999 -0.36336082766472172 4000 -0.36336082766472172
+		 2625 -0.36336082766472172 2640 -0.36336082766472172 3000 0 3135 0 3140 -94.936842358644668
+		 3141 -94.936842358644668 3171 0 3952 0 3999 -0.36336082766472172 4000 -0.36336082766472172
 		 4017 -0.36336082766472172 4028 -0.36336082766472172 4037 -0.36336082766472172 4044 3.2935815610688239;
-	setAttr -s 129 ".kit[4:128]"  18 1 1 1 1 18 1 18 
+	setAttr -s 130 ".kit[4:129]"  18 1 1 1 1 18 1 18 
 		18 18 1 18 1 18 1 18 1 1 1 18 18 1 18 1 18 
 		1 18 1 1 1 1 18 1 1 1 18 1 1 1 1 18 1 
 		1 1 1 18 1 1 18 1 1 1 1 18 1 1 1 18 18 
 		18 18 18 18 1 18 1 18 1 1 18 1 1 1 1 18 1 
 		1 1 1 18 1 1 1 18 1 18 1 18 18 18 18 18 1 
 		18 1 1 1 18 1 1 1 18 18 18 1 18 18 1 1 18 
-		1 18 1 18 1 18 18 18 18 1 1 18 18 18 18;
-	setAttr -s 129 ".kot[4:128]"  18 1 1 1 1 18 1 18 
+		1 18 1 18 18 1 18 18 18 18 1 1 18 18 18 18;
+	setAttr -s 130 ".kot[4:129]"  18 1 1 1 1 18 1 18 
 		18 18 1 18 1 18 1 18 1 1 1 18 18 1 18 1 18 
 		1 18 1 1 1 1 18 1 1 1 18 1 1 1 1 18 1 
 		1 1 1 18 1 1 18 1 1 1 1 18 1 1 1 18 18 
 		18 18 18 18 1 18 1 18 1 1 18 1 1 1 1 18 1 
 		1 1 1 18 1 1 1 18 1 18 1 18 18 18 18 18 1 
 		18 1 1 1 18 1 1 18 18 18 18 1 18 1 1 18 18 
-		1 18 1 18 1 18 18 18 18 1 1 18 18 18 18;
-	setAttr -s 129 ".kix[0:128]"  1 1 0.10000000000000003 1 1 1 1 0.99992831806725879 
+		1 18 1 18 18 1 18 18 18 18 1 1 18 18 18 18;
+	setAttr -s 130 ".kix[0:129]"  1 1 0.10000000000000003 1 1 1 1 0.99992831806725879 
 		1 1 0.99992831806725879 1 1 1 0.99992831806725879 0.99998116750741495 1 1 1 1 1 1 
 		0.99992831806725879 1 1 0.99992831806725879 0.99999827105576633 1 1 1 1 1 1 0.99992831806725879 
 		1 1 1 1 0.99992831806725879 1 1 1 0.10000000000001563 1 1 1 1 0.10000000000001563 
@@ -5852,8 +6025,8 @@ createNode animCurveTA -n "r_fingerMiddle1_ctrl_rotateY";
 		1 1 0.10000000000001563 1 0.10000000000001563 1 1 1 0.99902972550482882 1 1 1 0.10000000000001563 
 		1 1 0.99992831806725879 0.99992831806725879 1 0.99992831806725879 0.99992831806725879 
 		0.99999991257802545 1 1 1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000000003 
-		1 0.10000000000000003 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 129 ".kiy[0:128]"  0 0 0.001197410881252233 0 0 0 0 0.011973250485259703 
+		1 0.10000000000000003 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 130 ".kiy[0:129]"  0 0 0.001197410881252233 0 0 0 0 0.011973250485259703 
 		0 0 0.011973250485259703 0 0 0 0.011973250485259703 0.0061371516607870566 0 0 0 0 
 		0 0 0.011973250485259703 0 0 0.011973250485259703 0.0018595390499163385 0 0 0 0 0 
 		0 0.011973250485259703 0 0 0 0 0.011973250485259703 0 0 0 0.001197410881252272 0 
@@ -5864,8 +6037,8 @@ createNode animCurveTA -n "r_fingerMiddle1_ctrl_rotateY";
 		0 -0.044040975894573196 0 0 0 0.001197410881252272 0 0 0.011973250485259703 0.011973250485259703 
 		0 0.011973250485259703 0.011973250485259703 0.00041814344578712097 0 0 0 0.001197410881252272 
 		0 0 0.001197410881252272 0 0 0.001197410881252233 0 0.001197410881252233 0 0 0 0 
-		0 0 0 0 0 0 0 0;
-	setAttr -s 129 ".kox[0:128]"  1 1 0.43333333333333329 1 1 1 1 0.9999283180672589 
+		0 0 0 0 0 0 0 0 0;
+	setAttr -s 130 ".kox[0:129]"  1 1 0.43333333333333329 1 1 1 1 0.9999283180672589 
 		1 1 0.9999283180672589 1 1 1 0.9999283180672589 0.99998116750741495 1 1 1 1 1 1 0.9999283180672589 
 		1 1 0.9999283180672589 0.99999827105576622 1 1 1 1 1 1 0.9999283180672589 1 1 1 1 
 		0.9999283180672589 1 1 1 0.43333333333331581 1 1 1 1 0.43333333333331581 1 1 0.43333333333331581 
@@ -5875,8 +6048,8 @@ createNode animCurveTA -n "r_fingerMiddle1_ctrl_rotateY";
 		1 0.43333333333331581 1 1 1 0.99902972550482882 1 1 1 0.43333333333331581 1 1 0.9999283180672589 
 		0.9999283180672589 1 0.9999283180672589 0.9999283180672589 0.99999989491343433 1 
 		1 1 0.43333333333331581 1 1 0.43333333333331581 1 1 0.43333333333333329 1 0.43333333333333329 
-		1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 129 ".koy[0:128]"  0 0 0.0051887804854263489 0 0 0 0 0.011973250485259816 
+		1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 130 ".koy[0:129]"  0 0 0.0051887804854263489 0 0 0 0 0.011973250485259816 
 		0 0 0.011973250485259816 0 0 0 0.011973250485259816 0.0061371516607870583 0 0 0 0 
 		0 0 0.011973250485259816 0 0 0.011973250485259816 0.0018595390499163385 0 0 0 0 0 
 		0 0.011973250485259816 0 0 0 0 0.011973250485259816 0 0 0 0.0051887804854263957 0 
@@ -5887,96 +6060,96 @@ createNode animCurveTA -n "r_fingerMiddle1_ctrl_rotateY";
 		0 0 0 -0.044040975894573203 0 0 0 0.0051887804854263957 0 0 0.011973250485259816 
 		0.011973250485259816 0 0.011973250485259816 0.011973250485259816 0.00045844642041532137 
 		0 0 0 0.0051887804854263957 0 0 0.0051887804854263957 0 0 0.0051887804854263489 0 
-		0.0051887804854263489 0 0 0 0 0 0 0 0 0 0 0 0;
+		0.0051887804854263489 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerMiddle1_ctrl_rotateZ";
 	rename -uid "D70D47A7-4D1E-6BAB-B7C6-12B489CFCAF0";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 91 ".ktv[0:90]"  -19 0 0 0 13 0 45 0 64 0 77 0 96 0 100 0
+	setAttr -s 92 ".ktv[0:91]"  -19 0 0 0 13 0 45 0 64 0 77 0 96 0 100 0
 		 150 0 160 0 181 0 213 0 245 0 264 0 280 0 300 0 385 0 400 0 431 0 463 0 495 0 514 0
 		 527 0 559 0 578 0 952 0 981 0 1000 0 1013 0 1045 0 1064 0 1077 0 1180 0 1200 0 1213 0
 		 1245 0 1264 0 1277 0 1309 0 1328 0 1380 0 1393 0 1400 0 1480 0 1482 0 1500 0 1513 0
 		 1545 0 1564 0 1577 0 1609 0 1628 0 1641 0 1673 0 1692 0 1696 0 1700 0 1714 0 1720 0
 		 1758 0 1764 0 1926 0 1967 0 2000 0 2020 0 2021 0 2040 0 2060 0 2061 0 2475 0 2490 0
-		 2500 0 2520 0 2521 0 2540 0 2560 0 2561 0 2580 0 2600 0 2610 0 2625 0 3000 0 3064 0
-		 3069 0 3070 0 3952 0 3999 0 4000 0 4017 0 4028 0 4037 0;
-	setAttr -s 91 ".kit[6:90]"  18 1 1 18 18 18 1 1 
+		 2500 0 2520 0 2521 0 2540 0 2560 0 2561 0 2580 0 2600 0 2610 0 2625 0 2640 0 3000 0
+		 3135 0 3140 0 3141 0 3952 0 3999 0 4000 0 4017 0 4028 0 4037 0;
+	setAttr -s 92 ".kit[6:91]"  18 1 1 18 18 18 1 1 
 		18 18 1 18 18 18 1 1 18 1 1 18 1 1 1 1 1 
 		1 18 1 1 1 1 1 1 1 18 18 18 1 18 1 1 1 
 		1 1 1 1 1 1 1 18 1 18 18 18 1 18 1 1 1 
 		18 1 1 1 18 18 18 1 18 18 1 1 18 1 18 1 18 
-		1 18 18 18 1 1 18 18 18;
-	setAttr -s 91 ".kot[6:90]"  18 1 1 18 1 18 1 1 
+		18 1 18 18 18 1 1 18 18 18;
+	setAttr -s 92 ".kot[6:91]"  18 1 1 18 1 18 1 1 
 		18 18 1 18 1 18 1 1 1 1 1 18 1 1 1 1 1 
 		1 18 1 1 1 1 1 1 1 18 18 18 1 18 1 1 1 
 		1 1 1 1 1 1 1 18 1 18 18 18 1 18 1 1 1 
 		18 1 1 18 18 18 18 1 18 1 1 18 18 1 18 1 18 
-		1 18 18 18 1 1 18 18 18;
-	setAttr -s 91 ".kix[0:90]"  1 0.6333333333333333 1 1 1 1 1 1 1 1 1 
+		18 1 18 18 18 1 1 18 18 18;
+	setAttr -s 92 ".kix[0:91]"  1 0.6333333333333333 1 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.63333333333334707 1 1 0.63333333333334707 1 1 0.63333333333334707 
 		1 1 0.63333333333334707 1 1 0.63333333333334707 1 1 1 0.63333333333334707 1 0.63333333333334707 
 		1 1 0.63333333333334707 1 1 0.63333333333334707 1 1 0.63333333333334707 1 0.63333333333334707 
 		1 1 1 0.63333333333334707 1 1 1 1 1 1 1 1 1 1 1 0.63333333333334707 1 1 0.63333333333334707 
-		1 1 0.6333333333333333 1 0.6333333333333333 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 91 ".kiy[0:90]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 0.6333333333333333 1 0.6333333333333333 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 92 ".kiy[0:91]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 91 ".kox[0:90]"  1 0.43333333333333329 1 1 1 1 1 1 1 1 1 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 92 ".kox[0:91]"  1 0.43333333333333329 1 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.43333333333331581 1 1 0.43333333333331581 1 1 0.43333333333331581 
 		1 1 0.43333333333331581 1 1 0.43333333333331581 1 1 1 0.43333333333331581 1 0.43333333333331581 
 		1 1 0.43333333333331581 1 1 0.43333333333331581 1 1 0.43333333333331581 1 0.43333333333331581 
 		1 1 1 0.43333333333331581 1 1 1 1 1 1 1 1 1 1 1 0.43333333333331581 1 1 0.43333333333331581 
-		1 1 0.43333333333333329 1 0.43333333333333329 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 91 ".koy[0:90]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 0.43333333333333329 1 0.43333333333333329 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 92 ".koy[0:91]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerMiddle2_ctrl_rotateX";
 	rename -uid "7551E65F-4372-4FA9-78F7-C28857DA649A";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 91 ".ktv[0:90]"  -19 0 0 0 13 0 45 0 64 0 77 0 96 0 100 0
+	setAttr -s 92 ".ktv[0:91]"  -19 0 0 0 13 0 45 0 64 0 77 0 96 0 100 0
 		 150 0 160 0 181 0 213 0 245 0 264 0 280 0 300 0 385 0 400 0 431 0 463 0 495 0 514 0
 		 527 0 559 0 578 0 952 0 981 0 1000 0 1013 0 1045 0 1064 0 1077 0 1180 0 1200 0 1213 0
 		 1245 0 1264 0 1277 0 1309 0 1328 0 1380 0 1393 0 1400 0 1480 0 1482 0 1500 0 1513 0
 		 1545 0 1564 0 1577 0 1609 0 1628 0 1641 0 1673 0 1692 0 1696 0 1700 0 1714 0 1720 0
 		 1758 0 1764 0 1926 0 1967 0 2000 0 2020 0 2021 0 2040 0 2060 0 2061 0 2475 0 2490 0
-		 2500 0 2520 0 2521 0 2540 0 2560 0 2561 0 2580 0 2600 0 2610 0 2625 0 3000 0 3064 0
-		 3069 0 3070 0 3952 0 3999 0 4000 0 4017 0 4028 0 4037 0;
-	setAttr -s 91 ".kit[6:90]"  18 1 1 18 18 18 1 1 
+		 2500 0 2520 0 2521 0 2540 0 2560 0 2561 0 2580 0 2600 0 2610 0 2625 0 2640 0 3000 0
+		 3135 0 3140 0 3141 0 3952 0 3999 0 4000 0 4017 0 4028 0 4037 0;
+	setAttr -s 92 ".kit[6:91]"  18 1 1 18 18 18 1 1 
 		18 18 1 18 18 18 1 1 18 1 1 18 1 1 1 1 1 
 		1 18 1 1 1 1 1 1 1 18 18 18 1 18 1 1 1 
 		1 1 1 1 1 1 1 18 1 18 18 18 1 18 1 1 1 
 		18 1 1 1 18 18 18 1 18 18 1 1 18 1 18 1 18 
-		1 18 18 18 1 1 18 18 18;
-	setAttr -s 91 ".kot[6:90]"  18 1 1 18 1 18 1 1 
+		18 1 18 18 18 1 1 18 18 18;
+	setAttr -s 92 ".kot[6:91]"  18 1 1 18 1 18 1 1 
 		18 18 1 18 1 18 1 1 1 1 1 18 1 1 1 1 1 
 		1 18 1 1 1 1 1 1 1 18 18 18 1 18 1 1 1 
 		1 1 1 1 1 1 1 18 1 18 18 18 1 18 1 1 1 
 		18 1 1 18 18 18 18 1 18 1 1 18 18 1 18 1 18 
-		1 18 18 18 1 1 18 18 18;
-	setAttr -s 91 ".kix[0:90]"  1 0.6333333333333333 1 1 1 1 1 1 1 1 1 
+		18 1 18 18 18 1 1 18 18 18;
+	setAttr -s 92 ".kix[0:91]"  1 0.6333333333333333 1 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.63333333333334707 1 1 0.63333333333334707 1 1 0.63333333333334707 
 		1 1 0.63333333333334707 1 1 0.63333333333334707 1 1 1 0.63333333333334707 1 0.63333333333334707 
 		1 1 0.63333333333334707 1 1 0.63333333333334707 1 1 0.63333333333334707 1 0.63333333333334707 
 		1 1 1 0.63333333333334707 1 1 1 1 1 1 1 1 1 1 1 0.63333333333334707 1 1 0.63333333333334707 
-		1 1 0.6333333333333333 1 0.6333333333333333 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 91 ".kiy[0:90]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 0.6333333333333333 1 0.6333333333333333 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 92 ".kiy[0:91]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 91 ".kox[0:90]"  1 0.43333333333333329 1 1 1 1 1 1 1 1 1 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 92 ".kox[0:91]"  1 0.43333333333333329 1 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.43333333333331581 1 1 0.43333333333331581 1 1 0.43333333333331581 
 		1 1 0.43333333333331581 1 1 0.43333333333331581 1 1 1 0.43333333333331581 1 0.43333333333331581 
 		1 1 0.43333333333331581 1 1 0.43333333333331581 1 1 0.43333333333331581 1 0.43333333333331581 
 		1 1 1 0.43333333333331581 1 1 1 1 1 1 1 1 1 1 1 0.43333333333331581 1 1 0.43333333333331581 
-		1 1 0.43333333333333329 1 0.43333333333333329 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 91 ".koy[0:90]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 0.43333333333333329 1 0.43333333333333329 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 92 ".koy[0:91]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerMiddle2_ctrl_rotateY";
 	rename -uid "C5AC10B7-42C9-B3A8-4E15-50A07548F05D";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 124 ".ktv[0:123]"  -19 0 -3 -0.40030283757791824 0 -0.36336082766472172
+	setAttr -s 125 ".ktv[0:124]"  -19 0 -3 -0.40030283757791824 0 -0.36336082766472172
 		 13 0 29 -0.40030283757791824 45 0 61 -0.40030283757791824 64 -0.36336082766472166
 		 77 0 96 0 100 -0.36336082766472166 110 -96.959302038758921 119 -96.959302038758921
 		 135 0 150 -0.36336082766472166 160 -0.13998642848476969 181 0 197 -0.40030283757791824
@@ -6001,26 +6174,26 @@ createNode animCurveTA -n "r_fingerMiddle2_ctrl_rotateY";
 		 2475 0 2490 -0.36336082766472044 2500 -0.36336082766472044 2520 -0.36336082766472044
 		 2521 -0.36336082766472044 2540 -0.36336082766472044 2560 -0.36336082766472044 2561 -0.36336082766472044
 		 2580 -0.36336082766472044 2600 -0.36336082766472172 2610 -0.36336082766472172 2625 -0.36336082766472172
-		 3000 -86.555054336028178 3064 -86.555054336028178 3069 -86.555054336028178 3070 -86.555054336028178
-		 3100 0 3952 0 3999 -0.36336082766472172 4000 -0.36336082766472172 4017 -0.36336082766472172
+		 2640 -0.36336082766472172 3000 0 3135 0 3140 -86.555054336028178 3141 -86.555054336028178
+		 3171 0 3952 0 3999 -0.36336082766472172 4000 -0.36336082766472172 4017 -0.36336082766472172
 		 4028 -0.36336082766472172 4037 -0.36336082766472172 4044 3.2935815610688239;
-	setAttr -s 124 ".kit[4:123]"  18 1 1 1 1 18 1 18 
+	setAttr -s 125 ".kit[4:124]"  18 1 1 1 1 18 1 18 
 		18 18 1 18 1 18 1 18 1 1 1 18 18 1 18 1 18 
 		1 18 1 1 1 1 18 1 1 1 18 1 1 1 1 18 1 
 		1 1 1 18 1 1 18 1 1 1 1 18 1 1 1 18 18 
 		18 1 18 1 1 18 1 1 1 1 18 1 1 1 1 18 1 
 		1 1 18 1 18 1 18 18 18 18 18 1 18 1 1 1 18 
-		1 1 1 18 18 18 1 18 18 1 1 18 1 18 1 18 1 
-		18 18 18 18 1 1 18 18 18 18;
-	setAttr -s 124 ".kot[4:123]"  18 1 1 1 1 18 1 18 
+		1 1 1 18 18 18 1 18 18 1 1 18 1 18 1 18 18 
+		1 18 18 18 18 1 1 18 18 18 18;
+	setAttr -s 125 ".kot[4:124]"  18 1 1 1 1 18 1 18 
 		18 18 1 18 1 18 1 18 1 1 1 18 18 1 18 1 18 
 		1 18 1 1 1 1 18 1 1 1 18 1 1 1 1 18 1 
 		1 1 1 18 1 1 18 1 1 1 1 18 1 1 1 18 18 
 		18 1 18 1 1 18 1 1 1 1 18 1 1 1 1 18 1 
 		1 1 18 1 18 1 18 18 18 18 18 1 18 1 1 1 18 
-		1 1 18 18 18 18 1 18 1 1 18 18 1 18 1 18 1 
-		18 18 18 18 1 1 18 18 18 18;
-	setAttr -s 124 ".kix[0:123]"  1 1 0.10000000000000003 1 1 1 1 0.99992831806725879 
+		1 1 18 18 18 18 1 18 1 1 18 18 1 18 1 18 18 
+		1 18 18 18 18 1 1 18 18 18 18;
+	setAttr -s 125 ".kix[0:124]"  1 1 0.10000000000000003 1 1 1 1 0.99992831806725879 
 		1 1 0.99992831806725879 1 1 1 0.99992831806725879 0.99998116750741495 1 1 1 1 1 1 
 		0.99992831806725879 1 1 0.99992831806725879 0.99999827105576633 1 1 1 1 1 1 0.99992831806725879 
 		1 1 1 1 0.99992831806725879 1 1 1 0.10000000000001563 1 1 1 1 0.10000000000001563 
@@ -6029,8 +6202,8 @@ createNode animCurveTA -n "r_fingerMiddle2_ctrl_rotateY";
 		0.10000000000001563 1 1 1 1 0.10000000000001563 1 0.10000000000001563 1 1 1 0.99902972550482882 
 		1 1 1 0.10000000000001563 1 1 0.99992831806725879 0.99992831806725879 1 0.99992831806725879 
 		0.99992831806725879 0.99999991257802545 1 1 1 0.10000000000001563 1 1 0.10000000000001563 
-		1 1 0.10000000000000003 1 0.10000000000000003 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 124 ".kiy[0:123]"  0 0 0.001197410881252233 0 0 0 0 0.011973250485259703 
+		1 1 0.10000000000000003 1 0.10000000000000003 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 125 ".kiy[0:124]"  0 0 0.001197410881252233 0 0 0 0 0.011973250485259703 
 		0 0 0.011973250485259703 0 0 0 0.011973250485259703 0.0061371516607870566 0 0 0 0 
 		0 0 0.011973250485259703 0 0 0.011973250485259703 0.0018595390499163385 0 0 0 0 0 
 		0 0.011973250485259703 0 0 0 0 0.011973250485259703 0 0 0 0.001197410881252272 0 
@@ -6040,8 +6213,8 @@ createNode animCurveTA -n "r_fingerMiddle2_ctrl_rotateY";
 		0 0.001197410881252272 0 0 0 -0.044040975894573217 0 0 0 0.001197410881252272 0 0 
 		0.011973250485259703 0.011973250485259703 0 0.011973250485259703 0.011973250485259703 
 		0.00041814344578712097 0 0 0 0.001197410881252272 0 0 0.001197410881252272 0 0 0.001197410881252233 
-		0 0.001197410881252233 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 124 ".kox[0:123]"  1 1 0.43333333333333329 1 1 1 1 0.9999283180672589 
+		0 0.001197410881252233 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 125 ".kox[0:124]"  1 1 0.43333333333333329 1 1 1 1 0.9999283180672589 
 		1 1 0.9999283180672589 1 1 1 0.9999283180672589 0.99998116750741495 1 1 1 1 1 1 0.9999283180672589 
 		1 1 0.9999283180672589 0.99999827105576622 1 1 1 1 1 1 0.9999283180672589 1 1 1 1 
 		0.9999283180672589 1 1 1 0.43333333333331581 1 1 1 1 0.43333333333331581 1 1 0.43333333333331581 
@@ -6050,8 +6223,8 @@ createNode animCurveTA -n "r_fingerMiddle2_ctrl_rotateY";
 		1 1 0.43333333333331581 1 0.43333333333331581 1 1 1 0.99902972550482882 1 1 1 0.43333333333331581 
 		1 1 0.9999283180672589 0.9999283180672589 1 0.9999283180672589 0.9999283180672589 
 		0.99999989491343433 1 1 1 0.43333333333331581 1 1 0.43333333333331581 1 1 0.43333333333333329 
-		1 0.43333333333333329 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 124 ".koy[0:123]"  0 0 0.0051887804854263489 0 0 0 0 0.011973250485259816 
+		1 0.43333333333333329 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 125 ".koy[0:124]"  0 0 0.0051887804854263489 0 0 0 0 0.011973250485259816 
 		0 0 0.011973250485259816 0 0 0 0.011973250485259816 0.0061371516607870583 0 0 0 0 
 		0 0 0.011973250485259816 0 0 0.011973250485259816 0.0018595390499163385 0 0 0 0 0 
 		0 0.011973250485259816 0 0 0 0 0.011973250485259816 0 0 0 0.0051887804854263957 0 
@@ -6061,54 +6234,54 @@ createNode animCurveTA -n "r_fingerMiddle2_ctrl_rotateY";
 		0 0.0051887804854263957 0 0 0 -0.044040975894573217 0 0 0 0.0051887804854263957 0 
 		0 0.011973250485259816 0.011973250485259816 0 0.011973250485259816 0.011973250485259816 
 		0.00045844642041532137 0 0 0 0.0051887804854263957 0 0 0.0051887804854263957 0 0 
-		0.0051887804854263489 0 0.0051887804854263489 0 0 0 0 0 0 0 0 0 0 0 0;
+		0.0051887804854263489 0 0.0051887804854263489 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerMiddle2_ctrl_rotateZ";
 	rename -uid "4634CF67-411D-1423-B7F5-C1A5D4390D2A";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 91 ".ktv[0:90]"  -19 0 0 0 13 0 45 0 64 0 77 0 96 0 100 0
+	setAttr -s 92 ".ktv[0:91]"  -19 0 0 0 13 0 45 0 64 0 77 0 96 0 100 0
 		 150 0 160 0 181 0 213 0 245 0 264 0 280 0 300 0 385 0 400 0 431 0 463 0 495 0 514 0
 		 527 0 559 0 578 0 952 0 981 0 1000 0 1013 0 1045 0 1064 0 1077 0 1180 0 1200 0 1213 0
 		 1245 0 1264 0 1277 0 1309 0 1328 0 1380 0 1393 0 1400 0 1480 0 1482 0 1500 0 1513 0
 		 1545 0 1564 0 1577 0 1609 0 1628 0 1641 0 1673 0 1692 0 1696 0 1700 0 1714 0 1720 0
 		 1758 0 1764 0 1926 0 1967 0 2000 0 2020 0 2021 0 2040 0 2060 0 2061 0 2475 0 2490 0
-		 2500 0 2520 0 2521 0 2540 0 2560 0 2561 0 2580 0 2600 0 2610 0 2625 0 3000 0 3064 0
-		 3069 0 3070 0 3952 0 3999 0 4000 0 4017 0 4028 0 4037 0;
-	setAttr -s 91 ".kit[6:90]"  18 1 1 18 18 18 1 1 
+		 2500 0 2520 0 2521 0 2540 0 2560 0 2561 0 2580 0 2600 0 2610 0 2625 0 2640 0 3000 0
+		 3135 0 3140 0 3141 0 3952 0 3999 0 4000 0 4017 0 4028 0 4037 0;
+	setAttr -s 92 ".kit[6:91]"  18 1 1 18 18 18 1 1 
 		18 18 1 18 18 18 1 1 18 1 1 18 1 1 1 1 1 
 		1 18 1 1 1 1 1 1 1 18 18 18 1 18 1 1 1 
 		1 1 1 1 1 1 1 18 1 18 18 18 1 18 1 1 1 
 		18 1 1 1 18 18 18 1 18 18 1 1 18 1 18 1 18 
-		1 18 18 18 1 1 18 18 18;
-	setAttr -s 91 ".kot[6:90]"  18 1 1 18 1 18 1 1 
+		18 1 18 18 18 1 1 18 18 18;
+	setAttr -s 92 ".kot[6:91]"  18 1 1 18 1 18 1 1 
 		18 18 1 18 1 18 1 1 1 1 1 18 1 1 1 1 1 
 		1 18 1 1 1 1 1 1 1 18 18 18 1 18 1 1 1 
 		1 1 1 1 1 1 1 18 1 18 18 18 1 18 1 1 1 
 		18 1 1 18 18 18 18 1 18 1 1 18 18 1 18 1 18 
-		1 18 18 18 1 1 18 18 18;
-	setAttr -s 91 ".kix[0:90]"  1 0.6333333333333333 1 1 1 1 1 1 1 1 1 
+		18 1 18 18 18 1 1 18 18 18;
+	setAttr -s 92 ".kix[0:91]"  1 0.6333333333333333 1 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.63333333333334707 1 1 0.63333333333334707 1 1 0.63333333333334707 
 		1 1 0.63333333333334707 1 1 0.63333333333334707 1 1 1 0.63333333333334707 1 0.63333333333334707 
 		1 1 0.63333333333334707 1 1 0.63333333333334707 1 1 0.63333333333334707 1 0.63333333333334707 
 		1 1 1 0.63333333333334707 1 1 1 1 1 1 1 1 1 1 1 0.63333333333334707 1 1 0.63333333333334707 
-		1 1 0.6333333333333333 1 0.6333333333333333 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 91 ".kiy[0:90]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 0.6333333333333333 1 0.6333333333333333 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 92 ".kiy[0:91]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 91 ".kox[0:90]"  1 0.43333333333333329 1 1 1 1 1 1 1 1 1 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 92 ".kox[0:91]"  1 0.43333333333333329 1 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.43333333333331581 1 1 0.43333333333331581 1 1 0.43333333333331581 
 		1 1 0.43333333333331581 1 1 0.43333333333331581 1 1 1 0.43333333333331581 1 0.43333333333331581 
 		1 1 0.43333333333331581 1 1 0.43333333333331581 1 1 0.43333333333331581 1 0.43333333333331581 
 		1 1 1 0.43333333333331581 1 1 1 1 1 1 1 1 1 1 1 0.43333333333331581 1 1 0.43333333333331581 
-		1 1 0.43333333333333329 1 0.43333333333333329 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 91 ".koy[0:90]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 0.43333333333333329 1 0.43333333333333329 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 92 ".koy[0:91]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerThumb0_ctrl_rotateX";
 	rename -uid "83AA6DC2-4818-066B-7C4C-618A5E8B9521";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 116 ".ktv[0:115]"  0 -17.461828933326149 64 -17.461828933326149
+	setAttr -s 117 ".ktv[0:116]"  0 -17.461828933326149 64 -17.461828933326149
 		 96 -17.461828933326149 100 -17.461828933326149 101 -17.461828933326149 110 -2.0468337683540132
 		 118 -1.1804969577489222 120 -1.1804969577489222 133 -3.0817648756303631 139 -11.909530067758636
 		 144 -16.56808828457757 150 -17.461828933326149 160 -17.461828933326149 200 -17.461828933326149
@@ -6135,26 +6308,26 @@ createNode animCurveTA -n "r_fingerThumb0_ctrl_rotateX";
 		 2506 0.49808548076808307 2513 -17.461828933326149 2520 -17.461828933326149 2521 -17.461828933326149
 		 2540 -17.461828933326149 2542 0.49808548076808307 2549 0.49808548076808307 2555 -17.461828933326149
 		 2560 -17.461828933326149 2561 -17.461828933326149 2580 -17.461828933326149 2600 -17.461828933326149
-		 2610 -17.461828933326149 2625 -17.461828933326149 3000 -16.245953400060646 3064 -16.245953400060646
-		 3069 -16.245953400060646 3070 -16.245953400060646 3100 0 3952 0 3999 -17.461828933326149
+		 2610 -17.461828933326149 2625 -17.461828933326149 2640 -17.461828933326149 3000 0
+		 3135 0 3140 -16.245953400060646 3141 -16.245953400060646 3171 0 3952 0 3999 -17.461828933326149
 		 4000 -17.461828933326149;
-	setAttr -s 116 ".kit[0:115]"  1 1 1 1 1 18 18 18 
+	setAttr -s 117 ".kit[0:116]"  1 1 1 1 1 18 18 18 
 		18 18 18 1 18 1 18 18 18 18 18 18 1 18 18 18 18 
 		18 18 18 18 1 18 1 18 18 18 18 18 18 1 18 1 1 
 		18 1 18 18 18 18 18 1 1 18 18 18 18 18 18 18 18 
 		18 18 18 18 18 1 18 1 1 1 1 18 1 18 1 18 18 
 		1 1 1 1 1 18 1 1 18 1 18 1 1 1 18 18 18 
-		18 1 18 1 18 18 18 1 18 1 1 18 1 18 1 18 1 
-		18 18 18 18 1 1;
-	setAttr -s 116 ".kot[0:115]"  1 1 1 1 1 18 18 18 
+		18 1 18 1 18 18 18 1 18 1 1 18 1 18 1 18 18 
+		1 18 18 18 18 1 1;
+	setAttr -s 117 ".kot[0:116]"  1 1 1 1 1 18 18 18 
 		18 18 18 1 18 1 18 18 18 18 18 18 1 18 18 18 18 
 		18 18 18 18 1 18 1 18 18 18 18 18 18 1 18 1 1 
 		18 1 18 18 18 18 18 1 1 18 18 18 18 18 18 18 18 
 		18 18 18 18 18 1 18 1 1 1 1 18 1 18 1 18 18 
 		1 1 1 1 1 18 1 1 18 1 18 1 1 18 18 18 18 
-		18 1 18 1 18 1 18 1 18 1 18 18 1 18 1 18 1 
-		18 18 18 18 1 1;
-	setAttr -s 116 ".kix[0:115]"  1 1 1 1 1 0.98583876548458516 1 1 0.97461239732464577 
+		18 1 18 1 18 1 18 1 18 1 18 18 1 18 1 18 18 
+		1 18 18 18 18 1 1;
+	setAttr -s 117 ".kix[0:116]"  1 1 1 1 1 0.98583876548458516 1 1 0.97461239732464577 
 		0.84152650420252129 0.97370152888137218 1 1 1 0.99999984020129817 1 0.99999969207815276 
 		1 1 0.99999998137429658 1 1 1 0.99999999759675784 0.99999999999934408 1 0.99999924826261022 
 		1 0.99999971014574274 1 1 1 0.9554084922745435 0.9882273737167353 1 1 0.98402616878499782 
@@ -6162,16 +6335,16 @@ createNode animCurveTA -n "r_fingerThumb0_ctrl_rotateX";
 		1 1 1 0.99998388443884956 1 0.99999652930276295 1 1 1 1 0.99999729466188936 1 1 2.1333333333333471 
 		1 1 1 1 2.1333333333333471 1 1 1 1 1 1 2.1333333333333471 2.1333333333333471 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2.1333333333333471 1 1 1 1 1 2.1333333333333471 1 
-		1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 116 ".kiy[0:115]"  0 0 0 0 0 0.16769594052280723 0 0 -0.22389880522483083 
+		1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 117 ".kiy[0:116]"  0 0 0 0 0 0.16769594052280723 0 0 -0.22389880522483083 
 		-0.54021582976129479 -0.22782741857396879 0 0 0 -0.00056532944218011018 0 0.00078475703229074687 
 		0 0 0.00019300623434625748 0 0 0 6.9328812756858598e-05 1.1454064270124918e-06 0 
 		-0.001226162393149318 0 0.00076138586177328332 0 0 0 0.29528733953504216 0.15299234568083442 
 		0 0 -0.17802387240569437 -0.18203094238016482 0 0 0 0 0 0 0 0 0.00068152424548307915 
 		0 0 0 0 0 0 0 -0.0056772231407157423 0 0.0026346503426910002 0 0 0 0 0.0023260844572559197 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 116 ".kox[0:115]"  1 1 1 1 1 0.98583876548458538 1 1 0.97461239732464577 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 117 ".kox[0:116]"  1 1 1 1 1 0.98583876548458538 1 1 0.97461239732464577 
 		0.84152650420252118 0.97370152888137218 1 1 1 0.99999984020129817 1 0.99999969207815276 
 		1 1 0.99999998137429658 1 1 1 0.99999999759675784 0.99999999999934397 1 0.99999924826261022 
 		1 0.99999971014574285 1 1 1 0.95540849227454361 0.98822737371673541 1 1 0.98402616878499782 
@@ -6179,19 +6352,19 @@ createNode animCurveTA -n "r_fingerThumb0_ctrl_rotateX";
 		1 1 1 0.99998388443884956 1 0.99999652930276295 1 1 1 1 0.99999729466188936 1 1 28.733333333333327 
 		1 1 1 1 28.733333333333327 1 1 1 1 1 1 28.733333333333327 28.733333333333327 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 1 1 1 1 1 28.733333333333327 1 
-		1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 116 ".koy[0:115]"  0 0 0 0 0 0.16769594052280726 0 0 -0.2238988052248308 
+		1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 117 ".koy[0:116]"  0 0 0 0 0 0.16769594052280726 0 0 -0.2238988052248308 
 		-0.54021582976129467 -0.22782741857396879 0 0 0 -0.00056532944218011028 0 0.00078475703229074687 
 		0 0 0.0001930062343462575 0 0 0 6.9328812756858584e-05 1.1454064270124916e-06 0 -0.001226162393149318 
 		0 0.00076138586177328343 0 0 0 0.29528733953504221 0.15299234568083442 0 0 -0.17802387240569434 
 		-0.18203094238016482 0 0 0 0 0 0 0 0 0.00068152424548307915 0 0 0 0 0 0 0 -0.0056772231407157423 
 		0 0.0026346503426910002 0 0 0 0 0.0023260844572559197 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerThumb0_ctrl_rotateY";
 	rename -uid "0F30AB48-4271-F7C1-6CF6-A5950D4059EA";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 116 ".ktv[0:115]"  0 -1.7052353874585557 64 -1.7052353874585557
+	setAttr -s 117 ".ktv[0:116]"  0 -1.7052353874585557 64 -1.7052353874585557
 		 96 -1.7052353874585557 100 -1.7052353874585557 101 -1.7052353874585557 110 12.52641198229243
 		 118 12.470893980685895 120 12.470893980685895 133 6.9169214556120107 139 4.3481213141188251
 		 144 -1.9679593638421045 150 -1.7052353874585557 160 -1.7052353874585557 200 -1.7052353874585557
@@ -6218,60 +6391,60 @@ createNode animCurveTA -n "r_fingerThumb0_ctrl_rotateY";
 		 2506 -5.9851858724747204 2513 -1.7052353874585557 2520 -1.7052353874585557 2521 -1.7052353874585557
 		 2540 -1.7052353874585557 2542 -5.9851858724747204 2549 -5.9851858724747204 2555 -1.7052353874585557
 		 2560 -1.7052353874585557 2561 -1.7052353874585557 2580 -1.7052353874585557 2600 -1.7052353874585557
-		 2610 -1.7052353874585557 2625 -1.7052353874585557 3000 6.7093734632358011 3064 6.7093734632358011
-		 3069 6.7093734632358011 3070 6.7093734632358011 3100 0 3952 0 3999 -1.7052353874585557
+		 2610 -1.7052353874585557 2625 -1.7052353874585557 2640 -1.7052353874585557 3000 0
+		 3135 0 3140 6.7093734632358011 3141 6.7093734632358011 3171 0 3952 0 3999 -1.7052353874585557
 		 4000 -1.7052353874585557;
-	setAttr -s 116 ".kit[0:115]"  1 1 1 1 1 18 18 18 
+	setAttr -s 117 ".kit[0:116]"  1 1 1 1 1 18 18 18 
 		18 18 18 1 18 1 18 18 18 18 18 18 1 18 18 18 18 
 		18 18 18 18 1 18 1 18 18 18 18 18 18 1 18 1 1 
 		18 1 18 18 18 18 18 1 1 18 18 18 18 18 18 18 18 
 		18 18 18 18 18 1 18 1 1 1 1 18 1 18 1 18 18 
 		1 1 1 1 1 18 1 1 18 1 18 1 1 1 18 18 18 
-		18 1 18 1 18 18 18 1 18 1 1 18 1 18 1 18 1 
-		18 18 18 18 1 1;
-	setAttr -s 116 ".kot[0:115]"  1 1 1 1 1 18 18 18 
+		18 1 18 1 18 18 18 1 18 1 1 18 1 18 1 18 18 
+		1 18 18 18 18 1 1;
+	setAttr -s 117 ".kot[0:116]"  1 1 1 1 1 18 18 18 
 		18 18 18 1 18 1 18 18 18 18 18 18 1 18 18 18 18 
 		18 18 18 18 1 18 1 18 18 18 18 18 18 1 18 1 1 
 		18 1 18 18 18 18 18 1 1 18 18 18 18 18 18 18 18 
 		18 18 18 18 18 1 18 1 1 1 1 18 1 18 1 18 18 
 		1 1 1 1 1 18 1 1 18 1 18 1 1 18 18 18 18 
-		18 1 18 1 18 1 18 1 18 1 18 18 1 18 1 18 1 
-		18 18 18 18 1 1;
-	setAttr -s 116 ".kix[0:115]"  1 1 1 1 1 1 1 1 0.97585033952103339 0.92101932529534702 
+		18 1 18 1 18 1 18 1 18 1 18 18 1 18 1 18 18 
+		1 18 18 18 18 1 1;
+	setAttr -s 117 ".kix[0:116]"  1 1 1 1 1 1 1 1 0.97585033952103339 0.92101932529534702 
 		1 1 1 1 0.99932470534021145 1 0.99757509697720925 0.98126225326450267 1 0.99185930430376612 
 		1 1 1 1 0.99978263967201608 1 1 1 1 1 1 1 0.9979797430196613 0.99949194892681348 
 		1 1 0.99930640817903038 0.99927378666805178 1 1 1 2.1333333333333471 1 1 1 1 1 1 
 		1 1 2.1333333333333471 1 1 1 0.98449628644626563 1 0.99780757046094692 1 1 1 1 0.98775994701613357 
 		1 0.99951831084874787 2.1333333333333471 1 1 1 1 2.1333333333333471 1 1 1 1 1 1 2.1333333333333471 
 		2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2.1333333333333471 1 1 1 1 
-		1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 116 ".kiy[0:115]"  0 0 0 0 0 0 0 0 -0.21844018599306284 -0.38951688337285678 
+		1 2.1333333333333471 1 1 1 1 1 1 1 0.99997232068115705 1 1 1 1 1 1;
+	setAttr -s 117 ".kiy[0:116]"  0 0 0 0 0 0 0 0 -0.21844018599306284 -0.38951688337285678 
 		0 0 0 0 -0.036744160035294286 0 0.069598318161515293 0.19267690655154066 0 -0.12733860556032905 
 		0 0 0 0 -0.02084882275946718 0 0 0 0 0 0 0 -0.063532924711608207 -0.031872308207599918 
 		0 0 0.037238455557730268 0.038103796111318658 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.17540542173351573 
 		0 0.066181963787895814 0 0 0 0 0.15598168825437486 0 -0.031034598081269883 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0;
-	setAttr -s 116 ".kox[0:115]"  1 1 1 1 1 1 1 1 0.97585033952103339 0.92101932529534714 
+		0 0 0.0074402870603899329 0 0 0 0 0 0;
+	setAttr -s 117 ".kox[0:116]"  1 1 1 1 1 1 1 1 0.97585033952103339 0.92101932529534714 
 		1 1 1 1 0.99932470534021145 1 0.99757509697720914 0.98126225326450256 1 0.99185930430376623 
 		1 1 1 1 0.99978263967201608 1 1 1 1 1 1 1 0.9979797430196613 0.99949194892681348 
 		1 1 0.99930640817903049 0.99927378666805178 1 1 1 28.733333333333327 1 1 1 1 1 1 
 		1 1 28.733333333333327 1 1 1 0.98449628644626563 1 0.99780757046094692 1 1 1 1 0.98775994701613357 
 		1 0.99951831084874776 28.733333333333327 1 1 1 1 28.733333333333327 1 1 1 1 1 1 28.733333333333327 
 		28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 1 1 1 1 
-		1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 116 ".koy[0:115]"  0 0 0 0 0 0 0 0 -0.21844018599306284 -0.38951688337285684 
+		1 28.733333333333327 1 1 1 1 1 1 1 0.99997232068115727 1 1 1 1 1 1;
+	setAttr -s 117 ".koy[0:116]"  0 0 0 0 0 0 0 0 -0.21844018599306284 -0.38951688337285684 
 		0 0 0 0 -0.036744160035294286 0 0.069598318161515293 0.19267690655154066 0 -0.12733860556032908 
 		0 0 0 0 -0.020848822759467176 0 0 0 0 0 0 0 -0.063532924711608194 -0.031872308207599918 
 		0 0 0.037238455557730268 0.038103796111318651 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.17540542173351573 
 		0 0.066181963787895814 0 0 0 0 0.15598168825437486 0 -0.031034598081269876 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0;
+		0 0 0.0074402870603899338 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerThumb0_ctrl_rotateZ";
 	rename -uid "62A16193-4794-134E-D7AE-79BDE981C3BC";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 117 ".ktv[0:116]"  0 -27.848389803217444 64 -27.848389803217444
+	setAttr -s 118 ".ktv[0:117]"  0 -27.848389803217444 64 -27.848389803217444
 		 96 -27.848389803217444 100 -27.848389803217444 101 -27.848389803217444 110 3.1834697966704262
 		 118 8.5667782360078917 120 8.5667782360078917 133 -3.0817648756303631 139 -17.167783467783895
 		 144 -25.547192924458532 150 -27.848389803217444 160 -27.848389803217444 200 -27.848389803217444
@@ -6298,26 +6471,26 @@ createNode animCurveTA -n "r_fingerThumb0_ctrl_rotateZ";
 		 2502 -26.495664992050468 2506 -26.495664992050468 2513 -27.848389803217444 2520 -27.848389803217444
 		 2521 -27.848389803217444 2540 -27.848389803217444 2542 -26.495664992050468 2549 -26.495664992050468
 		 2555 -27.848389803217444 2560 -27.848389803217444 2561 -27.848389803217444 2580 -27.848389803217444
-		 2600 -27.848389803217444 2610 -27.848389803217444 2625 -27.848389803217444 3000 -0.59644304549313654
-		 3064 -0.59644304549313654 3069 -0.59644304549313654 3070 -0.59644304549313654 3100 0
-		 3952 0 3999 -27.848389803217444 4000 -27.848389803217444;
-	setAttr -s 117 ".kit[0:116]"  1 1 1 1 1 18 18 18 
+		 2600 -27.848389803217444 2610 -27.848389803217444 2625 -27.848389803217444 2640 -27.848389803217444
+		 3000 0 3135 0 3140 -0.59644304549313654 3141 -0.59644304549313654 3171 0 3952 0 3999 -27.848389803217444
+		 4000 -27.848389803217444;
+	setAttr -s 118 ".kit[0:117]"  1 1 1 1 1 18 18 18 
 		18 18 18 1 18 1 18 18 18 18 18 18 1 18 18 18 18 
 		18 18 18 18 1 18 1 18 18 18 18 18 18 1 18 1 1 
 		18 1 18 18 18 18 18 1 1 18 18 18 18 18 18 18 18 
 		18 18 18 18 18 1 18 1 1 1 1 18 1 18 1 18 18 
 		1 1 1 1 1 18 1 1 18 1 18 18 18 1 1 18 18 
 		18 18 1 18 1 18 18 18 1 18 1 1 18 1 18 1 18 
-		1 18 18 18 18 1 1;
-	setAttr -s 117 ".kot[0:116]"  1 1 1 1 1 18 18 18 
+		18 1 18 18 18 18 1 1;
+	setAttr -s 118 ".kot[0:117]"  1 1 1 1 1 18 18 18 
 		18 18 18 1 18 1 18 18 18 18 18 18 1 18 18 18 18 
 		18 18 18 18 1 18 1 18 18 18 18 18 18 1 18 1 1 
 		18 1 18 18 18 18 18 1 1 18 18 18 18 18 18 18 18 
 		18 18 18 18 18 1 18 1 1 1 1 18 1 18 1 18 18 
 		1 1 1 1 1 18 1 1 18 1 18 18 18 1 18 18 18 
 		18 18 1 18 1 18 1 18 1 18 1 18 18 1 18 1 18 
-		1 18 18 18 18 1 1;
-	setAttr -s 117 ".kix[0:116]"  1 1 1 1 1 0.68724538671717461 1 1 0.81569525764823192 
+		18 1 18 18 18 18 1 1;
+	setAttr -s 118 ".kix[0:117]"  1 1 1 1 1 0.68724538671717461 1 1 0.81569525764823192 
 		0.68302546463397762 0.89141354529681993 1 1 1 0.99993283039658731 1 0.99987315804719856 
 		0.99873401489271108 1 0.99958116961413246 1 1 1 1 0.99799616556412352 1 0.99630965216839928 
 		0.99226302177076509 0.9949549101938745 1 1 1 0.97588921645893389 0.99105823247985958 
@@ -6326,16 +6499,16 @@ createNode animCurveTA -n "r_fingerThumb0_ctrl_rotateZ";
 		1 1 2.1333333333333471 1 1 1 1 2.1333333333333471 1 1 1 1 1 1 2.1333333333333471 
 		2.1333333333333471 1 1 1 1 1 1 1 1 0.60629904612722507 1 0.98783890565533206 1 1 
 		1 1 1 1 1 1 2.1333333333333471 1 1 1 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 
-		1 1;
-	setAttr -s 117 ".kiy[0:116]"  0 0 0 0 0 0.72642534264434977 0 0 -0.57848184643097 
+		1 1 1;
+	setAttr -s 118 ".kiy[0:117]"  0 0 0 0 0 0.72642534264434977 0 0 -0.57848184643097 
 		-0.73039456094739585 -0.45319078902969145 0 0 0 0.011590284512021092 0 -0.015926952524633383 
 		-0.050302758336755959 0 0.028939339191537277 0 0 0 0 0.063274430217162517 0 -0.085831678278378828 
 		-0.12415351636723844 -0.10032311140060983 0 0 0 0.21826643626349856 0.13343005596152813 
 		0 0 -0.16049675476105216 -0.16413220734889333 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.074144621567768396 
 		0 -0.042534046954902524 0 0 0 0 -0.049726580812510433 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0.79523673623972924 0 -0.15548085565006337 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 117 ".kox[0:116]"  1 1 1 1 1 0.68724538671717461 1 1 0.81569525764823192 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 118 ".kox[0:117]"  1 1 1 1 1 0.68724538671717461 1 1 0.81569525764823192 
 		0.68302546463397762 0.89141354529681993 1 1 1 0.99993283039658742 1 0.99987315804719856 
 		0.99873401489271108 1 0.99958116961413246 1 1 1 1 0.99799616556412352 1 0.99630965216839928 
 		0.99226302177076509 0.9949549101938745 1 1 1 0.97588921645893401 0.99105823247985969 
@@ -6344,20 +6517,20 @@ createNode animCurveTA -n "r_fingerThumb0_ctrl_rotateZ";
 		1 1 28.733333333333327 1 1 1 1 28.733333333333327 1 1 1 1 1 1 28.733333333333327 
 		28.733333333333327 1 1 1 1 1 1 1 1 0.60629904612722518 1 0.98783890565533206 1 1 
 		1 1 1 1 1 1 28.733333333333327 1 1 1 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 
-		1 1;
-	setAttr -s 117 ".koy[0:116]"  0 0 0 0 0 0.72642534264434977 0 0 -0.57848184643097 
+		1 1 1;
+	setAttr -s 118 ".koy[0:117]"  0 0 0 0 0 0.72642534264434977 0 0 -0.57848184643097 
 		-0.73039456094739585 -0.45319078902969151 0 0 0 0.011590284512021093 0 -0.01592695252463338 
 		-0.050302758336755959 0 0.028939339191537277 0 0 0 0 0.063274430217162503 0 -0.085831678278378828 
 		-0.12415351636723844 -0.10032311140060983 0 0 0 0.21826643626349859 0.13343005596152815 
 		0 0 -0.16049675476105213 -0.16413220734889331 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.07414462156776841 
 		0 -0.042534046954902524 0 0 0 0 -0.049726580812510426 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0.79523673623972935 0 -0.15548085565006337 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTL -n "r_fingerThumb0_ctrl_translateX";
 	rename -uid "5D1D717A-4645-DD3E-31CF-C3B4320DEFEB";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 93 ".ktv[0:92]"  0 0 64 0 96 0 100 0 101 0 118 0 120 0 150 0
+	setAttr -s 94 ".ktv[0:93]"  0 0 64 0 96 0 100 0 101 0 118 0 120 0 150 0
 		 160 0 200 0 209 0 248 0 252 0 258 0 264 0 280 0 300 0 317 0 346 0 385 0 400 0 450 0
 		 460 0 477 0 509 0 535 0 543 0 564 0 578 0 952 0 1000 0 1064 0 1180 0 1200 0 1210 0
 		 1224 0 1264 0 1286 0 1320 0 1328 0 1380 0 1393 0 1400 0 1405 0 1418 0 1426 0 1435 0
@@ -6365,40 +6538,42 @@ createNode animCurveTL -n "r_fingerThumb0_ctrl_translateX";
 		 1710 -0.038411221635754285 1716 -0.03709396437801233 1744 -0.03709396437801233 1755 0
 		 1764 0 1926 0 1967 0 2000 0 2015 0 2020 0 2021 0 2040 0 2055 0 2060 0 2061 0 2475 0
 		 2490 0 2500 0 2513 0 2520 0 2521 0 2540 0 2555 0 2560 0 2561 0 2580 0 2600 0 2610 0
-		 2625 0 3000 0 3064 0 3069 0 3070 0 3952 0 3999 0 4000 0;
-	setAttr -s 93 ".kit[0:92]"  1 1 1 1 1 18 18 1 
+		 2625 0 2640 0 3000 0 3135 0 3140 0 3141 0 3952 0 3999 0 4000 0;
+	setAttr -s 94 ".kit[0:93]"  1 1 1 1 1 18 18 1 
 		18 1 18 18 18 18 1 18 18 18 18 1 18 1 18 18 18 
 		18 18 18 1 18 1 1 18 1 18 18 18 18 1 1 18 18 
 		18 18 18 18 18 18 1 18 1 1 1 1 18 1 18 1 18 
 		18 1 1 1 1 1 1 1 18 1 1 1 1 18 18 18 18 
-		1 18 18 18 1 1 18 1 18 1 18 1 18 18 18 1 1;
-	setAttr -s 93 ".kot[0:92]"  1 1 1 1 1 18 18 1 
+		1 18 18 18 1 1 18 1 18 1 18 18 1 18 18 18 1 
+		1;
+	setAttr -s 94 ".kot[0:93]"  1 1 1 1 1 18 18 1 
 		18 1 18 18 18 18 1 18 18 18 18 1 18 1 18 18 18 
 		18 18 18 1 18 1 1 18 1 18 18 18 18 1 1 18 18 
 		18 18 18 18 18 18 1 18 1 1 1 1 18 1 18 1 18 
 		18 1 1 1 1 1 1 1 18 1 1 1 18 18 18 18 18 
-		1 18 1 18 1 18 18 1 18 1 18 1 18 18 18 1 1;
-	setAttr -s 93 ".kix[0:92]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+		1 18 1 18 1 18 18 1 18 1 18 18 1 18 18 18 1 
+		1;
+	setAttr -s 94 ".kix[0:93]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 2.1333333333333471 1 1 1 1 1 1 1 2.1333333333333471 1 1 1 1 
 		1 1 1 1 2.1333333333333471 1 1 1 1 2.1333333333333471 1 1 1 1 1 1 2.1333333333333471 
 		2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2.1333333333333471 1 1 1 2.1333333333333471 
-		1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 93 ".kiy[0:92]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 94 ".kiy[0:93]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 93 ".kox[0:92]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 94 ".kox[0:93]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 1 1 1 1 1 1 1 28.733333333333327 1 1 1 1 
 		1 1 1 1 28.733333333333327 1 1 1 1 28.733333333333327 1 1 1 1 1 1 28.733333333333327 
 		28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 1 1 1 28.733333333333327 
-		1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 93 ".koy[0:92]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 94 ".koy[0:93]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTL -n "r_fingerThumb0_ctrl_translateY";
 	rename -uid "C86E8D29-4264-2CF9-F6FF-D394C5B0F663";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 93 ".ktv[0:92]"  0 0 64 0 96 0 100 0 101 0 118 0 120 0 150 0
+	setAttr -s 94 ".ktv[0:93]"  0 0 64 0 96 0 100 0 101 0 118 0 120 0 150 0
 		 160 0 200 0 209 0 248 0 252 0 258 0 264 0 280 0 300 0 317 0 346 0 385 0 400 0 450 0
 		 460 0 477 0 509 0 535 0 543 0 564 0 578 0 952 0 1000 0 1064 0 1180 0 1200 0 1210 0
 		 1224 0 1264 0 1286 0 1320 0 1328 0 1380 0 1393 0 1400 0 1405 0 1418 0 1426 0 1435 0
@@ -6406,40 +6581,42 @@ createNode animCurveTL -n "r_fingerThumb0_ctrl_translateY";
 		 1710 -0.48271744760832358 1716 -0.46616335132545877 1744 -0.46616335132545877 1755 0
 		 1764 0 1926 0 1967 0 2000 0 2015 0 2020 0 2021 0 2040 0 2055 0 2060 0 2061 0 2475 0
 		 2490 0 2500 0 2513 0 2520 0 2521 0 2540 0 2555 0 2560 0 2561 0 2580 0 2600 0 2610 0
-		 2625 0 3000 0 3064 0 3069 0 3070 0 3952 0 3999 0 4000 0;
-	setAttr -s 93 ".kit[0:92]"  1 1 1 1 1 18 18 1 
+		 2625 0 2640 0 3000 0 3135 0 3140 0 3141 0 3952 0 3999 0 4000 0;
+	setAttr -s 94 ".kit[0:93]"  1 1 1 1 1 18 18 1 
 		18 1 18 18 18 18 1 18 18 18 18 1 18 1 18 18 18 
 		18 18 18 1 18 1 1 18 1 18 18 18 18 1 1 18 18 
 		18 18 18 18 18 18 1 18 1 1 1 1 18 1 18 1 18 
 		18 1 1 1 1 1 1 1 18 1 1 1 1 18 18 18 18 
-		1 18 18 18 1 1 18 1 18 1 18 1 18 18 18 1 1;
-	setAttr -s 93 ".kot[0:92]"  1 1 1 1 1 18 18 1 
+		1 18 18 18 1 1 18 1 18 1 18 18 1 18 18 18 1 
+		1;
+	setAttr -s 94 ".kot[0:93]"  1 1 1 1 1 18 18 1 
 		18 1 18 18 18 18 1 18 18 18 18 1 18 1 18 18 18 
 		18 18 18 1 18 1 1 18 1 18 18 18 18 1 1 18 18 
 		18 18 18 18 18 18 1 18 1 1 1 1 18 1 18 1 18 
 		18 1 1 1 1 1 1 1 18 1 1 1 18 18 18 18 18 
-		1 18 1 18 1 18 18 1 18 1 18 1 18 18 18 1 1;
-	setAttr -s 93 ".kix[0:92]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+		1 18 1 18 1 18 18 1 18 1 18 18 1 18 18 18 1 
+		1;
+	setAttr -s 94 ".kix[0:93]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 2.1333333333333471 1 1 1 1 1 1 1 2.1333333333333471 1 1 1 1 
 		1 1 1 1 2.1333333333333471 1 1 1 1 2.1333333333333471 1 1 1 1 1 1 2.1333333333333471 
 		2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2.1333333333333471 1 1 1 2.1333333333333471 
-		1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 93 ".kiy[0:92]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 94 ".kiy[0:93]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 93 ".kox[0:92]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 94 ".kox[0:93]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 1 1 1 1 1 1 1 28.733333333333327 1 1 1 1 
 		1 1 1 1 28.733333333333327 1 1 1 1 28.733333333333327 1 1 1 1 1 1 28.733333333333327 
 		28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 1 1 1 28.733333333333327 
-		1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 93 ".koy[0:92]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 94 ".koy[0:93]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTL -n "r_fingerThumb0_ctrl_translateZ";
 	rename -uid "89A52D08-4BCF-1A71-FE74-07A372DF7EB1";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 93 ".ktv[0:92]"  0 0 64 0 96 0 100 0 101 0 118 0 120 0 150 0
+	setAttr -s 94 ".ktv[0:93]"  0 0 64 0 96 0 100 0 101 0 118 0 120 0 150 0
 		 160 0 200 0 209 0 248 0 252 0 258 0 264 0 280 0 300 0 317 0 346 0 385 0 400 0 450 0
 		 460 0 477 0 509 0 535 0 543 0 564 0 578 0 952 0 1000 0 1064 0 1180 0 1200 0 1210 0
 		 1224 0 1264 0 1286 0 1320 0 1328 0 1380 0 1393 0 1400 0 1405 0 1418 0 1426 0 1435 0
@@ -6447,40 +6624,42 @@ createNode animCurveTL -n "r_fingerThumb0_ctrl_translateZ";
 		 1710 -0.24184554382767387 1716 -0.23355180089805516 1744 -0.23355180089805516 1755 0
 		 1764 0 1926 0 1967 0 2000 0 2015 0 2020 0 2021 0 2040 0 2055 0 2060 0 2061 0 2475 0
 		 2490 0 2500 0 2513 0 2520 0 2521 0 2540 0 2555 0 2560 0 2561 0 2580 0 2600 0 2610 0
-		 2625 0 3000 0 3064 0 3069 0 3070 0 3952 0 3999 0 4000 0;
-	setAttr -s 93 ".kit[0:92]"  1 1 1 1 1 18 18 1 
+		 2625 0 2640 0 3000 0 3135 0 3140 0 3141 0 3952 0 3999 0 4000 0;
+	setAttr -s 94 ".kit[0:93]"  1 1 1 1 1 18 18 1 
 		18 1 18 18 18 18 1 18 18 18 18 1 18 1 18 18 18 
 		18 18 18 1 18 1 1 18 1 18 18 18 18 1 1 18 18 
 		18 18 18 18 18 18 1 18 1 1 1 1 18 1 18 1 18 
 		18 1 1 1 1 1 1 1 18 1 1 1 1 18 18 18 18 
-		1 18 18 18 1 1 18 1 18 1 18 1 18 18 18 1 1;
-	setAttr -s 93 ".kot[0:92]"  1 1 1 1 1 18 18 1 
+		1 18 18 18 1 1 18 1 18 1 18 18 1 18 18 18 1 
+		1;
+	setAttr -s 94 ".kot[0:93]"  1 1 1 1 1 18 18 1 
 		18 1 18 18 18 18 1 18 18 18 18 1 18 1 18 18 18 
 		18 18 18 1 18 1 1 18 1 18 18 18 18 1 1 18 18 
 		18 18 18 18 18 18 1 18 1 1 1 1 18 1 18 1 18 
 		18 1 1 1 1 1 1 1 18 1 1 1 18 18 18 18 18 
-		1 18 1 18 1 18 18 1 18 1 18 1 18 18 18 1 1;
-	setAttr -s 93 ".kix[0:92]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+		1 18 1 18 1 18 18 1 18 1 18 18 1 18 18 18 1 
+		1;
+	setAttr -s 94 ".kix[0:93]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 2.1333333333333471 1 1 1 1 1 1 1 2.1333333333333471 1 1 1 1 
 		1 1 1 1 2.1333333333333471 1 1 1 1 2.1333333333333471 1 1 1 1 1 1 2.1333333333333471 
 		2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2.1333333333333471 1 1 1 2.1333333333333471 
-		1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 93 ".kiy[0:92]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 94 ".kiy[0:93]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 93 ".kox[0:92]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 94 ".kox[0:93]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 1 1 1 1 1 1 1 28.733333333333327 1 1 1 1 
 		1 1 1 1 28.733333333333327 1 1 1 1 28.733333333333327 1 1 1 1 1 1 28.733333333333327 
 		28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 1 1 1 28.733333333333327 
-		1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 93 ".koy[0:92]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 94 ".koy[0:93]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerThumb1_ctrl_rotateX";
 	rename -uid "7F53502A-43AC-B7DA-AA2D-EF9122E7C1FF";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 92 ".ktv[0:91]"  0 0 64 0 96 0 100 0 102 -0.38160731112560248
+	setAttr -s 93 ".ktv[0:92]"  0 0 64 0 96 0 100 0 102 -0.38160731112560248
 		 109 -11.416552202104697 120 -11.416552202104697 133 0 139 0 150 0 160 0 200 0 209 0
 		 248 0 252 0 258 0 264 0 280 0 300 0 317 0 346 0.43968483982187567 359 0.48784627554647914
 		 368 0.3957415082904599 375 0.13297069726854355 381 0.035294203483123551 385 0 400 0
@@ -6489,44 +6668,44 @@ createNode animCurveTA -n "r_fingerThumb1_ctrl_rotateX";
 		 1700 0 1705 0 1710 0 1716 0 1744 0 1755 0.46894452433001205 1764 0 1926 0 1967 0
 		 2000 0 2015 0 2020 0 2021 0 2040 0 2055 0 2060 0 2061 0 2475 0 2490 0 2500 0 2510 0
 		 2519 0 2520 0 2521 0 2540 0 2552 0 2559 0 2560 0 2561 0 2580 0 2600 0 2610 0 2625 0
-		 3000 0 3064 0 3069 0 3070 0 3952 0 3999 0 4000 0;
-	setAttr -s 92 ".kit[0:91]"  1 1 1 1 18 18 1 18 
+		 2640 0 3000 0 3135 0 3140 0 3141 0 3952 0 3999 0 4000 0;
+	setAttr -s 93 ".kit[0:92]"  1 1 1 1 18 18 1 18 
 		18 1 18 1 18 18 18 18 1 18 18 18 18 18 18 18 18 
 		1 18 1 1 1 18 1 1 18 1 1 1 18 18 18 18 18 
 		18 18 18 1 18 1 1 1 1 18 1 18 1 18 18 1 1 
 		1 1 1 1 1 18 1 1 1 1 18 18 18 18 18 1 18 
-		18 18 18 1 1 18 1 18 1 18 1 18 18 18 1 1;
-	setAttr -s 92 ".kot[0:91]"  1 1 1 1 18 18 1 18 
+		18 18 18 1 1 18 1 18 1 18 18 1 18 18 18 1 1;
+	setAttr -s 93 ".kot[0:92]"  1 1 1 1 18 18 1 18 
 		18 1 18 1 18 18 18 18 1 18 18 18 18 18 18 18 18 
 		1 18 1 1 1 18 1 1 18 1 1 1 18 18 18 18 18 
 		18 18 18 1 18 1 1 1 1 18 1 18 1 18 18 1 1 
 		1 1 1 1 1 18 1 1 1 18 18 18 18 18 18 1 18 
-		1 18 18 1 18 18 1 18 1 18 1 18 18 18 1 1;
-	setAttr -s 92 ".kix[0:91]"  1 1 1 1 0.95790173800136169 1 1 1 1 1 1 
+		1 18 18 1 18 18 1 18 1 18 18 1 18 18 18 1 1;
+	setAttr -s 93 ".kix[0:92]"  1 1 1 1 0.95790173800136169 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 0.99998306789809854 1 0.99993257272889047 0.99989463521965727 0.99997576386558162 
 		1 1 1 1 1 1 1 2.1333333333333471 1 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 2.1333333333333471 
 		1 1 1 1 2.1333333333333471 1 1 1 1 1 1 2.1333333333333471 2.1333333333333471 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 2.1333333333333471 1 1 1 1 2.1333333333333471 1 1 1 1 1 
-		1 1 1 1 1 1 1;
-	setAttr -s 92 ".kiy[0:91]"  0 0 0 0 -0.2870962562172667 0 0 0 0 0 0 
+		1 1 1 1 1 1 1 1;
+	setAttr -s 93 ".kiy[0:92]"  0 0 0 0 -0.2870962562172667 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0.0058192711834832113 0 -0.011612493090735171 -0.014516144768795057 
 		-0.0069621606880742514 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 92 ".kox[0:91]"  1 1 1 1 0.9579017380013618 1 1 1 1 1 1 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 93 ".kox[0:92]"  1 1 1 1 0.9579017380013618 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 0.99998306789809843 1 0.99993257272889036 0.99989463521965727 0.99997576386558162 
 		1 1 1 1 1 1 1 28.733333333333327 1 1 1 28.733333333333327 1 1 1 1 1 1 1 1 28.733333333333327 
 		1 1 1 1 28.733333333333327 1 1 1 1 1 1 28.733333333333327 28.733333333333327 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 1 1 1 1 28.733333333333327 1 1 1 1 1 
-		1 1 1 1 1 1 1;
-	setAttr -s 92 ".koy[0:91]"  0 0 0 0 -0.28709625621726675 0 0 0 0 0 
+		1 1 1 1 1 1 1 1;
+	setAttr -s 93 ".koy[0:92]"  0 0 0 0 -0.28709625621726675 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0.0058192711834832104 0 -0.011612493090735171 -0.014516144768795059 
 		-0.0069621606880742514 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerThumb1_ctrl_rotateY";
 	rename -uid "803BC389-4E86-3519-2441-20A9A85F361C";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 141 ".ktv[0:140]"  0 4.9692448555775641 16 6.9402277347387633
+	setAttr -s 142 ".ktv[0:141]"  0 4.9692448555775641 16 6.9402277347387633
 		 32 4.9692448555775641 48 6.9402277347387633 64 4.9692448555775641 96 4.9692448555775641
 		 100 4.9692448555775641 102 4.2060302333263655 109 -34.516875996148997 120 -34.516875996148997
 		 133 18.996876737738699 139 18.996876737738699 144 7.7318546605361815 150 4.9692448555775641
@@ -6558,20 +6737,20 @@ createNode animCurveTA -n "r_fingerThumb1_ctrl_rotateY";
 		 2520 1.2037105016495091 2521 1.2037105016495091 2540 1.2037105016495091 2541 -3.2842422531582747
 		 2549 -3.2842422531582747 2552 0.040167194847491407 2556 3.7440665544827927 2559 1.2037105016495091
 		 2560 1.2037105016495091 2561 1.2037105016495091 2580 1.2037105016495091 2600 4.9692448555775641
-		 2610 4.9692448555775641 2625 4.9692448555775641 3000 -24.426545362087971 3064 -24.426545362087971
-		 3069 -24.426545362087971 3070 -24.426545362087971 3100 0 3952 0 3999 4.9692448555775641
+		 2610 4.9692448555775641 2625 4.9692448555775641 2640 4.9692448555775641 3000 0 3135 0
+		 3140 -24.426545362087971 3141 -24.426545362087971 3171 0 3952 0 3999 4.9692448555775641
 		 4000 4.9692448555775641 4017 7.1986117667511049 4029 -9.7740354647978318 4036 -12.536434499425408
 		 4043 5.7067879152028373 4059 9.8691878932889097;
-	setAttr -s 141 ".kit[4:140]"  1 18 1 18 18 1 18 18 
+	setAttr -s 142 ".kit[4:141]"  1 18 1 18 18 1 18 18 
 		18 1 18 18 18 18 18 18 18 18 1 18 18 18 18 18 18 
 		18 18 1 18 18 18 18 18 18 18 18 18 1 18 18 18 18 
 		18 1 18 18 18 18 18 18 18 18 18 1 18 18 18 18 18 
 		18 18 18 18 18 18 18 18 1 18 18 18 18 18 18 18 18 
 		18 18 18 18 18 1 18 18 18 1 18 18 1 1 18 1 1 
 		18 1 1 18 1 18 1 1 1 18 18 18 18 1 18 18 18 
-		1 18 18 18 1 18 18 18 1 1 18 1 18 1 18 1 18 
-		18 18 18 1 1 18 18 18 18 18;
-	setAttr -s 141 ".kot[2:140]"  1 18 1 18 1 18 18 1 
+		1 18 18 18 1 18 18 18 1 1 18 1 18 1 18 18 1 
+		18 18 18 18 1 1 18 18 18 18 18;
+	setAttr -s 142 ".kot[2:141]"  1 18 1 18 1 18 18 1 
 		18 18 18 1 18 1 18 18 18 18 18 18 1 18 18 18 18 
 		18 18 18 18 1 18 1 18 1 18 1 18 1 18 1 18 1 
 		18 1 18 1 18 1 18 1 18 1 18 1 18 1 18 18 18 
@@ -6579,44 +6758,46 @@ createNode animCurveTA -n "r_fingerThumb1_ctrl_rotateY";
 		18 1 18 1 18 1 18 1 18 1 18 1 18 18 1 1 18 
 		1 1 18 1 1 18 1 18 1 1 18 18 18 18 18 1 18 
 		18 18 1 18 1 18 1 18 18 18 1 18 18 1 18 1 18 
-		1 18 18 18 18 1 1 18 18 18 18 18;
-	setAttr -s 141 ".kix[4:140]"  1 1 1 0.85770953638148661 1 1 1 1 0.83164817895142662 
+		18 1 18 18 18 18 1 1 18 18 18 18 18;
+	setAttr -s 142 ".kix[4:141]"  1 1 1 0.85770953638148661 1 1 1 1 0.83164817895142662 
 		1 1 1 0.99693980119264514 1 0.99733531209417692 0.96522279697629554 1 0.99537835657721774 
 		1 1 0.99999991462440052 1 0.99920017039164954 1 1 1 0.99905707310674197 1 1 0.99999997843295896 
 		1 1 1 1 1 1 1 1 0.99999023131478038 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.98210734122183374 
 		1 0.98641161245453857 1 1 1 1 0.98656476570699214 1 0.99622635186543118 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.99999999633742687 1 1 
-		1 1 1 0.9084898539734273 1 1 1 1 1 1 1 0.88513683387506059 1 1 1 1 1 1 1 1 1 1 1 
-		1 1 1 1 1 1 0.87848559597547826 1 0.92569230007462622 1;
-	setAttr -s 141 ".kiy[4:140]"  0 0 0 -0.51413456526502388 0 0 0 0 -0.55530289612676786 
+		1 1 1 0.9084898539734273 1 1 1 1 1 1 1 0.88513683387506059 1 1 1 1 1 1 1 1 1 1 0.99976501915937299 
+		1 1 1 1 1 1 1 0.87848559597547826 1 0.92569230007462622 1;
+	setAttr -s 142 ".kiy[4:141]"  0 0 0 -0.51413456526502388 0 0 0 0 -0.55530289612676786 
 		0 0 0 -0.078173095102912815 0 0.072953925528451202 0.26142867516257051 0 -0.096030866171440729 
 		0 0 0.00041322051225408009 0 -0.039987741737919656 0 0 0 0.043416179880203805 0 0 
 		0.00020768746126273628 0 0 0 0 0 0 0 0 -0.0044200989821287975 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 -0.18832198575360365 0 0.16429282033867801 0 0 0 0 0.16337063097603488 
 		0 -0.086793178585036532 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 -8.5587069311756291e-05 0 0 0 0 0 0.41790690976261768 0 0 0 0 0 0 0 0.46533083426486305 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.47776883287172317 0 0.37827736594005756 0;
-	setAttr -s 141 ".kox[2:140]"  1 1 1 1 1 0.85770953638148661 1 1 1 1 0.83164817895142651 
+		0 0 0 0 0 0 0 0 0 0 -0.021677326063387271 0 0 0 0 0 0 0 -0.47776883287172317 0 0.37827736594005756 
+		0;
+	setAttr -s 142 ".kox[2:141]"  1 1 1 1 1 0.85770953638148661 1 1 1 1 0.83164817895142651 
 		1 1 1 0.99693980119264514 1 0.99733531209417692 0.96522279697629554 1 0.99537835657721774 
 		1 1 0.99999991462440052 1 0.99920017039164954 1 1 1 0.99905707310674197 1 1 1 1 1 
 		1 1 1 1 1 1 0.9999902313147806 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.98210734122183385 
 		1 0.98641161245453857 1 1 1 1 0.98656476570699203 1 0.99622635186543118 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.99999999633742676 1 1 
-		1 1 1 0.9084898539734273 1 1 1 1 1 1 1 0.88513683387506048 1 1 1 1 1 1 1 1 1 1 1 
-		1 1 1 1 1 1 0.87848559597547826 1 0.92569230007462611 1;
-	setAttr -s 141 ".koy[2:140]"  0 0 0 0 0 -0.51413456526502399 0 0 0 0 
+		1 1 1 0.9084898539734273 1 1 1 1 1 1 1 0.88513683387506048 1 1 1 1 1 1 1 1 1 1 0.99976501915937299 
+		1 1 1 1 1 1 1 0.87848559597547826 1 0.92569230007462611 1;
+	setAttr -s 142 ".koy[2:141]"  0 0 0 0 0 -0.51413456526502399 0 0 0 0 
 		-0.55530289612676786 0 0 0 -0.078173095102912815 0 0.072953925528451216 0.26142867516257051 
 		0 -0.096030866171440743 0 0 0.00041322051225408009 0 -0.039987741737919663 0 0 0 
 		0.043416179880203812 0 0 0 0 0 0 0 0 0 0 0 -0.0044200989821287983 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 -0.18832198575360368 0 0.16429282033867801 0 0 0 0 0.16337063097603485 
 		0 -0.086793178585036532 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 -8.5587069311756305e-05 0 0 0 0 0 0.41790690976261774 0 0 0 0 0 0 0 0.46533083426486305 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.47776883287172317 0 0.37827736594005756 0;
+		0 0 0 0 0 0 0 0 0 0 -0.021677326063387271 0 0 0 0 0 0 0 -0.47776883287172317 0 0.37827736594005756 
+		0;
 createNode animCurveTA -n "r_fingerThumb1_ctrl_rotateZ";
 	rename -uid "49D3E9A2-49CD-2BA3-8D69-E2824CCF057A";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 92 ".ktv[0:91]"  0 0 64 0 96 0 100 0 102 0.61057169780096388
+	setAttr -s 93 ".ktv[0:92]"  0 0 64 0 96 0 100 0 102 0.61057169780096388
 		 109 19.614482609733333 120 19.614482609733333 133 0 139 0 150 0 160 0 200 0 209 0
 		 248 0 252 0 258 0 264 0 280 0 300 0 317 0 346 4.126909147202527 359 4.5789553667510399
 		 368 3.7181520666354029 375 1.2459515642763768 381 0.33012549421955784 385 0 400 0
@@ -6624,45 +6805,45 @@ createNode animCurveTA -n "r_fingerThumb1_ctrl_rotateZ";
 		 1405 0 1418 0 1426 0 1435 0 1446 0 1480 0 1482 0 1500 0 1564 0 1628 0 1692 0 1696 0
 		 1700 0 1705 0 1710 0 1716 0 1744 0 1755 4.3052003862679404 1764 0 1926 0 1967 0 2000 0
 		 2015 0 2020 0 2021 0 2040 0 2055 0 2060 0 2061 0 2475 0 2490 0 2500 0 2510 0 2519 0
-		 2520 0 2521 0 2540 0 2552 0 2559 0 2560 0 2561 0 2580 0 2600 0 2610 0 2625 0 3000 0
-		 3064 0 3069 0 3070 0 3952 0 3999 0 4000 0;
-	setAttr -s 92 ".kit[0:91]"  1 1 1 1 18 18 1 18 
+		 2520 0 2521 0 2540 0 2552 0 2559 0 2560 0 2561 0 2580 0 2600 0 2610 0 2625 0 2640 0
+		 3000 0 3135 0 3140 0 3141 0 3952 0 3999 0 4000 0;
+	setAttr -s 93 ".kit[0:92]"  1 1 1 1 18 18 1 18 
 		18 1 18 1 18 18 18 18 1 18 18 18 18 18 18 18 18 
 		1 18 1 1 1 18 1 1 18 1 1 1 18 18 18 18 18 
 		18 18 18 1 18 1 1 1 1 18 1 18 1 18 18 1 1 
 		1 1 1 1 1 18 1 1 1 1 18 18 18 18 18 1 18 
-		18 18 18 1 1 18 1 18 1 18 1 18 18 18 1 1;
-	setAttr -s 92 ".kot[0:91]"  1 1 1 1 18 18 1 18 
+		18 18 18 1 1 18 1 18 1 18 18 1 18 18 18 1 1;
+	setAttr -s 93 ".kot[0:92]"  1 1 1 1 18 18 1 18 
 		18 1 18 1 18 18 18 18 1 18 18 18 18 18 18 18 18 
 		1 18 1 1 1 18 1 1 18 1 1 1 18 18 18 18 18 
 		18 18 18 1 18 1 1 1 1 18 1 18 1 18 18 1 1 
 		1 1 1 1 1 18 1 1 1 18 18 18 18 18 18 1 18 
-		1 18 18 1 18 18 1 18 1 18 1 18 18 18 1 1;
-	setAttr -s 92 ".kix[0:91]"  1 1 1 1 0.90168414077910197 1 1 1 1 1 1 
+		1 18 18 1 18 18 1 18 1 18 18 1 18 18 18 1 1;
+	setAttr -s 93 ".kix[0:92]"  1 1 1 1 0.90168414077910197 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 0.99851160469487865 1 0.99410417142123286 0.99081751863944423 0.9978787785812141 
 		1 1 1 1 1 1 1 2.1333333333333471 1 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 2.1333333333333471 
 		1 1 1 1 2.1333333333333471 1 1 1 1 1 1 2.1333333333333471 2.1333333333333471 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 2.1333333333333471 1 1 1 1 2.1333333333333471 1 1 1 1 1 
-		1 1 1 1 1 1 1;
-	setAttr -s 92 ".kiy[0:91]"  0 0 0 0 0.43239531712017004 0 0 0 0 0 0 
+		1 1 1 1 1 1 1 1;
+	setAttr -s 93 ".kiy[0:92]"  0 0 0 0 0.43239531712017004 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0.054539667120899603 0 -0.10842922282717038 -0.13520593462261363 
 		-0.065099487380963772 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 92 ".kox[0:91]"  1 1 1 1 0.90168414077910208 1 1 1 1 1 1 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 93 ".kox[0:92]"  1 1 1 1 0.90168414077910208 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 0.99851160469487854 1 0.99410417142123286 0.99081751863944434 0.9978787785812141 
 		1 1 1 1 1 1 1 28.733333333333327 1 1 1 28.733333333333327 1 1 1 1 1 1 1 1 28.733333333333327 
 		1 1 1 1 28.733333333333327 1 1 1 1 1 1 28.733333333333327 28.733333333333327 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 1 1 1 1 28.733333333333327 1 1 1 1 1 
-		1 1 1 1 1 1 1;
-	setAttr -s 92 ".koy[0:91]"  0 0 0 0 0.4323953171201701 0 0 0 0 0 0 
+		1 1 1 1 1 1 1 1;
+	setAttr -s 93 ".koy[0:92]"  0 0 0 0 0.4323953171201701 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0.054539667120899596 0 -0.10842922282717038 -0.13520593462261363 
 		-0.065099487380963772 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerThumb2_ctrl_rotateX";
 	rename -uid "70B331FC-443A-B89C-09CA-01B334FD0F34";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 114 ".ktv[0:113]"  0 0.024400071218964921 64 0.024400071218964921
+	setAttr -s 115 ".ktv[0:114]"  0 0.024400071218964921 64 0.024400071218964921
 		 96 0.024400071218964921 100 0.024400071218964921 103 0.024400071218964921 110 0 120 0
 		 133 0 139 0 144 0.010222153520951347 150 0.024400071218964921 160 0.024400071218964921
 		 200 0.024400071218964921 210 0.022872199609466706 226 0.022530956226095324 240 0.022491324083354185
@@ -6687,65 +6868,65 @@ createNode animCurveTA -n "r_fingerThumb2_ctrl_rotateX";
 		 2521 0.024400071218964921 2540 0.024400071218964921 2541 0.024623711000861252 2549 0.024623711000861252
 		 2552 0.024458051903160267 2556 0.024610053180974055 2559 0.024400071218964921 2560 0.024400071218964921
 		 2561 0.024400071218964921 2580 0.024400071218964921 2600 0.024400071218964921 2610 0.024400071218964921
-		 2625 0.024400071218964921 3000 0.024400071218964921 3064 0.024400071218964921 3069 0.024400071218964921
-		 3070 0.024400071218964921 3100 0 3952 0 3999 0.024400071218964921 4000 0.024400071218964921
+		 2625 0.024400071218964921 2640 0.024400071218964921 3000 0 3135 0 3140 0.024400071218964921
+		 3141 0.024400071218964921 3171 0 3952 0 3999 0.024400071218964921 4000 0.024400071218964921
 		 4017 0.025089600382392829 4029 0.022556212886962929 4036 0.022401337043898299 4043 0.024544463756495442
 		 4059 0.025473576939890087;
-	setAttr -s 114 ".kit[0:113]"  1 1 1 1 1 18 1 18 
+	setAttr -s 115 ".kit[0:114]"  1 1 1 1 1 18 1 18 
 		18 18 1 18 1 18 18 18 18 18 18 1 18 18 18 18 18 
 		18 18 18 1 18 1 1 1 18 1 1 18 1 1 1 18 18 
 		18 18 18 18 18 18 18 18 18 18 18 1 18 1 1 1 1 
 		18 1 18 1 18 18 1 1 1 1 1 18 1 1 18 1 18 
 		1 1 1 18 18 18 18 1 18 18 18 1 18 18 18 1 18 
-		18 18 1 1 18 1 18 1 18 1 18 18 18 18 1 1 18 
-		18 18 18 18;
-	setAttr -s 114 ".kot[0:113]"  1 1 1 1 1 18 1 18 
+		18 18 1 1 18 1 18 1 18 18 1 18 18 18 18 1 1 
+		18 18 18 18 18;
+	setAttr -s 115 ".kot[0:114]"  1 1 1 1 1 18 1 18 
 		18 18 1 18 1 18 18 18 18 18 18 1 18 18 18 18 18 
 		18 18 18 1 18 1 1 1 18 1 1 18 1 1 1 18 18 
 		18 18 18 18 18 18 18 18 18 18 18 1 18 1 1 1 1 
 		18 1 18 1 18 18 1 1 1 1 1 18 1 1 18 1 18 
 		1 1 18 18 18 18 18 1 18 18 18 1 18 1 18 1 18 
-		18 18 1 18 18 1 18 1 18 1 18 18 18 18 1 1 18 
-		18 18 18 18;
-	setAttr -s 114 ".kix[0:113]"  1 1 1 1 1 1 1 1 1 0.9999993255284626 1 
+		18 18 1 18 18 1 18 1 18 18 1 18 18 18 18 1 1 
+		18 18 18 18 18;
+	setAttr -s 115 ".kix[0:114]"  1 1 1 1 1 1 1 1 1 0.9999993255284626 1 
 		1 1 0.99999999943882512 0.99999999999011335 1 0.9999999947823206 1 0.99999999982198418 
 		1 1 1 0.99999999885323776 0.99967623018418383 1 0.99869631073130583 0.99792834199386127 
 		0.99954959033920998 1 1 1 1 1 1 1 2.1333333333333471 1 1 1 2.1333333333333471 1 1 
 		1 0.99999999997217481 0.99999999997217481 0.99999999727002853 1 1 1 1 0.99999999982688292 
 		1 0.99999999834836006 2.1333333333333471 1 1 1 1 2.1333333333333471 1 1 1 1 1 1 2.1333333333333471 
 		2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2.1333333333333471 1 1 
-		1 1 1 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.99999999939607764 1 0.999999997554195 
-		1;
-	setAttr -s 114 ".kiy[0:113]"  0 0 0 0 0 0 0 0 0 0.0011614398907105357 
+		1 1 1 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.99999999939607764 1 
+		0.999999997554195 1;
+	setAttr -s 115 ".kiy[0:114]"  0 0 0 0 0 0 0 0 0 0.0011614398907105357 
 		0 0 0 -3.3501490802626551e-05 -4.4467160171556949e-06 0 0.00010215360419034123 0 
 		-1.8868799458941904e-05 0 0 0 4.7890757880190656e-05 0.025444740217555637 0 -0.051045851268041842 
 		-0.064335248856152161 -0.030010272453236463 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7.4599245792785534e-06 
 		7.4599245792785542e-06 7.3891425353327133e-05 0 0 0 0 1.8607370230194822e-05 0 -5.7474167749291128e-05 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3.4754057892611637e-05 0 6.9940045389180097e-05 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3.4754057892611637e-05 0 6.9940045389180097e-05 
 		0;
-	setAttr -s 114 ".kox[0:113]"  1 1 1 1 1 1 1 1 1 0.99999932552846271 1 
+	setAttr -s 115 ".kox[0:114]"  1 1 1 1 1 1 1 1 1 0.99999932552846271 1 
 		1 1 0.99999999943882489 0.99999999999011335 1 0.99999999478232038 1 0.99999999982198418 
 		1 1 1 0.99999999885323765 0.99967623018418372 1 0.99869631073130571 0.99792834199386127 
 		0.9995495903392102 1 1 1 1 1 1 1 28.733333333333327 1 1 1 28.733333333333327 1 1 
 		1 0.99999999997217481 0.99999999997217481 0.99999999727002853 1 1 1 1 0.99999999982688303 
 		1 0.99999999834836006 28.733333333333327 1 1 1 1 28.733333333333327 1 1 1 1 1 1 28.733333333333327 
 		28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 1 1 
-		1 1 1 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.99999999939607775 1 0.999999997554195 
-		1;
-	setAttr -s 114 ".koy[0:113]"  0 0 0 0 0 0 0 0 0 0.0011614398907105359 
+		1 1 1 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.99999999939607775 1 
+		0.999999997554195 1;
+	setAttr -s 115 ".koy[0:114]"  0 0 0 0 0 0 0 0 0 0.0011614398907105359 
 		0 0 0 -3.3501490802626551e-05 -4.4467160171556941e-06 0 0.00010215360419034121 0 
 		-1.8868799458941904e-05 0 0 0 4.7890757880190656e-05 0.025444740217555634 0 -0.051045851268041835 
 		-0.064335248856152161 -0.030010272453236463 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7.4599245792785542e-06 
 		7.4599245792785534e-06 7.3891425353327133e-05 0 0 0 0 1.8607370230194822e-05 0 -5.7474167749291121e-05 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3.4754057892611637e-05 0 6.9940045389180097e-05 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3.4754057892611637e-05 0 6.9940045389180097e-05 
 		0;
 createNode animCurveTA -n "r_fingerThumb2_ctrl_rotateY";
 	rename -uid "D79D07FC-4DA8-AAA4-173A-0395E8BD8E38";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 141 ".ktv[0:140]"  0 24.255710865530229 16 26.226693744691442
+	setAttr -s 142 ".ktv[0:141]"  0 24.255710865530229 16 26.226693744691442
 		 32 24.255710865530229 48 26.226693744691442 64 24.255710865530229 96 24.255710865530229
 		 100 24.255710865530229 103 24.255710865530229 110 -77.045404458544553 120 -77.045404458544553
 		 133 18.996876737738699 139 18.996876737738699 144 16.063723983799054 150 24.255710865530229
@@ -6777,20 +6958,20 @@ createNode animCurveTA -n "r_fingerThumb2_ctrl_rotateY";
 		 2520 -1.2527476610791544 2521 -1.2527476610791544 2540 -1.2527476610791544 2541 -28.864881228347134
 		 2549 -28.864881228347134 2552 -8.4114489562967805 2556 0.41890454288746803 2559 -1.2527476610791544
 		 2560 -1.2527476610791544 2561 -1.2527476610791544 2580 -1.2527476610791544 2600 24.255710865530229
-		 2610 24.255710865530229 2625 24.255710865530229 3000 -1.2527476610791544 3064 -1.2527476610791544
-		 3069 -1.2527476610791544 3070 -1.2527476610791544 3100 0 3952 0 3999 24.255710865530229
+		 2610 24.255710865530229 2625 24.255710865530229 2640 24.255710865530229 3000 0 3135 0
+		 3140 -1.2527476610791544 3141 -1.2527476610791544 3171 0 3952 0 3999 24.255710865530229
 		 4000 24.255710865530229 4017 26.485077530337293 4029 9.5124317674409262 4036 6.7500329453251364
 		 4043 24.99325385788195 4059 29.155653439936344;
-	setAttr -s 141 ".kit[4:140]"  1 18 1 1 18 1 18 18 
+	setAttr -s 142 ".kit[4:141]"  1 18 1 1 18 1 18 18 
 		18 1 18 18 18 18 18 18 18 18 1 18 18 18 18 18 18 
 		18 18 1 18 18 18 18 18 18 18 18 18 1 18 18 18 18 
 		18 1 18 18 18 18 18 18 18 18 18 1 18 18 18 18 18 
 		18 18 18 18 18 18 18 18 1 18 18 18 18 18 18 18 18 
 		18 18 18 18 18 1 18 18 18 1 18 18 1 1 18 1 1 
 		18 1 1 18 1 18 1 1 1 18 18 18 18 1 18 18 18 
-		1 18 18 18 1 18 18 18 1 1 18 1 18 1 18 1 18 
-		18 18 18 1 1 18 18 18 18 18;
-	setAttr -s 141 ".kot[2:140]"  1 18 1 18 1 1 18 1 
+		1 18 18 18 1 18 18 18 1 1 18 1 18 1 18 18 1 
+		18 18 18 18 1 1 18 18 18 18 18;
+	setAttr -s 142 ".kot[2:141]"  1 18 1 18 1 1 18 1 
 		18 18 18 1 18 1 18 18 18 18 18 18 1 18 18 18 18 
 		18 18 18 18 1 18 1 18 1 18 1 18 1 18 1 18 1 
 		18 1 18 1 18 1 18 1 18 18 18 1 18 1 18 18 18 
@@ -6798,48 +6979,48 @@ createNode animCurveTA -n "r_fingerThumb2_ctrl_rotateY";
 		18 1 18 1 18 1 18 1 18 1 18 1 18 18 1 1 18 
 		1 1 18 1 1 18 1 18 1 1 18 18 18 18 18 1 18 
 		18 18 1 18 1 18 1 18 18 18 1 18 18 1 18 1 18 
-		1 18 18 18 18 1 1 18 18 18 18 18;
-	setAttr -s 141 ".kix[4:140]"  1 1 1 1 1 1 1 1 1 1 1 1 0.85815943439339037 
+		18 1 18 18 18 18 1 1 18 18 18 18 18;
+	setAttr -s 142 ".kix[4:141]"  1 1 1 1 1 1 1 1 1 1 1 1 0.85815943439339037 
 		0.99979532943175076 1 0.85392650742496334 1 0.99788625244023654 1 1 0.9999960821620244 
 		1 0.99916615735698433 1 1 1 0.99889431433935016 1 1 1 0.9937289263180451 1 1 1 1 
 		1 0.99372892631804521 1 0.99955201263332571 1 1 1 1 1 1 1 1 1 0.77320639918418543 
 		0.9900487596674008 1 1 1 1 1 1 1 0.9953290646723667 1 0.85512427655145529 1 1 1 1 
 		0.99127354622213537 1 0.91793552448678561 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.99999983192566155 1 1 1 1 1 0.46257499291068543 1 1 
-		1 1 1 1 1 0.41530084339002277 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.87848561305761907 
-		1 0.92569231267761254 1;
-	setAttr -s 141 ".kiy[4:140]"  0 0 0 0 0 0 0 0 0 0 0 0 -0.51338327316111143 
+		1 1 1 1 1 0.41530084339002277 1 1 1 1 1 1 1 1 1 1 0.99952764424118312 1 1 1 1 1 1 
+		1 0.87848561305761907 1 0.92569231267761254 1;
+	setAttr -s 142 ".kiy[4:141]"  0 0 0 0 0 0 0 0 0 0 0 0 -0.51338327316111143 
 		-0.020231145455874632 0 0.52039362017323376 0 -0.064984822772555531 0 0 0.0027992250002063916 
 		0 -0.040828788770645948 0 0 0 0.047012219480890516 0 0 0 -0.11181601405337725 0 0 
 		0 0 0 0.11181601405337725 0 -0.029929484470465402 0 0 0 0 0 0 0 0 0 0.63415444826999856 
 		0.14072474367019155 0 0 0 0 0 0 0 -0.096540421681447927 0 0.51842306242329739 0 0 
 		0 0 0.13182092610883994 0 -0.39672959668415209 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.00057978327743328658 0 0 0 0 0 0.88658015764716913 
-		0 0 0 0 0 0 0 0.90968412621059613 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.47776880146235917 
-		0 0.37827733509896305 0;
-	setAttr -s 141 ".kox[2:140]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.85815943439339037 
+		0 0 0 0 0 0 0 0.90968412621059613 0 0 0 0 0 0 0 0 0 0 -0.030732529958834923 0 0 0 
+		0 0 0 0 -0.47776880146235917 0 0.37827733509896305 0;
+	setAttr -s 142 ".kox[2:141]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.85815943439339037 
 		0.99979532943175087 1 0.85392650742496334 1 0.99788625244023665 1 1 0.9999960821620244 
 		1 0.99916615735698433 1 1 1 0.99889431433935016 1 1 1 0.9937289263180451 1 1 1 1 
 		1 0.9937289263180451 1 0.99955201263332571 1 1 1 1 1 1 1 1 1 0.77320639918418532 
 		0.99004875966740091 1 1 1 1 1 1 1 0.99532906467236659 1 0.85512427655145529 1 1 1 
 		1 0.99127354622213526 1 0.9179355244867855 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.99999983192566144 1 1 1 1 1 0.46257499291068538 1 
-		1 1 1 1 1 1 0.41530084339002277 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.87848561305761896 
-		1 0.92569231267761254 1;
-	setAttr -s 141 ".koy[2:140]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.51338327316111143 
+		1 1 1 1 1 1 0.41530084339002277 1 1 1 1 1 1 1 1 1 1 0.99952764424118323 1 1 1 1 1 
+		1 1 0.87848561305761896 1 0.92569231267761254 1;
+	setAttr -s 142 ".koy[2:141]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.51338327316111143 
 		-0.020231145455874636 0 0.52039362017323376 0 -0.064984822772555545 0 0 0.0027992250002063911 
 		0 -0.040828788770645948 0 0 0 0.047012219480890509 0 0 0 -0.11181601405337725 0 0 
 		0 0 0 0.11181601405337727 0 -0.029929484470465405 0 0 0 0 0 0 0 0 0 0.63415444826999845 
 		0.14072474367019158 0 0 0 0 0 0 0 -0.096540421681447927 0 0.51842306242329739 0 0 
 		0 0 0.13182092610883994 0 -0.39672959668415203 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.00057978327743328647 0 0 0 0 0 0.88658015764716913 
-		0 0 0 0 0 0 0 0.90968412621059624 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.47776880146235912 
-		0 0.37827733509896305 0;
+		0 0 0 0 0 0 0 0.90968412621059624 0 0 0 0 0 0 0 0 0 0 -0.030732529958834926 0 0 0 
+		0 0 0 0 -0.47776880146235912 0 0.37827733509896305 0;
 createNode animCurveTA -n "r_fingerThumb2_ctrl_rotateZ";
 	rename -uid "222751AD-4984-A35B-7D8C-0EAB73060B3D";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 114 ".ktv[0:113]"  0 -0.25351558293165427 64 -0.25351558293165427
+	setAttr -s 115 ".ktv[0:114]"  0 -0.25351558293165427 64 -0.25351558293165427
 		 96 -0.25351558293165427 100 -0.25351558293165427 103 -0.25351558293165427 110 0 120 0
 		 133 0 139 0 144 -0.11051538300032185 150 -0.25351558293165427 160 -0.25351558293165427
 		 200 -0.25351558293165427 210 -0.26462892325731885 226 -0.26711103878961351 240 -0.26685184465976364
@@ -6864,107 +7045,107 @@ createNode animCurveTA -n "r_fingerThumb2_ctrl_rotateZ";
 		 2521 -0.25351558293165427 2540 -0.25351558293165427 2541 -0.25633596826454885 2549 -0.25633596826454885
 		 2552 -0.25424679394388622 2556 -0.24935495036125679 2559 -0.25351558293165427 2560 -0.25351558293165427
 		 2561 -0.25351558293165427 2580 -0.25351558293165427 2600 -0.25351558293165427 2610 -0.25351558293165427
-		 2625 -0.25351558293165427 3000 -0.25351558293165427 3064 -0.25351558293165427 3069 -0.25351558293165427
-		 3070 -0.25351558293165427 3100 0 3952 0 3999 -0.25351558293165427 4000 -0.25351558293165427
+		 2625 -0.25351558293165427 2640 -0.25351558293165427 3000 0 3135 0 3140 -0.25351558293165427
+		 3141 -0.25351558293165427 3171 0 3952 0 3999 -0.25351558293165427 4000 -0.25351558293165427
 		 4017 -0.25229377484978149 4029 -0.25981169402625143 4036 -0.26090636230083947 4043 -0.25316905018360764
 		 4059 -0.25112905348027065;
-	setAttr -s 114 ".kit[0:113]"  1 1 1 1 1 18 1 18 
+	setAttr -s 115 ".kit[0:114]"  1 1 1 1 1 18 1 18 
 		18 18 1 18 1 18 18 18 18 18 18 1 18 18 18 18 18 
 		18 18 18 1 18 1 1 1 18 1 1 18 1 1 1 18 18 
 		18 18 18 18 18 18 18 18 18 18 18 1 18 1 1 1 1 
 		18 1 18 1 18 18 1 1 1 1 1 18 1 1 18 1 18 
 		1 1 1 18 18 18 18 1 18 18 18 1 18 18 18 1 18 
-		18 18 1 1 18 1 18 1 18 1 18 18 18 18 1 1 18 
-		18 18 18 18;
-	setAttr -s 114 ".kot[0:113]"  1 1 1 1 1 18 1 18 
+		18 18 1 1 18 1 18 1 18 18 1 18 18 18 18 1 1 
+		18 18 18 18 18;
+	setAttr -s 115 ".kot[0:114]"  1 1 1 1 1 18 1 18 
 		18 18 1 18 1 18 18 18 18 18 18 1 18 18 18 18 18 
 		18 18 18 1 18 1 1 1 18 1 1 18 1 1 1 18 18 
 		18 18 18 18 18 18 18 18 18 18 18 1 18 1 1 1 1 
 		18 1 18 1 18 18 1 1 1 1 1 18 1 1 18 1 18 
 		1 1 18 18 18 18 18 1 18 18 18 1 18 1 18 1 18 
-		18 18 1 18 18 1 18 1 18 1 18 18 18 18 1 1 18 
-		18 18 18 18;
-	setAttr -s 114 ".kix[0:113]"  1 1 1 1 1 1 1 1 1 0.9999271979230826 1 
+		18 18 1 18 18 1 18 1 18 18 1 18 18 18 18 1 1 
+		18 18 18 18 18;
+	setAttr -s 115 ".kix[0:114]"  1 1 1 1 1 1 1 1 1 0.9999271979230826 1 
 		1 1 0.99999997030975663 1 0.99999999957713281 0.99999991149649337 1 0.99999999896316083 
 		1 1 1 0.99999999382331051 0.99824281768442158 1 0.99296123031274752 0.98885371937045685 
 		0.99756619433358573 1 1 1 1 1 1 1 2.1333333333333471 1 1 1 2.1333333333333471 1 1 
 		1 0.99999999443927245 1 0.99999993900010276 1 1 1 1 0.99999999781459037 1 0.99999998083518138 
 		2.1333333333333471 1 1 1 1 2.1333333333333471 1 1 1 1 1 1 2.1333333333333471 2.1333333333333471 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.99999989561821712 1 1 2.1333333333333471 1 1 
-		1 1 0.99999986366461657 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.99999997183386091 
+		1 1 0.99999986366461657 1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.99999997183386091 
 		1 0.99999997994472078 1;
-	setAttr -s 114 ".kiy[0:113]"  0 0 0 0 0 0 0 0 0 -0.012066435003430765 
+	setAttr -s 115 ".kiy[0:114]"  0 0 0 0 0 0 0 0 0 -0.012066435003430765 
 		0 0 0 -0.00024368111531560259 0 2.9081513351630005e-05 0.00042072200488416089 0 -4.5537658397271173e-05 
 		0 0 0 0.00011114575480587533 0.059256028735199973 0 -0.11843983745258492 -0.14889030085003488 
 		-0.06972580528618269 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.00010545830853960269 0 0.00034928468437705362 
 		0 0 0 0 6.6112172589264528e-05 0 -0.00019577956225573466 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.00045690650563147205 0 0 0 0 0 0 0 0.00052217884689332477 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.00023734421668899738 0 0.00020027620400061815 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.00023734421668899738 0 0.00020027620400061815 
 		0;
-	setAttr -s 114 ".kox[0:113]"  1 1 1 1 1 1 1 1 1 0.99992719792308282 1 
+	setAttr -s 115 ".kox[0:114]"  1 1 1 1 1 1 1 1 1 0.99992719792308282 1 
 		1 1 0.99999997030975663 1 0.99999999957713281 0.99999991149649337 1 0.99999999896316083 
 		1 1 1 0.99999999382331062 0.99824281768442147 1 0.99296123031274752 0.98885371937045674 
 		0.99756619433358573 1 1 1 1 1 1 1 28.733333333333327 1 1 1 28.733333333333327 1 1 
 		1 0.99999999443927245 1 0.99999993900010276 1 1 1 1 0.99999999781459037 1 0.99999998083518127 
 		28.733333333333327 1 1 1 1 28.733333333333327 1 1 1 1 1 1 28.733333333333327 28.733333333333327 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.99999989561821723 1 1 28.733333333333327 1 1 
-		1 1 0.99999986366461668 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.99999997183386102 
+		1 1 0.99999986366461668 1 1 28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.99999997183386102 
 		1 0.9999999799447209 1;
-	setAttr -s 114 ".koy[0:113]"  0 0 0 0 0 0 0 0 0 -0.012066435003430766 
+	setAttr -s 115 ".koy[0:114]"  0 0 0 0 0 0 0 0 0 -0.012066435003430766 
 		0 0 0 -0.00024368111531560262 0 2.9081513351630005e-05 0.00042072200488416084 0 -4.5537658397271173e-05 
 		0 0 0 0.00011114575480587535 0.059256028735199966 0 -0.11843983745258492 -0.14889030085003485 
 		-0.06972580528618269 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.00010545830853960269 0 0.00034928468437705362 
 		0 0 0 0 6.6112172589264515e-05 0 -0.00019577956225573463 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.00045690650563147216 0 0 0 0 0 0 0 0.00052217884689332488 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.0002373442166889974 0 0.00020027620400061817 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.0002373442166889974 0 0.00020027620400061817 
 		0;
 createNode animCurveTA -n "r_fingerIndex2_ctrl_rotateX";
 	rename -uid "864D0A52-43F6-1A95-9FCD-3B8158D99892";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 93 ".ktv[0:92]"  -19 0 0 0 13 0 45 0 64 0 77 0 96 0 100 0
+	setAttr -s 94 ".ktv[0:93]"  -19 0 0 0 13 0 45 0 64 0 77 0 96 0 100 0
 		 150 0 160 0 181 0 213 0 245 0 264 0 280 0 300 0 385 0 400 0 431 0 463 0 495 0 514 0
 		 527 0 559 0 578 0 952 0 981 0 1000 0 1013 0 1045 0 1064 0 1077 0 1180 0 1200 0 1213 0
 		 1245 0 1264 0 1277 0 1309 0 1328 0 1380 0 1393 0 1400 0 1411 0 1468 0 1480 0 1482 0
 		 1500 0 1513 0 1545 0 1564 0 1577 0 1609 0 1628 0 1641 0 1673 0 1692 0 1696 0 1700 0
 		 1714 0 1720 0 1758 0 1764 0 1926 0 1967 0 2000 0 2020 0 2021 0 2040 0 2060 0 2061 0
 		 2475 0 2490 0 2500 0 2520 0 2521 0 2540 0 2560 0 2561 0 2580 0 2600 0 2610 0 2625 0
-		 3000 0 3064 0 3069 0 3070 0 3952 0 3999 0 4000 0 4017 0 4028 0 4037 0;
-	setAttr -s 93 ".kit[6:92]"  18 1 1 18 18 18 1 1 
+		 2640 0 3000 0 3135 0 3140 0 3141 0 3952 0 3999 0 4000 0 4017 0 4028 0 4037 0;
+	setAttr -s 94 ".kit[6:93]"  18 1 1 18 18 18 1 1 
 		18 18 1 18 18 18 1 1 18 1 1 18 1 1 1 1 1 
 		1 18 1 1 1 1 1 1 1 18 18 18 18 18 1 18 1 
 		1 1 1 1 1 1 1 1 1 18 1 18 18 18 1 18 1 
 		1 1 18 1 1 1 18 18 18 1 18 18 1 1 18 1 18 
-		1 18 1 18 18 18 1 1 18 18 18;
-	setAttr -s 93 ".kot[6:92]"  18 1 1 18 1 18 1 1 
+		1 18 18 1 18 18 18 1 1 18 18 18;
+	setAttr -s 94 ".kot[6:93]"  18 1 1 18 1 18 1 1 
 		18 18 1 18 1 18 1 1 1 1 1 18 1 1 1 1 1 
 		1 18 1 1 1 1 1 1 1 18 18 18 18 18 1 18 1 
 		1 1 1 1 1 1 1 1 1 18 1 18 18 18 1 18 1 
 		1 1 18 1 1 18 18 18 18 1 18 1 1 18 18 1 18 
-		1 18 1 18 18 18 1 1 18 18 18;
-	setAttr -s 93 ".kix[0:92]"  1 0.6333333333333333 1 1 1 1 1 1 1 1 1 
+		1 18 18 1 18 18 18 1 1 18 18 18;
+	setAttr -s 94 ".kix[0:93]"  1 0.6333333333333333 1 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.63333333333334707 1 1 0.63333333333334707 1 1 0.63333333333334707 
 		1 1 0.63333333333334707 1 1 0.63333333333334707 1 1 1 1 1 0.63333333333334707 1 0.63333333333334707 
 		1 1 0.63333333333334707 1 1 0.63333333333334707 1 1 0.63333333333334707 1 0.63333333333334707 
 		1 1 1 0.63333333333334707 1 1 1 1 1 1 1 1 1 1 1 0.63333333333334707 1 1 0.63333333333334707 
-		1 1 0.6333333333333333 1 0.6333333333333333 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 93 ".kiy[0:92]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 0.6333333333333333 1 0.6333333333333333 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 94 ".kiy[0:93]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 93 ".kox[0:92]"  1 0.43333333333333329 1 1 1 1 1 1 1 1 1 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 94 ".kox[0:93]"  1 0.43333333333333329 1 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.43333333333331581 1 1 0.43333333333331581 1 1 0.43333333333331581 
 		1 1 0.43333333333331581 1 1 0.43333333333331581 1 1 1 1 1 0.43333333333331581 1 0.43333333333331581 
 		1 1 0.43333333333331581 1 1 0.43333333333331581 1 1 0.43333333333331581 1 0.43333333333331581 
 		1 1 1 0.43333333333331581 1 1 1 1 1 1 1 1 1 1 1 0.43333333333331581 1 1 0.43333333333331581 
-		1 1 0.43333333333333329 1 0.43333333333333329 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 93 ".koy[0:92]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 0.43333333333333329 1 0.43333333333333329 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 94 ".koy[0:93]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerIndex2_ctrl_rotateY";
 	rename -uid "12F937D5-47E3-8B9B-4415-5F911697829A";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 128 ".ktv[0:127]"  -19 0 -3 -0.40030283757791824 0 -0.36336082766472172
+	setAttr -s 129 ".ktv[0:128]"  -19 0 -3 -0.40030283757791824 0 -0.36336082766472172
 		 13 0 29 -0.40030283757791824 45 0 61 -0.40030283757791824 64 -0.36336082766472166
 		 77 0 96 0 100 -0.36336082766472166 112 -96.959302038758921 119 -96.959302038758921
 		 135 0 150 -0.36336082766472166 160 -0.13998642848476969 181 0 197 -0.40030283757791824
@@ -6990,26 +7171,28 @@ createNode animCurveTA -n "r_fingerIndex2_ctrl_rotateY";
 		 2475 0 2490 -0.36336082766472044 2500 -0.36336082766472044 2520 -0.36336082766472044
 		 2521 -0.36336082766472044 2540 -0.36336082766472044 2560 -0.36336082766472044 2561 -0.36336082766472044
 		 2580 -0.36336082766472044 2600 -0.36336082766472172 2610 -0.36336082766472172 2625 -0.36336082766472172
-		 3000 -0.36336082766472044 3064 -0.36336082766472044 3069 -0.36336082766472044 3070 -0.36336082766472044
-		 3100 0 3952 0 3999 -0.36336082766472172 4000 -0.36336082766472172 4017 -0.36336082766472172
+		 2640 -0.36336082766472172 3000 0 3135 0 3140 -0.36336082766472044 3141 -0.36336082766472044
+		 3171 0 3952 0 3999 -0.36336082766472172 4000 -0.36336082766472172 4017 -0.36336082766472172
 		 4028 -0.36336082766472172 4037 -0.36336082766472172 4044 3.2935815610688239;
-	setAttr -s 128 ".kit[1:127]"  1 1 1 18 18 1 1 1 
+	setAttr -s 129 ".kit[1:128]"  1 1 1 18 18 1 1 1 
 		18 1 18 18 18 1 18 18 18 18 18 18 1 1 18 18 1 
 		18 18 18 18 18 18 1 1 18 18 18 1 1 18 18 1 1 
 		1 18 18 1 1 1 18 1 1 18 18 1 1 1 18 18 1 
 		1 18 18 18 18 18 1 18 1 18 1 1 18 18 1 1 1 
 		18 18 1 1 1 18 18 1 1 18 1 18 1 18 18 18 18 
 		18 1 18 1 1 1 18 1 1 1 18 18 18 1 18 18 1 
-		1 18 1 18 1 18 1 18 18 18 18 1 1 18 18 18 18;
-	setAttr -s 128 ".kot[1:127]"  1 1 1 18 1 1 1 1 
+		1 18 1 18 1 18 18 1 18 18 18 18 1 1 18 18 18 
+		18;
+	setAttr -s 129 ".kot[1:128]"  1 1 1 18 1 1 1 1 
 		18 1 18 18 18 1 18 1 18 18 18 1 1 1 18 18 1 
 		18 1 18 18 18 1 1 1 1 18 1 1 1 18 1 1 1 
 		1 18 1 1 1 1 18 1 1 18 1 1 1 1 18 1 1 
 		1 18 18 18 18 18 1 18 1 18 1 1 18 1 1 1 1 
 		18 1 1 1 1 18 1 1 1 18 1 18 1 18 18 18 18 
 		18 1 18 1 1 1 18 1 1 18 18 18 18 1 18 1 1 
-		18 18 1 18 1 18 1 18 18 18 18 1 1 18 18 18 18;
-	setAttr -s 128 ".kix[1:127]"  1 0.10000000000000003 1 1 1 1 0.99992831806725879 
+		18 18 1 18 1 18 18 1 18 18 18 18 1 1 18 18 18 
+		18;
+	setAttr -s 129 ".kix[1:128]"  1 0.10000000000000003 1 1 1 1 0.99992831806725879 
 		1 1 0.99992831806725879 1 1 1 0.99992831806725879 0.99998116750741495 1 1 1 1 1 1 
 		0.99992831806725879 1 1 0.99992831806725879 0.99999827105576633 1 1 1 1 1 1 0.99992831806725879 
 		1 1 1 1 0.99992831806725879 1 0.99999777842258997 1 0.10000000000001563 1 1 1 1 0.10000000000001563 
@@ -7019,8 +7202,8 @@ createNode animCurveTA -n "r_fingerIndex2_ctrl_rotateY";
 		1 1 0.10000000000001563 1 0.10000000000001563 1 1 1 0.99902972550482882 1 1 1 0.10000000000001563 
 		1 1 0.99992831806725879 0.99992831806725879 1 0.99992831806725879 0.99992831806725879 
 		0.99999991257802545 1 1 1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000000003 
-		1 0.10000000000000003 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 128 ".kiy[1:127]"  0 0.001197410881252233 0 0 0 0 0.011973250485259703 
+		1 0.10000000000000003 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 129 ".kiy[1:128]"  0 0.001197410881252233 0 0 0 0 0.011973250485259703 
 		0 0 0.011973250485259703 0 0 0 0.011973250485259703 0.0061371516607870566 0 0 0 0 
 		0 0 0.011973250485259703 0 0 0.011973250485259703 0.0018595390499163385 0 0 0 0 0 
 		0 0.011973250485259703 0 0 0 0 0.011973250485259703 0 -0.0021078780526191786 0 0.001197410881252272 
@@ -7031,8 +7214,8 @@ createNode animCurveTA -n "r_fingerIndex2_ctrl_rotateY";
 		0 0 0 -0.044040975894573217 0 0 0 0.001197410881252272 0 0 0.011973250485259703 0.011973250485259703 
 		0 0.011973250485259703 0.011973250485259703 0.00041814344578712097 0 0 0 0.001197410881252272 
 		0 0 0.001197410881252272 0 0 0.001197410881252233 0 0.001197410881252233 0 0 0 0 
-		0 0 0 0 0 0 0 0;
-	setAttr -s 128 ".kox[1:127]"  1 0.43333333333333329 1 1 1 1 0.9999283180672589 
+		0 0 0 0 0 0 0 0 0;
+	setAttr -s 129 ".kox[1:128]"  1 0.43333333333333329 1 1 1 1 0.9999283180672589 
 		1 1 0.9999283180672589 1 1 1 0.9999283180672589 0.99998116750741495 1 1 1 1 1 1 0.9999283180672589 
 		1 1 0.9999283180672589 0.99999827105576622 1 1 1 1 1 1 0.9999283180672589 1 1 1 1 
 		0.9999283180672589 1 1 1 0.43333333333331581 1 1 1 1 0.43333333333331581 1 1 0.43333333333331581 
@@ -7042,8 +7225,8 @@ createNode animCurveTA -n "r_fingerIndex2_ctrl_rotateY";
 		1 0.43333333333331581 1 1 1 0.99902972550482882 1 1 1 0.43333333333331581 1 1 0.9999283180672589 
 		0.9999283180672589 1 0.9999283180672589 0.9999283180672589 0.99999989491343433 1 
 		1 1 0.43333333333331581 1 1 0.43333333333331581 1 1 0.43333333333333329 1 0.43333333333333329 
-		1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 128 ".koy[1:127]"  0 0.0051887804854263489 0 0 0 0 0.011973250485259816 
+		1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 129 ".koy[1:128]"  0 0.0051887804854263489 0 0 0 0 0.011973250485259816 
 		0 0 0.011973250485259816 0 0 0 0.011973250485259816 0.0061371516607870583 0 0 0 0 
 		0 0 0.011973250485259816 0 0 0.011973250485259816 0.0018595390499163385 0 0 0 0 0 
 		0 0.011973250485259816 0 0 0 0 0.011973250485259816 0 0 0 0.0051887804854263957 0 
@@ -7054,99 +7237,99 @@ createNode animCurveTA -n "r_fingerIndex2_ctrl_rotateY";
 		0 0 0 -0.044040975894573217 0 0 0 0.0051887804854263957 0 0 0.011973250485259816 
 		0.011973250485259816 0 0.011973250485259816 0.011973250485259816 0.00045844642041532137 
 		0 0 0 0.0051887804854263957 0 0 0.0051887804854263957 0 0 0.0051887804854263489 0 
-		0.0051887804854263489 0 0 0 0 0 0 0 0 0 0 0 0;
+		0.0051887804854263489 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerIndex2_ctrl_rotateZ";
 	rename -uid "82F19141-4E0F-1F47-E285-8FB0FDB41081";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 93 ".ktv[0:92]"  -19 0 0 0 13 0 45 0 64 0 77 0 96 0 100 0
+	setAttr -s 94 ".ktv[0:93]"  -19 0 0 0 13 0 45 0 64 0 77 0 96 0 100 0
 		 150 0 160 0 181 0 213 0 245 0 264 0 280 0 300 0 385 0 400 0 431 0 463 0 495 0 514 0
 		 527 0 559 0 578 0 952 0 981 0 1000 0 1013 0 1045 0 1064 0 1077 0 1180 0 1200 0 1213 0
 		 1245 0 1264 0 1277 0 1309 0 1328 0 1380 0 1393 0 1400 0 1411 0 1468 0 1480 0 1482 0
 		 1500 0 1513 0 1545 0 1564 0 1577 0 1609 0 1628 0 1641 0 1673 0 1692 0 1696 0 1700 0
 		 1714 0 1720 0 1758 0 1764 0 1926 0 1967 0 2000 0 2020 0 2021 0 2040 0 2060 0 2061 0
 		 2475 0 2490 0 2500 0 2520 0 2521 0 2540 0 2560 0 2561 0 2580 0 2600 0 2610 0 2625 0
-		 3000 0 3064 0 3069 0 3070 0 3952 0 3999 0 4000 0 4017 0 4028 0 4037 0;
-	setAttr -s 93 ".kit[6:92]"  18 1 1 18 18 18 1 1 
+		 2640 0 3000 0 3135 0 3140 0 3141 0 3952 0 3999 0 4000 0 4017 0 4028 0 4037 0;
+	setAttr -s 94 ".kit[6:93]"  18 1 1 18 18 18 1 1 
 		18 18 1 18 18 18 1 1 18 1 1 18 1 1 1 1 1 
 		1 18 1 1 1 1 1 1 1 18 18 18 18 18 1 18 1 
 		1 1 1 1 1 1 1 1 1 18 1 18 18 18 1 18 1 
 		1 1 18 1 1 1 18 18 18 1 18 18 1 1 18 1 18 
-		1 18 1 18 18 18 1 1 18 18 18;
-	setAttr -s 93 ".kot[6:92]"  18 1 1 18 1 18 1 1 
+		1 18 18 1 18 18 18 1 1 18 18 18;
+	setAttr -s 94 ".kot[6:93]"  18 1 1 18 1 18 1 1 
 		18 18 1 18 1 18 1 1 1 1 1 18 1 1 1 1 1 
 		1 18 1 1 1 1 1 1 1 18 18 18 18 18 1 18 1 
 		1 1 1 1 1 1 1 1 1 18 1 18 18 18 1 18 1 
 		1 1 18 1 1 18 18 18 18 1 18 1 1 18 18 1 18 
-		1 18 1 18 18 18 1 1 18 18 18;
-	setAttr -s 93 ".kix[0:92]"  1 0.6333333333333333 1 1 1 1 1 1 1 1 1 
+		1 18 18 1 18 18 18 1 1 18 18 18;
+	setAttr -s 94 ".kix[0:93]"  1 0.6333333333333333 1 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.63333333333334707 1 1 0.63333333333334707 1 1 0.63333333333334707 
 		1 1 0.63333333333334707 1 1 0.63333333333334707 1 1 1 1 1 0.63333333333334707 1 0.63333333333334707 
 		1 1 0.63333333333334707 1 1 0.63333333333334707 1 1 0.63333333333334707 1 0.63333333333334707 
 		1 1 1 0.63333333333334707 1 1 1 1 1 1 1 1 1 1 1 0.63333333333334707 1 1 0.63333333333334707 
-		1 1 0.6333333333333333 1 0.6333333333333333 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 93 ".kiy[0:92]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 0.6333333333333333 1 0.6333333333333333 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 94 ".kiy[0:93]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 93 ".kox[0:92]"  1 0.43333333333333329 1 1 1 1 1 1 1 1 1 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 94 ".kox[0:93]"  1 0.43333333333333329 1 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.43333333333331581 1 1 0.43333333333331581 1 1 0.43333333333331581 
 		1 1 0.43333333333331581 1 1 0.43333333333331581 1 1 1 1 1 0.43333333333331581 1 0.43333333333331581 
 		1 1 0.43333333333331581 1 1 0.43333333333331581 1 1 0.43333333333331581 1 0.43333333333331581 
 		1 1 1 0.43333333333331581 1 1 1 1 1 1 1 1 1 1 1 0.43333333333331581 1 1 0.43333333333331581 
-		1 1 0.43333333333333329 1 0.43333333333333329 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 93 ".koy[0:92]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		1 1 0.43333333333333329 1 0.43333333333333329 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 94 ".koy[0:93]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerIndex1_ctrl_rotateX";
 	rename -uid "E462B420-4D0C-0DA8-F6B5-D6AEDD4D1C78";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 96 ".ktv[0:95]"  -19 0 0 0 13 0 45 0 64 0 77 0 96 0 100 0
+	setAttr -s 97 ".ktv[0:96]"  -19 0 0 0 13 0 45 0 64 0 77 0 96 0 100 0
 		 112 28.237130241941777 119 28.237130241941777 135 0 150 0 160 0 181 0 213 0 245 0
 		 264 0 280 0 300 0 385 0 400 0 431 0 463 0 495 0 514 0 527 0 559 0 578 0 952 0 981 0
 		 1000 0 1013 0 1045 0 1064 0 1077 0 1180 0 1200 0 1213 0 1245 0 1264 0 1277 0 1309 0
 		 1328 0 1380 0 1393 0 1400 0 1411 0 1468 0 1480 0 1482 0 1500 0 1513 0 1545 0 1564 0
 		 1577 0 1609 0 1628 0 1641 0 1673 0 1692 0 1696 0 1700 0 1714 0 1720 0 1758 0 1764 0
 		 1926 0 1967 0 2000 0 2020 0 2021 0 2040 0 2060 0 2061 0 2475 0 2490 0 2500 0 2520 0
-		 2521 0 2540 0 2560 0 2561 0 2580 0 2600 0 2610 0 2625 0 3000 0 3064 0 3069 0 3070 0
-		 3952 0 3999 0 4000 0 4017 0 4028 0 4037 0;
-	setAttr -s 96 ".kit[6:95]"  18 1 18 18 18 1 18 18 
+		 2521 0 2540 0 2560 0 2561 0 2580 0 2600 0 2610 0 2625 0 2640 0 3000 0 3135 0 3140 0
+		 3141 0 3952 0 3999 0 4000 0 4017 0 4028 0 4037 0;
+	setAttr -s 97 ".kit[6:96]"  18 1 18 18 18 1 18 18 
 		18 1 1 18 18 1 18 18 18 1 1 18 1 1 18 1 1 
 		1 1 1 1 18 1 1 1 1 1 1 1 18 18 18 18 18 
 		1 18 1 1 1 1 1 1 1 1 1 1 18 1 18 18 18 
 		1 18 1 1 1 18 1 1 1 18 18 18 1 18 18 1 1 
-		18 1 18 1 18 1 18 18 18 1 1 18 18 18;
-	setAttr -s 96 ".kot[6:95]"  18 1 18 18 18 1 18 1 
+		18 1 18 1 18 18 1 18 18 18 1 1 18 18 18;
+	setAttr -s 97 ".kot[6:96]"  18 1 18 18 18 1 18 1 
 		18 1 1 18 18 1 18 1 18 1 1 1 1 1 18 1 1 
 		1 1 1 1 18 1 1 1 1 1 1 1 18 18 18 18 18 
 		1 18 1 1 1 1 1 1 1 1 1 1 18 1 18 18 18 
 		1 18 1 1 1 18 1 1 18 18 18 18 1 18 1 1 18 
-		18 1 18 1 18 1 18 18 18 1 1 18 18 18;
-	setAttr -s 96 ".kix[0:95]"  1 0.6333333333333333 1 1 1 1 1 1 1 1 1 
+		18 1 18 1 18 18 1 18 18 18 1 1 18 18 18;
+	setAttr -s 97 ".kix[0:96]"  1 0.6333333333333333 1 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.63333333333334707 1 1 0.63333333333334707 
 		1 1 0.63333333333334707 1 1 0.63333333333334707 1 1 0.63333333333334707 1 1 1 1 1 
 		0.63333333333334707 1 0.63333333333334707 1 1 0.63333333333334707 1 1 0.63333333333334707 
 		1 1 0.63333333333334707 1 0.63333333333334707 1 1 1 0.63333333333334707 1 1 1 1 1 
 		1 1 1 1 1 1 0.63333333333334707 1 1 0.63333333333334707 1 1 0.6333333333333333 1 
-		0.6333333333333333 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 96 ".kiy[0:95]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		0.6333333333333333 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 97 ".kiy[0:96]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 96 ".kox[0:95]"  1 0.43333333333333329 1 1 1 1 1 1 1 1 1 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 97 ".kox[0:96]"  1 0.43333333333333329 1 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.43333333333331581 1 1 0.43333333333331581 
 		1 1 0.43333333333331581 1 1 0.43333333333331581 1 1 0.43333333333331581 1 1 1 1 1 
 		0.43333333333331581 1 0.43333333333331581 1 1 0.43333333333331581 1 1 0.43333333333331581 
 		1 1 0.43333333333331581 1 0.43333333333331581 1 1 1 0.43333333333331581 1 1 1 1 1 
 		1 1 1 1 1 1 0.43333333333331581 1 1 0.43333333333331581 1 1 0.43333333333333329 1 
-		0.43333333333333329 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 96 ".koy[0:95]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		0.43333333333333329 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 97 ".koy[0:96]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerIndex1_ctrl_rotateY";
 	rename -uid "BEF428E4-4AD0-2127-C5C3-A59042C85DDA";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 128 ".ktv[0:127]"  -19 0 -3 -0.40030283757791824 0 -0.36336082766472172
+	setAttr -s 129 ".ktv[0:128]"  -19 0 -3 -0.40030283757791824 0 -0.36336082766472172
 		 13 0 29 -0.40030283757791824 45 0 61 -0.40030283757791824 64 -0.36336082766472166
 		 77 0 96 0 100 -0.36336082766472166 112 -87.333143544219055 119 -87.333143544219055
 		 135 0 150 -0.36336082766472166 160 -0.13998642848476969 181 0 197 -0.40030283757791824
@@ -7172,26 +7355,28 @@ createNode animCurveTA -n "r_fingerIndex1_ctrl_rotateY";
 		 2475 0 2490 -0.36336082766472044 2500 -0.36336082766472044 2520 -0.36336082766472044
 		 2521 -0.36336082766472044 2540 -0.36336082766472044 2560 -0.36336082766472044 2561 -0.36336082766472044
 		 2580 -0.36336082766472044 2600 -0.36336082766472172 2610 -0.36336082766472172 2625 -0.36336082766472172
-		 3000 -0.36336082766472044 3064 -0.36336082766472044 3069 -0.36336082766472044 3070 -0.36336082766472044
-		 3100 0 3952 0 3999 -0.36336082766472172 4000 -0.36336082766472172 4017 -0.36336082766472172
+		 2640 -0.36336082766472172 3000 0 3135 0 3140 -0.36336082766472044 3141 -0.36336082766472044
+		 3171 0 3952 0 3999 -0.36336082766472172 4000 -0.36336082766472172 4017 -0.36336082766472172
 		 4028 -0.36336082766472172 4037 -0.36336082766472172 4044 3.2935815610688239;
-	setAttr -s 128 ".kit[1:127]"  1 1 1 18 18 1 1 1 
+	setAttr -s 129 ".kit[1:128]"  1 1 1 18 18 1 1 1 
 		18 1 18 18 18 1 18 18 18 18 18 18 1 1 18 18 1 
 		18 18 18 18 18 18 1 1 18 18 18 1 1 18 18 1 1 
 		1 18 18 1 1 1 18 1 1 18 18 1 1 1 18 18 1 
 		1 18 18 18 18 18 1 18 1 18 1 1 18 18 1 1 1 
 		18 18 1 1 1 18 18 1 1 18 1 18 1 18 18 18 18 
 		18 1 18 1 1 1 18 1 1 1 18 18 18 1 18 18 1 
-		1 18 1 18 1 18 1 18 18 18 18 1 1 18 18 18 18;
-	setAttr -s 128 ".kot[1:127]"  1 1 1 18 1 1 1 1 
+		1 18 1 18 1 18 18 1 18 18 18 18 1 1 18 18 18 
+		18;
+	setAttr -s 129 ".kot[1:128]"  1 1 1 18 1 1 1 1 
 		18 1 18 18 18 1 18 1 18 18 18 1 1 1 18 18 1 
 		18 1 18 18 18 1 1 1 1 18 1 1 1 18 1 1 1 
 		1 18 1 1 1 1 18 1 1 18 1 1 1 1 18 1 1 
 		1 18 18 18 18 18 1 18 1 18 1 1 18 1 1 1 1 
 		18 1 1 1 1 18 1 1 1 18 1 18 1 18 18 18 18 
 		18 1 18 1 1 1 18 1 1 18 18 18 18 1 18 1 1 
-		18 18 1 18 1 18 1 18 18 18 18 1 1 18 18 18 18;
-	setAttr -s 128 ".kix[1:127]"  1 0.10000000000000003 1 1 1 1 0.99992831806725879 
+		18 18 1 18 1 18 18 1 18 18 18 18 1 1 18 18 18 
+		18;
+	setAttr -s 129 ".kix[1:128]"  1 0.10000000000000003 1 1 1 1 0.99992831806725879 
 		1 1 0.99992831806725879 1 1 1 0.99992831806725879 0.99998116750741495 1 1 1 1 1 1 
 		0.99992831806725879 1 1 0.99992831806725879 0.99999827105576633 1 1 1 1 1 1 0.99992831806725879 
 		1 1 1 1 0.99992831806725879 1 0.99999777842258997 1 0.10000000000001563 1 1 1 1 0.10000000000001563 
@@ -7201,8 +7386,8 @@ createNode animCurveTA -n "r_fingerIndex1_ctrl_rotateY";
 		1 1 0.10000000000001563 1 0.10000000000001563 1 1 1 0.99902972550482882 1 1 1 0.10000000000001563 
 		1 1 0.99992831806725879 0.99992831806725879 1 0.99992831806725879 0.99992831806725879 
 		0.99999991257802545 1 1 1 0.10000000000001563 1 1 0.10000000000001563 1 1 0.10000000000000003 
-		1 0.10000000000000003 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 128 ".kiy[1:127]"  0 0.001197410881252233 0 0 0 0 0.011973250485259703 
+		1 0.10000000000000003 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 129 ".kiy[1:128]"  0 0.001197410881252233 0 0 0 0 0.011973250485259703 
 		0 0 0.011973250485259703 0 0 0 0.011973250485259703 0.0061371516607870566 0 0 0 0 
 		0 0 0.011973250485259703 0 0 0.011973250485259703 0.0018595390499163385 0 0 0 0 0 
 		0 0.011973250485259703 0 0 0 0 0.011973250485259703 0 -0.0021078780526191786 0 0.001197410881252272 
@@ -7213,8 +7398,8 @@ createNode animCurveTA -n "r_fingerIndex1_ctrl_rotateY";
 		0 0 0 -0.044040975894573196 0 0 0 0.001197410881252272 0 0 0.011973250485259703 0.011973250485259703 
 		0 0.011973250485259703 0.011973250485259703 0.00041814344578712097 0 0 0 0.001197410881252272 
 		0 0 0.001197410881252272 0 0 0.001197410881252233 0 0.001197410881252233 0 0 0 0 
-		0 0 0 0 0 0 0 0;
-	setAttr -s 128 ".kox[1:127]"  1 0.43333333333333329 1 1 1 1 0.9999283180672589 
+		0 0 0 0 0 0 0 0 0;
+	setAttr -s 129 ".kox[1:128]"  1 0.43333333333333329 1 1 1 1 0.9999283180672589 
 		1 1 0.9999283180672589 1 1 1 0.9999283180672589 0.99998116750741495 1 1 1 1 1 1 0.9999283180672589 
 		1 1 0.9999283180672589 0.99999827105576622 1 1 1 1 1 1 0.9999283180672589 1 1 1 1 
 		0.9999283180672589 1 1 1 0.43333333333331581 1 1 1 1 0.43333333333331581 1 1 0.43333333333331581 
@@ -7224,8 +7409,8 @@ createNode animCurveTA -n "r_fingerIndex1_ctrl_rotateY";
 		1 0.43333333333331581 1 1 1 0.99902972550482882 1 1 1 0.43333333333331581 1 1 0.9999283180672589 
 		0.9999283180672589 1 0.9999283180672589 0.9999283180672589 0.99999989491343433 1 
 		1 1 0.43333333333331581 1 1 0.43333333333331581 1 1 0.43333333333333329 1 0.43333333333333329 
-		1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 128 ".koy[1:127]"  0 0.0051887804854263489 0 0 0 0 0.011973250485259816 
+		1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 129 ".koy[1:128]"  0 0.0051887804854263489 0 0 0 0 0.011973250485259816 
 		0 0 0.011973250485259816 0 0 0 0.011973250485259816 0.0061371516607870583 0 0 0 0 
 		0 0 0.011973250485259816 0 0 0.011973250485259816 0.0018595390499163385 0 0 0 0 0 
 		0 0.011973250485259816 0 0 0 0 0.011973250485259816 0 0 0 0.0051887804854263957 0 
@@ -7236,148 +7421,610 @@ createNode animCurveTA -n "r_fingerIndex1_ctrl_rotateY";
 		0 0 0 -0.044040975894573203 0 0 0 0.0051887804854263957 0 0 0.011973250485259816 
 		0.011973250485259816 0 0.011973250485259816 0.011973250485259816 0.00045844642041532137 
 		0 0 0 0.0051887804854263957 0 0 0.0051887804854263957 0 0 0.0051887804854263489 0 
-		0.0051887804854263489 0 0 0 0 0 0 0 0 0 0 0 0;
+		0.0051887804854263489 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerIndex1_ctrl_rotateZ";
 	rename -uid "521FE38D-477D-C7B1-BFA4-DF9D21916CF4";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 96 ".ktv[0:95]"  -19 0 0 0 13 0 45 0 64 0 77 0 96 0 100 0
+	setAttr -s 97 ".ktv[0:96]"  -19 0 0 0 13 0 45 0 64 0 77 0 96 0 100 0
 		 112 -15.380041715475524 119 -15.380041715475524 135 0 150 0 160 0 181 0 213 0 245 0
 		 264 0 280 0 300 0 385 0 400 0 431 0 463 0 495 0 514 0 527 0 559 0 578 0 952 0 981 0
 		 1000 0 1013 0 1045 0 1064 0 1077 0 1180 0 1200 0 1213 0 1245 0 1264 0 1277 0 1309 0
 		 1328 0 1380 0 1393 0 1400 0 1411 0 1468 0 1480 0 1482 0 1500 0 1513 0 1545 0 1564 0
 		 1577 0 1609 0 1628 0 1641 0 1673 0 1692 0 1696 0 1700 0 1714 0 1720 0 1758 0 1764 0
 		 1926 0 1967 0 2000 0 2020 0 2021 0 2040 0 2060 0 2061 0 2475 0 2490 0 2500 0 2520 0
-		 2521 0 2540 0 2560 0 2561 0 2580 0 2600 0 2610 0 2625 0 3000 0 3064 0 3069 0 3070 0
-		 3952 0 3999 0 4000 0 4017 0 4028 0 4037 0;
-	setAttr -s 96 ".kit[6:95]"  18 1 18 18 18 1 18 18 
+		 2521 0 2540 0 2560 0 2561 0 2580 0 2600 0 2610 0 2625 0 2640 0 3000 0 3135 0 3140 0
+		 3141 0 3952 0 3999 0 4000 0 4017 0 4028 0 4037 0;
+	setAttr -s 97 ".kit[6:96]"  18 1 18 18 18 1 18 18 
 		18 1 1 18 18 1 18 18 18 1 1 18 1 1 18 1 1 
 		1 1 1 1 18 1 1 1 1 1 1 1 18 18 18 18 18 
 		1 18 1 1 1 1 1 1 1 1 1 1 18 1 18 18 18 
 		1 18 1 1 1 18 1 1 1 18 18 18 1 18 18 1 1 
-		18 1 18 1 18 1 18 18 18 1 1 18 18 18;
-	setAttr -s 96 ".kot[6:95]"  18 1 18 18 18 1 18 1 
+		18 1 18 1 18 18 1 18 18 18 1 1 18 18 18;
+	setAttr -s 97 ".kot[6:96]"  18 1 18 18 18 1 18 1 
 		18 1 1 18 18 1 18 1 18 1 1 1 1 1 18 1 1 
 		1 1 1 1 18 1 1 1 1 1 1 1 18 18 18 18 18 
 		1 18 1 1 1 1 1 1 1 1 1 1 18 1 18 18 18 
 		1 18 1 1 1 18 1 1 18 18 18 18 1 18 1 1 18 
-		18 1 18 1 18 1 18 18 18 1 1 18 18 18;
-	setAttr -s 96 ".kix[0:95]"  1 0.6333333333333333 1 1 1 1 1 1 1 1 1 
+		18 1 18 1 18 18 1 18 18 18 1 1 18 18 18;
+	setAttr -s 97 ".kix[0:96]"  1 0.6333333333333333 1 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.63333333333334707 1 1 0.63333333333334707 
 		1 1 0.63333333333334707 1 1 0.63333333333334707 1 1 0.63333333333334707 1 1 1 1 1 
 		0.63333333333334707 1 0.63333333333334707 1 1 0.63333333333334707 1 1 0.63333333333334707 
 		1 1 0.63333333333334707 1 0.63333333333334707 1 1 1 0.63333333333334707 1 1 1 1 1 
 		1 1 1 1 1 1 0.63333333333334707 1 1 0.63333333333334707 1 1 0.6333333333333333 1 
-		0.6333333333333333 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 96 ".kiy[0:95]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		0.6333333333333333 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 97 ".kiy[0:96]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 96 ".kox[0:95]"  1 0.43333333333333329 1 1 1 1 1 1 1 1 1 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 97 ".kox[0:96]"  1 0.43333333333333329 1 1 1 1 1 1 1 1 1 
 		1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.43333333333331581 1 1 0.43333333333331581 
 		1 1 0.43333333333331581 1 1 0.43333333333331581 1 1 0.43333333333331581 1 1 1 1 1 
 		0.43333333333331581 1 0.43333333333331581 1 1 0.43333333333331581 1 1 0.43333333333331581 
 		1 1 0.43333333333331581 1 0.43333333333331581 1 1 1 0.43333333333331581 1 1 1 1 1 
 		1 1 1 1 1 1 0.43333333333331581 1 1 0.43333333333331581 1 1 0.43333333333333329 1 
-		0.43333333333333329 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 96 ".koy[0:95]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		0.43333333333333329 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 97 ".koy[0:96]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerPinkyIn_ctrl_rotateX";
 	rename -uid "ADB419E9-4CFF-2EF7-AD6F-6EBE625FC8DC";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 59 ".ktv[0:58]"  0 0 64 0 96 0 100 0 150 0 160 0 264 0 280 0
+	setAttr -s 60 ".ktv[0:59]"  0 0 64 0 96 0 100 0 150 0 160 0 264 0 280 0
 		 300 0 385 0 400 0 514 0 578 0 952 0 1000 0 1064 0 1180 0 1200 0 1264 0 1328 0 1380 0
 		 1393 0 1400 0 1480 0 1482 0 1500 0 1564 0 1628 0 1692 0 1696 0 1700 0 1764 0 1926 0
 		 1967 0 2000 0 2020 0 2021 0 2040 0 2060 0 2061 0 2475 0 2490 0 2500 0 2520 0 2521 0
-		 2540 0 2560 0 2561 0 2580 0 2600 0 2610 0 2625 0 3000 0 3064 0 3069 0 3070 0 3952 0
-		 3999 0 4000 0;
-	setAttr -s 59 ".kit[0:58]"  18 18 18 1 18 18 1 18 
+		 2540 0 2560 0 2561 0 2580 0 2600 0 2610 0 2625 0 2640 0 3000 0 3135 0 3140 0 3141 0
+		 3952 0 3999 0 4000 0;
+	setAttr -s 60 ".kit[0:59]"  18 18 18 1 18 18 1 18 
 		18 1 18 1 1 1 1 1 18 1 1 1 18 18 18 1 18 
 		1 1 1 1 18 1 1 1 1 1 1 18 1 1 1 18 18 
-		18 1 18 18 1 1 18 1 18 1 18 1 18 18 18 1 1;
-	setAttr -s 59 ".kot[0:58]"  18 1 1 1 18 18 1 18 
+		18 1 18 18 1 1 18 1 18 1 18 18 1 18 18 18 1 
+		1;
+	setAttr -s 60 ".kot[0:59]"  18 1 1 1 18 18 1 18 
 		18 1 18 1 1 1 1 1 18 1 1 1 18 18 18 1 18 
 		1 1 1 1 18 1 1 1 1 1 1 18 1 1 18 18 18 
-		18 1 18 1 1 18 18 1 18 1 18 1 18 18 18 1 1;
-	setAttr -s 59 ".kix[3:58]"  1 1 1 1 1 1 1 1 1 1 1 1.6000000000000156 
+		18 1 18 1 1 18 18 1 18 1 18 18 1 18 18 18 1 
+		1;
+	setAttr -s 60 ".kix[3:59]"  1 1 1 1 1 1 1 1 1 1 1 1.6000000000000156 
 		2.1333333333333471 1 1.6000000000000156 1.6000000000000156 2.1333333333333471 1 1 
 		1 2.1333333333333471 1 1.6000000000000156 1.6000000000000156 1.6000000000000156 2.1333333333333471 
 		1 1.6000000000000156 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 2.1333333333333471 
-		1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 59 ".kiy[3:58]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 59 ".kox[1:58]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 
+		1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 60 ".kiy[3:59]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 60 ".kox[1:59]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 
 		1 1 1 28.733333333333327 1 1 1 28.733333333333327 1 1 1 1 28.733333333333327 1 1 
 		28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 1 1 28.733333333333327 
-		1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 59 ".koy[1:58]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+		1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 60 ".koy[1:59]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerPinkyIn_ctrl_rotateY";
 	rename -uid "C323A862-412E-2918-FC82-4A9D727AC291";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 59 ".ktv[0:58]"  0 0 64 0 96 0 100 0 150 0 160 0 264 0 280 0
+	setAttr -s 60 ".ktv[0:59]"  0 0 64 0 96 0 100 0 150 0 160 0 264 0 280 0
 		 300 0 385 0 400 0 514 0 578 0 952 0 1000 0 1064 0 1180 0 1200 0 1264 0 1328 0 1380 0
 		 1393 0 1400 0 1480 0 1482 0 1500 0 1564 0 1628 0 1692 0 1696 0 1700 0 1764 0 1926 0
 		 1967 0 2000 0 2020 0 2021 0 2040 0 2060 0 2061 0 2475 0 2490 0 2500 0 2520 0 2521 0
-		 2540 0 2560 0 2561 0 2580 0 2600 0 2610 0 2625 0 3000 0 3064 0 3069 0 3070 0 3952 0
-		 3999 0 4000 0;
-	setAttr -s 59 ".kit[0:58]"  18 18 18 1 18 18 1 18 
+		 2540 0 2560 0 2561 0 2580 0 2600 0 2610 0 2625 0 2640 0 3000 0 3135 0 3140 0 3141 0
+		 3952 0 3999 0 4000 0;
+	setAttr -s 60 ".kit[0:59]"  18 18 18 1 18 18 1 18 
 		18 1 18 1 1 1 1 1 18 1 1 1 18 18 18 1 18 
 		1 1 1 1 18 1 1 1 1 1 1 18 1 1 1 18 18 
-		18 1 18 18 1 1 18 1 18 1 18 1 18 18 18 1 1;
-	setAttr -s 59 ".kot[0:58]"  18 1 1 1 18 18 1 18 
+		18 1 18 18 1 1 18 1 18 1 18 18 1 18 18 18 1 
+		1;
+	setAttr -s 60 ".kot[0:59]"  18 1 1 1 18 18 1 18 
 		18 1 18 1 1 1 1 1 18 1 1 1 18 18 18 1 18 
 		1 1 1 1 18 1 1 1 1 1 1 18 1 1 18 18 18 
-		18 1 18 1 1 18 18 1 18 1 18 1 18 18 18 1 1;
-	setAttr -s 59 ".kix[3:58]"  1 1 1 1 1 1 1 1 1 1 1 1.6000000000000156 
+		18 1 18 1 1 18 18 1 18 1 18 18 1 18 18 18 1 
+		1;
+	setAttr -s 60 ".kix[3:59]"  1 1 1 1 1 1 1 1 1 1 1 1.6000000000000156 
 		2.1333333333333471 1 1.6000000000000156 1.6000000000000156 2.1333333333333471 1 1 
 		1 2.1333333333333471 1 1.6000000000000156 1.6000000000000156 1.6000000000000156 2.1333333333333471 
 		1 1.6000000000000156 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 2.1333333333333471 
-		1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 59 ".kiy[3:58]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 59 ".kox[1:58]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 
+		1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 60 ".kiy[3:59]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 60 ".kox[1:59]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 
 		1 1 1 28.733333333333327 1 1 1 28.733333333333327 1 1 1 1 28.733333333333327 1 1 
 		28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 1 1 28.733333333333327 
-		1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 59 ".koy[1:58]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+		1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 60 ".koy[1:59]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 createNode animCurveTA -n "r_fingerPinkyIn_ctrl_rotateZ";
 	rename -uid "9564D923-4C6A-F330-EE2C-29B80143E753";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 59 ".ktv[0:58]"  0 0 64 0 96 0 100 0 150 0 160 0 264 0 280 0
+	setAttr -s 60 ".ktv[0:59]"  0 0 64 0 96 0 100 0 150 0 160 0 264 0 280 0
 		 300 0 385 0 400 0 514 0 578 0 952 0 1000 0 1064 0 1180 0 1200 0 1264 0 1328 0 1380 0
 		 1393 0 1400 0 1480 0 1482 0 1500 0 1564 0 1628 0 1692 0 1696 0 1700 0 1764 0 1926 0
 		 1967 0 2000 0 2020 0 2021 0 2040 0 2060 0 2061 0 2475 0 2490 0 2500 0 2520 0 2521 0
-		 2540 0 2560 0 2561 0 2580 0 2600 0 2610 0 2625 0 3000 0 3064 0 3069 0 3070 0 3952 0
-		 3999 0 4000 0;
-	setAttr -s 59 ".kit[0:58]"  18 18 18 1 18 18 1 18 
+		 2540 0 2560 0 2561 0 2580 0 2600 0 2610 0 2625 0 2640 0 3000 0 3135 0 3140 0 3141 0
+		 3952 0 3999 0 4000 0;
+	setAttr -s 60 ".kit[0:59]"  18 18 18 1 18 18 1 18 
 		18 1 18 1 1 1 1 1 18 1 1 1 18 18 18 1 18 
 		1 1 1 1 18 1 1 1 1 1 1 18 1 1 1 18 18 
-		18 1 18 18 1 1 18 1 18 1 18 1 18 18 18 1 1;
-	setAttr -s 59 ".kot[0:58]"  18 1 1 1 18 18 1 18 
+		18 1 18 18 1 1 18 1 18 1 18 18 1 18 18 18 1 
+		1;
+	setAttr -s 60 ".kot[0:59]"  18 1 1 1 18 18 1 18 
 		18 1 18 1 1 1 1 1 18 1 1 1 18 18 18 1 18 
 		1 1 1 1 18 1 1 1 1 1 1 18 1 1 18 18 18 
-		18 1 18 1 1 18 18 1 18 1 18 1 18 18 18 1 1;
-	setAttr -s 59 ".kix[3:58]"  1 1 1 1 1 1 1 1 1 1 1 1.6000000000000156 
+		18 1 18 1 1 18 18 1 18 1 18 18 1 18 18 18 1 
+		1;
+	setAttr -s 60 ".kix[3:59]"  1 1 1 1 1 1 1 1 1 1 1 1.6000000000000156 
 		2.1333333333333471 1 1.6000000000000156 1.6000000000000156 2.1333333333333471 1 1 
 		1 2.1333333333333471 1 1.6000000000000156 1.6000000000000156 1.6000000000000156 2.1333333333333471 
 		1 1.6000000000000156 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 2.1333333333333471 
-		1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 59 ".kiy[3:58]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
-	setAttr -s 59 ".kox[1:58]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 
+		1 1 2.1333333333333471 1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 60 ".kiy[3:59]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 60 ".kox[1:59]"  1 1 1 1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 
 		1 1 1 28.733333333333327 1 1 1 28.733333333333327 1 1 1 1 28.733333333333327 1 1 
 		28.733333333333327 1 1 1 1 1 1 1 1 1 1 1 28.733333333333327 1 1 28.733333333333327 
-		1 1 1 1 1 1 1 1 1 1 1 1;
-	setAttr -s 59 ".koy[1:58]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+		1 1 1 1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 60 ".koy[1:59]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+createNode animCurveTA -n "l_fingerThumb1_ctrl_rotateX";
+	rename -uid "63BBEF12-4857-64A0-2A51-1FB998AE0D77";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 2 ".ktv[0:1]"  2970 0 3000 6.7328690129469368;
+createNode animCurveTA -n "l_fingerThumb1_ctrl_rotateY";
+	rename -uid "7F153CD0-4F79-9E8E-FB00-7FB8E18D0E62";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 2 ".ktv[0:1]"  2970 0 3000 -26.201638642085669;
+createNode animCurveTA -n "l_fingerThumb1_ctrl_rotateZ";
+	rename -uid "1B8F6ED5-4EA0-1088-CB2C-C494AFC950DE";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 2 ".ktv[0:1]"  2970 0 3000 -12.164676869281406;
+createNode animCurveTL -n "l_armLower_ctrl_translateX";
+	rename -uid "DEE47FB2-40C7-8601-B3AA-34A0B7187A47";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  2970 -23.182347182672189 3000 -4.5815522924154397
+		 3064 -4.5815522924154397;
+	setAttr -s 3 ".kit[2]"  1;
+	setAttr -s 3 ".kot[2]"  1;
+	setAttr -s 3 ".kix[2]"  1;
+	setAttr -s 3 ".kiy[2]"  0;
+	setAttr -s 3 ".kox[2]"  1;
+	setAttr -s 3 ".koy[2]"  0;
+createNode animCurveTL -n "l_armLower_ctrl_translateY";
+	rename -uid "EF5252A5-401E-BD17-C752-ACA511627994";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  2970 0.35077808754723683 3000 -7.8711645959315728
+		 3064 -7.8711645959315728;
+	setAttr -s 3 ".kit[2]"  1;
+	setAttr -s 3 ".kot[2]"  1;
+	setAttr -s 3 ".kix[2]"  1;
+	setAttr -s 3 ".kiy[2]"  0;
+	setAttr -s 3 ".kox[2]"  1;
+	setAttr -s 3 ".koy[2]"  0;
+createNode animCurveTL -n "l_armLower_ctrl_translateZ";
+	rename -uid "B2A6EDC9-4BFD-645D-FBFF-65A1BE97282D";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  2970 0 3000 -12.762012912789537 3064 -12.762012912789537;
+	setAttr -s 3 ".kit[2]"  1;
+	setAttr -s 3 ".kot[2]"  1;
+	setAttr -s 3 ".kix[2]"  1;
+	setAttr -s 3 ".kiy[2]"  0;
+	setAttr -s 3 ".kox[2]"  1;
+	setAttr -s 3 ".koy[2]"  0;
+createNode animCurveTA -n "l_armLower_ctrl_rotateX";
+	rename -uid "43E50C02-495E-16E3-9401-E6A9348F9980";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 4 ".ktv[0:3]"  2970 0 3000 87.842907111180054 3032 88.727275568536072
+		 3064 87.842907111180054;
+	setAttr -s 4 ".kit[3]"  1;
+	setAttr -s 4 ".kot[3]"  1;
+	setAttr -s 4 ".kix[3]"  1;
+	setAttr -s 4 ".kiy[3]"  0;
+	setAttr -s 4 ".kox[3]"  1;
+	setAttr -s 4 ".koy[3]"  0;
+createNode animCurveTA -n "l_armLower_ctrl_rotateY";
+	rename -uid "E7495DC1-4CE8-1F43-AE8C-A3A34990C980";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 6 ".ktv[0:5]"  2970 0 2982 -26.520942079268252 3046 -25.404157374894432
+		 3110 -26.520942079268252 3174 -25.404157374894432 3238 -26.520942079268252;
+	setAttr -s 6 ".kit[5]"  1;
+	setAttr -s 6 ".kot[3:5]"  1 18 1;
+	setAttr -s 6 ".kix[5]"  1;
+	setAttr -s 6 ".kiy[5]"  0;
+	setAttr -s 6 ".kox[3:5]"  1 1 1;
+	setAttr -s 6 ".koy[3:5]"  0 0 0;
+createNode animCurveTA -n "l_armLower_ctrl_rotateZ";
+	rename -uid "33BD973A-4C1F-538B-92C4-9881A658F470";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 6 ".ktv[0:5]"  2970 -58.192382511455023 3000 34.390375366736876
+		 3032 33.535242689309712 3064 34.390375366736876 3096 33.535242689309712 3128 34.390375366736876;
+	setAttr -s 6 ".kit[5]"  1;
+	setAttr -s 6 ".kot[3:5]"  1 18 1;
+	setAttr -s 6 ".kix[5]"  1;
+	setAttr -s 6 ".kiy[5]"  0;
+	setAttr -s 6 ".kox[3:5]"  1 1 1;
+	setAttr -s 6 ".koy[3:5]"  0 0 0;
+createNode animCurveTL -n "l_fingerMiddle0_ctrl_translateX";
+	rename -uid "91F01C61-49B1-D4D7-318A-C7A24366944B";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  2970 0;
+createNode animCurveTL -n "l_fingerMiddle0_ctrl_translateY";
+	rename -uid "6CBAC486-4222-3C4F-5E96-FF83A612DBBC";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  2970 0;
+createNode animCurveTL -n "l_fingerMiddle0_ctrl_translateZ";
+	rename -uid "E042682E-4DAB-4972-4B77-C1A7A9D1BD95";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  2970 0;
+createNode animCurveTA -n "l_fingerMiddle0_ctrl_rotateX";
+	rename -uid "0565D40B-4318-BE73-04AD-BDA7E470B0B7";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 2 ".ktv[0:1]"  2970 0 3000 -16.425128088956839;
+createNode animCurveTA -n "l_fingerMiddle0_ctrl_rotateY";
+	rename -uid "45330E20-4E98-4136-F87A-A09DB8EC8FEA";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 2 ".ktv[0:1]"  2970 0 3000 -47.727395906339211;
+createNode animCurveTA -n "l_fingerMiddle0_ctrl_rotateZ";
+	rename -uid "B5110FCF-4CC1-D014-566A-D2AAC3499B55";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  2970 0;
+createNode animCurveTA -n "l_fingerPinky1_ctrl_rotateX";
+	rename -uid "100FB252-4656-BCA0-D4E6-4187BA295FDA";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  2970 0;
+createNode animCurveTA -n "l_fingerPinky1_ctrl_rotateY";
+	rename -uid "68320CE9-44D5-4A96-2834-668EC7BD21D8";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 2 ".ktv[0:1]"  2970 0 3000 -81.931442546090821;
+createNode animCurveTA -n "l_fingerPinky1_ctrl_rotateZ";
+	rename -uid "DD1F0992-4885-7226-93DA-549044899E84";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  2970 0;
+createNode animCurveTL -n "l_fingerPinky0_ctrl_translateX";
+	rename -uid "9C87AD7D-43DD-4E2E-F198-7E9135701531";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  2970 0;
+createNode animCurveTL -n "l_fingerPinky0_ctrl_translateY";
+	rename -uid "C408C485-49AC-06F3-4986-52BFDE1F4EC4";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  2970 0;
+createNode animCurveTL -n "l_fingerPinky0_ctrl_translateZ";
+	rename -uid "D2DD6095-4D74-8AA8-4871-E29EFA533D4D";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  2970 0;
+createNode animCurveTA -n "l_fingerPinky0_ctrl_rotateX";
+	rename -uid "C2333431-4909-F7FA-3C2C-339CCE63B6B9";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 2 ".ktv[0:1]"  2970 0 3000 54.648085758486943;
+createNode animCurveTA -n "l_fingerPinky0_ctrl_rotateY";
+	rename -uid "54747B52-4157-0BAC-BDE7-72AA3D340558";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 2 ".ktv[0:1]"  2970 0 3000 -101.08559203878495;
+createNode animCurveTA -n "l_fingerPinky0_ctrl_rotateZ";
+	rename -uid "2A923E27-4DFD-0B18-5930-31BF1811A82B";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 2 ".ktv[0:1]"  2970 0 3000 -55.155754576303465;
+createNode animCurveTA -n "l_fingerIndex2_ctrl_rotateX";
+	rename -uid "CE2064BA-4C2F-30BD-F56F-5C9E0BEDF5CF";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 2 ".ktv[0:1]"  2970 0 3000 0;
+createNode animCurveTA -n "l_fingerIndex2_ctrl_rotateY";
+	rename -uid "0C7BC533-44B2-CC09-9287-CF94F15872F9";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 2 ".ktv[0:1]"  2970 0 3000 3.0891091188654864;
+createNode animCurveTA -n "l_fingerIndex2_ctrl_rotateZ";
+	rename -uid "D5D0736A-4A1F-ED53-652D-7282B5934A78";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 2 ".ktv[0:1]"  2970 0 3000 0;
+createNode animCurveTL -n "l_fingerIndex0_ctrl_translateX";
+	rename -uid "44496832-4C47-7FD0-A9F5-2EA703C22C71";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  2924 0 2940 0 2954 0;
+	setAttr -s 3 ".kit[1:2]"  1 18;
+	setAttr -s 3 ".kot[1:2]"  1 18;
+	setAttr -s 3 ".kix[1:2]"  1 1;
+	setAttr -s 3 ".kiy[1:2]"  0 0;
+	setAttr -s 3 ".kox[1:2]"  1 1;
+	setAttr -s 3 ".koy[1:2]"  0 0;
+createNode animCurveTL -n "l_fingerIndex0_ctrl_translateY";
+	rename -uid "93F1C71D-47E7-CB32-A2DB-59BC95E56DE9";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  2924 0 2940 0 2954 0;
+	setAttr -s 3 ".kit[1:2]"  1 18;
+	setAttr -s 3 ".kot[1:2]"  1 18;
+	setAttr -s 3 ".kix[1:2]"  1 1;
+	setAttr -s 3 ".kiy[1:2]"  0 0;
+	setAttr -s 3 ".kox[1:2]"  1 1;
+	setAttr -s 3 ".koy[1:2]"  0 0;
+createNode animCurveTL -n "l_fingerIndex0_ctrl_translateZ";
+	rename -uid "25A62206-47DD-9554-3E2F-E6A85E970350";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  2924 0 2940 0 2954 0;
+	setAttr -s 3 ".kit[1:2]"  1 18;
+	setAttr -s 3 ".kot[1:2]"  1 18;
+	setAttr -s 3 ".kix[1:2]"  1 1;
+	setAttr -s 3 ".kiy[1:2]"  0 0;
+	setAttr -s 3 ".kox[1:2]"  1 1;
+	setAttr -s 3 ".koy[1:2]"  0 0;
+createNode animCurveTA -n "l_fingerIndex0_ctrl_rotateX";
+	rename -uid "7DD648F3-4A61-E49E-FB80-EF9E1F9224C5";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  2924 0 2940 0 2954 0;
+	setAttr -s 3 ".kit[1:2]"  1 18;
+	setAttr -s 3 ".kot[1:2]"  1 18;
+	setAttr -s 3 ".kix[1:2]"  1 1;
+	setAttr -s 3 ".kiy[1:2]"  0 0;
+	setAttr -s 3 ".kox[1:2]"  1 1;
+	setAttr -s 3 ".koy[1:2]"  0 0;
+createNode animCurveTA -n "l_fingerIndex0_ctrl_rotateY";
+	rename -uid "CC0D290B-4978-6E0A-AA5A-4684A203DEFB";
+	setAttr ".tan" 1;
+	setAttr ".wgt" no;
+	setAttr -s 9 ".ktv[0:8]"  2924 0 2938 -7.8724252122213416 2952 -7.8724252122213416
+		 2984 -10.943633526382403 3016 -7.8724252122213416 3048 -10.943633526382403 3080 -7.8724252122213416
+		 3112 -10.943633526382403 3144 -7.8724252122213416;
+	setAttr -s 9 ".kit[0:8]"  18 1 18 1 18 1 18 1 
+		1;
+	setAttr -s 9 ".kot[0:8]"  18 1 18 1 1 1 1 1 
+		1;
+	setAttr -s 9 ".kix[1:8]"  1 1 1 1 1 1 1 1;
+	setAttr -s 9 ".kiy[1:8]"  0 0 0 0 0 0 0 0;
+	setAttr -s 9 ".kox[1:8]"  1 1 1 1 1 1 1 1;
+	setAttr -s 9 ".koy[1:8]"  0 0 0 0 0 0 0 0;
+createNode animCurveTA -n "l_fingerIndex0_ctrl_rotateZ";
+	rename -uid "BD882CEB-421B-C5A6-B52B-EF80DD9F745F";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 3 ".ktv[0:2]"  2924 0 2940 0 2954 0;
+	setAttr -s 3 ".kit[1:2]"  1 18;
+	setAttr -s 3 ".kot[1:2]"  1 18;
+	setAttr -s 3 ".kix[1:2]"  1 1;
+	setAttr -s 3 ".kiy[1:2]"  0 0;
+	setAttr -s 3 ".kox[1:2]"  1 1;
+	setAttr -s 3 ".koy[1:2]"  0 0;
+createNode animCurveTA -n "l_fingerPinky2_ctrl_rotateX";
+	rename -uid "CBB19E05-4E77-A4A2-73F7-C8992D164A69";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  2970 0;
+createNode animCurveTA -n "l_fingerPinky2_ctrl_rotateY";
+	rename -uid "28387F11-4632-6F06-F116-25A17C2C8175";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 2 ".ktv[0:1]"  2970 0 3000 -95.832230733351594;
+createNode animCurveTA -n "l_fingerPinky2_ctrl_rotateZ";
+	rename -uid "0DD50F01-489E-EDAF-6D3B-75940AEC5606";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  2970 0;
+createNode animCurveTA -n "l_fingerThumb2_ctrl_rotateX";
+	rename -uid "BD6CDBD4-4460-CBF7-4415-A9ABD7284AFF";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  2970 0;
+createNode animCurveTA -n "l_fingerThumb2_ctrl_rotateY";
+	rename -uid "31CB9133-49B1-5234-9ACE-2DAFBDACBCFA";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 2 ".ktv[0:1]"  2970 0 3000 -10.418037131941519;
+createNode animCurveTA -n "l_fingerThumb2_ctrl_rotateZ";
+	rename -uid "786A919C-4B5A-73E8-9D56-BB9204454CDC";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  2970 0;
+createNode animCurveTL -n "l_fingerRing0_ctrl_translateX";
+	rename -uid "EE8654E2-4FB4-144E-AE40-768B038D874F";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  2970 0;
+createNode animCurveTL -n "l_fingerRing0_ctrl_translateY";
+	rename -uid "C53A346D-40F1-38B1-AE94-C2AC8EBB3012";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  2970 0;
+createNode animCurveTL -n "l_fingerRing0_ctrl_translateZ";
+	rename -uid "52863086-4435-DCDF-0678-5CB850575D55";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  2970 0;
+createNode animCurveTA -n "l_fingerRing0_ctrl_rotateX";
+	rename -uid "4CF67B6D-4D7B-E295-3A21-03B6B73CF7E2";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 2 ".ktv[0:1]"  2970 0 3000 -16.273733931402447;
+createNode animCurveTA -n "l_fingerRing0_ctrl_rotateY";
+	rename -uid "BB06C9F0-4363-B723-F9D3-B4B09270839D";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 2 ".ktv[0:1]"  2970 0 3000 -60.815456151043271;
+createNode animCurveTA -n "l_fingerRing0_ctrl_rotateZ";
+	rename -uid "C3A564C5-45BC-36E3-4803-E6AA3BF825A1";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 2 ".ktv[0:1]"  2970 0 3000 7.3483162520348619;
+createNode animCurveTA -n "l_fingerMiddle2_ctrl_rotateX";
+	rename -uid "5171650A-4BDB-F2BF-D538-50B066CA0928";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  2970 0;
+createNode animCurveTA -n "l_fingerMiddle2_ctrl_rotateY";
+	rename -uid "0D8ED525-4AE1-2B85-1079-A79000D403E7";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 2 ".ktv[0:1]"  2970 0 3000 -65.802861543699564;
+createNode animCurveTA -n "l_fingerMiddle2_ctrl_rotateZ";
+	rename -uid "990C4879-4AA1-9241-991B-A4AC091C10FF";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  2970 0;
+createNode animCurveTA -n "l_fingerIndex1_ctrl_rotateX";
+	rename -uid "ED49A4E1-4012-9239-F8E4-73A3623E034A";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 2 ".ktv[0:1]"  2970 0 3000 0;
+createNode animCurveTA -n "l_fingerIndex1_ctrl_rotateY";
+	rename -uid "8D10DC97-46D3-8692-EA35-5AA4A35E7AFF";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 2 ".ktv[0:1]"  2970 0 3000 3.0891091188654864;
+createNode animCurveTA -n "l_fingerIndex1_ctrl_rotateZ";
+	rename -uid "823D2AEA-4AFF-7CA0-DA08-309E9B12AB70";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 2 ".ktv[0:1]"  2970 0 3000 0;
+createNode animCurveTA -n "l_fingerRing2_ctrl_rotateX";
+	rename -uid "0FD81E6A-4B85-9CFE-9D99-12BF5A6D8910";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  2970 0;
+createNode animCurveTA -n "l_fingerRing2_ctrl_rotateY";
+	rename -uid "8DAC75A3-4F59-E86D-8328-5AB4CA599F7F";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 2 ".ktv[0:1]"  2970 0 3000 -63.927037798443308;
+createNode animCurveTA -n "l_fingerRing2_ctrl_rotateZ";
+	rename -uid "41C6F9BE-4E8B-C144-FEF4-7EB7FD63C200";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  2970 0;
+createNode animCurveTA -n "l_fingerPinkyIn_ctrl_rotateX";
+	rename -uid "535D7C52-40B9-DFDF-DB92-84A196F4598B";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  2970 0;
+createNode animCurveTA -n "l_fingerPinkyIn_ctrl_rotateY";
+	rename -uid "0B2C79FA-43C9-4C7D-0657-C390BF4F0C80";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  2970 0;
+createNode animCurveTA -n "l_fingerPinkyIn_ctrl_rotateZ";
+	rename -uid "AD75B65D-4032-348D-20AE-37BC6C1F7769";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  2970 0;
+createNode animCurveTL -n "l_fingerThumb0_ctrl_translateX";
+	rename -uid "74BCFCF0-470D-EB36-55A6-31B03B3C8080";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  2970 0;
+createNode animCurveTL -n "l_fingerThumb0_ctrl_translateY";
+	rename -uid "E4FEA4C7-4781-1190-FFB5-32BFDC088858";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  2970 0;
+createNode animCurveTL -n "l_fingerThumb0_ctrl_translateZ";
+	rename -uid "5CA42455-49D7-0C8C-D17E-0E8F530EEB6A";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  2970 0;
+createNode animCurveTA -n "l_fingerThumb0_ctrl_rotateX";
+	rename -uid "2FDE4446-4F9E-1929-FD55-38AA1B5F8AFC";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  2970 0;
+createNode animCurveTA -n "l_fingerThumb0_ctrl_rotateY";
+	rename -uid "B8890463-4E7E-8FF9-C2C1-82B59346AE8D";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 2 ".ktv[0:1]"  2970 0 3000 -5.1015187293782231;
+createNode animCurveTA -n "l_fingerThumb0_ctrl_rotateZ";
+	rename -uid "E9E458C0-4FE1-5383-4793-E38DD3064027";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 2 ".ktv[0:1]"  2970 0 3000 12.343342661787727;
+createNode animCurveTA -n "l_hand_ctrl_rotateX";
+	rename -uid "B4DD43C0-4492-6AE8-69A8-DDB56FC695E4";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 2 ".ktv[0:1]"  2917 0 3000 -1.0974706210848915;
+createNode animCurveTA -n "l_hand_ctrl_rotateY";
+	rename -uid "A8AD1B14-4218-6CC8-C7C4-D69DAD81F967";
+	setAttr ".tan" 1;
+	setAttr ".wgt" no;
+	setAttr -s 8 ".ktv[0:7]"  2917 0 2947 2.3956531749958505 2979 0.035541995370099583
+		 3011 2.3956531749958505 3043 0.035541995370099583 3075 2.3956531749958505 3107 0.035541995370099583
+		 3139 2.3956531749958505;
+	setAttr -s 8 ".kit[0:7]"  18 18 1 18 1 18 1 1;
+	setAttr -s 8 ".kot[0:7]"  18 18 1 1 1 1 1 1;
+	setAttr -s 8 ".kix[2:7]"  1 1 1 1 1 1;
+	setAttr -s 8 ".kiy[2:7]"  0 0 0 0 0 0;
+	setAttr -s 8 ".kox[2:7]"  1 1 1 1 1 1;
+	setAttr -s 8 ".koy[2:7]"  0 0 0 0 0 0;
+createNode animCurveTA -n "l_hand_ctrl_rotateZ";
+	rename -uid "06F56D1B-4CCE-1D3A-C3FA-8C88A7D394A2";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 5 ".ktv[0:4]"  2917 0 2977 -10.09582850445231 3000 -10.09582850445231
+		 3064 -12.063792558374663 3128 -10.09582850445231;
+	setAttr -s 5 ".kit[3:4]"  1 1;
+	setAttr -s 5 ".kot[3:4]"  1 1;
+	setAttr -s 5 ".kix[3:4]"  1 1;
+	setAttr -s 5 ".kiy[3:4]"  0 0;
+	setAttr -s 5 ".kox[3:4]"  1 1;
+	setAttr -s 5 ".koy[3:4]"  0 0;
+createNode animCurveTA -n "l_fingerRing1_ctrl_rotateX";
+	rename -uid "082CCA4E-46E9-8805-D92D-859C065FDD28";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  2970 0;
+createNode animCurveTA -n "l_fingerRing1_ctrl_rotateY";
+	rename -uid "6882B1D1-4A34-63A4-885A-86982FDB60A2";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 2 ".ktv[0:1]"  2970 0 3000 -81.931442546090821;
+createNode animCurveTA -n "l_fingerRing1_ctrl_rotateZ";
+	rename -uid "1A1DE991-496E-9B4B-081C-ECAED37A8182";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  2970 0;
+createNode animCurveTA -n "l_fingerMiddle1_ctrl_rotateX";
+	rename -uid "BD5FA178-4514-3B25-A16F-578D0D42373A";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  2970 0;
+createNode animCurveTA -n "l_fingerMiddle1_ctrl_rotateY";
+	rename -uid "AC1E50AF-4CE9-2EFE-F13B-F881FA0C4AA6";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr -s 2 ".ktv[0:1]"  2970 0 3000 -61.342292559716398;
+createNode animCurveTA -n "l_fingerMiddle1_ctrl_rotateZ";
+	rename -uid "80A26077-4317-DCCC-A5E5-E3AFD8C9AFEA";
+	setAttr ".tan" 18;
+	setAttr ".wgt" no;
+	setAttr ".ktv[0]"  2970 0;
 select -ne :time1;
-	setAttr ".o" 4067;
-	setAttr ".unw" 4067;
+	setAttr ".o" 3094;
+	setAttr ".unw" 3094;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1
@@ -7616,667 +8263,739 @@ connectAttr "RIG_playerRN.phl[100]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[112].
 		;
 connectAttr "RIG_playerRN.phl[101]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[164].dn"
 		;
-connectAttr "RIG_playerRN.phl[102]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[130].dn"
+connectAttr "l_armLower_ctrl_translateX.o" "RIG_playerRN.phl[102]";
+connectAttr "l_armLower_ctrl_translateY.o" "RIG_playerRN.phl[103]";
+connectAttr "l_armLower_ctrl_translateZ.o" "RIG_playerRN.phl[104]";
+connectAttr "l_armLower_ctrl_rotateX.o" "RIG_playerRN.phl[105]";
+connectAttr "l_armLower_ctrl_rotateY.o" "RIG_playerRN.phl[106]";
+connectAttr "l_armLower_ctrl_rotateZ.o" "RIG_playerRN.phl[107]";
+connectAttr "RIG_playerRN.phl[108]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[130].dn"
 		;
-connectAttr "RIG_playerRN.phl[103]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[165].dn"
+connectAttr "RIG_playerRN.phl[109]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[165].dn"
 		;
-connectAttr "RIG_playerRN.phl[104]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[170].dn"
+connectAttr "RIG_playerRN.phl[110]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[170].dn"
 		;
-connectAttr "RIG_playerRN.phl[105]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[166].dn"
+connectAttr "l_hand_ctrl_rotateX.o" "RIG_playerRN.phl[111]";
+connectAttr "l_hand_ctrl_rotateY.o" "RIG_playerRN.phl[112]";
+connectAttr "l_hand_ctrl_rotateZ.o" "RIG_playerRN.phl[113]";
+connectAttr "RIG_playerRN.phl[114]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[166].dn"
 		;
-connectAttr "RIG_playerRN.phl[106]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[167].dn"
+connectAttr "RIG_playerRN.phl[115]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[167].dn"
 		;
-connectAttr "RIG_playerRN.phl[107]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[168].dn"
+connectAttr "RIG_playerRN.phl[116]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[168].dn"
 		;
-connectAttr "RIG_playerRN.phl[108]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[169].dn"
+connectAttr "RIG_playerRN.phl[117]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[169].dn"
 		;
-connectAttr "RIG_playerRN.phl[109]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[171].dn"
+connectAttr "RIG_playerRN.phl[118]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[171].dn"
 		;
-connectAttr "RIG_playerRN.phl[110]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[172].dn"
+connectAttr "l_fingerThumb0_ctrl_translateX.o" "RIG_playerRN.phl[119]";
+connectAttr "l_fingerThumb0_ctrl_translateY.o" "RIG_playerRN.phl[120]";
+connectAttr "l_fingerThumb0_ctrl_translateZ.o" "RIG_playerRN.phl[121]";
+connectAttr "l_fingerThumb0_ctrl_rotateX.o" "RIG_playerRN.phl[122]";
+connectAttr "l_fingerThumb0_ctrl_rotateY.o" "RIG_playerRN.phl[123]";
+connectAttr "l_fingerThumb0_ctrl_rotateZ.o" "RIG_playerRN.phl[124]";
+connectAttr "RIG_playerRN.phl[125]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[172].dn"
 		;
-connectAttr "RIG_playerRN.phl[111]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[201].dn"
+connectAttr "RIG_playerRN.phl[126]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[201].dn"
 		;
-connectAttr "RIG_playerRN.phl[112]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[186].dn"
+connectAttr "RIG_playerRN.phl[127]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[186].dn"
 		;
-connectAttr "RIG_playerRN.phl[113]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[219].dn"
+connectAttr "RIG_playerRN.phl[128]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[219].dn"
 		;
-connectAttr "RIG_playerRN.phl[114]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[202].dn"
+connectAttr "l_fingerThumb1_ctrl_rotateX.o" "RIG_playerRN.phl[129]";
+connectAttr "l_fingerThumb1_ctrl_rotateY.o" "RIG_playerRN.phl[130]";
+connectAttr "l_fingerThumb1_ctrl_rotateZ.o" "RIG_playerRN.phl[131]";
+connectAttr "RIG_playerRN.phl[132]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[202].dn"
 		;
-connectAttr "RIG_playerRN.phl[115]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[178].dn"
+connectAttr "RIG_playerRN.phl[133]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[178].dn"
 		;
-connectAttr "RIG_playerRN.phl[116]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[190].dn"
+connectAttr "RIG_playerRN.phl[134]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[190].dn"
 		;
-connectAttr "RIG_playerRN.phl[117]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[218].dn"
+connectAttr "RIG_playerRN.phl[135]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[218].dn"
 		;
-connectAttr "RIG_playerRN.phl[118]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[179].dn"
+connectAttr "l_fingerThumb2_ctrl_rotateX.o" "RIG_playerRN.phl[136]";
+connectAttr "l_fingerThumb2_ctrl_rotateY.o" "RIG_playerRN.phl[137]";
+connectAttr "l_fingerThumb2_ctrl_rotateZ.o" "RIG_playerRN.phl[138]";
+connectAttr "RIG_playerRN.phl[139]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[179].dn"
 		;
-connectAttr "RIG_playerRN.phl[119]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[203].dn"
+connectAttr "RIG_playerRN.phl[140]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[203].dn"
 		;
-connectAttr "RIG_playerRN.phl[120]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[187].dn"
+connectAttr "RIG_playerRN.phl[141]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[187].dn"
 		;
-connectAttr "RIG_playerRN.phl[121]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[204].dn"
+connectAttr "RIG_playerRN.phl[142]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[204].dn"
 		;
-connectAttr "RIG_playerRN.phl[122]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[214].dn"
+connectAttr "RIG_playerRN.phl[143]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[214].dn"
 		;
-connectAttr "RIG_playerRN.phl[123]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[188].dn"
+connectAttr "l_fingerIndex0_ctrl_translateX.o" "RIG_playerRN.phl[144]";
+connectAttr "l_fingerIndex0_ctrl_translateY.o" "RIG_playerRN.phl[145]";
+connectAttr "l_fingerIndex0_ctrl_translateZ.o" "RIG_playerRN.phl[146]";
+connectAttr "l_fingerIndex0_ctrl_rotateX.o" "RIG_playerRN.phl[147]";
+connectAttr "l_fingerIndex0_ctrl_rotateY.o" "RIG_playerRN.phl[148]";
+connectAttr "l_fingerIndex0_ctrl_rotateZ.o" "RIG_playerRN.phl[149]";
+connectAttr "RIG_playerRN.phl[150]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[188].dn"
 		;
-connectAttr "RIG_playerRN.phl[124]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[198].dn"
+connectAttr "RIG_playerRN.phl[151]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[198].dn"
 		;
-connectAttr "RIG_playerRN.phl[125]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[195].dn"
+connectAttr "RIG_playerRN.phl[152]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[195].dn"
 		;
-connectAttr "RIG_playerRN.phl[126]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[211].dn"
+connectAttr "RIG_playerRN.phl[153]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[211].dn"
 		;
-connectAttr "RIG_playerRN.phl[127]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[180].dn"
+connectAttr "l_fingerIndex1_ctrl_rotateX.o" "RIG_playerRN.phl[154]";
+connectAttr "l_fingerIndex1_ctrl_rotateY.o" "RIG_playerRN.phl[155]";
+connectAttr "l_fingerIndex1_ctrl_rotateZ.o" "RIG_playerRN.phl[156]";
+connectAttr "RIG_playerRN.phl[157]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[180].dn"
 		;
-connectAttr "RIG_playerRN.phl[128]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[189].dn"
+connectAttr "RIG_playerRN.phl[158]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[189].dn"
 		;
-connectAttr "RIG_playerRN.phl[129]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[207].dn"
+connectAttr "RIG_playerRN.phl[159]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[207].dn"
 		;
-connectAttr "RIG_playerRN.phl[130]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[221].dn"
+connectAttr "RIG_playerRN.phl[160]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[221].dn"
 		;
-connectAttr "RIG_playerRN.phl[131]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[191].dn"
+connectAttr "l_fingerIndex2_ctrl_rotateX.o" "RIG_playerRN.phl[161]";
+connectAttr "l_fingerIndex2_ctrl_rotateY.o" "RIG_playerRN.phl[162]";
+connectAttr "l_fingerIndex2_ctrl_rotateZ.o" "RIG_playerRN.phl[163]";
+connectAttr "RIG_playerRN.phl[164]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[191].dn"
 		;
-connectAttr "RIG_playerRN.phl[132]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[212].dn"
+connectAttr "RIG_playerRN.phl[165]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[212].dn"
 		;
-connectAttr "RIG_playerRN.phl[133]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[213].dn"
+connectAttr "RIG_playerRN.phl[166]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[213].dn"
 		;
-connectAttr "RIG_playerRN.phl[134]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[215].dn"
+connectAttr "RIG_playerRN.phl[167]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[215].dn"
 		;
-connectAttr "RIG_playerRN.phl[135]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[220].dn"
+connectAttr "RIG_playerRN.phl[168]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[220].dn"
 		;
-connectAttr "RIG_playerRN.phl[136]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[222].dn"
+connectAttr "l_fingerMiddle0_ctrl_translateX.o" "RIG_playerRN.phl[169]";
+connectAttr "l_fingerMiddle0_ctrl_translateY.o" "RIG_playerRN.phl[170]";
+connectAttr "l_fingerMiddle0_ctrl_translateZ.o" "RIG_playerRN.phl[171]";
+connectAttr "l_fingerMiddle0_ctrl_rotateX.o" "RIG_playerRN.phl[172]";
+connectAttr "l_fingerMiddle0_ctrl_rotateY.o" "RIG_playerRN.phl[173]";
+connectAttr "l_fingerMiddle0_ctrl_rotateZ.o" "RIG_playerRN.phl[174]";
+connectAttr "RIG_playerRN.phl[175]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[222].dn"
 		;
-connectAttr "RIG_playerRN.phl[137]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[206].dn"
+connectAttr "RIG_playerRN.phl[176]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[206].dn"
 		;
-connectAttr "RIG_playerRN.phl[138]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[192].dn"
+connectAttr "RIG_playerRN.phl[177]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[192].dn"
 		;
-connectAttr "RIG_playerRN.phl[139]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[208].dn"
+connectAttr "RIG_playerRN.phl[178]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[208].dn"
 		;
-connectAttr "RIG_playerRN.phl[140]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[199].dn"
+connectAttr "l_fingerMiddle1_ctrl_rotateX.o" "RIG_playerRN.phl[179]";
+connectAttr "l_fingerMiddle1_ctrl_rotateY.o" "RIG_playerRN.phl[180]";
+connectAttr "l_fingerMiddle1_ctrl_rotateZ.o" "RIG_playerRN.phl[181]";
+connectAttr "RIG_playerRN.phl[182]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[199].dn"
 		;
-connectAttr "RIG_playerRN.phl[141]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[193].dn"
+connectAttr "RIG_playerRN.phl[183]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[193].dn"
 		;
-connectAttr "RIG_playerRN.phl[142]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[216].dn"
+connectAttr "RIG_playerRN.phl[184]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[216].dn"
 		;
-connectAttr "RIG_playerRN.phl[143]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[194].dn"
+connectAttr "RIG_playerRN.phl[185]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[194].dn"
 		;
-connectAttr "RIG_playerRN.phl[144]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[196].dn"
+connectAttr "l_fingerMiddle2_ctrl_rotateX.o" "RIG_playerRN.phl[186]";
+connectAttr "l_fingerMiddle2_ctrl_rotateY.o" "RIG_playerRN.phl[187]";
+connectAttr "l_fingerMiddle2_ctrl_rotateZ.o" "RIG_playerRN.phl[188]";
+connectAttr "RIG_playerRN.phl[189]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[196].dn"
 		;
-connectAttr "RIG_playerRN.phl[145]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[209].dn"
+connectAttr "RIG_playerRN.phl[190]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[209].dn"
 		;
-connectAttr "RIG_playerRN.phl[146]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[210].dn"
+connectAttr "RIG_playerRN.phl[191]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[210].dn"
 		;
-connectAttr "RIG_playerRN.phl[147]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[197].dn"
+connectAttr "RIG_playerRN.phl[192]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[197].dn"
 		;
-connectAttr "RIG_playerRN.phl[148]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[205].dn"
+connectAttr "RIG_playerRN.phl[193]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[205].dn"
 		;
-connectAttr "RIG_playerRN.phl[149]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[200].dn"
+connectAttr "l_fingerRing0_ctrl_translateX.o" "RIG_playerRN.phl[194]";
+connectAttr "l_fingerRing0_ctrl_translateY.o" "RIG_playerRN.phl[195]";
+connectAttr "l_fingerRing0_ctrl_translateZ.o" "RIG_playerRN.phl[196]";
+connectAttr "l_fingerRing0_ctrl_rotateX.o" "RIG_playerRN.phl[197]";
+connectAttr "l_fingerRing0_ctrl_rotateY.o" "RIG_playerRN.phl[198]";
+connectAttr "l_fingerRing0_ctrl_rotateZ.o" "RIG_playerRN.phl[199]";
+connectAttr "RIG_playerRN.phl[200]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[200].dn"
 		;
-connectAttr "RIG_playerRN.phl[150]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[181].dn"
+connectAttr "RIG_playerRN.phl[201]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[181].dn"
 		;
-connectAttr "RIG_playerRN.phl[151]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[182].dn"
+connectAttr "RIG_playerRN.phl[202]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[182].dn"
 		;
-connectAttr "RIG_playerRN.phl[152]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[217].dn"
+connectAttr "RIG_playerRN.phl[203]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[217].dn"
 		;
-connectAttr "RIG_playerRN.phl[153]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[223].dn"
+connectAttr "l_fingerRing1_ctrl_rotateX.o" "RIG_playerRN.phl[204]";
+connectAttr "l_fingerRing1_ctrl_rotateY.o" "RIG_playerRN.phl[205]";
+connectAttr "l_fingerRing1_ctrl_rotateZ.o" "RIG_playerRN.phl[206]";
+connectAttr "RIG_playerRN.phl[207]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[223].dn"
 		;
-connectAttr "RIG_playerRN.phl[154]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[224].dn"
+connectAttr "RIG_playerRN.phl[208]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[224].dn"
 		;
-connectAttr "RIG_playerRN.phl[155]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[173].dn"
+connectAttr "RIG_playerRN.phl[209]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[173].dn"
 		;
-connectAttr "RIG_playerRN.phl[156]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[183].dn"
+connectAttr "RIG_playerRN.phl[210]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[183].dn"
 		;
-connectAttr "RIG_playerRN.phl[157]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[175].dn"
+connectAttr "l_fingerRing2_ctrl_rotateX.o" "RIG_playerRN.phl[211]";
+connectAttr "l_fingerRing2_ctrl_rotateY.o" "RIG_playerRN.phl[212]";
+connectAttr "l_fingerRing2_ctrl_rotateZ.o" "RIG_playerRN.phl[213]";
+connectAttr "RIG_playerRN.phl[214]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[175].dn"
 		;
-connectAttr "RIG_playerRN.phl[158]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[225].dn"
+connectAttr "RIG_playerRN.phl[215]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[225].dn"
 		;
-connectAttr "RIG_playerRN.phl[159]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[174].dn"
+connectAttr "RIG_playerRN.phl[216]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[174].dn"
 		;
-connectAttr "RIG_playerRN.phl[160]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[226].dn"
+connectAttr "RIG_playerRN.phl[217]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[226].dn"
 		;
-connectAttr "RIG_playerRN.phl[161]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[227].dn"
+connectAttr "RIG_playerRN.phl[218]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[227].dn"
 		;
-connectAttr "RIG_playerRN.phl[162]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[177].dn"
+connectAttr "l_fingerPinkyIn_ctrl_rotateX.o" "RIG_playerRN.phl[219]";
+connectAttr "l_fingerPinkyIn_ctrl_rotateY.o" "RIG_playerRN.phl[220]";
+connectAttr "l_fingerPinkyIn_ctrl_rotateZ.o" "RIG_playerRN.phl[221]";
+connectAttr "RIG_playerRN.phl[222]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[177].dn"
 		;
-connectAttr "RIG_playerRN.phl[163]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[184].dn"
+connectAttr "RIG_playerRN.phl[223]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[184].dn"
 		;
-connectAttr "RIG_playerRN.phl[164]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[176].dn"
+connectAttr "RIG_playerRN.phl[224]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[176].dn"
 		;
-connectAttr "RIG_playerRN.phl[165]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[228].dn"
+connectAttr "RIG_playerRN.phl[225]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[228].dn"
 		;
-connectAttr "RIG_playerRN.phl[166]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[229].dn"
+connectAttr "l_fingerPinky0_ctrl_translateX.o" "RIG_playerRN.phl[226]";
+connectAttr "l_fingerPinky0_ctrl_translateY.o" "RIG_playerRN.phl[227]";
+connectAttr "l_fingerPinky0_ctrl_translateZ.o" "RIG_playerRN.phl[228]";
+connectAttr "l_fingerPinky0_ctrl_rotateX.o" "RIG_playerRN.phl[229]";
+connectAttr "l_fingerPinky0_ctrl_rotateY.o" "RIG_playerRN.phl[230]";
+connectAttr "l_fingerPinky0_ctrl_rotateZ.o" "RIG_playerRN.phl[231]";
+connectAttr "RIG_playerRN.phl[232]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[229].dn"
 		;
-connectAttr "RIG_playerRN.phl[167]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[232].dn"
+connectAttr "RIG_playerRN.phl[233]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[232].dn"
 		;
-connectAttr "RIG_playerRN.phl[168]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[230].dn"
+connectAttr "RIG_playerRN.phl[234]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[230].dn"
 		;
-connectAttr "RIG_playerRN.phl[169]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[236].dn"
+connectAttr "RIG_playerRN.phl[235]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[236].dn"
 		;
-connectAttr "RIG_playerRN.phl[170]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[231].dn"
+connectAttr "l_fingerPinky1_ctrl_rotateX.o" "RIG_playerRN.phl[236]";
+connectAttr "l_fingerPinky1_ctrl_rotateY.o" "RIG_playerRN.phl[237]";
+connectAttr "l_fingerPinky1_ctrl_rotateZ.o" "RIG_playerRN.phl[238]";
+connectAttr "RIG_playerRN.phl[239]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[231].dn"
 		;
-connectAttr "RIG_playerRN.phl[171]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[233].dn"
+connectAttr "RIG_playerRN.phl[240]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[233].dn"
 		;
-connectAttr "RIG_playerRN.phl[172]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[234].dn"
+connectAttr "RIG_playerRN.phl[241]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[234].dn"
 		;
-connectAttr "RIG_playerRN.phl[173]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[235].dn"
+connectAttr "RIG_playerRN.phl[242]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[235].dn"
 		;
-connectAttr "RIG_playerRN.phl[174]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[185].dn"
+connectAttr "l_fingerPinky2_ctrl_rotateX.o" "RIG_playerRN.phl[243]";
+connectAttr "l_fingerPinky2_ctrl_rotateY.o" "RIG_playerRN.phl[244]";
+connectAttr "l_fingerPinky2_ctrl_rotateZ.o" "RIG_playerRN.phl[245]";
+connectAttr "RIG_playerRN.phl[246]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[185].dn"
 		;
-connectAttr "RIG_playerRN.phl[175]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[273].dn"
+connectAttr "RIG_playerRN.phl[247]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[273].dn"
 		;
-connectAttr "RIG_playerRN.phl[176]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[286].dn"
+connectAttr "RIG_playerRN.phl[248]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[286].dn"
 		;
-connectAttr "RIG_playerRN.phl[177]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[259].dn"
+connectAttr "RIG_playerRN.phl[249]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[259].dn"
 		;
-connectAttr "RIG_playerRN.phl[178]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[239].dn"
+connectAttr "RIG_playerRN.phl[250]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[239].dn"
 		;
-connectAttr "r_armLower_ctrl_translateX.o" "RIG_playerRN.phl[179]";
-connectAttr "r_armLower_ctrl_translateY.o" "RIG_playerRN.phl[180]";
-connectAttr "r_armLower_ctrl_translateZ.o" "RIG_playerRN.phl[181]";
-connectAttr "r_armLower_ctrl_rotateX.o" "RIG_playerRN.phl[182]";
-connectAttr "r_armLower_ctrl_rotateY.o" "RIG_playerRN.phl[183]";
-connectAttr "r_armLower_ctrl_rotateZ.o" "RIG_playerRN.phl[184]";
-connectAttr "RIG_playerRN.phl[185]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[277].dn"
+connectAttr "r_armLower_ctrl_translateX.o" "RIG_playerRN.phl[251]";
+connectAttr "r_armLower_ctrl_translateY.o" "RIG_playerRN.phl[252]";
+connectAttr "r_armLower_ctrl_translateZ.o" "RIG_playerRN.phl[253]";
+connectAttr "r_armLower_ctrl_rotateX.o" "RIG_playerRN.phl[254]";
+connectAttr "r_armLower_ctrl_rotateY.o" "RIG_playerRN.phl[255]";
+connectAttr "r_armLower_ctrl_rotateZ.o" "RIG_playerRN.phl[256]";
+connectAttr "RIG_playerRN.phl[257]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[277].dn"
 		;
-connectAttr "RIG_playerRN.phl[186]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[240].dn"
+connectAttr "RIG_playerRN.phl[258]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[240].dn"
 		;
-connectAttr "RIG_playerRN.phl[187]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[288].dn"
+connectAttr "RIG_playerRN.phl[259]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[288].dn"
 		;
-connectAttr "r_hand_ctrl_rotateX.o" "RIG_playerRN.phl[188]";
-connectAttr "r_hand_ctrl_rotateY.o" "RIG_playerRN.phl[189]";
-connectAttr "r_hand_ctrl_rotateZ.o" "RIG_playerRN.phl[190]";
-connectAttr "RIG_playerRN.phl[191]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[237].dn"
+connectAttr "r_hand_ctrl_rotateX.o" "RIG_playerRN.phl[260]";
+connectAttr "r_hand_ctrl_rotateY.o" "RIG_playerRN.phl[261]";
+connectAttr "r_hand_ctrl_rotateZ.o" "RIG_playerRN.phl[262]";
+connectAttr "RIG_playerRN.phl[263]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[237].dn"
 		;
-connectAttr "RIG_playerRN.phl[192]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[251].dn"
+connectAttr "RIG_playerRN.phl[264]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[251].dn"
 		;
-connectAttr "RIG_playerRN.phl[193]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[285].dn"
+connectAttr "RIG_playerRN.phl[265]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[285].dn"
 		;
-connectAttr "RIG_playerRN.phl[194]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[276].dn"
+connectAttr "RIG_playerRN.phl[266]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[276].dn"
 		;
-connectAttr "RIG_playerRN.phl[195]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[278].dn"
+connectAttr "RIG_playerRN.phl[267]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[278].dn"
 		;
-connectAttr "r_fingerThumb0_ctrl_translateX.o" "RIG_playerRN.phl[196]";
-connectAttr "r_fingerThumb0_ctrl_translateY.o" "RIG_playerRN.phl[197]";
-connectAttr "r_fingerThumb0_ctrl_translateZ.o" "RIG_playerRN.phl[198]";
-connectAttr "r_fingerThumb0_ctrl_rotateX.o" "RIG_playerRN.phl[199]";
-connectAttr "r_fingerThumb0_ctrl_rotateY.o" "RIG_playerRN.phl[200]";
-connectAttr "r_fingerThumb0_ctrl_rotateZ.o" "RIG_playerRN.phl[201]";
-connectAttr "RIG_playerRN.phl[202]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[289].dn"
+connectAttr "r_fingerThumb0_ctrl_translateX.o" "RIG_playerRN.phl[268]";
+connectAttr "r_fingerThumb0_ctrl_translateY.o" "RIG_playerRN.phl[269]";
+connectAttr "r_fingerThumb0_ctrl_translateZ.o" "RIG_playerRN.phl[270]";
+connectAttr "r_fingerThumb0_ctrl_rotateX.o" "RIG_playerRN.phl[271]";
+connectAttr "r_fingerThumb0_ctrl_rotateY.o" "RIG_playerRN.phl[272]";
+connectAttr "r_fingerThumb0_ctrl_rotateZ.o" "RIG_playerRN.phl[273]";
+connectAttr "RIG_playerRN.phl[274]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[289].dn"
 		;
-connectAttr "RIG_playerRN.phl[203]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[254].dn"
+connectAttr "RIG_playerRN.phl[275]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[254].dn"
 		;
-connectAttr "RIG_playerRN.phl[204]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[241].dn"
+connectAttr "RIG_playerRN.phl[276]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[241].dn"
 		;
-connectAttr "RIG_playerRN.phl[205]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[264].dn"
+connectAttr "RIG_playerRN.phl[277]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[264].dn"
 		;
-connectAttr "r_fingerThumb1_ctrl_rotateX.o" "RIG_playerRN.phl[206]";
-connectAttr "r_fingerThumb1_ctrl_rotateY.o" "RIG_playerRN.phl[207]";
-connectAttr "r_fingerThumb1_ctrl_rotateZ.o" "RIG_playerRN.phl[208]";
-connectAttr "RIG_playerRN.phl[209]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[246].dn"
+connectAttr "r_fingerThumb1_ctrl_rotateX.o" "RIG_playerRN.phl[278]";
+connectAttr "r_fingerThumb1_ctrl_rotateY.o" "RIG_playerRN.phl[279]";
+connectAttr "r_fingerThumb1_ctrl_rotateZ.o" "RIG_playerRN.phl[280]";
+connectAttr "RIG_playerRN.phl[281]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[246].dn"
 		;
-connectAttr "RIG_playerRN.phl[210]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[279].dn"
+connectAttr "RIG_playerRN.phl[282]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[279].dn"
 		;
-connectAttr "RIG_playerRN.phl[211]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[267].dn"
+connectAttr "RIG_playerRN.phl[283]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[267].dn"
 		;
-connectAttr "RIG_playerRN.phl[212]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[280].dn"
+connectAttr "RIG_playerRN.phl[284]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[280].dn"
 		;
-connectAttr "r_fingerThumb2_ctrl_rotateX.o" "RIG_playerRN.phl[213]";
-connectAttr "r_fingerThumb2_ctrl_rotateY.o" "RIG_playerRN.phl[214]";
-connectAttr "r_fingerThumb2_ctrl_rotateZ.o" "RIG_playerRN.phl[215]";
-connectAttr "RIG_playerRN.phl[216]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[287].dn"
+connectAttr "r_fingerThumb2_ctrl_rotateX.o" "RIG_playerRN.phl[285]";
+connectAttr "r_fingerThumb2_ctrl_rotateY.o" "RIG_playerRN.phl[286]";
+connectAttr "r_fingerThumb2_ctrl_rotateZ.o" "RIG_playerRN.phl[287]";
+connectAttr "RIG_playerRN.phl[288]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[287].dn"
 		;
-connectAttr "RIG_playerRN.phl[217]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[281].dn"
+connectAttr "RIG_playerRN.phl[289]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[281].dn"
 		;
-connectAttr "RIG_playerRN.phl[218]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[266].dn"
+connectAttr "RIG_playerRN.phl[290]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[266].dn"
 		;
-connectAttr "RIG_playerRN.phl[219]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[265].dn"
+connectAttr "RIG_playerRN.phl[291]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[265].dn"
 		;
-connectAttr "RIG_playerRN.phl[220]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[243].dn"
+connectAttr "RIG_playerRN.phl[292]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[243].dn"
 		;
-connectAttr "r_fingerIndex0_ctrl_translateX.o" "RIG_playerRN.phl[221]";
-connectAttr "r_fingerIndex0_ctrl_translateY.o" "RIG_playerRN.phl[222]";
-connectAttr "r_fingerIndex0_ctrl_translateZ.o" "RIG_playerRN.phl[223]";
-connectAttr "r_fingerIndex0_ctrl_rotateX.o" "RIG_playerRN.phl[224]";
-connectAttr "r_fingerIndex0_ctrl_rotateY.o" "RIG_playerRN.phl[225]";
-connectAttr "r_fingerIndex0_ctrl_rotateZ.o" "RIG_playerRN.phl[226]";
-connectAttr "RIG_playerRN.phl[227]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[268].dn"
+connectAttr "r_fingerIndex0_ctrl_translateX.o" "RIG_playerRN.phl[293]";
+connectAttr "r_fingerIndex0_ctrl_translateY.o" "RIG_playerRN.phl[294]";
+connectAttr "r_fingerIndex0_ctrl_translateZ.o" "RIG_playerRN.phl[295]";
+connectAttr "r_fingerIndex0_ctrl_rotateX.o" "RIG_playerRN.phl[296]";
+connectAttr "r_fingerIndex0_ctrl_rotateY.o" "RIG_playerRN.phl[297]";
+connectAttr "r_fingerIndex0_ctrl_rotateZ.o" "RIG_playerRN.phl[298]";
+connectAttr "RIG_playerRN.phl[299]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[268].dn"
 		;
-connectAttr "RIG_playerRN.phl[228]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[238].dn"
+connectAttr "RIG_playerRN.phl[300]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[238].dn"
 		;
-connectAttr "RIG_playerRN.phl[229]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[283].dn"
+connectAttr "RIG_playerRN.phl[301]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[283].dn"
 		;
-connectAttr "RIG_playerRN.phl[230]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[257].dn"
+connectAttr "RIG_playerRN.phl[302]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[257].dn"
 		;
-connectAttr "r_fingerIndex1_ctrl_rotateX.o" "RIG_playerRN.phl[231]";
-connectAttr "r_fingerIndex1_ctrl_rotateY.o" "RIG_playerRN.phl[232]";
-connectAttr "r_fingerIndex1_ctrl_rotateZ.o" "RIG_playerRN.phl[233]";
-connectAttr "RIG_playerRN.phl[234]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[282].dn"
+connectAttr "r_fingerIndex1_ctrl_rotateX.o" "RIG_playerRN.phl[303]";
+connectAttr "r_fingerIndex1_ctrl_rotateY.o" "RIG_playerRN.phl[304]";
+connectAttr "r_fingerIndex1_ctrl_rotateZ.o" "RIG_playerRN.phl[305]";
+connectAttr "RIG_playerRN.phl[306]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[282].dn"
 		;
-connectAttr "RIG_playerRN.phl[235]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[263].dn"
+connectAttr "RIG_playerRN.phl[307]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[263].dn"
 		;
-connectAttr "RIG_playerRN.phl[236]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[290].dn"
+connectAttr "RIG_playerRN.phl[308]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[290].dn"
 		;
-connectAttr "RIG_playerRN.phl[237]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[253].dn"
+connectAttr "RIG_playerRN.phl[309]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[253].dn"
 		;
-connectAttr "r_fingerIndex2_ctrl_rotateX.o" "RIG_playerRN.phl[238]";
-connectAttr "r_fingerIndex2_ctrl_rotateY.o" "RIG_playerRN.phl[239]";
-connectAttr "r_fingerIndex2_ctrl_rotateZ.o" "RIG_playerRN.phl[240]";
-connectAttr "RIG_playerRN.phl[241]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[291].dn"
+connectAttr "r_fingerIndex2_ctrl_rotateX.o" "RIG_playerRN.phl[310]";
+connectAttr "r_fingerIndex2_ctrl_rotateY.o" "RIG_playerRN.phl[311]";
+connectAttr "r_fingerIndex2_ctrl_rotateZ.o" "RIG_playerRN.phl[312]";
+connectAttr "RIG_playerRN.phl[313]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[291].dn"
 		;
-connectAttr "RIG_playerRN.phl[242]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[270].dn"
+connectAttr "RIG_playerRN.phl[314]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[270].dn"
 		;
-connectAttr "RIG_playerRN.phl[243]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[275].dn"
+connectAttr "RIG_playerRN.phl[315]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[275].dn"
 		;
-connectAttr "RIG_playerRN.phl[244]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[262].dn"
+connectAttr "RIG_playerRN.phl[316]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[262].dn"
 		;
-connectAttr "RIG_playerRN.phl[245]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[258].dn"
+connectAttr "RIG_playerRN.phl[317]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[258].dn"
 		;
-connectAttr "r_fingerMiddle0_ctrl_translateX.o" "RIG_playerRN.phl[246]";
-connectAttr "r_fingerMiddle0_ctrl_translateY.o" "RIG_playerRN.phl[247]";
-connectAttr "r_fingerMiddle0_ctrl_translateZ.o" "RIG_playerRN.phl[248]";
-connectAttr "r_fingerMiddle0_ctrl_rotateX.o" "RIG_playerRN.phl[249]";
-connectAttr "r_fingerMiddle0_ctrl_rotateY.o" "RIG_playerRN.phl[250]";
-connectAttr "r_fingerMiddle0_ctrl_rotateZ.o" "RIG_playerRN.phl[251]";
-connectAttr "RIG_playerRN.phl[252]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[269].dn"
+connectAttr "r_fingerMiddle0_ctrl_translateX.o" "RIG_playerRN.phl[318]";
+connectAttr "r_fingerMiddle0_ctrl_translateY.o" "RIG_playerRN.phl[319]";
+connectAttr "r_fingerMiddle0_ctrl_translateZ.o" "RIG_playerRN.phl[320]";
+connectAttr "r_fingerMiddle0_ctrl_rotateX.o" "RIG_playerRN.phl[321]";
+connectAttr "r_fingerMiddle0_ctrl_rotateY.o" "RIG_playerRN.phl[322]";
+connectAttr "r_fingerMiddle0_ctrl_rotateZ.o" "RIG_playerRN.phl[323]";
+connectAttr "RIG_playerRN.phl[324]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[269].dn"
 		;
-connectAttr "RIG_playerRN.phl[253]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[255].dn"
+connectAttr "RIG_playerRN.phl[325]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[255].dn"
 		;
-connectAttr "RIG_playerRN.phl[254]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[250].dn"
+connectAttr "RIG_playerRN.phl[326]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[250].dn"
 		;
-connectAttr "RIG_playerRN.phl[255]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[293].dn"
+connectAttr "RIG_playerRN.phl[327]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[293].dn"
 		;
-connectAttr "r_fingerMiddle1_ctrl_rotateX.o" "RIG_playerRN.phl[256]";
-connectAttr "r_fingerMiddle1_ctrl_rotateY.o" "RIG_playerRN.phl[257]";
-connectAttr "r_fingerMiddle1_ctrl_rotateZ.o" "RIG_playerRN.phl[258]";
-connectAttr "RIG_playerRN.phl[259]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[242].dn"
+connectAttr "r_fingerMiddle1_ctrl_rotateX.o" "RIG_playerRN.phl[328]";
+connectAttr "r_fingerMiddle1_ctrl_rotateY.o" "RIG_playerRN.phl[329]";
+connectAttr "r_fingerMiddle1_ctrl_rotateZ.o" "RIG_playerRN.phl[330]";
+connectAttr "RIG_playerRN.phl[331]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[242].dn"
 		;
-connectAttr "RIG_playerRN.phl[260]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[295].dn"
+connectAttr "RIG_playerRN.phl[332]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[295].dn"
 		;
-connectAttr "RIG_playerRN.phl[261]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[294].dn"
+connectAttr "RIG_playerRN.phl[333]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[294].dn"
 		;
-connectAttr "RIG_playerRN.phl[262]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[256].dn"
+connectAttr "RIG_playerRN.phl[334]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[256].dn"
 		;
-connectAttr "r_fingerMiddle2_ctrl_rotateX.o" "RIG_playerRN.phl[263]";
-connectAttr "r_fingerMiddle2_ctrl_rotateY.o" "RIG_playerRN.phl[264]";
-connectAttr "r_fingerMiddle2_ctrl_rotateZ.o" "RIG_playerRN.phl[265]";
-connectAttr "RIG_playerRN.phl[266]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[271].dn"
+connectAttr "r_fingerMiddle2_ctrl_rotateX.o" "RIG_playerRN.phl[335]";
+connectAttr "r_fingerMiddle2_ctrl_rotateY.o" "RIG_playerRN.phl[336]";
+connectAttr "r_fingerMiddle2_ctrl_rotateZ.o" "RIG_playerRN.phl[337]";
+connectAttr "RIG_playerRN.phl[338]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[271].dn"
 		;
-connectAttr "RIG_playerRN.phl[267]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[272].dn"
+connectAttr "RIG_playerRN.phl[339]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[272].dn"
 		;
-connectAttr "RIG_playerRN.phl[268]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[244].dn"
+connectAttr "RIG_playerRN.phl[340]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[244].dn"
 		;
-connectAttr "RIG_playerRN.phl[269]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[284].dn"
+connectAttr "RIG_playerRN.phl[341]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[284].dn"
 		;
-connectAttr "RIG_playerRN.phl[270]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[260].dn"
+connectAttr "RIG_playerRN.phl[342]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[260].dn"
 		;
-connectAttr "r_fingerRing0_ctrl_translateX.o" "RIG_playerRN.phl[271]";
-connectAttr "r_fingerRing0_ctrl_translateY.o" "RIG_playerRN.phl[272]";
-connectAttr "r_fingerRing0_ctrl_translateZ.o" "RIG_playerRN.phl[273]";
-connectAttr "r_fingerRing0_ctrl_rotateX.o" "RIG_playerRN.phl[274]";
-connectAttr "r_fingerRing0_ctrl_rotateY.o" "RIG_playerRN.phl[275]";
-connectAttr "r_fingerRing0_ctrl_rotateZ.o" "RIG_playerRN.phl[276]";
-connectAttr "RIG_playerRN.phl[277]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[292].dn"
+connectAttr "r_fingerRing0_ctrl_translateX.o" "RIG_playerRN.phl[343]";
+connectAttr "r_fingerRing0_ctrl_translateY.o" "RIG_playerRN.phl[344]";
+connectAttr "r_fingerRing0_ctrl_translateZ.o" "RIG_playerRN.phl[345]";
+connectAttr "r_fingerRing0_ctrl_rotateX.o" "RIG_playerRN.phl[346]";
+connectAttr "r_fingerRing0_ctrl_rotateY.o" "RIG_playerRN.phl[347]";
+connectAttr "r_fingerRing0_ctrl_rotateZ.o" "RIG_playerRN.phl[348]";
+connectAttr "RIG_playerRN.phl[349]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[292].dn"
 		;
-connectAttr "RIG_playerRN.phl[278]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[296].dn"
+connectAttr "RIG_playerRN.phl[350]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[296].dn"
 		;
-connectAttr "RIG_playerRN.phl[279]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[245].dn"
+connectAttr "RIG_playerRN.phl[351]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[245].dn"
 		;
-connectAttr "RIG_playerRN.phl[280]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[249].dn"
+connectAttr "RIG_playerRN.phl[352]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[249].dn"
 		;
-connectAttr "r_fingerRing1_ctrl_rotateX.o" "RIG_playerRN.phl[281]";
-connectAttr "r_fingerRing1_ctrl_rotateY.o" "RIG_playerRN.phl[282]";
-connectAttr "r_fingerRing1_ctrl_rotateZ.o" "RIG_playerRN.phl[283]";
-connectAttr "RIG_playerRN.phl[284]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[261].dn"
+connectAttr "r_fingerRing1_ctrl_rotateX.o" "RIG_playerRN.phl[353]";
+connectAttr "r_fingerRing1_ctrl_rotateY.o" "RIG_playerRN.phl[354]";
+connectAttr "r_fingerRing1_ctrl_rotateZ.o" "RIG_playerRN.phl[355]";
+connectAttr "RIG_playerRN.phl[356]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[261].dn"
 		;
-connectAttr "RIG_playerRN.phl[285]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[274].dn"
+connectAttr "RIG_playerRN.phl[357]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[274].dn"
 		;
-connectAttr "RIG_playerRN.phl[286]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[297].dn"
+connectAttr "RIG_playerRN.phl[358]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[297].dn"
 		;
-connectAttr "RIG_playerRN.phl[287]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[298].dn"
+connectAttr "RIG_playerRN.phl[359]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[298].dn"
 		;
-connectAttr "r_fingerRing2_ctrl_rotateX.o" "RIG_playerRN.phl[288]";
-connectAttr "r_fingerRing2_ctrl_rotateY.o" "RIG_playerRN.phl[289]";
-connectAttr "r_fingerRing2_ctrl_rotateZ.o" "RIG_playerRN.phl[290]";
-connectAttr "RIG_playerRN.phl[291]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[247].dn"
+connectAttr "r_fingerRing2_ctrl_rotateX.o" "RIG_playerRN.phl[360]";
+connectAttr "r_fingerRing2_ctrl_rotateY.o" "RIG_playerRN.phl[361]";
+connectAttr "r_fingerRing2_ctrl_rotateZ.o" "RIG_playerRN.phl[362]";
+connectAttr "RIG_playerRN.phl[363]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[247].dn"
 		;
-connectAttr "RIG_playerRN.phl[292]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[299].dn"
+connectAttr "RIG_playerRN.phl[364]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[299].dn"
 		;
-connectAttr "RIG_playerRN.phl[293]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[248].dn"
+connectAttr "RIG_playerRN.phl[365]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[248].dn"
 		;
-connectAttr "RIG_playerRN.phl[294]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[300].dn"
+connectAttr "RIG_playerRN.phl[366]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[300].dn"
 		;
-connectAttr "RIG_playerRN.phl[295]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[252].dn"
+connectAttr "RIG_playerRN.phl[367]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[252].dn"
 		;
-connectAttr "r_fingerPinkyIn_ctrl_rotateX.o" "RIG_playerRN.phl[296]";
-connectAttr "r_fingerPinkyIn_ctrl_rotateY.o" "RIG_playerRN.phl[297]";
-connectAttr "r_fingerPinkyIn_ctrl_rotateZ.o" "RIG_playerRN.phl[298]";
-connectAttr "RIG_playerRN.phl[299]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[319].dn"
+connectAttr "r_fingerPinkyIn_ctrl_rotateX.o" "RIG_playerRN.phl[368]";
+connectAttr "r_fingerPinkyIn_ctrl_rotateY.o" "RIG_playerRN.phl[369]";
+connectAttr "r_fingerPinkyIn_ctrl_rotateZ.o" "RIG_playerRN.phl[370]";
+connectAttr "RIG_playerRN.phl[371]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[319].dn"
 		;
-connectAttr "RIG_playerRN.phl[300]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[348].dn"
+connectAttr "RIG_playerRN.phl[372]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[348].dn"
 		;
-connectAttr "RIG_playerRN.phl[301]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[342].dn"
+connectAttr "RIG_playerRN.phl[373]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[342].dn"
 		;
-connectAttr "RIG_playerRN.phl[302]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[311].dn"
+connectAttr "RIG_playerRN.phl[374]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[311].dn"
 		;
-connectAttr "r_fingerPinky0_ctrl_translateX.o" "RIG_playerRN.phl[303]";
-connectAttr "r_fingerPinky0_ctrl_translateY.o" "RIG_playerRN.phl[304]";
-connectAttr "r_fingerPinky0_ctrl_translateZ.o" "RIG_playerRN.phl[305]";
-connectAttr "r_fingerPinky0_ctrl_rotateX.o" "RIG_playerRN.phl[306]";
-connectAttr "r_fingerPinky0_ctrl_rotateY.o" "RIG_playerRN.phl[307]";
-connectAttr "r_fingerPinky0_ctrl_rotateZ.o" "RIG_playerRN.phl[308]";
-connectAttr "RIG_playerRN.phl[309]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[325].dn"
+connectAttr "r_fingerPinky0_ctrl_translateX.o" "RIG_playerRN.phl[375]";
+connectAttr "r_fingerPinky0_ctrl_translateY.o" "RIG_playerRN.phl[376]";
+connectAttr "r_fingerPinky0_ctrl_translateZ.o" "RIG_playerRN.phl[377]";
+connectAttr "r_fingerPinky0_ctrl_rotateX.o" "RIG_playerRN.phl[378]";
+connectAttr "r_fingerPinky0_ctrl_rotateY.o" "RIG_playerRN.phl[379]";
+connectAttr "r_fingerPinky0_ctrl_rotateZ.o" "RIG_playerRN.phl[380]";
+connectAttr "RIG_playerRN.phl[381]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[325].dn"
 		;
-connectAttr "RIG_playerRN.phl[310]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[309].dn"
+connectAttr "RIG_playerRN.phl[382]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[309].dn"
 		;
-connectAttr "RIG_playerRN.phl[311]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[304].dn"
+connectAttr "RIG_playerRN.phl[383]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[304].dn"
 		;
-connectAttr "RIG_playerRN.phl[312]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[352].dn"
+connectAttr "RIG_playerRN.phl[384]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[352].dn"
 		;
-connectAttr "r_fingerPinky1_ctrl_rotateX.o" "RIG_playerRN.phl[313]";
-connectAttr "r_fingerPinky1_ctrl_rotateY.o" "RIG_playerRN.phl[314]";
-connectAttr "r_fingerPinky1_ctrl_rotateZ.o" "RIG_playerRN.phl[315]";
-connectAttr "RIG_playerRN.phl[316]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[343].dn"
+connectAttr "r_fingerPinky1_ctrl_rotateX.o" "RIG_playerRN.phl[385]";
+connectAttr "r_fingerPinky1_ctrl_rotateY.o" "RIG_playerRN.phl[386]";
+connectAttr "r_fingerPinky1_ctrl_rotateZ.o" "RIG_playerRN.phl[387]";
+connectAttr "RIG_playerRN.phl[388]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[343].dn"
 		;
-connectAttr "RIG_playerRN.phl[317]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[351].dn"
+connectAttr "RIG_playerRN.phl[389]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[351].dn"
 		;
-connectAttr "RIG_playerRN.phl[318]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[323].dn"
+connectAttr "RIG_playerRN.phl[390]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[323].dn"
 		;
-connectAttr "RIG_playerRN.phl[319]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[324].dn"
+connectAttr "RIG_playerRN.phl[391]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[324].dn"
 		;
-connectAttr "r_fingerPinky2_ctrl_rotateX.o" "RIG_playerRN.phl[320]";
-connectAttr "r_fingerPinky2_ctrl_rotateY.o" "RIG_playerRN.phl[321]";
-connectAttr "r_fingerPinky2_ctrl_rotateZ.o" "RIG_playerRN.phl[322]";
-connectAttr "RIG_playerRN.phl[323]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[301].dn"
+connectAttr "r_fingerPinky2_ctrl_rotateX.o" "RIG_playerRN.phl[392]";
+connectAttr "r_fingerPinky2_ctrl_rotateY.o" "RIG_playerRN.phl[393]";
+connectAttr "r_fingerPinky2_ctrl_rotateZ.o" "RIG_playerRN.phl[394]";
+connectAttr "RIG_playerRN.phl[395]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[301].dn"
 		;
-connectAttr "RIG_playerRN.phl[324]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[344].dn"
+connectAttr "RIG_playerRN.phl[396]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[344].dn"
 		;
-connectAttr "RIG_playerRN.phl[325]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[345].dn"
+connectAttr "RIG_playerRN.phl[397]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[345].dn"
 		;
-connectAttr "RIG_playerRN.phl[326]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[334].dn"
+connectAttr "RIG_playerRN.phl[398]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[334].dn"
 		;
-connectAttr "RIG_playerRN.phl[327]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[353].dn"
+connectAttr "RIG_playerRN.phl[399]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[353].dn"
 		;
-connectAttr "RIG_playerRN.phl[328]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[320].dn"
+connectAttr "RIG_playerRN.phl[400]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[320].dn"
 		;
-connectAttr "RIG_playerRN.phl[329]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[313].dn"
+connectAttr "RIG_playerRN.phl[401]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[313].dn"
 		;
-connectAttr "RIG_playerRN.phl[330]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[302].dn"
+connectAttr "RIG_playerRN.phl[402]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[302].dn"
 		;
-connectAttr "RIG_playerRN.phl[331]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[318].dn"
+connectAttr "RIG_playerRN.phl[403]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[318].dn"
 		;
-connectAttr "RIG_playerRN.phl[332]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[332].dn"
+connectAttr "RIG_playerRN.phl[404]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[332].dn"
 		;
-connectAttr "RIG_playerRN.phl[333]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[346].dn"
+connectAttr "RIG_playerRN.phl[405]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[346].dn"
 		;
-connectAttr "RIG_playerRN.phl[334]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[305].dn"
+connectAttr "RIG_playerRN.phl[406]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[305].dn"
 		;
-connectAttr "RIG_playerRN.phl[335]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[321].dn"
+connectAttr "RIG_playerRN.phl[407]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[321].dn"
 		;
-connectAttr "RIG_playerRN.phl[336]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[322].dn"
+connectAttr "RIG_playerRN.phl[408]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[322].dn"
 		;
-connectAttr "RIG_playerRN.phl[337]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[347].dn"
+connectAttr "RIG_playerRN.phl[409]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[347].dn"
 		;
-connectAttr "RIG_playerRN.phl[338]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[317].dn"
+connectAttr "RIG_playerRN.phl[410]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[317].dn"
 		;
-connectAttr "RIG_playerRN.phl[339]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[354].dn"
+connectAttr "RIG_playerRN.phl[411]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[354].dn"
 		;
-connectAttr "RIG_playerRN.phl[340]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[312].dn"
+connectAttr "RIG_playerRN.phl[412]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[312].dn"
 		;
-connectAttr "RIG_playerRN.phl[341]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[308].dn"
+connectAttr "RIG_playerRN.phl[413]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[308].dn"
 		;
-connectAttr "RIG_playerRN.phl[342]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[314].dn"
+connectAttr "RIG_playerRN.phl[414]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[314].dn"
 		;
-connectAttr "RIG_playerRN.phl[343]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[327].dn"
+connectAttr "RIG_playerRN.phl[415]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[327].dn"
 		;
-connectAttr "RIG_playerRN.phl[344]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[326].dn"
+connectAttr "RIG_playerRN.phl[416]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[326].dn"
 		;
-connectAttr "RIG_playerRN.phl[345]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[349].dn"
+connectAttr "RIG_playerRN.phl[417]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[349].dn"
 		;
-connectAttr "RIG_playerRN.phl[346]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[306].dn"
+connectAttr "RIG_playerRN.phl[418]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[306].dn"
 		;
-connectAttr "RIG_playerRN.phl[347]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[333].dn"
+connectAttr "RIG_playerRN.phl[419]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[333].dn"
 		;
-connectAttr "RIG_playerRN.phl[348]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[307].dn"
+connectAttr "RIG_playerRN.phl[420]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[307].dn"
 		;
-connectAttr "RIG_playerRN.phl[349]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[336].dn"
+connectAttr "RIG_playerRN.phl[421]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[336].dn"
 		;
-connectAttr "RIG_playerRN.phl[350]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[315].dn"
+connectAttr "RIG_playerRN.phl[422]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[315].dn"
 		;
-connectAttr "RIG_playerRN.phl[351]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[341].dn"
+connectAttr "RIG_playerRN.phl[423]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[341].dn"
 		;
-connectAttr "RIG_playerRN.phl[352]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[303].dn"
+connectAttr "RIG_playerRN.phl[424]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[303].dn"
 		;
-connectAttr "RIG_playerRN.phl[353]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[335].dn"
+connectAttr "RIG_playerRN.phl[425]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[335].dn"
 		;
-connectAttr "RIG_playerRN.phl[354]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[328].dn"
+connectAttr "RIG_playerRN.phl[426]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[328].dn"
 		;
-connectAttr "RIG_playerRN.phl[355]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[350].dn"
+connectAttr "RIG_playerRN.phl[427]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[350].dn"
 		;
-connectAttr "RIG_playerRN.phl[356]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[339].dn"
+connectAttr "RIG_playerRN.phl[428]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[339].dn"
 		;
-connectAttr "RIG_playerRN.phl[357]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[329].dn"
+connectAttr "RIG_playerRN.phl[429]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[329].dn"
 		;
-connectAttr "RIG_playerRN.phl[358]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[340].dn"
+connectAttr "RIG_playerRN.phl[430]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[340].dn"
 		;
-connectAttr "RIG_playerRN.phl[359]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[357].dn"
+connectAttr "RIG_playerRN.phl[431]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[357].dn"
 		;
-connectAttr "RIG_playerRN.phl[360]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[355].dn"
+connectAttr "RIG_playerRN.phl[432]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[355].dn"
 		;
-connectAttr "RIG_playerRN.phl[361]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[356].dn"
+connectAttr "RIG_playerRN.phl[433]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[356].dn"
 		;
-connectAttr "RIG_playerRN.phl[362]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[331].dn"
+connectAttr "RIG_playerRN.phl[434]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[331].dn"
 		;
-connectAttr "RIG_playerRN.phl[363]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[358].dn"
+connectAttr "RIG_playerRN.phl[435]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[358].dn"
 		;
-connectAttr "RIG_playerRN.phl[364]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[359].dn"
+connectAttr "RIG_playerRN.phl[436]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[359].dn"
 		;
-connectAttr "RIG_playerRN.phl[365]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[330].dn"
+connectAttr "RIG_playerRN.phl[437]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[330].dn"
 		;
-connectAttr "RIG_playerRN.phl[366]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[360].dn"
+connectAttr "RIG_playerRN.phl[438]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[360].dn"
 		;
-connectAttr "RIG_playerRN.phl[367]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[316].dn"
+connectAttr "RIG_playerRN.phl[439]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[316].dn"
 		;
-connectAttr "RIG_playerRN.phl[368]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[361].dn"
+connectAttr "RIG_playerRN.phl[440]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[361].dn"
 		;
-connectAttr "RIG_playerRN.phl[369]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[310].dn"
+connectAttr "RIG_playerRN.phl[441]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[310].dn"
 		;
-connectAttr "RIG_playerRN.phl[370]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[337].dn"
+connectAttr "RIG_playerRN.phl[442]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[337].dn"
 		;
-connectAttr "RIG_playerRN.phl[371]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[362].dn"
+connectAttr "RIG_playerRN.phl[443]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[362].dn"
 		;
-connectAttr "RIG_playerRN.phl[372]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[363].dn"
+connectAttr "RIG_playerRN.phl[444]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[363].dn"
 		;
-connectAttr "RIG_playerRN.phl[373]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[338].dn"
+connectAttr "RIG_playerRN.phl[445]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[338].dn"
 		;
-connectAttr "RIG_playerRN.phl[374]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[364].dn"
+connectAttr "RIG_playerRN.phl[446]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[364].dn"
 		;
-connectAttr "RIG_playerRN.phl[375]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[373].dn"
+connectAttr "RIG_playerRN.phl[447]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[373].dn"
 		;
-connectAttr "RIG_playerRN.phl[376]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[381].dn"
+connectAttr "RIG_playerRN.phl[448]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[381].dn"
 		;
-connectAttr "RIG_playerRN.phl[377]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[380].dn"
+connectAttr "RIG_playerRN.phl[449]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[380].dn"
 		;
-connectAttr "RIG_playerRN.phl[378]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[367].dn"
+connectAttr "RIG_playerRN.phl[450]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[367].dn"
 		;
-connectAttr "RIG_playerRN.phl[379]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[386].dn"
+connectAttr "RIG_playerRN.phl[451]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[386].dn"
 		;
-connectAttr "RIG_playerRN.phl[380]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[393].dn"
+connectAttr "RIG_playerRN.phl[452]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[393].dn"
 		;
-connectAttr "RIG_playerRN.phl[381]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[372].dn"
+connectAttr "RIG_playerRN.phl[453]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[372].dn"
 		;
-connectAttr "RIG_playerRN.phl[382]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[368].dn"
+connectAttr "RIG_playerRN.phl[454]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[368].dn"
 		;
-connectAttr "RIG_playerRN.phl[383]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[371].dn"
+connectAttr "RIG_playerRN.phl[455]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[371].dn"
 		;
-connectAttr "RIG_playerRN.phl[384]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[377].dn"
+connectAttr "RIG_playerRN.phl[456]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[377].dn"
 		;
-connectAttr "RIG_playerRN.phl[385]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[370].dn"
+connectAttr "RIG_playerRN.phl[457]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[370].dn"
 		;
-connectAttr "RIG_playerRN.phl[386]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[394].dn"
+connectAttr "RIG_playerRN.phl[458]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[394].dn"
 		;
-connectAttr "RIG_playerRN.phl[387]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[388].dn"
+connectAttr "RIG_playerRN.phl[459]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[388].dn"
 		;
-connectAttr "RIG_playerRN.phl[388]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[378].dn"
+connectAttr "RIG_playerRN.phl[460]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[378].dn"
 		;
-connectAttr "RIG_playerRN.phl[389]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[391].dn"
+connectAttr "RIG_playerRN.phl[461]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[391].dn"
 		;
-connectAttr "RIG_playerRN.phl[390]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[374].dn"
+connectAttr "RIG_playerRN.phl[462]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[374].dn"
 		;
-connectAttr "RIG_playerRN.phl[391]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[375].dn"
+connectAttr "RIG_playerRN.phl[463]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[375].dn"
 		;
-connectAttr "RIG_playerRN.phl[392]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[383].dn"
+connectAttr "RIG_playerRN.phl[464]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[383].dn"
 		;
-connectAttr "RIG_playerRN.phl[393]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[382].dn"
+connectAttr "RIG_playerRN.phl[465]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[382].dn"
 		;
-connectAttr "RIG_playerRN.phl[394]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[376].dn"
+connectAttr "RIG_playerRN.phl[466]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[376].dn"
 		;
-connectAttr "RIG_playerRN.phl[395]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[395].dn"
+connectAttr "RIG_playerRN.phl[467]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[395].dn"
 		;
-connectAttr "RIG_playerRN.phl[396]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[379].dn"
+connectAttr "RIG_playerRN.phl[468]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[379].dn"
 		;
-connectAttr "RIG_playerRN.phl[397]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[366].dn"
+connectAttr "RIG_playerRN.phl[469]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[366].dn"
 		;
-connectAttr "RIG_playerRN.phl[398]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[384].dn"
+connectAttr "RIG_playerRN.phl[470]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[384].dn"
 		;
-connectAttr "RIG_playerRN.phl[399]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[365].dn"
+connectAttr "RIG_playerRN.phl[471]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[365].dn"
 		;
-connectAttr "RIG_playerRN.phl[400]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[385].dn"
+connectAttr "RIG_playerRN.phl[472]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[385].dn"
 		;
-connectAttr "RIG_playerRN.phl[401]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[387].dn"
+connectAttr "RIG_playerRN.phl[473]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[387].dn"
 		;
-connectAttr "RIG_playerRN.phl[402]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[369].dn"
+connectAttr "RIG_playerRN.phl[474]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[369].dn"
 		;
-connectAttr "RIG_playerRN.phl[403]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[389].dn"
+connectAttr "RIG_playerRN.phl[475]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[389].dn"
 		;
-connectAttr "RIG_playerRN.phl[404]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[390].dn"
+connectAttr "RIG_playerRN.phl[476]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[390].dn"
 		;
-connectAttr "RIG_playerRN.phl[405]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[392].dn"
+connectAttr "RIG_playerRN.phl[477]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[392].dn"
 		;
-connectAttr "RIG_playerRN.phl[406]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[40].dn"
+connectAttr "RIG_playerRN.phl[478]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[40].dn"
 		;
-connectAttr "RIG_playerRN.phl[407]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[35].dn"
+connectAttr "RIG_playerRN.phl[479]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[35].dn"
 		;
-connectAttr "RIG_playerRN.phl[408]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[46].dn"
+connectAttr "RIG_playerRN.phl[480]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[46].dn"
 		;
-connectAttr "RIG_playerRN.phl[409]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[33].dn"
+connectAttr "RIG_playerRN.phl[481]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[33].dn"
 		;
-connectAttr "RIG_playerRN.phl[410]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[26].dn"
+connectAttr "RIG_playerRN.phl[482]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[26].dn"
 		;
-connectAttr "RIG_playerRN.phl[411]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[36].dn"
+connectAttr "RIG_playerRN.phl[483]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[36].dn"
 		;
-connectAttr "RIG_playerRN.phl[412]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[27].dn"
+connectAttr "RIG_playerRN.phl[484]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[27].dn"
 		;
-connectAttr "RIG_playerRN.phl[413]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[37].dn"
+connectAttr "RIG_playerRN.phl[485]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[37].dn"
 		;
-connectAttr "RIG_playerRN.phl[414]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[38].dn"
+connectAttr "RIG_playerRN.phl[486]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[38].dn"
 		;
-connectAttr "RIG_playerRN.phl[415]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[50].dn"
+connectAttr "RIG_playerRN.phl[487]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[50].dn"
 		;
-connectAttr "RIG_playerRN.phl[416]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[43].dn"
+connectAttr "RIG_playerRN.phl[488]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[43].dn"
 		;
-connectAttr "RIG_playerRN.phl[417]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[39].dn"
+connectAttr "RIG_playerRN.phl[489]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[39].dn"
 		;
-connectAttr "RIG_playerRN.phl[418]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[41].dn"
+connectAttr "RIG_playerRN.phl[490]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[41].dn"
 		;
-connectAttr "RIG_playerRN.phl[419]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[42].dn"
+connectAttr "RIG_playerRN.phl[491]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[42].dn"
 		;
-connectAttr "RIG_playerRN.phl[420]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[31].dn"
+connectAttr "RIG_playerRN.phl[492]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[31].dn"
 		;
-connectAttr "RIG_playerRN.phl[421]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[45].dn"
+connectAttr "RIG_playerRN.phl[493]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[45].dn"
 		;
-connectAttr "RIG_playerRN.phl[422]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[34].dn"
+connectAttr "RIG_playerRN.phl[494]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[34].dn"
 		;
-connectAttr "RIG_playerRN.phl[423]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[28].dn"
+connectAttr "RIG_playerRN.phl[495]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[28].dn"
 		;
-connectAttr "RIG_playerRN.phl[424]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[44].dn"
+connectAttr "RIG_playerRN.phl[496]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[44].dn"
 		;
-connectAttr "RIG_playerRN.phl[425]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[47].dn"
+connectAttr "RIG_playerRN.phl[497]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[47].dn"
 		;
-connectAttr "RIG_playerRN.phl[426]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[48].dn"
+connectAttr "RIG_playerRN.phl[498]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[48].dn"
 		;
-connectAttr "RIG_playerRN.phl[427]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[49].dn"
+connectAttr "RIG_playerRN.phl[499]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[49].dn"
 		;
-connectAttr "RIG_playerRN.phl[428]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[51].dn"
+connectAttr "RIG_playerRN.phl[500]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[51].dn"
 		;
-connectAttr "RIG_playerRN.phl[429]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[24].dn"
+connectAttr "RIG_playerRN.phl[501]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[24].dn"
 		;
-connectAttr "RIG_playerRN.phl[430]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[25].dn"
+connectAttr "RIG_playerRN.phl[502]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[25].dn"
 		;
-connectAttr "RIG_playerRN.phl[431]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[52].dn"
+connectAttr "RIG_playerRN.phl[503]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[52].dn"
 		;
-connectAttr "RIG_playerRN.phl[432]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[53].dn"
+connectAttr "RIG_playerRN.phl[504]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[53].dn"
 		;
-connectAttr "RIG_playerRN.phl[433]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[54].dn"
+connectAttr "RIG_playerRN.phl[505]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[54].dn"
 		;
-connectAttr "RIG_playerRN.phl[434]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[55].dn"
+connectAttr "RIG_playerRN.phl[506]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[55].dn"
 		;
-connectAttr "RIG_playerRN.phl[435]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[56].dn"
+connectAttr "RIG_playerRN.phl[507]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[56].dn"
 		;
-connectAttr "RIG_playerRN.phl[436]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[29].dn"
+connectAttr "RIG_playerRN.phl[508]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[29].dn"
 		;
-connectAttr "RIG_playerRN.phl[437]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[57].dn"
+connectAttr "RIG_playerRN.phl[509]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[57].dn"
 		;
-connectAttr "RIG_playerRN.phl[438]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[30].dn"
+connectAttr "RIG_playerRN.phl[510]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[30].dn"
 		;
-connectAttr "RIG_playerRN.phl[439]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[58].dn"
+connectAttr "RIG_playerRN.phl[511]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[58].dn"
 		;
-connectAttr "RIG_playerRN.phl[440]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[59].dn"
+connectAttr "RIG_playerRN.phl[512]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[59].dn"
 		;
-connectAttr "RIG_playerRN.phl[441]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[32].dn"
+connectAttr "RIG_playerRN.phl[513]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[32].dn"
 		;
-connectAttr "RIG_playerRN.phl[442]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[60].dn"
+connectAttr "RIG_playerRN.phl[514]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[60].dn"
 		;
-connectAttr "RIG_playerRN.phl[443]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[61].dn"
+connectAttr "RIG_playerRN.phl[515]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[61].dn"
 		;
-connectAttr "RIG_playerRN.phl[444]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[62].dn"
+connectAttr "RIG_playerRN.phl[516]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[62].dn"
 		;
-connectAttr "RIG_playerRN.phl[445]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[10].dn"
+connectAttr "RIG_playerRN.phl[517]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[10].dn"
 		;
-connectAttr "RIG_playerRN.phl[446]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[3].dn"
+connectAttr "RIG_playerRN.phl[518]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[3].dn"
 		;
-connectAttr "RIG_playerRN.phl[447]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[9].dn"
+connectAttr "RIG_playerRN.phl[519]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[9].dn"
 		;
-connectAttr "RIG_playerRN.phl[448]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[18].dn"
+connectAttr "RIG_playerRN.phl[520]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[18].dn"
 		;
-connectAttr "RIG_playerRN.phl[449]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[11].dn"
+connectAttr "RIG_playerRN.phl[521]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[11].dn"
 		;
-connectAttr "RIG_playerRN.phl[450]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[5].dn"
+connectAttr "RIG_playerRN.phl[522]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[5].dn"
 		;
-connectAttr "RIG_playerRN.phl[451]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[12].dn"
+connectAttr "RIG_playerRN.phl[523]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[12].dn"
 		;
-connectAttr "RIG_playerRN.phl[452]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[22].dn"
+connectAttr "RIG_playerRN.phl[524]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[22].dn"
 		;
-connectAttr "RIG_playerRN.phl[453]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[21].dn"
+connectAttr "RIG_playerRN.phl[525]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[21].dn"
 		;
-connectAttr "RIG_playerRN.phl[454]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[13].dn"
+connectAttr "RIG_playerRN.phl[526]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[13].dn"
 		;
-connectAttr "RIG_playerRN.phl[455]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[20].dn"
+connectAttr "RIG_playerRN.phl[527]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[20].dn"
 		;
-connectAttr "RIG_playerRN.phl[456]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[1].dn"
+connectAttr "RIG_playerRN.phl[528]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[1].dn"
 		;
-connectAttr "RIG_playerRN.phl[457]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[7].dn"
+connectAttr "RIG_playerRN.phl[529]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[7].dn"
 		;
-connectAttr "RIG_playerRN.phl[458]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[16].dn"
+connectAttr "RIG_playerRN.phl[530]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[16].dn"
 		;
-connectAttr "RIG_playerRN.phl[459]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[19].dn"
+connectAttr "RIG_playerRN.phl[531]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[19].dn"
 		;
-connectAttr "RIG_playerRN.phl[460]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[0].dn"
+connectAttr "RIG_playerRN.phl[532]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[0].dn"
 		;
-connectAttr "RIG_playerRN.phl[461]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[17].dn"
+connectAttr "RIG_playerRN.phl[533]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[17].dn"
 		;
-connectAttr "RIG_playerRN.phl[462]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[2].dn"
+connectAttr "RIG_playerRN.phl[534]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[2].dn"
 		;
-connectAttr "RIG_playerRN.phl[463]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[8].dn"
+connectAttr "RIG_playerRN.phl[535]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[8].dn"
 		;
-connectAttr "RIG_playerRN.phl[464]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[23].dn"
+connectAttr "RIG_playerRN.phl[536]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[23].dn"
 		;
-connectAttr "RIG_playerRN.phl[465]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[14].dn"
+connectAttr "RIG_playerRN.phl[537]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[14].dn"
 		;
-connectAttr "RIG_playerRN.phl[466]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[15].dn"
+connectAttr "RIG_playerRN.phl[538]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[15].dn"
 		;
-connectAttr "RIG_playerRN.phl[467]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[6].dn"
+connectAttr "RIG_playerRN.phl[539]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[6].dn"
 		;
-connectAttr "RIG_playerRN.phl[468]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[4].dn"
+connectAttr "RIG_playerRN.phl[540]" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[4].dn"
 		;
 relationship "link" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" ":initialParticleSE.message" ":defaultLightSet.message";

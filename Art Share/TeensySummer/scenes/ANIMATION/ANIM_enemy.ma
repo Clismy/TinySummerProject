@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
 //Name: ANIM_enemy.ma
-//Last modified: Wed, Aug 11, 2021 04:56:32 PM
+//Last modified: Wed, Aug 11, 2021 05:04:11 PM
 //Codeset: 1252
 file -rdi 1 -ns "RIG_enemy" -rfn "RIG_enemyRN" -op "v=0;" -typ "mayaAscii" "C:/Users/jacky/Desktop/TinySummerProject/TinySummerProject/Art Share/TeensySummer/scenes/ANIMATION/RIG_enemy.ma";
 file -r -ns "RIG_enemy" -dr 1 -rfn "RIG_enemyRN" -op "v=0;" -typ "mayaAscii" "C:/Users/jacky/Desktop/TinySummerProject/TinySummerProject/Art Share/TeensySummer/scenes/ANIMATION/RIG_enemy.ma";
@@ -13,7 +13,7 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202102181415-29bfc1879c";
 fileInfo "osv" "Windows 10 Home v2009 (Build: 19043)";
-fileInfo "UUID" "C4B375FE-44DF-82EA-B1E0-8CBC1BAF2E94";
+fileInfo "UUID" "CD9811E4-4C74-FECE-9C38-5EB2ED9444DD";
 createNode transform -s -n "persp";
 	rename -uid "05766627-4560-6CE8-7150-8680C9C82A49";
 	setAttr ".v" no;
@@ -110,19 +110,19 @@ createNode mesh -n "pCubeShape1" -p "pCube1";
 	setAttr ".cdvm[0]"  0 1 1;
 	setAttr ".ai_translator" -type "string" "polymesh";
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "2E20B7BF-497D-1671-D0AD-B1916A7356C7";
+	rename -uid "A6B01D0A-4C30-BA9C-C667-01983A381F10";
 	setAttr -s 39 ".lnk";
 	setAttr -s 39 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "8578744C-41CD-B06F-7402-12A17B27AC33";
+	rename -uid "709ACCD9-4AB4-E039-3EAB-3087ECD52CEC";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "89ACFAA3-40C2-939E-7309-8282E1D1934B";
+	rename -uid "6BCE8F0C-41F8-02DA-398F-7793A73FA109";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "60EEDCB9-40DC-F684-5E11-7E91EC929300";
+	rename -uid "8D685FE6-47AD-722F-BDF3-10876FA6D77C";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "D38C579F-4830-7ED1-BE95-1D9C7DC4EB54";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "031679F8-4FFF-2B58-CE0E-89B118744149";
+	rename -uid "0D94A409-4B66-93DF-104C-4697618D1D88";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "F7D1EA6B-4CF0-B0B4-BBA0-B3ABD35338E5";
 	setAttr ".g" yes;
@@ -233,8 +233,7 @@ createNode animCurveTA -n "enemyPopcorn_ctrl_rotateZ";
 	rename -uid "73A16FDA-486B-B428-BD37-BC88469B44DA";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 6 ".ktv[0:5]"  19 0 35 0 39 0 40 1.5000000000000002 42 -1.5000000000000002
-		 44 1.5000000000000002;
+	setAttr -s 6 ".ktv[0:5]"  19 0 35 0 39 0 40 1.8 42 -1.8 44 1.8;
 	setAttr -s 6 ".kit[5]"  1;
 	setAttr -s 6 ".kot[5]"  1;
 	setAttr -s 6 ".kix[5]"  1;
@@ -286,8 +285,8 @@ createNode animCurveTL -n "enemyPopcorn_ctrl_translateX";
 	setAttr -s 5 ".kox[4]"  1;
 	setAttr -s 5 ".koy[4]"  0;
 select -ne :time1;
-	setAttr ".o" 40;
-	setAttr ".unw" 40;
+	setAttr ".o" 41;
+	setAttr ".unw" 41;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1

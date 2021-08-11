@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
 //Name: ANIM_enemy.ma
-//Last modified: Wed, Aug 11, 2021 03:06:50 PM
+//Last modified: Wed, Aug 11, 2021 04:56:32 PM
 //Codeset: 1252
 file -rdi 1 -ns "RIG_enemy" -rfn "RIG_enemyRN" -op "v=0;" -typ "mayaAscii" "C:/Users/jacky/Desktop/TinySummerProject/TinySummerProject/Art Share/TeensySummer/scenes/ANIMATION/RIG_enemy.ma";
 file -r -ns "RIG_enemy" -dr 1 -rfn "RIG_enemyRN" -op "v=0;" -typ "mayaAscii" "C:/Users/jacky/Desktop/TinySummerProject/TinySummerProject/Art Share/TeensySummer/scenes/ANIMATION/RIG_enemy.ma";
@@ -13,7 +13,7 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202102181415-29bfc1879c";
 fileInfo "osv" "Windows 10 Home v2009 (Build: 19043)";
-fileInfo "UUID" "B3486855-43EE-3C63-DA5C-A1935812EFD4";
+fileInfo "UUID" "C4B375FE-44DF-82EA-B1E0-8CBC1BAF2E94";
 createNode transform -s -n "persp";
 	rename -uid "05766627-4560-6CE8-7150-8680C9C82A49";
 	setAttr ".v" no;
@@ -110,19 +110,19 @@ createNode mesh -n "pCubeShape1" -p "pCube1";
 	setAttr ".cdvm[0]"  0 1 1;
 	setAttr ".ai_translator" -type "string" "polymesh";
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "31DE165C-4B7A-4FEF-00A6-A5897EBBD843";
+	rename -uid "2E20B7BF-497D-1671-D0AD-B1916A7356C7";
 	setAttr -s 39 ".lnk";
 	setAttr -s 39 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "2FF7ADA0-4314-954A-17CD-288EFCAA3550";
+	rename -uid "8578744C-41CD-B06F-7402-12A17B27AC33";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "397F21B4-466E-9CAA-58EA-E383F0F7E139";
+	rename -uid "89ACFAA3-40C2-939E-7309-8282E1D1934B";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "E7F1ED9E-4FD1-46C5-C04D-6BB34509E5EF";
+	rename -uid "60EEDCB9-40DC-F684-5E11-7E91EC929300";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "D38C579F-4830-7ED1-BE95-1D9C7DC4EB54";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "570FB979-49AD-1B7D-ACDD-478D683E0EE5";
+	rename -uid "031679F8-4FFF-2B58-CE0E-89B118744149";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "F7D1EA6B-4CF0-B0B4-BBA0-B3ABD35338E5";
 	setAttr ".g" yes;
@@ -233,7 +233,8 @@ createNode animCurveTA -n "enemyPopcorn_ctrl_rotateZ";
 	rename -uid "73A16FDA-486B-B428-BD37-BC88469B44DA";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 6 ".ktv[0:5]"  19 0 35 0 39 0 40 1 42 -1 44 1;
+	setAttr -s 6 ".ktv[0:5]"  19 0 35 0 39 0 40 1.5000000000000002 42 -1.5000000000000002
+		 44 1.5000000000000002;
 	setAttr -s 6 ".kit[5]"  1;
 	setAttr -s 6 ".kot[5]"  1;
 	setAttr -s 6 ".kix[5]"  1;
